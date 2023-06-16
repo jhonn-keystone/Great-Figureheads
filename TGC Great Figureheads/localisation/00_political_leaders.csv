@@ -187,6 +187,100 @@ european_ambitious_union_boss_desc;Our leader hails from the ranks of the blue-c
 european_dour_economist;§RDour Economist§!;;;;;;;;;;;;;
 european_dour_economist_desc;Our leader has a penchant for numbers and economics, even if he isn't particularly good with people.;;;;;;;;;;;;;
 #############################################;;;;;;;x
+#Indian Leaders;;;;;;;x
+#############################################;;;;;;;x
+indian_expert_diplomat;§GExpert Diplomat§!;;;;;;;;;;;;;
+indian_expert_diplomat_desc;Our leader is an expert in the art of diplomacy.;;;;;;;;;;;;;
+indian_successful_industrialist;§GSuccessful Industrialist§!;;;;;;;;;;;;;
+indian_successful_industrialist_desc;Our leader is a wealthy industrialist skilled in matters of business and finance.;;;;;;;;;;;;;
+indian_ivory_tower_intellectual;§GIvory Tower Intellectual§!;;;;;;;;;;;;;
+indian_ivory_tower_intellectual_desc;Our leader hails from the ranks of the intelligentsia, possessing a superior education.;;;;;;;;;;;;;
+indian_man_of_the_people;§GMan of the People§!;;;;;;;;;;;;;
+indian_man_of_the_people_desc;Our leader is charismatic, and has a way of connecting with our country's people that few understand.;;;;;;;;;;;;;
+indian_landed_gentleman;§GLanded Gentleman§!;;;;;;;;;;;;;
+indian_landed_gentleman_desc;Our leader hails from the ranks of the landed gentry, a man of breeding who is familiar with our country's aristocracy.;;;;;;;;;;;;;
+indian_military_man;§GMilitary Man§!;;;;;;;;;;;;;
+indian_military_man_desc;Our leader has a significant military background, and is familiar with the needs of our armed forces.;;;;;;;;;;;;;
+indian_lord_admiral;§GLord Admiral§!;;;;;;;;;;;;;
+indian_lord_admiral_desc;Our leader has a significant naval background, and is familiar with the needs of our country's navy.;;;;;;;;;;;;;
+indian_raving_loon;§RRaving Loon§!;;;;;;;;;;;;;
+indian_raving_loon_desc;To put it politely, we will be fortunate if our leader does not cause the country considerable harm. Many consider him a lunatic.;;;;;;;;;;;;;
+indian_luddite;§RLuddite§!;;;;;;;;;;;;;
+indian_luddite_desc;Our leader is no friend of progress and technology, favoring traditionalism over industrial development.;;;;;;;;;;;;;
+indian_great_statesman;§GGreat Statesman§!;;;;;;;;;;;;;
+indian_great_statesman_desc;Our leader is an able speaker and a fine statesman, respected by other world leaders.;;;;;;;;;;;;;
+indian_backroom_boy;§GBackroom Boy§!;;;;;;;;;;;;;
+indian_backroom_boy_desc;Our leader hails from the ranks of the bureaucracy, possessing a way of ensuring the country's administration is run smoothly.;;;;;;;;;;;;;
+indian_great_reformer;§GGreat Reformer§!;;;;;;;;;;;;;
+indian_great_reformer_desc;A champion of reform, our leader is seen as someone who can enact significant change in our country.;;;;;;;;;;;;;
+indian_gauche_buffoon;§RGauche Buffoon§!;;;;;;;;;;;;;
+indian_gauche_buffoon_desc;For the love of God, don't let our leader interact with foreign dignitaries. He has, shall we say, a facility for saying the wrong thing at the wrong time.;;;;;;;;;;;;;
+indian_administrative_genius;§GAdministrative Genius§!;;;;;;;;;;;;;
+indian_administrative_genius_desc;Under our leader's guidance, the country's bureaucracy has never run more efficiently. Nothing escapes his notice.;;;;;;;;;;;;;
+indian_visionary_thinker;§GVisionary Thinker§!;;;;;;;;;;;;;
+indian_visionary_thinker_desc;Our leader is a true visionary, and under his guidance we shall almost certainly see great leaps in technological progress.;;;;;;;;;;;;;
+indian_competent_placeholder;§GCompetent Placeholder§!;;;;;;;;;;;;;
+indian_competent_placeholder_desc;Little good can be said about our leader. Fortunately, little bad can be said about him as well.;;;;;;;;;;;;;
+indian_imperious_autocrat;§GImperious Autocrat§!;;;;;;;;;;;;;
+indian_imperious_autocrat_desc;No-one challenges our leader, for any reason. That said, he's quite impressive.;;;;;;;;;;;;;
+indian_prince_of_terror;§GPrince of Terror§!;;;;;;;;;;;;;
+indian_prince_of_terror_desc;Woe betide anyone or any nation that gets in the way of our leader's ambition.;;;;;;;;;;;;;
+indian_efficient_sociopath;§GEfficient Sociopath§!;;;;;;;;;;;;;
+indian_efficient_sociopath_desc;The country has never run more smoothly than under our leader's guidance. Everyone agrees. Just ask them. They're all nodding and smiling, aren't they?;;;;;;;;;;;;;
+indian_pig_headed_isolationist;§RPig-Headed Isolationist§!;;;;;;;;;;;;;
+indian_pig_headed_isolationist_desc;Our leader is determined to keep our country isolated, favoring unquestioning adherence to tradition over all else.;;;;;;;;;;;;;
+indian_ambitious_union_boss;§GAmbitious Union Boss§!;;;;;;;;;;;;;
+indian_ambitious_union_boss_desc;Our leader hails from the ranks of the blue-collar unions, a man who has worked his way up through the ranks... right to the very top.;;;;;;;;;;;;;
+indian_dour_economist;§RDour Economist§!;;;;;;;;;;;;;
+indian_dour_economist_desc;Our leader has a penchant for numbers and economics, even if he isn't particularly good with people.;;;;;;;;;;;;;
+#############################################;;;;;;;x
+#Native American Leaders;;;;;;;x
+#############################################;;;;;;;x
+nativeamerican_expert_diplomat;§GExpert Diplomat§!;;;;;;;;;;;;;
+nativeamerican_expert_diplomat_desc;Our leader is an expert in the art of diplomacy.;;;;;;;;;;;;;
+nativeamerican_successful_industrialist;§GSuccessful Industrialist§!;;;;;;;;;;;;;
+nativeamerican_successful_industrialist_desc;Our leader is a wealthy industrialist skilled in matters of business and finance.;;;;;;;;;;;;;
+nativeamerican_ivory_tower_intellectual;§GIvory Tower Intellectual§!;;;;;;;;;;;;;
+nativeamerican_ivory_tower_intellectual_desc;Our leader hails from the ranks of the intelligentsia, possessing a superior education.;;;;;;;;;;;;;
+nativeamerican_man_of_the_people;§GMan of the People§!;;;;;;;;;;;;;
+nativeamerican_man_of_the_people_desc;Our leader is charismatic, and has a way of connecting with our country's people that few understand.;;;;;;;;;;;;;
+nativeamerican_landed_gentleman;§GLanded Gentleman§!;;;;;;;;;;;;;
+nativeamerican_landed_gentleman_desc;Our leader hails from the ranks of the landed gentry, a man of breeding who is familiar with our country's aristocracy.;;;;;;;;;;;;;
+nativeamerican_military_man;§GMilitary Man§!;;;;;;;;;;;;;
+nativeamerican_military_man_desc;Our leader has a significant military background, and is familiar with the needs of our armed forces.;;;;;;;;;;;;;
+nativeamerican_lord_admiral;§GLord Admiral§!;;;;;;;;;;;;;
+nativeamerican_lord_admiral_desc;Our leader has a significant naval background, and is familiar with the needs of our country's navy.;;;;;;;;;;;;;
+nativeamerican_raving_loon;§RRaving Loon§!;;;;;;;;;;;;;
+nativeamerican_raving_loon_desc;To put it politely, we will be fortunate if our leader does not cause the country considerable harm. Many consider him a lunatic.;;;;;;;;;;;;;
+nativeamerican_luddite;§RLuddite§!;;;;;;;;;;;;;
+nativeamerican_luddite_desc;Our leader is no friend of progress and technology, favoring traditionalism over industrial development.;;;;;;;;;;;;;
+nativeamerican_great_statesman;§GGreat Statesman§!;;;;;;;;;;;;;
+nativeamerican_great_statesman_desc;Our leader is an able speaker and a fine statesman, respected by other world leaders.;;;;;;;;;;;;;
+nativeamerican_backroom_boy;§GBackroom Boy§!;;;;;;;;;;;;;
+nativeamerican_backroom_boy_desc;Our leader hails from the ranks of the bureaucracy, possessing a way of ensuring the country's administration is run smoothly.;;;;;;;;;;;;;
+nativeamerican_great_reformer;§GGreat Reformer§!;;;;;;;;;;;;;
+nativeamerican_great_reformer_desc;A champion of reform, our leader is seen as someone who can enact significant change in our country.;;;;;;;;;;;;;
+nativeamerican_gauche_buffoon;§RGauche Buffoon§!;;;;;;;;;;;;;
+nativeamerican_gauche_buffoon_desc;For the love of God, don't let our leader interact with foreign dignitaries. He has, shall we say, a facility for saying the wrong thing at the wrong time.;;;;;;;;;;;;;
+nativeamerican_administrative_genius;§GAdministrative Genius§!;;;;;;;;;;;;;
+nativeamerican_administrative_genius_desc;Under our leader's guidance, the country's bureaucracy has never run more efficiently. Nothing escapes his notice.;;;;;;;;;;;;;
+nativeamerican_visionary_thinker;§GVisionary Thinker§!;;;;;;;;;;;;;
+nativeamerican_visionary_thinker_desc;Our leader is a true visionary, and under his guidance we shall almost certainly see great leaps in technological progress.;;;;;;;;;;;;;
+nativeamerican_competent_placeholder;§GCompetent Placeholder§!;;;;;;;;;;;;;
+nativeamerican_competent_placeholder_desc;Little good can be said about our leader. Fortunately, little bad can be said about him as well.;;;;;;;;;;;;;
+nativeamerican_imperious_autocrat;§GImperious Autocrat§!;;;;;;;;;;;;;
+nativeamerican_imperious_autocrat_desc;No-one challenges our leader, for any reason. That said, he's quite impressive.;;;;;;;;;;;;;
+nativeamerican_prince_of_terror;§GPrince of Terror§!;;;;;;;;;;;;;
+nativeamerican_prince_of_terror_desc;Woe betide anyone or any nation that gets in the way of our leader's ambition.;;;;;;;;;;;;;
+nativeamerican_efficient_sociopath;§GEfficient Sociopath§!;;;;;;;;;;;;;
+nativeamerican_efficient_sociopath_desc;The country has never run more smoothly than under our leader's guidance. Everyone agrees. Just ask them. They're all nodding and smiling, aren't they?;;;;;;;;;;;;;
+nativeamerican_pig_headed_isolationist;§RPig-Headed Isolationist§!;;;;;;;;;;;;;
+nativeamerican_pig_headed_isolationist_desc;Our leader is determined to keep our country isolated, favoring unquestioning adherence to tradition over all else.;;;;;;;;;;;;;
+nativeamerican_ambitious_union_boss;§GAmbitious Union Boss§!;;;;;;;;;;;;;
+nativeamerican_ambitious_union_boss_desc;Our leader hails from the ranks of the blue-collar unions, a man who has worked his way up through the ranks... right to the very top.;;;;;;;;;;;;;
+nativeamerican_dour_economist;§RDour Economist§!;;;;;;;;;;;;;
+nativeamerican_dour_economist_desc;Our leader has a penchant for numbers and economics, even if he isn't particularly good with people.;;;;;;;;;;;;;
+#############################################;;;;;;;x
 #South American Leaders;;;;;;;x
 #############################################;;;;;;;x
 southamerican_expert_diplomat;§GExpert Diplomat§!;;;;;;;;;;;;;
