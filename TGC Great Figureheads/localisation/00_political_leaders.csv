@@ -281,6 +281,53 @@ nativeamerican_ambitious_union_boss_desc;Our leader hails from the ranks of the 
 nativeamerican_dour_economist;§RDour Economist§!;;;;;;;;;;;;;
 nativeamerican_dour_economist_desc;Our leader has a penchant for numbers and economics, even if he isn't particularly good with people.;;;;;;;;;;;;;
 #############################################;;;;;;;x
+#Russian Leaders;;;;;;;x
+#############################################;;;;;;;x
+russian_expert_diplomat;§GExpert Diplomat§!;;;;;;;;;;;;;
+russian_expert_diplomat_desc;Our leader is an expert in the art of diplomacy.;;;;;;;;;;;;;
+russian_successful_industrialist;§GSuccessful Industrialist§!;;;;;;;;;;;;;
+russian_successful_industrialist_desc;Our leader is a wealthy industrialist skilled in matters of business and finance.;;;;;;;;;;;;;
+russian_ivory_tower_intellectual;§GIvory Tower Intellectual§!;;;;;;;;;;;;;
+russian_ivory_tower_intellectual_desc;Our leader hails from the ranks of the intelligentsia, possessing a superior education.;;;;;;;;;;;;;
+russian_man_of_the_people;§GMan of the People§!;;;;;;;;;;;;;
+russian_man_of_the_people_desc;Our leader is charismatic, and has a way of connecting with our country's people that few understand.;;;;;;;;;;;;;
+russian_landed_gentleman;§GLanded Gentleman§!;;;;;;;;;;;;;
+russian_landed_gentleman_desc;Our leader hails from the ranks of the landed gentry, a man of breeding who is familiar with our country's aristocracy.;;;;;;;;;;;;;
+russian_military_man;§GMilitary Man§!;;;;;;;;;;;;;
+russian_military_man_desc;Our leader has a significant military background, and is familiar with the needs of our armed forces.;;;;;;;;;;;;;
+russian_lord_admiral;§GLord Admiral§!;;;;;;;;;;;;;
+russian_lord_admiral_desc;Our leader has a significant naval background, and is familiar with the needs of our country's navy.;;;;;;;;;;;;;
+russian_raving_loon;§RRaving Loon§!;;;;;;;;;;;;;
+russian_raving_loon_desc;To put it politely, we will be fortunate if our leader does not cause the country considerable harm. Many consider him a lunatic.;;;;;;;;;;;;;
+russian_luddite;§RLuddite§!;;;;;;;;;;;;;
+russian_luddite_desc;Our leader is no friend of progress and technology, favoring traditionalism over industrial development.;;;;;;;;;;;;;
+russian_great_statesman;§GGreat Statesman§!;;;;;;;;;;;;;
+russian_great_statesman_desc;Our leader is an able speaker and a fine statesman, respected by other world leaders.;;;;;;;;;;;;;
+russian_backroom_boy;§GBackroom Boy§!;;;;;;;;;;;;;
+russian_backroom_boy_desc;Our leader hails from the ranks of the bureaucracy, possessing a way of ensuring the country's administration is run smoothly.;;;;;;;;;;;;;
+russian_great_reformer;§GGreat Reformer§!;;;;;;;;;;;;;
+russian_great_reformer_desc;A champion of reform, our leader is seen as someone who can enact significant change in our country.;;;;;;;;;;;;;
+russian_gauche_buffoon;§RGauche Buffoon§!;;;;;;;;;;;;;
+russian_gauche_buffoon_desc;For the love of God, don't let our leader interact with foreign dignitaries. He has, shall we say, a facility for saying the wrong thing at the wrong time.;;;;;;;;;;;;;
+russian_administrative_genius;§GAdministrative Genius§!;;;;;;;;;;;;;
+russian_administrative_genius_desc;Under our leader's guidance, the country's bureaucracy has never run more efficiently. Nothing escapes his notice.;;;;;;;;;;;;;
+russian_visionary_thinker;§GVisionary Thinker§!;;;;;;;;;;;;;
+russian_visionary_thinker_desc;Our leader is a true visionary, and under his guidance we shall almost certainly see great leaps in technological progress.;;;;;;;;;;;;;
+russian_competent_placeholder;§GCompetent Placeholder§!;;;;;;;;;;;;;
+russian_competent_placeholder_desc;Little good can be said about our leader. Fortunately, little bad can be said about him as well.;;;;;;;;;;;;;
+russian_imperious_autocrat;§GImperious Autocrat§!;;;;;;;;;;;;;
+russian_imperious_autocrat_desc;No-one challenges our leader, for any reason. That said, he's quite impressive.;;;;;;;;;;;;;
+russian_prince_of_terror;§GPrince of Terror§!;;;;;;;;;;;;;
+russian_prince_of_terror_desc;Woe betide anyone or any nation that gets in the way of our leader's ambition.;;;;;;;;;;;;;
+russian_efficient_sociopath;§GEfficient Sociopath§!;;;;;;;;;;;;;
+russian_efficient_sociopath_desc;The country has never run more smoothly than under our leader's guidance. Everyone agrees. Just ask them. They're all nodding and smiling, aren't they?;;;;;;;;;;;;;
+russian_pig_headed_isolationist;§RPig-Headed Isolationist§!;;;;;;;;;;;;;
+russian_pig_headed_isolationist_desc;Our leader is determined to keep our country isolated, favoring unquestioning adherence to tradition over all else.;;;;;;;;;;;;;
+russian_ambitious_union_boss;§GAmbitious Union Boss§!;;;;;;;;;;;;;
+russian_ambitious_union_boss_desc;Our leader hails from the ranks of the blue-collar unions, a man who has worked his way up through the ranks... right to the very top.;;;;;;;;;;;;;
+russian_dour_economist;§RDour Economist§!;;;;;;;;;;;;;
+russian_dour_economist_desc;Our leader has a penchant for numbers and economics, even if he isn't particularly good with people.;;;;;;;;;;;;;
+#############################################;;;;;;;x
 #South American Leaders;;;;;;;x
 #############################################;;;;;;;x
 southamerican_expert_diplomat;§GExpert Diplomat§!;;;;;;;;;;;;;

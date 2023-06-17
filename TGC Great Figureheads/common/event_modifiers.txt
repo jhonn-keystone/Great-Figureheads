@@ -6954,6 +6954,148 @@ nativeamerican_dour_economist = {
 	icon = 172
 }
 
+### Russian ###
+
+russian_expert_diplomat = {
+    diplomatic_points_modifier = 0.5
+    badboy = -0.05
+    icon = 175
+}
+
+russian_successful_industrialist = {
+    factory_owner_cost = -0.25
+    factory_throughput = 0.05
+    farm_RGO_size = -0.05
+    mine_RGO_size = -0.05
+    icon = 177
+}
+
+russian_ivory_tower_intellectual = {
+    research_points = 1
+    global_pop_consciousness_modifier = 0.01
+    icon = 180
+}
+
+russian_man_of_the_people = {
+    global_pop_militancy_modifier = -0.02
+    global_pop_consciousness_modifier = 0.02
+    ruling_party_support = 1
+    icon = 174
+}
+
+russian_landed_gentleman = {
+    RGO_throughput = 0.05
+    farm_RGO_size = 0.05
+    mine_RGO_size = 0.05
+    factory_throughput = -0.05
+    icon = 178
+}
+
+russian_military_man = {
+    org_regain = 0.1
+    land_organisation = 0.05
+    icon = 181
+}
+
+russian_lord_admiral = {
+    org_regain = 0.1
+    naval_organisation = 0.05
+    icon = 189
+}
+
+russian_raving_loon = {
+    global_pop_militancy_modifier = 0.05
+    research_points_modifier = -0.05
+    ruling_party_support = -0.5
+    icon = 186
+}
+
+russian_luddite = {
+    research_points_modifier = -0.05
+    factory_owner_cost = 0.2
+    RGO_throughput = 0.05
+    icon = 183
+}
+
+russian_great_statesman = {
+    prestige = 0.01
+    diplomatic_points_modifier = 0.25
+    ruling_party_support = 0.5
+    badboy = -0.03
+    icon = 179
+}
+
+russian_backroom_boy = {
+    RGO_throughput = 0.02
+    research_points_modifier = 0.02
+    leadership = 0.02
+    icon = 184
+}
+
+russian_great_reformer = {
+    global_pop_militancy_modifier = -0.02
+    global_pop_consciousness_modifier = 0.04
+    ruling_party_support = 0.2
+    issue_change_speed = 0.2
+    icon = 186
+}
+
+russian_gauche_buffoon = {
+    prestige = -0.01
+    diplomatic_points_modifier = -0.5
+    issue_change_speed = 0.1
+    icon = 185
+}
+
+russian_administrative_genius = {
+    mobilisation_size = 0.01
+    supply_consumption = -0.05
+    icon = 190
+}
+
+russian_visionary_thinker = {
+    research_points_modifier = 0.2
+    icon = 192
+}
+
+russian_competent_placeholder = {
+    icon = 188
+}
+
+russian_imperious_autocrat = {
+    prestige = 0.02
+    icon = 193
+}
+
+russian_prince_of_terror = {
+    global_pop_militancy_modifier = -0.1
+    badboy = 0.02
+    icon = 176
+}
+
+russian_efficient_sociopath = {
+    factory_output = 0.05
+    leadership = -0.1
+    icon = 181
+}
+
+russian_pig_headed_isolationist = {
+    global_pop_consciousness_modifier = -0.05
+    icon = 191
+}
+
+russian_ambitious_union_boss = {
+    global_pop_consciousness_modifier = 0.03
+    icon = 180
+}
+
+russian_dour_economist = {
+    factory_owner_cost = -0.1
+    ruling_party_support = -0.2
+    issue_change_speed = -0.1
+    icon = 182
+}
+
 ### South American ###
 
 southamerican_expert_diplomat = {
