@@ -6,31 +6,31 @@
 
 	# Non-Dictatorships - any
 	country_event = {
-		id = 400040001
+		id = 130040001
 		title = "EVTNAMEMINISTERAPPOINTED"
 		desc = "EVTDESC100040001"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = germanic
-				is_culture_group = beneluxian
-				is_culture_group = scandinavian
-				is_culture_group = pan_british
-				is_culture_group = italian
-				is_culture_group = pan_french
-				is_culture_group = pan_romanian
-				is_culture_group = pan_albanian
-				is_culture_group = hungarian_culture_group
-				is_culture_group = south_slavic
-				is_culture_group = polish_culture_group
-				is_culture_group = czecho_slovak_culture_group
-				is_culture_group = baltic
-				is_culture_group = levantine
-				is_culture_group = jewish_cultures
-				is_culture_group = american_cultures
-				is_culture_group = neo_european_cultures
-			}
+                is_culture_group = germanic
+                is_culture_group = beneluxian
+                is_culture_group = scandinavian
+                is_culture_group = pan_british
+                is_culture_group = italian
+                is_culture_group = pan_french
+                is_culture_group = pan_romanian
+                is_culture_group = pan_albanian
+                is_culture_group = hungarian_culture_group
+                is_culture_group = south_slavic
+                is_culture_group = polish_culture_group
+                is_culture_group = czecho_slovak_culture_group
+                is_culture_group = baltic
+                is_culture_group = levantine
+                is_culture_group = jewish_cultures
+                is_culture_group = american_cultures
+                is_culture_group = neo_european_cultures
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -87,40 +87,69 @@
 			remove_country_modifier = european_pig_headed_isolationist
 			remove_country_modifier = european_ambitious_union_boss
 			remove_country_modifier = european_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_european_expert_diplomat
+				remove_province_modifier = capital_european_successful_industrialist
+				remove_province_modifier = capital_european_ivory_tower_intellectual
+				remove_province_modifier = capital_european_man_of_the_people
+				remove_province_modifier = capital_european_landed_gentleman
+				remove_province_modifier = capital_european_military_man
+				remove_province_modifier = capital_european_lord_admiral
+				remove_province_modifier = capital_european_raving_loon
+				remove_province_modifier = capital_european_luddite
+				remove_province_modifier = capital_european_great_statesman
+				remove_province_modifier = capital_european_backroom_boy
+				remove_province_modifier = capital_european_great_reformer
+				remove_province_modifier = capital_european_gauche_buffoon
+				remove_province_modifier = capital_european_administrative_genius
+				remove_province_modifier = capital_european_visionary_thinker
+				remove_province_modifier = capital_european_competent_placeholder
+				remove_province_modifier = capital_european_imperious_autocrat
+				remove_province_modifier = capital_european_prince_of_terror
+				remove_province_modifier = capital_european_efficient_sociopath
+				remove_province_modifier = capital_european_pig_headed_isolationist
+				remove_province_modifier = capital_european_ambitious_union_boss
+				remove_province_modifier = capital_european_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = european_expert_diplomat duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_european_expert_diplomat duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
 
 	# Dictatorships - non-communist
 	country_event = {
-		id = 400050001
+		id = 130050001
 		title = "EVTNAMELEADEREMERGES"
 		desc = "EVTDESC100050001"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = germanic
-				is_culture_group = beneluxian
-				is_culture_group = scandinavian
-				is_culture_group = pan_british
-				is_culture_group = italian
-				is_culture_group = pan_french
-				is_culture_group = pan_romanian
-				is_culture_group = pan_albanian
-				is_culture_group = hungarian_culture_group
-				is_culture_group = south_slavic
-				is_culture_group = polish_culture_group
-				is_culture_group = czecho_slovak_culture_group
-				is_culture_group = baltic
-				is_culture_group = levantine
-				is_culture_group = jewish_cultures
-				is_culture_group = american_cultures
-				is_culture_group = neo_european_cultures
-			}
+                is_culture_group = germanic
+                is_culture_group = beneluxian
+                is_culture_group = scandinavian
+                is_culture_group = pan_british
+                is_culture_group = italian
+                is_culture_group = pan_french
+                is_culture_group = pan_romanian
+                is_culture_group = pan_albanian
+                is_culture_group = hungarian_culture_group
+                is_culture_group = south_slavic
+                is_culture_group = polish_culture_group
+                is_culture_group = czecho_slovak_culture_group
+                is_culture_group = baltic
+                is_culture_group = levantine
+                is_culture_group = jewish_cultures
+                is_culture_group = american_cultures
+                is_culture_group = neo_european_cultures
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -162,9 +191,38 @@
 			remove_country_modifier = european_pig_headed_isolationist
 			remove_country_modifier = european_ambitious_union_boss
 			remove_country_modifier = european_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_european_expert_diplomat
+				remove_province_modifier = capital_european_successful_industrialist
+				remove_province_modifier = capital_european_ivory_tower_intellectual
+				remove_province_modifier = capital_european_man_of_the_people
+				remove_province_modifier = capital_european_landed_gentleman
+				remove_province_modifier = capital_european_military_man
+				remove_province_modifier = capital_european_lord_admiral
+				remove_province_modifier = capital_european_raving_loon
+				remove_province_modifier = capital_european_luddite
+				remove_province_modifier = capital_european_great_statesman
+				remove_province_modifier = capital_european_backroom_boy
+				remove_province_modifier = capital_european_great_reformer
+				remove_province_modifier = capital_european_gauche_buffoon
+				remove_province_modifier = capital_european_administrative_genius
+				remove_province_modifier = capital_european_visionary_thinker
+				remove_province_modifier = capital_european_competent_placeholder
+				remove_province_modifier = capital_european_imperious_autocrat
+				remove_province_modifier = capital_european_prince_of_terror
+				remove_province_modifier = capital_european_efficient_sociopath
+				remove_province_modifier = capital_european_pig_headed_isolationist
+				remove_province_modifier = capital_european_ambitious_union_boss
+				remove_province_modifier = capital_european_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = european_expert_diplomat duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_european_expert_diplomat duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -173,31 +231,31 @@
 
 	# Non-Dictatorships - monarchy or liberal
 	country_event = {
-		id = 400040002
+		id = 130040002
 		title = "EVTNAMEMINISTERAPPOINTED"
 		desc = "EVTDESC100040002"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = germanic
-				is_culture_group = beneluxian
-				is_culture_group = scandinavian
-				is_culture_group = pan_british
-				is_culture_group = italian
-				is_culture_group = pan_french
-				is_culture_group = pan_romanian
-				is_culture_group = pan_albanian
-				is_culture_group = hungarian_culture_group
-				is_culture_group = south_slavic
-				is_culture_group = polish_culture_group
-				is_culture_group = czecho_slovak_culture_group
-				is_culture_group = baltic
-				is_culture_group = levantine
-				is_culture_group = jewish_cultures
-				is_culture_group = american_cultures
-				is_culture_group = neo_european_cultures
-			}
+                is_culture_group = germanic
+                is_culture_group = beneluxian
+                is_culture_group = scandinavian
+                is_culture_group = pan_british
+                is_culture_group = italian
+                is_culture_group = pan_french
+                is_culture_group = pan_romanian
+                is_culture_group = pan_albanian
+                is_culture_group = hungarian_culture_group
+                is_culture_group = south_slavic
+                is_culture_group = polish_culture_group
+                is_culture_group = czecho_slovak_culture_group
+                is_culture_group = baltic
+                is_culture_group = levantine
+                is_culture_group = jewish_cultures
+                is_culture_group = american_cultures
+                is_culture_group = neo_european_cultures
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -249,40 +307,69 @@
 			remove_country_modifier = european_pig_headed_isolationist
 			remove_country_modifier = european_ambitious_union_boss
 			remove_country_modifier = european_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_european_expert_diplomat
+				remove_province_modifier = capital_european_successful_industrialist
+				remove_province_modifier = capital_european_ivory_tower_intellectual
+				remove_province_modifier = capital_european_man_of_the_people
+				remove_province_modifier = capital_european_landed_gentleman
+				remove_province_modifier = capital_european_military_man
+				remove_province_modifier = capital_european_lord_admiral
+				remove_province_modifier = capital_european_raving_loon
+				remove_province_modifier = capital_european_luddite
+				remove_province_modifier = capital_european_great_statesman
+				remove_province_modifier = capital_european_backroom_boy
+				remove_province_modifier = capital_european_great_reformer
+				remove_province_modifier = capital_european_gauche_buffoon
+				remove_province_modifier = capital_european_administrative_genius
+				remove_province_modifier = capital_european_visionary_thinker
+				remove_province_modifier = capital_european_competent_placeholder
+				remove_province_modifier = capital_european_imperious_autocrat
+				remove_province_modifier = capital_european_prince_of_terror
+				remove_province_modifier = capital_european_efficient_sociopath
+				remove_province_modifier = capital_european_pig_headed_isolationist
+				remove_province_modifier = capital_european_ambitious_union_boss
+				remove_province_modifier = capital_european_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = european_successful_industrialist duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_european_successful_industrialist duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
 
 	# Dictatorships - any
 	country_event = {
-		id = 400050002
+		id = 130050002
 		title = "EVTNAMELEADEREMERGES"
 		desc = "EVTDESC100050002"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = germanic
-				is_culture_group = beneluxian
-				is_culture_group = scandinavian
-				is_culture_group = pan_british
-				is_culture_group = italian
-				is_culture_group = pan_french
-				is_culture_group = pan_romanian
-				is_culture_group = pan_albanian
-				is_culture_group = hungarian_culture_group
-				is_culture_group = south_slavic
-				is_culture_group = polish_culture_group
-				is_culture_group = czecho_slovak_culture_group
-				is_culture_group = baltic
-				is_culture_group = levantine
-				is_culture_group = jewish_cultures
-				is_culture_group = american_cultures
-				is_culture_group = neo_european_cultures
-			}
+                is_culture_group = germanic
+                is_culture_group = beneluxian
+                is_culture_group = scandinavian
+                is_culture_group = pan_british
+                is_culture_group = italian
+                is_culture_group = pan_french
+                is_culture_group = pan_romanian
+                is_culture_group = pan_albanian
+                is_culture_group = hungarian_culture_group
+                is_culture_group = south_slavic
+                is_culture_group = polish_culture_group
+                is_culture_group = czecho_slovak_culture_group
+                is_culture_group = baltic
+                is_culture_group = levantine
+                is_culture_group = jewish_cultures
+                is_culture_group = american_cultures
+                is_culture_group = neo_european_cultures
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -325,9 +412,38 @@
 			remove_country_modifier = european_pig_headed_isolationist
 			remove_country_modifier = european_ambitious_union_boss
 			remove_country_modifier = european_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_european_expert_diplomat
+				remove_province_modifier = capital_european_successful_industrialist
+				remove_province_modifier = capital_european_ivory_tower_intellectual
+				remove_province_modifier = capital_european_man_of_the_people
+				remove_province_modifier = capital_european_landed_gentleman
+				remove_province_modifier = capital_european_military_man
+				remove_province_modifier = capital_european_lord_admiral
+				remove_province_modifier = capital_european_raving_loon
+				remove_province_modifier = capital_european_luddite
+				remove_province_modifier = capital_european_great_statesman
+				remove_province_modifier = capital_european_backroom_boy
+				remove_province_modifier = capital_european_great_reformer
+				remove_province_modifier = capital_european_gauche_buffoon
+				remove_province_modifier = capital_european_administrative_genius
+				remove_province_modifier = capital_european_visionary_thinker
+				remove_province_modifier = capital_european_competent_placeholder
+				remove_province_modifier = capital_european_imperious_autocrat
+				remove_province_modifier = capital_european_prince_of_terror
+				remove_province_modifier = capital_european_efficient_sociopath
+				remove_province_modifier = capital_european_pig_headed_isolationist
+				remove_province_modifier = capital_european_ambitious_union_boss
+				remove_province_modifier = capital_european_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = european_successful_industrialist duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_european_successful_industrialist duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -336,31 +452,31 @@
 
 	# Non-Dictatorships - any
 	country_event = {
-		id = 400040003
+		id = 130040003
 		title = "EVTNAMEMINISTERAPPOINTED"
 		desc = "EVTDESC100040003"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = germanic
-				is_culture_group = beneluxian
-				is_culture_group = scandinavian
-				is_culture_group = pan_british
-				is_culture_group = italian
-				is_culture_group = pan_french
-				is_culture_group = pan_romanian
-				is_culture_group = pan_albanian
-				is_culture_group = hungarian_culture_group
-				is_culture_group = south_slavic
-				is_culture_group = polish_culture_group
-				is_culture_group = czecho_slovak_culture_group
-				is_culture_group = baltic
-				is_culture_group = levantine
-				is_culture_group = jewish_cultures
-				is_culture_group = american_cultures
-				is_culture_group = neo_european_cultures
-			}
+                is_culture_group = germanic
+                is_culture_group = beneluxian
+                is_culture_group = scandinavian
+                is_culture_group = pan_british
+                is_culture_group = italian
+                is_culture_group = pan_french
+                is_culture_group = pan_romanian
+                is_culture_group = pan_albanian
+                is_culture_group = hungarian_culture_group
+                is_culture_group = south_slavic
+                is_culture_group = polish_culture_group
+                is_culture_group = czecho_slovak_culture_group
+                is_culture_group = baltic
+                is_culture_group = levantine
+                is_culture_group = jewish_cultures
+                is_culture_group = american_cultures
+                is_culture_group = neo_european_cultures
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -418,40 +534,69 @@
 			remove_country_modifier = european_pig_headed_isolationist
 			remove_country_modifier = european_ambitious_union_boss
 			remove_country_modifier = european_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_european_expert_diplomat
+				remove_province_modifier = capital_european_successful_industrialist
+				remove_province_modifier = capital_european_ivory_tower_intellectual
+				remove_province_modifier = capital_european_man_of_the_people
+				remove_province_modifier = capital_european_landed_gentleman
+				remove_province_modifier = capital_european_military_man
+				remove_province_modifier = capital_european_lord_admiral
+				remove_province_modifier = capital_european_raving_loon
+				remove_province_modifier = capital_european_luddite
+				remove_province_modifier = capital_european_great_statesman
+				remove_province_modifier = capital_european_backroom_boy
+				remove_province_modifier = capital_european_great_reformer
+				remove_province_modifier = capital_european_gauche_buffoon
+				remove_province_modifier = capital_european_administrative_genius
+				remove_province_modifier = capital_european_visionary_thinker
+				remove_province_modifier = capital_european_competent_placeholder
+				remove_province_modifier = capital_european_imperious_autocrat
+				remove_province_modifier = capital_european_prince_of_terror
+				remove_province_modifier = capital_european_efficient_sociopath
+				remove_province_modifier = capital_european_pig_headed_isolationist
+				remove_province_modifier = capital_european_ambitious_union_boss
+				remove_province_modifier = capital_european_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = european_ivory_tower_intellectual duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_european_ivory_tower_intellectual duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
 
 	# Dictatorships - non-communist
 	country_event = {
-		id = 400050003
+		id = 130050003
 		title = "EVTNAMELEADEREMERGES"
 		desc = "EVTDESC100050003"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = germanic
-				is_culture_group = beneluxian
-				is_culture_group = scandinavian
-				is_culture_group = pan_british
-				is_culture_group = italian
-				is_culture_group = pan_french
-				is_culture_group = pan_romanian
-				is_culture_group = pan_albanian
-				is_culture_group = hungarian_culture_group
-				is_culture_group = south_slavic
-				is_culture_group = polish_culture_group
-				is_culture_group = czecho_slovak_culture_group
-				is_culture_group = baltic
-				is_culture_group = levantine
-				is_culture_group = jewish_cultures
-				is_culture_group = american_cultures
-				is_culture_group = neo_european_cultures
-			}
+                is_culture_group = germanic
+                is_culture_group = beneluxian
+                is_culture_group = scandinavian
+                is_culture_group = pan_british
+                is_culture_group = italian
+                is_culture_group = pan_french
+                is_culture_group = pan_romanian
+                is_culture_group = pan_albanian
+                is_culture_group = hungarian_culture_group
+                is_culture_group = south_slavic
+                is_culture_group = polish_culture_group
+                is_culture_group = czecho_slovak_culture_group
+                is_culture_group = baltic
+                is_culture_group = levantine
+                is_culture_group = jewish_cultures
+                is_culture_group = american_cultures
+                is_culture_group = neo_european_cultures
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -493,9 +638,38 @@
 			remove_country_modifier = european_pig_headed_isolationist
 			remove_country_modifier = european_ambitious_union_boss
 			remove_country_modifier = european_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_european_expert_diplomat
+				remove_province_modifier = capital_european_successful_industrialist
+				remove_province_modifier = capital_european_ivory_tower_intellectual
+				remove_province_modifier = capital_european_man_of_the_people
+				remove_province_modifier = capital_european_landed_gentleman
+				remove_province_modifier = capital_european_military_man
+				remove_province_modifier = capital_european_lord_admiral
+				remove_province_modifier = capital_european_raving_loon
+				remove_province_modifier = capital_european_luddite
+				remove_province_modifier = capital_european_great_statesman
+				remove_province_modifier = capital_european_backroom_boy
+				remove_province_modifier = capital_european_great_reformer
+				remove_province_modifier = capital_european_gauche_buffoon
+				remove_province_modifier = capital_european_administrative_genius
+				remove_province_modifier = capital_european_visionary_thinker
+				remove_province_modifier = capital_european_competent_placeholder
+				remove_province_modifier = capital_european_imperious_autocrat
+				remove_province_modifier = capital_european_prince_of_terror
+				remove_province_modifier = capital_european_efficient_sociopath
+				remove_province_modifier = capital_european_pig_headed_isolationist
+				remove_province_modifier = capital_european_ambitious_union_boss
+				remove_province_modifier = capital_european_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = european_ivory_tower_intellectual duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_european_ivory_tower_intellectual duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -504,31 +678,31 @@
 
 	# Non-Dictatorships - non-conservative
 	country_event = {
-		id = 400040004
+		id = 130040004
 		title = "EVTNAMEMINISTERAPPOINTED"
 		desc = "EVTDESC100040004"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = germanic
-				is_culture_group = beneluxian
-				is_culture_group = scandinavian
-				is_culture_group = pan_british
-				is_culture_group = italian
-				is_culture_group = pan_french
-				is_culture_group = pan_romanian
-				is_culture_group = pan_albanian
-				is_culture_group = hungarian_culture_group
-				is_culture_group = south_slavic
-				is_culture_group = polish_culture_group
-				is_culture_group = czecho_slovak_culture_group
-				is_culture_group = baltic
-				is_culture_group = levantine
-				is_culture_group = jewish_cultures
-				is_culture_group = american_cultures
-				is_culture_group = neo_european_cultures
-			}
+                is_culture_group = germanic
+                is_culture_group = beneluxian
+                is_culture_group = scandinavian
+                is_culture_group = pan_british
+                is_culture_group = italian
+                is_culture_group = pan_french
+                is_culture_group = pan_romanian
+                is_culture_group = pan_albanian
+                is_culture_group = hungarian_culture_group
+                is_culture_group = south_slavic
+                is_culture_group = polish_culture_group
+                is_culture_group = czecho_slovak_culture_group
+                is_culture_group = baltic
+                is_culture_group = levantine
+                is_culture_group = jewish_cultures
+                is_culture_group = american_cultures
+                is_culture_group = neo_european_cultures
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -582,41 +756,70 @@
 			remove_country_modifier = european_pig_headed_isolationist
 			remove_country_modifier = european_ambitious_union_boss
 			remove_country_modifier = european_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_european_expert_diplomat
+				remove_province_modifier = capital_european_successful_industrialist
+				remove_province_modifier = capital_european_ivory_tower_intellectual
+				remove_province_modifier = capital_european_man_of_the_people
+				remove_province_modifier = capital_european_landed_gentleman
+				remove_province_modifier = capital_european_military_man
+				remove_province_modifier = capital_european_lord_admiral
+				remove_province_modifier = capital_european_raving_loon
+				remove_province_modifier = capital_european_luddite
+				remove_province_modifier = capital_european_great_statesman
+				remove_province_modifier = capital_european_backroom_boy
+				remove_province_modifier = capital_european_great_reformer
+				remove_province_modifier = capital_european_gauche_buffoon
+				remove_province_modifier = capital_european_administrative_genius
+				remove_province_modifier = capital_european_visionary_thinker
+				remove_province_modifier = capital_european_competent_placeholder
+				remove_province_modifier = capital_european_imperious_autocrat
+				remove_province_modifier = capital_european_prince_of_terror
+				remove_province_modifier = capital_european_efficient_sociopath
+				remove_province_modifier = capital_european_pig_headed_isolationist
+				remove_province_modifier = capital_european_ambitious_union_boss
+				remove_province_modifier = capital_european_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 			add_country_modifier = {
 				name = european_man_of_the_people
 				duration = 3650
+			}
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_european_man_of_the_people duration = 3650 } 
 			}
 		}
 	}
 
 	# Dictatorships - any
 	country_event = {
-		id = 400050004
+		id = 130050004
 		title = "EVTNAMELEADEREMERGES"
 		desc = "EVTDESC100050004"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = germanic
-				is_culture_group = beneluxian
-				is_culture_group = scandinavian
-				is_culture_group = pan_british
-				is_culture_group = italian
-				is_culture_group = pan_french
-				is_culture_group = pan_romanian
-				is_culture_group = pan_albanian
-				is_culture_group = hungarian_culture_group
-				is_culture_group = south_slavic
-				is_culture_group = polish_culture_group
-				is_culture_group = czecho_slovak_culture_group
-				is_culture_group = baltic
-				is_culture_group = levantine
-				is_culture_group = jewish_cultures
-				is_culture_group = american_cultures
-				is_culture_group = neo_european_cultures
-			}
+                is_culture_group = germanic
+                is_culture_group = beneluxian
+                is_culture_group = scandinavian
+                is_culture_group = pan_british
+                is_culture_group = italian
+                is_culture_group = pan_french
+                is_culture_group = pan_romanian
+                is_culture_group = pan_albanian
+                is_culture_group = hungarian_culture_group
+                is_culture_group = south_slavic
+                is_culture_group = polish_culture_group
+                is_culture_group = czecho_slovak_culture_group
+                is_culture_group = baltic
+                is_culture_group = levantine
+                is_culture_group = jewish_cultures
+                is_culture_group = american_cultures
+                is_culture_group = neo_european_cultures
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -659,9 +862,38 @@
 			remove_country_modifier = european_pig_headed_isolationist
 			remove_country_modifier = european_ambitious_union_boss
 			remove_country_modifier = european_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_european_expert_diplomat
+				remove_province_modifier = capital_european_successful_industrialist
+				remove_province_modifier = capital_european_ivory_tower_intellectual
+				remove_province_modifier = capital_european_man_of_the_people
+				remove_province_modifier = capital_european_landed_gentleman
+				remove_province_modifier = capital_european_military_man
+				remove_province_modifier = capital_european_lord_admiral
+				remove_province_modifier = capital_european_raving_loon
+				remove_province_modifier = capital_european_luddite
+				remove_province_modifier = capital_european_great_statesman
+				remove_province_modifier = capital_european_backroom_boy
+				remove_province_modifier = capital_european_great_reformer
+				remove_province_modifier = capital_european_gauche_buffoon
+				remove_province_modifier = capital_european_administrative_genius
+				remove_province_modifier = capital_european_visionary_thinker
+				remove_province_modifier = capital_european_competent_placeholder
+				remove_province_modifier = capital_european_imperious_autocrat
+				remove_province_modifier = capital_european_prince_of_terror
+				remove_province_modifier = capital_european_efficient_sociopath
+				remove_province_modifier = capital_european_pig_headed_isolationist
+				remove_province_modifier = capital_european_ambitious_union_boss
+				remove_province_modifier = capital_european_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = european_man_of_the_people duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_european_man_of_the_people duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -670,31 +902,31 @@
 
 	# Non-Dictatorships - monarchy or conservative
 	country_event = {
-		id = 400040005
+		id = 130040005
 		title = "EVTNAMEMINISTERAPPOINTED"
 		desc = "EVTDESC100040005"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = germanic
-				is_culture_group = beneluxian
-				is_culture_group = scandinavian
-				is_culture_group = pan_british
-				is_culture_group = italian
-				is_culture_group = pan_french
-				is_culture_group = pan_romanian
-				is_culture_group = pan_albanian
-				is_culture_group = hungarian_culture_group
-				is_culture_group = south_slavic
-				is_culture_group = polish_culture_group
-				is_culture_group = czecho_slovak_culture_group
-				is_culture_group = baltic
-				is_culture_group = levantine
-				is_culture_group = jewish_cultures
-				is_culture_group = american_cultures
-				is_culture_group = neo_european_cultures
-			}
+                is_culture_group = germanic
+                is_culture_group = beneluxian
+                is_culture_group = scandinavian
+                is_culture_group = pan_british
+                is_culture_group = italian
+                is_culture_group = pan_french
+                is_culture_group = pan_romanian
+                is_culture_group = pan_albanian
+                is_culture_group = hungarian_culture_group
+                is_culture_group = south_slavic
+                is_culture_group = polish_culture_group
+                is_culture_group = czecho_slovak_culture_group
+                is_culture_group = baltic
+                is_culture_group = levantine
+                is_culture_group = jewish_cultures
+                is_culture_group = american_cultures
+                is_culture_group = neo_european_cultures
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -746,40 +978,69 @@
 			remove_country_modifier = european_pig_headed_isolationist
 			remove_country_modifier = european_ambitious_union_boss
 			remove_country_modifier = european_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_european_expert_diplomat
+				remove_province_modifier = capital_european_successful_industrialist
+				remove_province_modifier = capital_european_ivory_tower_intellectual
+				remove_province_modifier = capital_european_man_of_the_people
+				remove_province_modifier = capital_european_landed_gentleman
+				remove_province_modifier = capital_european_military_man
+				remove_province_modifier = capital_european_lord_admiral
+				remove_province_modifier = capital_european_raving_loon
+				remove_province_modifier = capital_european_luddite
+				remove_province_modifier = capital_european_great_statesman
+				remove_province_modifier = capital_european_backroom_boy
+				remove_province_modifier = capital_european_great_reformer
+				remove_province_modifier = capital_european_gauche_buffoon
+				remove_province_modifier = capital_european_administrative_genius
+				remove_province_modifier = capital_european_visionary_thinker
+				remove_province_modifier = capital_european_competent_placeholder
+				remove_province_modifier = capital_european_imperious_autocrat
+				remove_province_modifier = capital_european_prince_of_terror
+				remove_province_modifier = capital_european_efficient_sociopath
+				remove_province_modifier = capital_european_pig_headed_isolationist
+				remove_province_modifier = capital_european_ambitious_union_boss
+				remove_province_modifier = capital_european_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = european_landed_gentleman duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_european_landed_gentleman duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
 
 	# Dictatorships - presidential or fascist
 	country_event = {
-		id = 400050005
+		id = 130050005
 		title = "EVTNAMELEADEREMERGES"
 		desc = "EVTDESC100050005"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = germanic
-				is_culture_group = beneluxian
-				is_culture_group = scandinavian
-				is_culture_group = pan_british
-				is_culture_group = italian
-				is_culture_group = pan_french
-				is_culture_group = pan_romanian
-				is_culture_group = pan_albanian
-				is_culture_group = hungarian_culture_group
-				is_culture_group = south_slavic
-				is_culture_group = polish_culture_group
-				is_culture_group = czecho_slovak_culture_group
-				is_culture_group = baltic
-				is_culture_group = levantine
-				is_culture_group = jewish_cultures
-				is_culture_group = american_cultures
-				is_culture_group = neo_european_cultures
-			}
+                is_culture_group = germanic
+                is_culture_group = beneluxian
+                is_culture_group = scandinavian
+                is_culture_group = pan_british
+                is_culture_group = italian
+                is_culture_group = pan_french
+                is_culture_group = pan_romanian
+                is_culture_group = pan_albanian
+                is_culture_group = hungarian_culture_group
+                is_culture_group = south_slavic
+                is_culture_group = polish_culture_group
+                is_culture_group = czecho_slovak_culture_group
+                is_culture_group = baltic
+                is_culture_group = levantine
+                is_culture_group = jewish_cultures
+                is_culture_group = american_cultures
+                is_culture_group = neo_european_cultures
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -820,9 +1081,38 @@
 			remove_country_modifier = european_pig_headed_isolationist
 			remove_country_modifier = european_ambitious_union_boss
 			remove_country_modifier = european_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_european_expert_diplomat
+				remove_province_modifier = capital_european_successful_industrialist
+				remove_province_modifier = capital_european_ivory_tower_intellectual
+				remove_province_modifier = capital_european_man_of_the_people
+				remove_province_modifier = capital_european_landed_gentleman
+				remove_province_modifier = capital_european_military_man
+				remove_province_modifier = capital_european_lord_admiral
+				remove_province_modifier = capital_european_raving_loon
+				remove_province_modifier = capital_european_luddite
+				remove_province_modifier = capital_european_great_statesman
+				remove_province_modifier = capital_european_backroom_boy
+				remove_province_modifier = capital_european_great_reformer
+				remove_province_modifier = capital_european_gauche_buffoon
+				remove_province_modifier = capital_european_administrative_genius
+				remove_province_modifier = capital_european_visionary_thinker
+				remove_province_modifier = capital_european_competent_placeholder
+				remove_province_modifier = capital_european_imperious_autocrat
+				remove_province_modifier = capital_european_prince_of_terror
+				remove_province_modifier = capital_european_efficient_sociopath
+				remove_province_modifier = capital_european_pig_headed_isolationist
+				remove_province_modifier = capital_european_ambitious_union_boss
+				remove_province_modifier = capital_european_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = european_landed_gentleman duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_european_landed_gentleman duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -831,31 +1121,31 @@
 
 	# Non-Dictatorships - non-socialist
 	country_event = {
-		id = 400040006
+		id = 130040006
 		title = "EVTNAMEMINISTERAPPOINTED"
 		desc = "EVTDESC100040006"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = germanic
-				is_culture_group = beneluxian
-				is_culture_group = scandinavian
-				is_culture_group = pan_british
-				is_culture_group = italian
-				is_culture_group = pan_french
-				is_culture_group = pan_romanian
-				is_culture_group = pan_albanian
-				is_culture_group = hungarian_culture_group
-				is_culture_group = south_slavic
-				is_culture_group = polish_culture_group
-				is_culture_group = czecho_slovak_culture_group
-				is_culture_group = baltic
-				is_culture_group = levantine
-				is_culture_group = jewish_cultures
-				is_culture_group = american_cultures
-				is_culture_group = neo_european_cultures
-			}
+                is_culture_group = germanic
+                is_culture_group = beneluxian
+                is_culture_group = scandinavian
+                is_culture_group = pan_british
+                is_culture_group = italian
+                is_culture_group = pan_french
+                is_culture_group = pan_romanian
+                is_culture_group = pan_albanian
+                is_culture_group = hungarian_culture_group
+                is_culture_group = south_slavic
+                is_culture_group = polish_culture_group
+                is_culture_group = czecho_slovak_culture_group
+                is_culture_group = baltic
+                is_culture_group = levantine
+                is_culture_group = jewish_cultures
+                is_culture_group = american_cultures
+                is_culture_group = neo_european_cultures
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -909,39 +1199,68 @@
 			remove_country_modifier = european_pig_headed_isolationist
 			remove_country_modifier = european_ambitious_union_boss
 			remove_country_modifier = european_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_european_expert_diplomat
+				remove_province_modifier = capital_european_successful_industrialist
+				remove_province_modifier = capital_european_ivory_tower_intellectual
+				remove_province_modifier = capital_european_man_of_the_people
+				remove_province_modifier = capital_european_landed_gentleman
+				remove_province_modifier = capital_european_military_man
+				remove_province_modifier = capital_european_lord_admiral
+				remove_province_modifier = capital_european_raving_loon
+				remove_province_modifier = capital_european_luddite
+				remove_province_modifier = capital_european_great_statesman
+				remove_province_modifier = capital_european_backroom_boy
+				remove_province_modifier = capital_european_great_reformer
+				remove_province_modifier = capital_european_gauche_buffoon
+				remove_province_modifier = capital_european_administrative_genius
+				remove_province_modifier = capital_european_visionary_thinker
+				remove_province_modifier = capital_european_competent_placeholder
+				remove_province_modifier = capital_european_imperious_autocrat
+				remove_province_modifier = capital_european_prince_of_terror
+				remove_province_modifier = capital_european_efficient_sociopath
+				remove_province_modifier = capital_european_pig_headed_isolationist
+				remove_province_modifier = capital_european_ambitious_union_boss
+				remove_province_modifier = capital_european_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = european_military_man duration = 3650 } 
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_european_military_man duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
 
 	# Dictatorships - any
 	country_event = {
-		id = 400050006
+		id = 130050006
 		title = "EVTNAMELEADEREMERGES"
 		desc = "EVTDESC100050006"
 		picture = "danishgovernment"
 		trigger = {
 			OR = {
-				is_culture_group = germanic
-				is_culture_group = beneluxian
-				is_culture_group = scandinavian
-				is_culture_group = pan_british
-				is_culture_group = italian
-				is_culture_group = pan_french
-				is_culture_group = pan_romanian
-				is_culture_group = pan_albanian
-				is_culture_group = hungarian_culture_group
-				is_culture_group = south_slavic
-				is_culture_group = polish_culture_group
-				is_culture_group = czecho_slovak_culture_group
-				is_culture_group = baltic
-				is_culture_group = levantine
-				is_culture_group = jewish_cultures
-				is_culture_group = american_cultures
-				is_culture_group = neo_european_cultures
-			}
+                is_culture_group = germanic
+                is_culture_group = beneluxian
+                is_culture_group = scandinavian
+                is_culture_group = pan_british
+                is_culture_group = italian
+                is_culture_group = pan_french
+                is_culture_group = pan_romanian
+                is_culture_group = pan_albanian
+                is_culture_group = hungarian_culture_group
+                is_culture_group = south_slavic
+                is_culture_group = polish_culture_group
+                is_culture_group = czecho_slovak_culture_group
+                is_culture_group = baltic
+                is_culture_group = levantine
+                is_culture_group = jewish_cultures
+                is_culture_group = american_cultures
+                is_culture_group = neo_european_cultures
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -984,9 +1303,38 @@
 			remove_country_modifier = european_pig_headed_isolationist
 			remove_country_modifier = european_ambitious_union_boss
 			remove_country_modifier = european_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_european_expert_diplomat
+				remove_province_modifier = capital_european_successful_industrialist
+				remove_province_modifier = capital_european_ivory_tower_intellectual
+				remove_province_modifier = capital_european_man_of_the_people
+				remove_province_modifier = capital_european_landed_gentleman
+				remove_province_modifier = capital_european_military_man
+				remove_province_modifier = capital_european_lord_admiral
+				remove_province_modifier = capital_european_raving_loon
+				remove_province_modifier = capital_european_luddite
+				remove_province_modifier = capital_european_great_statesman
+				remove_province_modifier = capital_european_backroom_boy
+				remove_province_modifier = capital_european_great_reformer
+				remove_province_modifier = capital_european_gauche_buffoon
+				remove_province_modifier = capital_european_administrative_genius
+				remove_province_modifier = capital_european_visionary_thinker
+				remove_province_modifier = capital_european_competent_placeholder
+				remove_province_modifier = capital_european_imperious_autocrat
+				remove_province_modifier = capital_european_prince_of_terror
+				remove_province_modifier = capital_european_efficient_sociopath
+				remove_province_modifier = capital_european_pig_headed_isolationist
+				remove_province_modifier = capital_european_ambitious_union_boss
+				remove_province_modifier = capital_european_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = european_military_man duration = 3650 } 
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_european_military_man duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -995,31 +1343,31 @@
 
 	# Non-Dictatorships - non-socialist
 	country_event = {
-		id = 400040007
+		id = 130040007
 		title = "EVTNAMEMINISTERAPPOINTED"
 		desc = "EVTDESC100040007"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = germanic
-				is_culture_group = beneluxian
-				is_culture_group = scandinavian
-				is_culture_group = pan_british
-				is_culture_group = italian
-				is_culture_group = pan_french
-				is_culture_group = pan_romanian
-				is_culture_group = pan_albanian
-				is_culture_group = hungarian_culture_group
-				is_culture_group = south_slavic
-				is_culture_group = polish_culture_group
-				is_culture_group = czecho_slovak_culture_group
-				is_culture_group = baltic
-				is_culture_group = levantine
-				is_culture_group = jewish_cultures
-				is_culture_group = american_cultures
-				is_culture_group = neo_european_cultures
-			}
+                is_culture_group = germanic
+                is_culture_group = beneluxian
+                is_culture_group = scandinavian
+                is_culture_group = pan_british
+                is_culture_group = italian
+                is_culture_group = pan_french
+                is_culture_group = pan_romanian
+                is_culture_group = pan_albanian
+                is_culture_group = hungarian_culture_group
+                is_culture_group = south_slavic
+                is_culture_group = polish_culture_group
+                is_culture_group = czecho_slovak_culture_group
+                is_culture_group = baltic
+                is_culture_group = levantine
+                is_culture_group = jewish_cultures
+                is_culture_group = american_cultures
+                is_culture_group = neo_european_cultures
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -1074,39 +1422,68 @@
 			remove_country_modifier = european_pig_headed_isolationist
 			remove_country_modifier = european_ambitious_union_boss
 			remove_country_modifier = european_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_european_expert_diplomat
+				remove_province_modifier = capital_european_successful_industrialist
+				remove_province_modifier = capital_european_ivory_tower_intellectual
+				remove_province_modifier = capital_european_man_of_the_people
+				remove_province_modifier = capital_european_landed_gentleman
+				remove_province_modifier = capital_european_military_man
+				remove_province_modifier = capital_european_lord_admiral
+				remove_province_modifier = capital_european_raving_loon
+				remove_province_modifier = capital_european_luddite
+				remove_province_modifier = capital_european_great_statesman
+				remove_province_modifier = capital_european_backroom_boy
+				remove_province_modifier = capital_european_great_reformer
+				remove_province_modifier = capital_european_gauche_buffoon
+				remove_province_modifier = capital_european_administrative_genius
+				remove_province_modifier = capital_european_visionary_thinker
+				remove_province_modifier = capital_european_competent_placeholder
+				remove_province_modifier = capital_european_imperious_autocrat
+				remove_province_modifier = capital_european_prince_of_terror
+				remove_province_modifier = capital_european_efficient_sociopath
+				remove_province_modifier = capital_european_pig_headed_isolationist
+				remove_province_modifier = capital_european_ambitious_union_boss
+				remove_province_modifier = capital_european_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = european_lord_admiral duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_european_lord_admiral duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
 
 	# Dictatorships - any
 	country_event = {
-		id = 400050007
+		id = 130050007
 		title = "EVTNAMELEADEREMERGES"
 		desc = "EVTDESC100050007"
 		picture = "danishgovernment"
 		trigger = {
 			OR = {
-				is_culture_group = germanic
-				is_culture_group = beneluxian
-				is_culture_group = scandinavian
-				is_culture_group = pan_british
-				is_culture_group = italian
-				is_culture_group = pan_french
-				is_culture_group = pan_romanian
-				is_culture_group = pan_albanian
-				is_culture_group = hungarian_culture_group
-				is_culture_group = south_slavic
-				is_culture_group = polish_culture_group
-				is_culture_group = czecho_slovak_culture_group
-				is_culture_group = baltic
-				is_culture_group = levantine
-				is_culture_group = jewish_cultures
-				is_culture_group = american_cultures
-				is_culture_group = neo_european_cultures
-			}
+                is_culture_group = germanic
+                is_culture_group = beneluxian
+                is_culture_group = scandinavian
+                is_culture_group = pan_british
+                is_culture_group = italian
+                is_culture_group = pan_french
+                is_culture_group = pan_romanian
+                is_culture_group = pan_albanian
+                is_culture_group = hungarian_culture_group
+                is_culture_group = south_slavic
+                is_culture_group = polish_culture_group
+                is_culture_group = czecho_slovak_culture_group
+                is_culture_group = baltic
+                is_culture_group = levantine
+                is_culture_group = jewish_cultures
+                is_culture_group = american_cultures
+                is_culture_group = neo_european_cultures
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -1150,9 +1527,38 @@
 			remove_country_modifier = european_pig_headed_isolationist
 			remove_country_modifier = european_ambitious_union_boss
 			remove_country_modifier = european_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_european_expert_diplomat
+				remove_province_modifier = capital_european_successful_industrialist
+				remove_province_modifier = capital_european_ivory_tower_intellectual
+				remove_province_modifier = capital_european_man_of_the_people
+				remove_province_modifier = capital_european_landed_gentleman
+				remove_province_modifier = capital_european_military_man
+				remove_province_modifier = capital_european_lord_admiral
+				remove_province_modifier = capital_european_raving_loon
+				remove_province_modifier = capital_european_luddite
+				remove_province_modifier = capital_european_great_statesman
+				remove_province_modifier = capital_european_backroom_boy
+				remove_province_modifier = capital_european_great_reformer
+				remove_province_modifier = capital_european_gauche_buffoon
+				remove_province_modifier = capital_european_administrative_genius
+				remove_province_modifier = capital_european_visionary_thinker
+				remove_province_modifier = capital_european_competent_placeholder
+				remove_province_modifier = capital_european_imperious_autocrat
+				remove_province_modifier = capital_european_prince_of_terror
+				remove_province_modifier = capital_european_efficient_sociopath
+				remove_province_modifier = capital_european_pig_headed_isolationist
+				remove_province_modifier = capital_european_ambitious_union_boss
+				remove_province_modifier = capital_european_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = european_lord_admiral duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_european_lord_admiral duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -1161,31 +1567,31 @@
 
 	# Non-Dictatorships - any
 	country_event = {
-		id = 400040008
+		id = 130040008
 		title = "EVTNAMEMINISTERAPPOINTED"
 		desc = "EVTDESC100040008"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = germanic
-				is_culture_group = beneluxian
-				is_culture_group = scandinavian
-				is_culture_group = pan_british
-				is_culture_group = italian
-				is_culture_group = pan_french
-				is_culture_group = pan_romanian
-				is_culture_group = pan_albanian
-				is_culture_group = hungarian_culture_group
-				is_culture_group = south_slavic
-				is_culture_group = polish_culture_group
-				is_culture_group = czecho_slovak_culture_group
-				is_culture_group = baltic
-				is_culture_group = levantine
-				is_culture_group = jewish_cultures
-				is_culture_group = american_cultures
-				is_culture_group = neo_european_cultures
-			}
+                is_culture_group = germanic
+                is_culture_group = beneluxian
+                is_culture_group = scandinavian
+                is_culture_group = pan_british
+                is_culture_group = italian
+                is_culture_group = pan_french
+                is_culture_group = pan_romanian
+                is_culture_group = pan_albanian
+                is_culture_group = hungarian_culture_group
+                is_culture_group = south_slavic
+                is_culture_group = polish_culture_group
+                is_culture_group = czecho_slovak_culture_group
+                is_culture_group = baltic
+                is_culture_group = levantine
+                is_culture_group = jewish_cultures
+                is_culture_group = american_cultures
+                is_culture_group = neo_european_cultures
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -1242,40 +1648,69 @@
 			remove_country_modifier = european_pig_headed_isolationist
 			remove_country_modifier = european_ambitious_union_boss
 			remove_country_modifier = european_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_european_expert_diplomat
+				remove_province_modifier = capital_european_successful_industrialist
+				remove_province_modifier = capital_european_ivory_tower_intellectual
+				remove_province_modifier = capital_european_man_of_the_people
+				remove_province_modifier = capital_european_landed_gentleman
+				remove_province_modifier = capital_european_military_man
+				remove_province_modifier = capital_european_lord_admiral
+				remove_province_modifier = capital_european_raving_loon
+				remove_province_modifier = capital_european_luddite
+				remove_province_modifier = capital_european_great_statesman
+				remove_province_modifier = capital_european_backroom_boy
+				remove_province_modifier = capital_european_great_reformer
+				remove_province_modifier = capital_european_gauche_buffoon
+				remove_province_modifier = capital_european_administrative_genius
+				remove_province_modifier = capital_european_visionary_thinker
+				remove_province_modifier = capital_european_competent_placeholder
+				remove_province_modifier = capital_european_imperious_autocrat
+				remove_province_modifier = capital_european_prince_of_terror
+				remove_province_modifier = capital_european_efficient_sociopath
+				remove_province_modifier = capital_european_pig_headed_isolationist
+				remove_province_modifier = capital_european_ambitious_union_boss
+				remove_province_modifier = capital_european_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = european_raving_loon duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_european_raving_loon duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
 
 	# Dictatorships - any
 	country_event = {
-		id = 400050008
+		id = 130050008
 		title = "EVTNAMELEADEREMERGES"
 		desc = "EVTDESC100050008"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = germanic
-				is_culture_group = beneluxian
-				is_culture_group = scandinavian
-				is_culture_group = pan_british
-				is_culture_group = italian
-				is_culture_group = pan_french
-				is_culture_group = pan_romanian
-				is_culture_group = pan_albanian
-				is_culture_group = hungarian_culture_group
-				is_culture_group = south_slavic
-				is_culture_group = polish_culture_group
-				is_culture_group = czecho_slovak_culture_group
-				is_culture_group = baltic
-				is_culture_group = levantine
-				is_culture_group = jewish_cultures
-				is_culture_group = american_cultures
-				is_culture_group = neo_european_cultures
-			}
+                is_culture_group = germanic
+                is_culture_group = beneluxian
+                is_culture_group = scandinavian
+                is_culture_group = pan_british
+                is_culture_group = italian
+                is_culture_group = pan_french
+                is_culture_group = pan_romanian
+                is_culture_group = pan_albanian
+                is_culture_group = hungarian_culture_group
+                is_culture_group = south_slavic
+                is_culture_group = polish_culture_group
+                is_culture_group = czecho_slovak_culture_group
+                is_culture_group = baltic
+                is_culture_group = levantine
+                is_culture_group = jewish_cultures
+                is_culture_group = american_cultures
+                is_culture_group = neo_european_cultures
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -1318,9 +1753,38 @@
 			remove_country_modifier = european_pig_headed_isolationist
 			remove_country_modifier = european_ambitious_union_boss
 			remove_country_modifier = european_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_european_expert_diplomat
+				remove_province_modifier = capital_european_successful_industrialist
+				remove_province_modifier = capital_european_ivory_tower_intellectual
+				remove_province_modifier = capital_european_man_of_the_people
+				remove_province_modifier = capital_european_landed_gentleman
+				remove_province_modifier = capital_european_military_man
+				remove_province_modifier = capital_european_lord_admiral
+				remove_province_modifier = capital_european_raving_loon
+				remove_province_modifier = capital_european_luddite
+				remove_province_modifier = capital_european_great_statesman
+				remove_province_modifier = capital_european_backroom_boy
+				remove_province_modifier = capital_european_great_reformer
+				remove_province_modifier = capital_european_gauche_buffoon
+				remove_province_modifier = capital_european_administrative_genius
+				remove_province_modifier = capital_european_visionary_thinker
+				remove_province_modifier = capital_european_competent_placeholder
+				remove_province_modifier = capital_european_imperious_autocrat
+				remove_province_modifier = capital_european_prince_of_terror
+				remove_province_modifier = capital_european_efficient_sociopath
+				remove_province_modifier = capital_european_pig_headed_isolationist
+				remove_province_modifier = capital_european_ambitious_union_boss
+				remove_province_modifier = capital_european_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = european_raving_loon duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_european_raving_loon duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -1329,30 +1793,30 @@
 
 	# Non-Dictatorships - non-liberal
 	country_event = {
-		id = 400040009
+		id = 130040009
 		title = "EVTNAMEMINISTERAPPOINTED"
 		desc = "EVTDESC100040009"
 		picture = "danishgovernment"
 		trigger = {
 			OR = {
-				is_culture_group = germanic
-				is_culture_group = beneluxian
-				is_culture_group = scandinavian
-				is_culture_group = pan_british
-				is_culture_group = italian
-				is_culture_group = pan_french
-				is_culture_group = pan_romanian
-				is_culture_group = pan_albanian
-				is_culture_group = hungarian_culture_group
-				is_culture_group = south_slavic
-				is_culture_group = polish_culture_group
-				is_culture_group = czecho_slovak_culture_group
-				is_culture_group = baltic
-				is_culture_group = levantine
-				is_culture_group = jewish_cultures
-				is_culture_group = american_cultures
-				is_culture_group = neo_european_cultures
-			}
+                is_culture_group = germanic
+                is_culture_group = beneluxian
+                is_culture_group = scandinavian
+                is_culture_group = pan_british
+                is_culture_group = italian
+                is_culture_group = pan_french
+                is_culture_group = pan_romanian
+                is_culture_group = pan_albanian
+                is_culture_group = hungarian_culture_group
+                is_culture_group = south_slavic
+                is_culture_group = polish_culture_group
+                is_culture_group = czecho_slovak_culture_group
+                is_culture_group = baltic
+                is_culture_group = levantine
+                is_culture_group = jewish_cultures
+                is_culture_group = american_cultures
+                is_culture_group = neo_european_cultures
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -1407,40 +1871,69 @@
 			remove_country_modifier = european_pig_headed_isolationist
 			remove_country_modifier = european_ambitious_union_boss
 			remove_country_modifier = european_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_european_expert_diplomat
+				remove_province_modifier = capital_european_successful_industrialist
+				remove_province_modifier = capital_european_ivory_tower_intellectual
+				remove_province_modifier = capital_european_man_of_the_people
+				remove_province_modifier = capital_european_landed_gentleman
+				remove_province_modifier = capital_european_military_man
+				remove_province_modifier = capital_european_lord_admiral
+				remove_province_modifier = capital_european_raving_loon
+				remove_province_modifier = capital_european_luddite
+				remove_province_modifier = capital_european_great_statesman
+				remove_province_modifier = capital_european_backroom_boy
+				remove_province_modifier = capital_european_great_reformer
+				remove_province_modifier = capital_european_gauche_buffoon
+				remove_province_modifier = capital_european_administrative_genius
+				remove_province_modifier = capital_european_visionary_thinker
+				remove_province_modifier = capital_european_competent_placeholder
+				remove_province_modifier = capital_european_imperious_autocrat
+				remove_province_modifier = capital_european_prince_of_terror
+				remove_province_modifier = capital_european_efficient_sociopath
+				remove_province_modifier = capital_european_pig_headed_isolationist
+				remove_province_modifier = capital_european_ambitious_union_boss
+				remove_province_modifier = capital_european_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = european_luddite duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_european_luddite duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
 
 	# Dictatorships - presidential or fascist
 	country_event = {
-		id = 400050009
+		id = 130050009
 		title = "EVTNAMELEADEREMERGES"
 		desc = "EVTDESC100050009"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = germanic
-				is_culture_group = beneluxian
-				is_culture_group = scandinavian
-				is_culture_group = pan_british
-				is_culture_group = italian
-				is_culture_group = pan_french
-				is_culture_group = pan_romanian
-				is_culture_group = pan_albanian
-				is_culture_group = hungarian_culture_group
-				is_culture_group = south_slavic
-				is_culture_group = polish_culture_group
-				is_culture_group = czecho_slovak_culture_group
-				is_culture_group = baltic
-				is_culture_group = levantine
-				is_culture_group = jewish_cultures
-				is_culture_group = american_cultures
-				is_culture_group = neo_european_cultures
-			}
+                is_culture_group = germanic
+                is_culture_group = beneluxian
+                is_culture_group = scandinavian
+                is_culture_group = pan_british
+                is_culture_group = italian
+                is_culture_group = pan_french
+                is_culture_group = pan_romanian
+                is_culture_group = pan_albanian
+                is_culture_group = hungarian_culture_group
+                is_culture_group = south_slavic
+                is_culture_group = polish_culture_group
+                is_culture_group = czecho_slovak_culture_group
+                is_culture_group = baltic
+                is_culture_group = levantine
+                is_culture_group = jewish_cultures
+                is_culture_group = american_cultures
+                is_culture_group = neo_european_cultures
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -1481,9 +1974,38 @@
 			remove_country_modifier = european_pig_headed_isolationist
 			remove_country_modifier = european_ambitious_union_boss
 			remove_country_modifier = european_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_european_expert_diplomat
+				remove_province_modifier = capital_european_successful_industrialist
+				remove_province_modifier = capital_european_ivory_tower_intellectual
+				remove_province_modifier = capital_european_man_of_the_people
+				remove_province_modifier = capital_european_landed_gentleman
+				remove_province_modifier = capital_european_military_man
+				remove_province_modifier = capital_european_lord_admiral
+				remove_province_modifier = capital_european_raving_loon
+				remove_province_modifier = capital_european_luddite
+				remove_province_modifier = capital_european_great_statesman
+				remove_province_modifier = capital_european_backroom_boy
+				remove_province_modifier = capital_european_great_reformer
+				remove_province_modifier = capital_european_gauche_buffoon
+				remove_province_modifier = capital_european_administrative_genius
+				remove_province_modifier = capital_european_visionary_thinker
+				remove_province_modifier = capital_european_competent_placeholder
+				remove_province_modifier = capital_european_imperious_autocrat
+				remove_province_modifier = capital_european_prince_of_terror
+				remove_province_modifier = capital_european_efficient_sociopath
+				remove_province_modifier = capital_european_pig_headed_isolationist
+				remove_province_modifier = capital_european_ambitious_union_boss
+				remove_province_modifier = capital_european_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = european_luddite duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_european_luddite duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -1492,31 +2014,31 @@
 
 	# Non-Dictatorships - any
 	country_event = {
-		id = 400040010
+		id = 130040010
 		title = "EVTNAMEMINISTERAPPOINTED"
 		desc = "EVTDESC100040010"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = germanic
-				is_culture_group = beneluxian
-				is_culture_group = scandinavian
-				is_culture_group = pan_british
-				is_culture_group = italian
-				is_culture_group = pan_french
-				is_culture_group = pan_romanian
-				is_culture_group = pan_albanian
-				is_culture_group = hungarian_culture_group
-				is_culture_group = south_slavic
-				is_culture_group = polish_culture_group
-				is_culture_group = czecho_slovak_culture_group
-				is_culture_group = baltic
-				is_culture_group = levantine
-				is_culture_group = jewish_cultures
-				is_culture_group = american_cultures
-				is_culture_group = neo_european_cultures
-			}
+                is_culture_group = germanic
+                is_culture_group = beneluxian
+                is_culture_group = scandinavian
+                is_culture_group = pan_british
+                is_culture_group = italian
+                is_culture_group = pan_french
+                is_culture_group = pan_romanian
+                is_culture_group = pan_albanian
+                is_culture_group = hungarian_culture_group
+                is_culture_group = south_slavic
+                is_culture_group = polish_culture_group
+                is_culture_group = czecho_slovak_culture_group
+                is_culture_group = baltic
+                is_culture_group = levantine
+                is_culture_group = jewish_cultures
+                is_culture_group = american_cultures
+                is_culture_group = neo_european_cultures
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -1573,40 +2095,69 @@
 			remove_country_modifier = european_pig_headed_isolationist
 			remove_country_modifier = european_ambitious_union_boss
 			remove_country_modifier = european_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_european_expert_diplomat
+				remove_province_modifier = capital_european_successful_industrialist
+				remove_province_modifier = capital_european_ivory_tower_intellectual
+				remove_province_modifier = capital_european_man_of_the_people
+				remove_province_modifier = capital_european_landed_gentleman
+				remove_province_modifier = capital_european_military_man
+				remove_province_modifier = capital_european_lord_admiral
+				remove_province_modifier = capital_european_raving_loon
+				remove_province_modifier = capital_european_luddite
+				remove_province_modifier = capital_european_great_statesman
+				remove_province_modifier = capital_european_backroom_boy
+				remove_province_modifier = capital_european_great_reformer
+				remove_province_modifier = capital_european_gauche_buffoon
+				remove_province_modifier = capital_european_administrative_genius
+				remove_province_modifier = capital_european_visionary_thinker
+				remove_province_modifier = capital_european_competent_placeholder
+				remove_province_modifier = capital_european_imperious_autocrat
+				remove_province_modifier = capital_european_prince_of_terror
+				remove_province_modifier = capital_european_efficient_sociopath
+				remove_province_modifier = capital_european_pig_headed_isolationist
+				remove_province_modifier = capital_european_ambitious_union_boss
+				remove_province_modifier = capital_european_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = european_great_statesman duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_european_great_statesman duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
 
 	# Dictatorships - non-communist
 	country_event = {
-		id = 400050010
+		id = 130050010
 		title = "EVTNAMELEADEREMERGES"
 		desc = "EVTDESC100050010"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = germanic
-				is_culture_group = beneluxian
-				is_culture_group = scandinavian
-				is_culture_group = pan_british
-				is_culture_group = italian
-				is_culture_group = pan_french
-				is_culture_group = pan_romanian
-				is_culture_group = pan_albanian
-				is_culture_group = hungarian_culture_group
-				is_culture_group = south_slavic
-				is_culture_group = polish_culture_group
-				is_culture_group = czecho_slovak_culture_group
-				is_culture_group = baltic
-				is_culture_group = levantine
-				is_culture_group = jewish_cultures
-				is_culture_group = american_cultures
-				is_culture_group = neo_european_cultures
-			}
+                is_culture_group = germanic
+                is_culture_group = beneluxian
+                is_culture_group = scandinavian
+                is_culture_group = pan_british
+                is_culture_group = italian
+                is_culture_group = pan_french
+                is_culture_group = pan_romanian
+                is_culture_group = pan_albanian
+                is_culture_group = hungarian_culture_group
+                is_culture_group = south_slavic
+                is_culture_group = polish_culture_group
+                is_culture_group = czecho_slovak_culture_group
+                is_culture_group = baltic
+                is_culture_group = levantine
+                is_culture_group = jewish_cultures
+                is_culture_group = american_cultures
+                is_culture_group = neo_european_cultures
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -1648,9 +2199,38 @@
 			remove_country_modifier = european_pig_headed_isolationist
 			remove_country_modifier = european_ambitious_union_boss
 			remove_country_modifier = european_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_european_expert_diplomat
+				remove_province_modifier = capital_european_successful_industrialist
+				remove_province_modifier = capital_european_ivory_tower_intellectual
+				remove_province_modifier = capital_european_man_of_the_people
+				remove_province_modifier = capital_european_landed_gentleman
+				remove_province_modifier = capital_european_military_man
+				remove_province_modifier = capital_european_lord_admiral
+				remove_province_modifier = capital_european_raving_loon
+				remove_province_modifier = capital_european_luddite
+				remove_province_modifier = capital_european_great_statesman
+				remove_province_modifier = capital_european_backroom_boy
+				remove_province_modifier = capital_european_great_reformer
+				remove_province_modifier = capital_european_gauche_buffoon
+				remove_province_modifier = capital_european_administrative_genius
+				remove_province_modifier = capital_european_visionary_thinker
+				remove_province_modifier = capital_european_competent_placeholder
+				remove_province_modifier = capital_european_imperious_autocrat
+				remove_province_modifier = capital_european_prince_of_terror
+				remove_province_modifier = capital_european_efficient_sociopath
+				remove_province_modifier = capital_european_pig_headed_isolationist
+				remove_province_modifier = capital_european_ambitious_union_boss
+				remove_province_modifier = capital_european_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = european_great_statesman duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_european_great_statesman duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -1659,31 +2239,31 @@
 
 	# Non-Dictatorships - any
 	country_event = {
-		id = 400040011
+		id = 130040011
 		title = "EVTNAMEMINISTERAPPOINTED"
 		desc = "EVTDESC100040011"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = germanic
-				is_culture_group = beneluxian
-				is_culture_group = scandinavian
-				is_culture_group = pan_british
-				is_culture_group = italian
-				is_culture_group = pan_french
-				is_culture_group = pan_romanian
-				is_culture_group = pan_albanian
-				is_culture_group = hungarian_culture_group
-				is_culture_group = south_slavic
-				is_culture_group = polish_culture_group
-				is_culture_group = czecho_slovak_culture_group
-				is_culture_group = baltic
-				is_culture_group = levantine
-				is_culture_group = jewish_cultures
-				is_culture_group = american_cultures
-				is_culture_group = neo_european_cultures
-			}
+                is_culture_group = germanic
+                is_culture_group = beneluxian
+                is_culture_group = scandinavian
+                is_culture_group = pan_british
+                is_culture_group = italian
+                is_culture_group = pan_french
+                is_culture_group = pan_romanian
+                is_culture_group = pan_albanian
+                is_culture_group = hungarian_culture_group
+                is_culture_group = south_slavic
+                is_culture_group = polish_culture_group
+                is_culture_group = czecho_slovak_culture_group
+                is_culture_group = baltic
+                is_culture_group = levantine
+                is_culture_group = jewish_cultures
+                is_culture_group = american_cultures
+                is_culture_group = neo_european_cultures
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -1740,9 +2320,38 @@
 			remove_country_modifier = european_pig_headed_isolationist
 			remove_country_modifier = european_ambitious_union_boss
 			remove_country_modifier = european_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_european_expert_diplomat
+				remove_province_modifier = capital_european_successful_industrialist
+				remove_province_modifier = capital_european_ivory_tower_intellectual
+				remove_province_modifier = capital_european_man_of_the_people
+				remove_province_modifier = capital_european_landed_gentleman
+				remove_province_modifier = capital_european_military_man
+				remove_province_modifier = capital_european_lord_admiral
+				remove_province_modifier = capital_european_raving_loon
+				remove_province_modifier = capital_european_luddite
+				remove_province_modifier = capital_european_great_statesman
+				remove_province_modifier = capital_european_backroom_boy
+				remove_province_modifier = capital_european_great_reformer
+				remove_province_modifier = capital_european_gauche_buffoon
+				remove_province_modifier = capital_european_administrative_genius
+				remove_province_modifier = capital_european_visionary_thinker
+				remove_province_modifier = capital_european_competent_placeholder
+				remove_province_modifier = capital_european_imperious_autocrat
+				remove_province_modifier = capital_european_prince_of_terror
+				remove_province_modifier = capital_european_efficient_sociopath
+				remove_province_modifier = capital_european_pig_headed_isolationist
+				remove_province_modifier = capital_european_ambitious_union_boss
+				remove_province_modifier = capital_european_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = european_backroom_boy duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_european_backroom_boy duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -1751,31 +2360,31 @@
 
 	# Non-Dictatorships - non-conservative
 	country_event = {
-		id = 400040012
+		id = 130040012
 		title = "EVTNAMEMINISTERAPPOINTED"
 		desc = "EVTDESC100040012"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = germanic
-				is_culture_group = beneluxian
-				is_culture_group = scandinavian
-				is_culture_group = pan_british
-				is_culture_group = italian
-				is_culture_group = pan_french
-				is_culture_group = pan_romanian
-				is_culture_group = pan_albanian
-				is_culture_group = hungarian_culture_group
-				is_culture_group = south_slavic
-				is_culture_group = polish_culture_group
-				is_culture_group = czecho_slovak_culture_group
-				is_culture_group = baltic
-				is_culture_group = levantine
-				is_culture_group = jewish_cultures
-				is_culture_group = american_cultures
-				is_culture_group = neo_european_cultures
-			}
+                is_culture_group = germanic
+                is_culture_group = beneluxian
+                is_culture_group = scandinavian
+                is_culture_group = pan_british
+                is_culture_group = italian
+                is_culture_group = pan_french
+                is_culture_group = pan_romanian
+                is_culture_group = pan_albanian
+                is_culture_group = hungarian_culture_group
+                is_culture_group = south_slavic
+                is_culture_group = polish_culture_group
+                is_culture_group = czecho_slovak_culture_group
+                is_culture_group = baltic
+                is_culture_group = levantine
+                is_culture_group = jewish_cultures
+                is_culture_group = american_cultures
+                is_culture_group = neo_european_cultures
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -1830,9 +2439,38 @@
 			remove_country_modifier = european_pig_headed_isolationist
 			remove_country_modifier = european_ambitious_union_boss
 			remove_country_modifier = european_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_european_expert_diplomat
+				remove_province_modifier = capital_european_successful_industrialist
+				remove_province_modifier = capital_european_ivory_tower_intellectual
+				remove_province_modifier = capital_european_man_of_the_people
+				remove_province_modifier = capital_european_landed_gentleman
+				remove_province_modifier = capital_european_military_man
+				remove_province_modifier = capital_european_lord_admiral
+				remove_province_modifier = capital_european_raving_loon
+				remove_province_modifier = capital_european_luddite
+				remove_province_modifier = capital_european_great_statesman
+				remove_province_modifier = capital_european_backroom_boy
+				remove_province_modifier = capital_european_great_reformer
+				remove_province_modifier = capital_european_gauche_buffoon
+				remove_province_modifier = capital_european_administrative_genius
+				remove_province_modifier = capital_european_visionary_thinker
+				remove_province_modifier = capital_european_competent_placeholder
+				remove_province_modifier = capital_european_imperious_autocrat
+				remove_province_modifier = capital_european_prince_of_terror
+				remove_province_modifier = capital_european_efficient_sociopath
+				remove_province_modifier = capital_european_pig_headed_isolationist
+				remove_province_modifier = capital_european_ambitious_union_boss
+				remove_province_modifier = capital_european_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = european_great_reformer duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_european_great_reformer duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -1841,31 +2479,31 @@
 
 	# Non-Dictatorships - non-socialist
 	country_event = {
-		id = 400040013
+		id = 130040013
 		title = "EVTNAMEMINISTERAPPOINTED"
 		desc = "EVTDESC100040013"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = germanic
-				is_culture_group = beneluxian
-				is_culture_group = scandinavian
-				is_culture_group = pan_british
-				is_culture_group = italian
-				is_culture_group = pan_french
-				is_culture_group = pan_romanian
-				is_culture_group = pan_albanian
-				is_culture_group = hungarian_culture_group
-				is_culture_group = south_slavic
-				is_culture_group = polish_culture_group
-				is_culture_group = czecho_slovak_culture_group
-				is_culture_group = baltic
-				is_culture_group = levantine
-				is_culture_group = jewish_cultures
-				is_culture_group = american_cultures
-				is_culture_group = neo_european_cultures
-			}
+                is_culture_group = germanic
+                is_culture_group = beneluxian
+                is_culture_group = scandinavian
+                is_culture_group = pan_british
+                is_culture_group = italian
+                is_culture_group = pan_french
+                is_culture_group = pan_romanian
+                is_culture_group = pan_albanian
+                is_culture_group = hungarian_culture_group
+                is_culture_group = south_slavic
+                is_culture_group = polish_culture_group
+                is_culture_group = czecho_slovak_culture_group
+                is_culture_group = baltic
+                is_culture_group = levantine
+                is_culture_group = jewish_cultures
+                is_culture_group = american_cultures
+                is_culture_group = neo_european_cultures
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -1919,9 +2557,38 @@
 			remove_country_modifier = european_pig_headed_isolationist
 			remove_country_modifier = european_ambitious_union_boss
 			remove_country_modifier = european_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_european_expert_diplomat
+				remove_province_modifier = capital_european_successful_industrialist
+				remove_province_modifier = capital_european_ivory_tower_intellectual
+				remove_province_modifier = capital_european_man_of_the_people
+				remove_province_modifier = capital_european_landed_gentleman
+				remove_province_modifier = capital_european_military_man
+				remove_province_modifier = capital_european_lord_admiral
+				remove_province_modifier = capital_european_raving_loon
+				remove_province_modifier = capital_european_luddite
+				remove_province_modifier = capital_european_great_statesman
+				remove_province_modifier = capital_european_backroom_boy
+				remove_province_modifier = capital_european_great_reformer
+				remove_province_modifier = capital_european_gauche_buffoon
+				remove_province_modifier = capital_european_administrative_genius
+				remove_province_modifier = capital_european_visionary_thinker
+				remove_province_modifier = capital_european_competent_placeholder
+				remove_province_modifier = capital_european_imperious_autocrat
+				remove_province_modifier = capital_european_prince_of_terror
+				remove_province_modifier = capital_european_efficient_sociopath
+				remove_province_modifier = capital_european_pig_headed_isolationist
+				remove_province_modifier = capital_european_ambitious_union_boss
+				remove_province_modifier = capital_european_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = european_gauche_buffoon duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_european_gauche_buffoon duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -1930,31 +2597,31 @@
 
 	# Non-Dictatorships - any
 	country_event = {
-		id = 400040014
+		id = 130040014
 		title = "EVTNAMEMINISTERAPPOINTED"
 		desc = "EVTDESC100040014"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = germanic
-				is_culture_group = beneluxian
-				is_culture_group = scandinavian
-				is_culture_group = pan_british
-				is_culture_group = italian
-				is_culture_group = pan_french
-				is_culture_group = pan_romanian
-				is_culture_group = pan_albanian
-				is_culture_group = hungarian_culture_group
-				is_culture_group = south_slavic
-				is_culture_group = polish_culture_group
-				is_culture_group = czecho_slovak_culture_group
-				is_culture_group = baltic
-				is_culture_group = levantine
-				is_culture_group = jewish_cultures
-				is_culture_group = american_cultures
-				is_culture_group = neo_european_cultures
-			}
+                is_culture_group = germanic
+                is_culture_group = beneluxian
+                is_culture_group = scandinavian
+                is_culture_group = pan_british
+                is_culture_group = italian
+                is_culture_group = pan_french
+                is_culture_group = pan_romanian
+                is_culture_group = pan_albanian
+                is_culture_group = hungarian_culture_group
+                is_culture_group = south_slavic
+                is_culture_group = polish_culture_group
+                is_culture_group = czecho_slovak_culture_group
+                is_culture_group = baltic
+                is_culture_group = levantine
+                is_culture_group = jewish_cultures
+                is_culture_group = american_cultures
+                is_culture_group = neo_european_cultures
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -2011,40 +2678,69 @@
 			remove_country_modifier = european_pig_headed_isolationist
 			remove_country_modifier = european_ambitious_union_boss
 			remove_country_modifier = european_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_european_expert_diplomat
+				remove_province_modifier = capital_european_successful_industrialist
+				remove_province_modifier = capital_european_ivory_tower_intellectual
+				remove_province_modifier = capital_european_man_of_the_people
+				remove_province_modifier = capital_european_landed_gentleman
+				remove_province_modifier = capital_european_military_man
+				remove_province_modifier = capital_european_lord_admiral
+				remove_province_modifier = capital_european_raving_loon
+				remove_province_modifier = capital_european_luddite
+				remove_province_modifier = capital_european_great_statesman
+				remove_province_modifier = capital_european_backroom_boy
+				remove_province_modifier = capital_european_great_reformer
+				remove_province_modifier = capital_european_gauche_buffoon
+				remove_province_modifier = capital_european_administrative_genius
+				remove_province_modifier = capital_european_visionary_thinker
+				remove_province_modifier = capital_european_competent_placeholder
+				remove_province_modifier = capital_european_imperious_autocrat
+				remove_province_modifier = capital_european_prince_of_terror
+				remove_province_modifier = capital_european_efficient_sociopath
+				remove_province_modifier = capital_european_pig_headed_isolationist
+				remove_province_modifier = capital_european_ambitious_union_boss
+				remove_province_modifier = capital_european_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = european_administrative_genius duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_european_administrative_genius duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
 
 	# Dictatorships - any
 	country_event = {
-		id = 400050014
+		id = 130050014
 		title = "EVTNAMELEADEREMERGES"
 		desc = "EVTDESC100050014"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = germanic
-				is_culture_group = beneluxian
-				is_culture_group = scandinavian
-				is_culture_group = pan_british
-				is_culture_group = italian
-				is_culture_group = pan_french
-				is_culture_group = pan_romanian
-				is_culture_group = pan_albanian
-				is_culture_group = hungarian_culture_group
-				is_culture_group = south_slavic
-				is_culture_group = polish_culture_group
-				is_culture_group = czecho_slovak_culture_group
-				is_culture_group = baltic
-				is_culture_group = levantine
-				is_culture_group = jewish_cultures
-				is_culture_group = american_cultures
-				is_culture_group = neo_european_cultures
-			}
+                is_culture_group = germanic
+                is_culture_group = beneluxian
+                is_culture_group = scandinavian
+                is_culture_group = pan_british
+                is_culture_group = italian
+                is_culture_group = pan_french
+                is_culture_group = pan_romanian
+                is_culture_group = pan_albanian
+                is_culture_group = hungarian_culture_group
+                is_culture_group = south_slavic
+                is_culture_group = polish_culture_group
+                is_culture_group = czecho_slovak_culture_group
+                is_culture_group = baltic
+                is_culture_group = levantine
+                is_culture_group = jewish_cultures
+                is_culture_group = american_cultures
+                is_culture_group = neo_european_cultures
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -2087,9 +2783,38 @@
 			remove_country_modifier = european_pig_headed_isolationist
 			remove_country_modifier = european_ambitious_union_boss
 			remove_country_modifier = european_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_european_expert_diplomat
+				remove_province_modifier = capital_european_successful_industrialist
+				remove_province_modifier = capital_european_ivory_tower_intellectual
+				remove_province_modifier = capital_european_man_of_the_people
+				remove_province_modifier = capital_european_landed_gentleman
+				remove_province_modifier = capital_european_military_man
+				remove_province_modifier = capital_european_lord_admiral
+				remove_province_modifier = capital_european_raving_loon
+				remove_province_modifier = capital_european_luddite
+				remove_province_modifier = capital_european_great_statesman
+				remove_province_modifier = capital_european_backroom_boy
+				remove_province_modifier = capital_european_great_reformer
+				remove_province_modifier = capital_european_gauche_buffoon
+				remove_province_modifier = capital_european_administrative_genius
+				remove_province_modifier = capital_european_visionary_thinker
+				remove_province_modifier = capital_european_competent_placeholder
+				remove_province_modifier = capital_european_imperious_autocrat
+				remove_province_modifier = capital_european_prince_of_terror
+				remove_province_modifier = capital_european_efficient_sociopath
+				remove_province_modifier = capital_european_pig_headed_isolationist
+				remove_province_modifier = capital_european_ambitious_union_boss
+				remove_province_modifier = capital_european_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = european_administrative_genius duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_european_administrative_genius duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -2098,31 +2823,31 @@
 
 	# Non-Dictatorships - any
 	country_event = {
-		id = 400040015
+		id = 130040015
 		title = "EVTNAMEMINISTERAPPOINTED"
 		desc = "EVTDESC100040015"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = germanic
-				is_culture_group = beneluxian
-				is_culture_group = scandinavian
-				is_culture_group = pan_british
-				is_culture_group = italian
-				is_culture_group = pan_french
-				is_culture_group = pan_romanian
-				is_culture_group = pan_albanian
-				is_culture_group = hungarian_culture_group
-				is_culture_group = south_slavic
-				is_culture_group = polish_culture_group
-				is_culture_group = czecho_slovak_culture_group
-				is_culture_group = baltic
-				is_culture_group = levantine
-				is_culture_group = jewish_cultures
-				is_culture_group = american_cultures
-				is_culture_group = neo_european_cultures
-			}
+                is_culture_group = germanic
+                is_culture_group = beneluxian
+                is_culture_group = scandinavian
+                is_culture_group = pan_british
+                is_culture_group = italian
+                is_culture_group = pan_french
+                is_culture_group = pan_romanian
+                is_culture_group = pan_albanian
+                is_culture_group = hungarian_culture_group
+                is_culture_group = south_slavic
+                is_culture_group = polish_culture_group
+                is_culture_group = czecho_slovak_culture_group
+                is_culture_group = baltic
+                is_culture_group = levantine
+                is_culture_group = jewish_cultures
+                is_culture_group = american_cultures
+                is_culture_group = neo_european_cultures
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -2179,39 +2904,68 @@
 			remove_country_modifier = european_pig_headed_isolationist
 			remove_country_modifier = european_ambitious_union_boss
 			remove_country_modifier = european_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_european_expert_diplomat
+				remove_province_modifier = capital_european_successful_industrialist
+				remove_province_modifier = capital_european_ivory_tower_intellectual
+				remove_province_modifier = capital_european_man_of_the_people
+				remove_province_modifier = capital_european_landed_gentleman
+				remove_province_modifier = capital_european_military_man
+				remove_province_modifier = capital_european_lord_admiral
+				remove_province_modifier = capital_european_raving_loon
+				remove_province_modifier = capital_european_luddite
+				remove_province_modifier = capital_european_great_statesman
+				remove_province_modifier = capital_european_backroom_boy
+				remove_province_modifier = capital_european_great_reformer
+				remove_province_modifier = capital_european_gauche_buffoon
+				remove_province_modifier = capital_european_administrative_genius
+				remove_province_modifier = capital_european_visionary_thinker
+				remove_province_modifier = capital_european_competent_placeholder
+				remove_province_modifier = capital_european_imperious_autocrat
+				remove_province_modifier = capital_european_prince_of_terror
+				remove_province_modifier = capital_european_efficient_sociopath
+				remove_province_modifier = capital_european_pig_headed_isolationist
+				remove_province_modifier = capital_european_ambitious_union_boss
+				remove_province_modifier = capital_european_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = european_visionary_thinker duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_european_visionary_thinker duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
 
 	# Dictatorships - any
 	country_event = {
-		id = 400050015
+		id = 130050015
 		title = "EVTNAMELEADEREMERGES"
 		desc = "EVTDESC100050015"
 		picture = "danishgovernment"
 		trigger = {
 			OR = {
-				is_culture_group = germanic
-				is_culture_group = beneluxian
-				is_culture_group = scandinavian
-				is_culture_group = pan_british
-				is_culture_group = italian
-				is_culture_group = pan_french
-				is_culture_group = pan_romanian
-				is_culture_group = pan_albanian
-				is_culture_group = hungarian_culture_group
-				is_culture_group = south_slavic
-				is_culture_group = polish_culture_group
-				is_culture_group = czecho_slovak_culture_group
-				is_culture_group = baltic
-				is_culture_group = levantine
-				is_culture_group = jewish_cultures
-				is_culture_group = american_cultures
-				is_culture_group = neo_european_cultures
-			}
+                is_culture_group = germanic
+                is_culture_group = beneluxian
+                is_culture_group = scandinavian
+                is_culture_group = pan_british
+                is_culture_group = italian
+                is_culture_group = pan_french
+                is_culture_group = pan_romanian
+                is_culture_group = pan_albanian
+                is_culture_group = hungarian_culture_group
+                is_culture_group = south_slavic
+                is_culture_group = polish_culture_group
+                is_culture_group = czecho_slovak_culture_group
+                is_culture_group = baltic
+                is_culture_group = levantine
+                is_culture_group = jewish_cultures
+                is_culture_group = american_cultures
+                is_culture_group = neo_european_cultures
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -2254,9 +3008,38 @@
 			remove_country_modifier = european_pig_headed_isolationist
 			remove_country_modifier = european_ambitious_union_boss
 			remove_country_modifier = european_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_european_expert_diplomat
+				remove_province_modifier = capital_european_successful_industrialist
+				remove_province_modifier = capital_european_ivory_tower_intellectual
+				remove_province_modifier = capital_european_man_of_the_people
+				remove_province_modifier = capital_european_landed_gentleman
+				remove_province_modifier = capital_european_military_man
+				remove_province_modifier = capital_european_lord_admiral
+				remove_province_modifier = capital_european_raving_loon
+				remove_province_modifier = capital_european_luddite
+				remove_province_modifier = capital_european_great_statesman
+				remove_province_modifier = capital_european_backroom_boy
+				remove_province_modifier = capital_european_great_reformer
+				remove_province_modifier = capital_european_gauche_buffoon
+				remove_province_modifier = capital_european_administrative_genius
+				remove_province_modifier = capital_european_visionary_thinker
+				remove_province_modifier = capital_european_competent_placeholder
+				remove_province_modifier = capital_european_imperious_autocrat
+				remove_province_modifier = capital_european_prince_of_terror
+				remove_province_modifier = capital_european_efficient_sociopath
+				remove_province_modifier = capital_european_pig_headed_isolationist
+				remove_province_modifier = capital_european_ambitious_union_boss
+				remove_province_modifier = capital_european_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = european_visionary_thinker duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_european_visionary_thinker duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -2265,31 +3048,31 @@
 
 	# Non-Dictatorships - any
 	country_event = {
-		id = 400040016
+		id = 130040016
 		title = "EVTNAMEMINISTERAPPOINTED"
 		desc = "EVTDESC100040016"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = germanic
-				is_culture_group = beneluxian
-				is_culture_group = scandinavian
-				is_culture_group = pan_british
-				is_culture_group = italian
-				is_culture_group = pan_french
-				is_culture_group = pan_romanian
-				is_culture_group = pan_albanian
-				is_culture_group = hungarian_culture_group
-				is_culture_group = south_slavic
-				is_culture_group = polish_culture_group
-				is_culture_group = czecho_slovak_culture_group
-				is_culture_group = baltic
-				is_culture_group = levantine
-				is_culture_group = jewish_cultures
-				is_culture_group = american_cultures
-				is_culture_group = neo_european_cultures
-			}
+                is_culture_group = germanic
+                is_culture_group = beneluxian
+                is_culture_group = scandinavian
+                is_culture_group = pan_british
+                is_culture_group = italian
+                is_culture_group = pan_french
+                is_culture_group = pan_romanian
+                is_culture_group = pan_albanian
+                is_culture_group = hungarian_culture_group
+                is_culture_group = south_slavic
+                is_culture_group = polish_culture_group
+                is_culture_group = czecho_slovak_culture_group
+                is_culture_group = baltic
+                is_culture_group = levantine
+                is_culture_group = jewish_cultures
+                is_culture_group = american_cultures
+                is_culture_group = neo_european_cultures
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -2346,9 +3129,38 @@
 			remove_country_modifier = european_pig_headed_isolationist
 			remove_country_modifier = european_ambitious_union_boss
 			remove_country_modifier = european_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_european_expert_diplomat
+				remove_province_modifier = capital_european_successful_industrialist
+				remove_province_modifier = capital_european_ivory_tower_intellectual
+				remove_province_modifier = capital_european_man_of_the_people
+				remove_province_modifier = capital_european_landed_gentleman
+				remove_province_modifier = capital_european_military_man
+				remove_province_modifier = capital_european_lord_admiral
+				remove_province_modifier = capital_european_raving_loon
+				remove_province_modifier = capital_european_luddite
+				remove_province_modifier = capital_european_great_statesman
+				remove_province_modifier = capital_european_backroom_boy
+				remove_province_modifier = capital_european_great_reformer
+				remove_province_modifier = capital_european_gauche_buffoon
+				remove_province_modifier = capital_european_administrative_genius
+				remove_province_modifier = capital_european_visionary_thinker
+				remove_province_modifier = capital_european_competent_placeholder
+				remove_province_modifier = capital_european_imperious_autocrat
+				remove_province_modifier = capital_european_prince_of_terror
+				remove_province_modifier = capital_european_efficient_sociopath
+				remove_province_modifier = capital_european_pig_headed_isolationist
+				remove_province_modifier = capital_european_ambitious_union_boss
+				remove_province_modifier = capital_european_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = european_competent_placeholder duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_european_competent_placeholder duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -2357,31 +3169,31 @@
 
 	# Non-Dictatorships - monarchy or conservative
 	country_event = {
-		id = 400040017
+		id = 130040017
 		title = "EVTNAMEMINISTERAPPOINTED"
 		desc = "EVTDESC100040017"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = germanic
-				is_culture_group = beneluxian
-				is_culture_group = scandinavian
-				is_culture_group = pan_british
-				is_culture_group = italian
-				is_culture_group = pan_french
-				is_culture_group = pan_romanian
-				is_culture_group = pan_albanian
-				is_culture_group = hungarian_culture_group
-				is_culture_group = south_slavic
-				is_culture_group = polish_culture_group
-				is_culture_group = czecho_slovak_culture_group
-				is_culture_group = baltic
-				is_culture_group = levantine
-				is_culture_group = jewish_cultures
-				is_culture_group = american_cultures
-				is_culture_group = neo_european_cultures
-			}
+                is_culture_group = germanic
+                is_culture_group = beneluxian
+                is_culture_group = scandinavian
+                is_culture_group = pan_british
+                is_culture_group = italian
+                is_culture_group = pan_french
+                is_culture_group = pan_romanian
+                is_culture_group = pan_albanian
+                is_culture_group = hungarian_culture_group
+                is_culture_group = south_slavic
+                is_culture_group = polish_culture_group
+                is_culture_group = czecho_slovak_culture_group
+                is_culture_group = baltic
+                is_culture_group = levantine
+                is_culture_group = jewish_cultures
+                is_culture_group = american_cultures
+                is_culture_group = neo_european_cultures
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -2433,40 +3245,69 @@
 			remove_country_modifier = european_pig_headed_isolationist
 			remove_country_modifier = european_ambitious_union_boss
 			remove_country_modifier = european_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_european_expert_diplomat
+				remove_province_modifier = capital_european_successful_industrialist
+				remove_province_modifier = capital_european_ivory_tower_intellectual
+				remove_province_modifier = capital_european_man_of_the_people
+				remove_province_modifier = capital_european_landed_gentleman
+				remove_province_modifier = capital_european_military_man
+				remove_province_modifier = capital_european_lord_admiral
+				remove_province_modifier = capital_european_raving_loon
+				remove_province_modifier = capital_european_luddite
+				remove_province_modifier = capital_european_great_statesman
+				remove_province_modifier = capital_european_backroom_boy
+				remove_province_modifier = capital_european_great_reformer
+				remove_province_modifier = capital_european_gauche_buffoon
+				remove_province_modifier = capital_european_administrative_genius
+				remove_province_modifier = capital_european_visionary_thinker
+				remove_province_modifier = capital_european_competent_placeholder
+				remove_province_modifier = capital_european_imperious_autocrat
+				remove_province_modifier = capital_european_prince_of_terror
+				remove_province_modifier = capital_european_efficient_sociopath
+				remove_province_modifier = capital_european_pig_headed_isolationist
+				remove_province_modifier = capital_european_ambitious_union_boss
+				remove_province_modifier = capital_european_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = european_imperious_autocrat duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_european_imperious_autocrat duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
 
 	# Dictatorships - non-communist
 	country_event = {
-		id = 400050017
+		id = 130050017
 		title = "EVTNAMELEADEREMERGES"
 		desc = "EVTDESC100050017"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = germanic
-				is_culture_group = beneluxian
-				is_culture_group = scandinavian
-				is_culture_group = pan_british
-				is_culture_group = italian
-				is_culture_group = pan_french
-				is_culture_group = pan_romanian
-				is_culture_group = pan_albanian
-				is_culture_group = hungarian_culture_group
-				is_culture_group = south_slavic
-				is_culture_group = polish_culture_group
-				is_culture_group = czecho_slovak_culture_group
-				is_culture_group = baltic
-				is_culture_group = levantine
-				is_culture_group = jewish_cultures
-				is_culture_group = american_cultures
-				is_culture_group = neo_european_cultures
-			}
+                is_culture_group = germanic
+                is_culture_group = beneluxian
+                is_culture_group = scandinavian
+                is_culture_group = pan_british
+                is_culture_group = italian
+                is_culture_group = pan_french
+                is_culture_group = pan_romanian
+                is_culture_group = pan_albanian
+                is_culture_group = hungarian_culture_group
+                is_culture_group = south_slavic
+                is_culture_group = polish_culture_group
+                is_culture_group = czecho_slovak_culture_group
+                is_culture_group = baltic
+                is_culture_group = levantine
+                is_culture_group = jewish_cultures
+                is_culture_group = american_cultures
+                is_culture_group = neo_european_cultures
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -2508,9 +3349,38 @@
 			remove_country_modifier = european_pig_headed_isolationist
 			remove_country_modifier = european_ambitious_union_boss
 			remove_country_modifier = european_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_european_expert_diplomat
+				remove_province_modifier = capital_european_successful_industrialist
+				remove_province_modifier = capital_european_ivory_tower_intellectual
+				remove_province_modifier = capital_european_man_of_the_people
+				remove_province_modifier = capital_european_landed_gentleman
+				remove_province_modifier = capital_european_military_man
+				remove_province_modifier = capital_european_lord_admiral
+				remove_province_modifier = capital_european_raving_loon
+				remove_province_modifier = capital_european_luddite
+				remove_province_modifier = capital_european_great_statesman
+				remove_province_modifier = capital_european_backroom_boy
+				remove_province_modifier = capital_european_great_reformer
+				remove_province_modifier = capital_european_gauche_buffoon
+				remove_province_modifier = capital_european_administrative_genius
+				remove_province_modifier = capital_european_visionary_thinker
+				remove_province_modifier = capital_european_competent_placeholder
+				remove_province_modifier = capital_european_imperious_autocrat
+				remove_province_modifier = capital_european_prince_of_terror
+				remove_province_modifier = capital_european_efficient_sociopath
+				remove_province_modifier = capital_european_pig_headed_isolationist
+				remove_province_modifier = capital_european_ambitious_union_boss
+				remove_province_modifier = capital_european_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = european_imperious_autocrat duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_european_imperious_autocrat duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -2519,31 +3389,31 @@
 
 	# Non-Dictatorships - monarchy
 	country_event = {
-		id = 400040018
+		id = 130040018
 		title = "EVTNAMEMINISTERAPPOINTED"
 		desc = "EVTDESC100040018"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = germanic
-				is_culture_group = beneluxian
-				is_culture_group = scandinavian
-				is_culture_group = pan_british
-				is_culture_group = italian
-				is_culture_group = pan_french
-				is_culture_group = pan_romanian
-				is_culture_group = pan_albanian
-				is_culture_group = hungarian_culture_group
-				is_culture_group = south_slavic
-				is_culture_group = polish_culture_group
-				is_culture_group = czecho_slovak_culture_group
-				is_culture_group = baltic
-				is_culture_group = levantine
-				is_culture_group = jewish_cultures
-				is_culture_group = american_cultures
-				is_culture_group = neo_european_cultures
-			}
+                is_culture_group = germanic
+                is_culture_group = beneluxian
+                is_culture_group = scandinavian
+                is_culture_group = pan_british
+                is_culture_group = italian
+                is_culture_group = pan_french
+                is_culture_group = pan_romanian
+                is_culture_group = pan_albanian
+                is_culture_group = hungarian_culture_group
+                is_culture_group = south_slavic
+                is_culture_group = polish_culture_group
+                is_culture_group = czecho_slovak_culture_group
+                is_culture_group = baltic
+                is_culture_group = levantine
+                is_culture_group = jewish_cultures
+                is_culture_group = american_cultures
+                is_culture_group = neo_european_cultures
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -2584,40 +3454,69 @@
 			remove_country_modifier = european_pig_headed_isolationist
 			remove_country_modifier = european_ambitious_union_boss
 			remove_country_modifier = european_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_european_expert_diplomat
+				remove_province_modifier = capital_european_successful_industrialist
+				remove_province_modifier = capital_european_ivory_tower_intellectual
+				remove_province_modifier = capital_european_man_of_the_people
+				remove_province_modifier = capital_european_landed_gentleman
+				remove_province_modifier = capital_european_military_man
+				remove_province_modifier = capital_european_lord_admiral
+				remove_province_modifier = capital_european_raving_loon
+				remove_province_modifier = capital_european_luddite
+				remove_province_modifier = capital_european_great_statesman
+				remove_province_modifier = capital_european_backroom_boy
+				remove_province_modifier = capital_european_great_reformer
+				remove_province_modifier = capital_european_gauche_buffoon
+				remove_province_modifier = capital_european_administrative_genius
+				remove_province_modifier = capital_european_visionary_thinker
+				remove_province_modifier = capital_european_competent_placeholder
+				remove_province_modifier = capital_european_imperious_autocrat
+				remove_province_modifier = capital_european_prince_of_terror
+				remove_province_modifier = capital_european_efficient_sociopath
+				remove_province_modifier = capital_european_pig_headed_isolationist
+				remove_province_modifier = capital_european_ambitious_union_boss
+				remove_province_modifier = capital_european_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = european_prince_of_terror duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_european_prince_of_terror duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
 
 	# Dictatorships - non-bourgeois
 	country_event = {
-		id = 400050018
+		id = 130050018
 		title = "EVTNAMELEADEREMERGES"
 		desc = "EVTDESC100050018"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = germanic
-				is_culture_group = beneluxian
-				is_culture_group = scandinavian
-				is_culture_group = pan_british
-				is_culture_group = italian
-				is_culture_group = pan_french
-				is_culture_group = pan_romanian
-				is_culture_group = pan_albanian
-				is_culture_group = hungarian_culture_group
-				is_culture_group = south_slavic
-				is_culture_group = polish_culture_group
-				is_culture_group = czecho_slovak_culture_group
-				is_culture_group = baltic
-				is_culture_group = levantine
-				is_culture_group = jewish_cultures
-				is_culture_group = american_cultures
-				is_culture_group = neo_european_cultures
-			}
+                is_culture_group = germanic
+                is_culture_group = beneluxian
+                is_culture_group = scandinavian
+                is_culture_group = pan_british
+                is_culture_group = italian
+                is_culture_group = pan_french
+                is_culture_group = pan_romanian
+                is_culture_group = pan_albanian
+                is_culture_group = hungarian_culture_group
+                is_culture_group = south_slavic
+                is_culture_group = polish_culture_group
+                is_culture_group = czecho_slovak_culture_group
+                is_culture_group = baltic
+                is_culture_group = levantine
+                is_culture_group = jewish_cultures
+                is_culture_group = american_cultures
+                is_culture_group = neo_european_cultures
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -2659,9 +3558,38 @@
 			remove_country_modifier = european_pig_headed_isolationist
 			remove_country_modifier = european_ambitious_union_boss
 			remove_country_modifier = european_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_european_expert_diplomat
+				remove_province_modifier = capital_european_successful_industrialist
+				remove_province_modifier = capital_european_ivory_tower_intellectual
+				remove_province_modifier = capital_european_man_of_the_people
+				remove_province_modifier = capital_european_landed_gentleman
+				remove_province_modifier = capital_european_military_man
+				remove_province_modifier = capital_european_lord_admiral
+				remove_province_modifier = capital_european_raving_loon
+				remove_province_modifier = capital_european_luddite
+				remove_province_modifier = capital_european_great_statesman
+				remove_province_modifier = capital_european_backroom_boy
+				remove_province_modifier = capital_european_great_reformer
+				remove_province_modifier = capital_european_gauche_buffoon
+				remove_province_modifier = capital_european_administrative_genius
+				remove_province_modifier = capital_european_visionary_thinker
+				remove_province_modifier = capital_european_competent_placeholder
+				remove_province_modifier = capital_european_imperious_autocrat
+				remove_province_modifier = capital_european_prince_of_terror
+				remove_province_modifier = capital_european_efficient_sociopath
+				remove_province_modifier = capital_european_pig_headed_isolationist
+				remove_province_modifier = capital_european_ambitious_union_boss
+				remove_province_modifier = capital_european_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = european_prince_of_terror duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_european_prince_of_terror duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -2670,31 +3598,31 @@
 
 	# Non-Dictatorships - monarchy or socialist
 	country_event = {
-		id = 400040019
+		id = 130040019
 		title = "EVTNAMEMINISTERAPPOINTED"
 		desc = "EVTDESC100040019"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = germanic
-				is_culture_group = beneluxian
-				is_culture_group = scandinavian
-				is_culture_group = pan_british
-				is_culture_group = italian
-				is_culture_group = pan_french
-				is_culture_group = pan_romanian
-				is_culture_group = pan_albanian
-				is_culture_group = hungarian_culture_group
-				is_culture_group = south_slavic
-				is_culture_group = polish_culture_group
-				is_culture_group = czecho_slovak_culture_group
-				is_culture_group = baltic
-				is_culture_group = levantine
-				is_culture_group = jewish_cultures
-				is_culture_group = american_cultures
-				is_culture_group = neo_european_cultures
-			}
+                is_culture_group = germanic
+                is_culture_group = beneluxian
+                is_culture_group = scandinavian
+                is_culture_group = pan_british
+                is_culture_group = italian
+                is_culture_group = pan_french
+                is_culture_group = pan_romanian
+                is_culture_group = pan_albanian
+                is_culture_group = hungarian_culture_group
+                is_culture_group = south_slavic
+                is_culture_group = polish_culture_group
+                is_culture_group = czecho_slovak_culture_group
+                is_culture_group = baltic
+                is_culture_group = levantine
+                is_culture_group = jewish_cultures
+                is_culture_group = american_cultures
+                is_culture_group = neo_european_cultures
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -2746,40 +3674,69 @@
 			remove_country_modifier = european_pig_headed_isolationist
 			remove_country_modifier = european_ambitious_union_boss
 			remove_country_modifier = european_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_european_expert_diplomat
+				remove_province_modifier = capital_european_successful_industrialist
+				remove_province_modifier = capital_european_ivory_tower_intellectual
+				remove_province_modifier = capital_european_man_of_the_people
+				remove_province_modifier = capital_european_landed_gentleman
+				remove_province_modifier = capital_european_military_man
+				remove_province_modifier = capital_european_lord_admiral
+				remove_province_modifier = capital_european_raving_loon
+				remove_province_modifier = capital_european_luddite
+				remove_province_modifier = capital_european_great_statesman
+				remove_province_modifier = capital_european_backroom_boy
+				remove_province_modifier = capital_european_great_reformer
+				remove_province_modifier = capital_european_gauche_buffoon
+				remove_province_modifier = capital_european_administrative_genius
+				remove_province_modifier = capital_european_visionary_thinker
+				remove_province_modifier = capital_european_competent_placeholder
+				remove_province_modifier = capital_european_imperious_autocrat
+				remove_province_modifier = capital_european_prince_of_terror
+				remove_province_modifier = capital_european_efficient_sociopath
+				remove_province_modifier = capital_european_pig_headed_isolationist
+				remove_province_modifier = capital_european_ambitious_union_boss
+				remove_province_modifier = capital_european_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = european_efficient_sociopath duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_european_efficient_sociopath duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
 
 	# Dictatorships - non-bourgeois
 	country_event = {
-		id = 400050019
+		id = 130050019
 		title = "EVTNAMELEADEREMERGES"
 		desc = "EVTDESC100050019"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = germanic
-				is_culture_group = beneluxian
-				is_culture_group = scandinavian
-				is_culture_group = pan_british
-				is_culture_group = italian
-				is_culture_group = pan_french
-				is_culture_group = pan_romanian
-				is_culture_group = pan_albanian
-				is_culture_group = hungarian_culture_group
-				is_culture_group = south_slavic
-				is_culture_group = polish_culture_group
-				is_culture_group = czecho_slovak_culture_group
-				is_culture_group = baltic
-				is_culture_group = levantine
-				is_culture_group = jewish_cultures
-				is_culture_group = american_cultures
-				is_culture_group = neo_european_cultures
-			}
+                is_culture_group = germanic
+                is_culture_group = beneluxian
+                is_culture_group = scandinavian
+                is_culture_group = pan_british
+                is_culture_group = italian
+                is_culture_group = pan_french
+                is_culture_group = pan_romanian
+                is_culture_group = pan_albanian
+                is_culture_group = hungarian_culture_group
+                is_culture_group = south_slavic
+                is_culture_group = polish_culture_group
+                is_culture_group = czecho_slovak_culture_group
+                is_culture_group = baltic
+                is_culture_group = levantine
+                is_culture_group = jewish_cultures
+                is_culture_group = american_cultures
+                is_culture_group = neo_european_cultures
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -2821,9 +3778,38 @@
 			remove_country_modifier = european_pig_headed_isolationist
 			remove_country_modifier = european_ambitious_union_boss
 			remove_country_modifier = european_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_european_expert_diplomat
+				remove_province_modifier = capital_european_successful_industrialist
+				remove_province_modifier = capital_european_ivory_tower_intellectual
+				remove_province_modifier = capital_european_man_of_the_people
+				remove_province_modifier = capital_european_landed_gentleman
+				remove_province_modifier = capital_european_military_man
+				remove_province_modifier = capital_european_lord_admiral
+				remove_province_modifier = capital_european_raving_loon
+				remove_province_modifier = capital_european_luddite
+				remove_province_modifier = capital_european_great_statesman
+				remove_province_modifier = capital_european_backroom_boy
+				remove_province_modifier = capital_european_great_reformer
+				remove_province_modifier = capital_european_gauche_buffoon
+				remove_province_modifier = capital_european_administrative_genius
+				remove_province_modifier = capital_european_visionary_thinker
+				remove_province_modifier = capital_european_competent_placeholder
+				remove_province_modifier = capital_european_imperious_autocrat
+				remove_province_modifier = capital_european_prince_of_terror
+				remove_province_modifier = capital_european_efficient_sociopath
+				remove_province_modifier = capital_european_pig_headed_isolationist
+				remove_province_modifier = capital_european_ambitious_union_boss
+				remove_province_modifier = capital_european_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = european_efficient_sociopath duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_european_efficient_sociopath duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -2832,31 +3818,31 @@
 
 	# Non-Dictatorships - non-liberal
 	country_event = {
-		id = 400040020
+		id = 130040020
 		title = "EVTNAMEMINISTERAPPOINTED"
 		desc = "EVTDESC100040020"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = germanic
-				is_culture_group = beneluxian
-				is_culture_group = scandinavian
-				is_culture_group = pan_british
-				is_culture_group = italian
-				is_culture_group = pan_french
-				is_culture_group = pan_romanian
-				is_culture_group = pan_albanian
-				is_culture_group = hungarian_culture_group
-				is_culture_group = south_slavic
-				is_culture_group = polish_culture_group
-				is_culture_group = czecho_slovak_culture_group
-				is_culture_group = baltic
-				is_culture_group = levantine
-				is_culture_group = jewish_cultures
-				is_culture_group = american_cultures
-				is_culture_group = neo_european_cultures
-			}
+                is_culture_group = germanic
+                is_culture_group = beneluxian
+                is_culture_group = scandinavian
+                is_culture_group = pan_british
+                is_culture_group = italian
+                is_culture_group = pan_french
+                is_culture_group = pan_romanian
+                is_culture_group = pan_albanian
+                is_culture_group = hungarian_culture_group
+                is_culture_group = south_slavic
+                is_culture_group = polish_culture_group
+                is_culture_group = czecho_slovak_culture_group
+                is_culture_group = baltic
+                is_culture_group = levantine
+                is_culture_group = jewish_cultures
+                is_culture_group = american_cultures
+                is_culture_group = neo_european_cultures
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -2911,39 +3897,68 @@
 			remove_country_modifier = european_pig_headed_isolationist
 			remove_country_modifier = european_ambitious_union_boss
 			remove_country_modifier = european_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_european_expert_diplomat
+				remove_province_modifier = capital_european_successful_industrialist
+				remove_province_modifier = capital_european_ivory_tower_intellectual
+				remove_province_modifier = capital_european_man_of_the_people
+				remove_province_modifier = capital_european_landed_gentleman
+				remove_province_modifier = capital_european_military_man
+				remove_province_modifier = capital_european_lord_admiral
+				remove_province_modifier = capital_european_raving_loon
+				remove_province_modifier = capital_european_luddite
+				remove_province_modifier = capital_european_great_statesman
+				remove_province_modifier = capital_european_backroom_boy
+				remove_province_modifier = capital_european_great_reformer
+				remove_province_modifier = capital_european_gauche_buffoon
+				remove_province_modifier = capital_european_administrative_genius
+				remove_province_modifier = capital_european_visionary_thinker
+				remove_province_modifier = capital_european_competent_placeholder
+				remove_province_modifier = capital_european_imperious_autocrat
+				remove_province_modifier = capital_european_prince_of_terror
+				remove_province_modifier = capital_european_efficient_sociopath
+				remove_province_modifier = capital_european_pig_headed_isolationist
+				remove_province_modifier = capital_european_ambitious_union_boss
+				remove_province_modifier = capital_european_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = european_pig_headed_isolationist duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_european_pig_headed_isolationist duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
 
 	# Dictatorships - any
 	country_event = {
-		id = 400050020
+		id = 130050020
 		title = "EVTNAMELEADEREMERGES"
 		desc = "EVTDESC100050020"
 		picture = "danishgovernment"
 		trigger = {
 			OR = {
-				is_culture_group = germanic
-				is_culture_group = beneluxian
-				is_culture_group = scandinavian
-				is_culture_group = pan_british
-				is_culture_group = italian
-				is_culture_group = pan_french
-				is_culture_group = pan_romanian
-				is_culture_group = pan_albanian
-				is_culture_group = hungarian_culture_group
-				is_culture_group = south_slavic
-				is_culture_group = polish_culture_group
-				is_culture_group = czecho_slovak_culture_group
-				is_culture_group = baltic
-				is_culture_group = levantine
-				is_culture_group = jewish_cultures
-				is_culture_group = american_cultures
-				is_culture_group = neo_european_cultures
-			}
+                is_culture_group = germanic
+                is_culture_group = beneluxian
+                is_culture_group = scandinavian
+                is_culture_group = pan_british
+                is_culture_group = italian
+                is_culture_group = pan_french
+                is_culture_group = pan_romanian
+                is_culture_group = pan_albanian
+                is_culture_group = hungarian_culture_group
+                is_culture_group = south_slavic
+                is_culture_group = polish_culture_group
+                is_culture_group = czecho_slovak_culture_group
+                is_culture_group = baltic
+                is_culture_group = levantine
+                is_culture_group = jewish_cultures
+                is_culture_group = american_cultures
+                is_culture_group = neo_european_cultures
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -2986,9 +4001,38 @@
 			remove_country_modifier = european_pig_headed_isolationist
 			remove_country_modifier = european_ambitious_union_boss
 			remove_country_modifier = european_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_european_expert_diplomat
+				remove_province_modifier = capital_european_successful_industrialist
+				remove_province_modifier = capital_european_ivory_tower_intellectual
+				remove_province_modifier = capital_european_man_of_the_people
+				remove_province_modifier = capital_european_landed_gentleman
+				remove_province_modifier = capital_european_military_man
+				remove_province_modifier = capital_european_lord_admiral
+				remove_province_modifier = capital_european_raving_loon
+				remove_province_modifier = capital_european_luddite
+				remove_province_modifier = capital_european_great_statesman
+				remove_province_modifier = capital_european_backroom_boy
+				remove_province_modifier = capital_european_great_reformer
+				remove_province_modifier = capital_european_gauche_buffoon
+				remove_province_modifier = capital_european_administrative_genius
+				remove_province_modifier = capital_european_visionary_thinker
+				remove_province_modifier = capital_european_competent_placeholder
+				remove_province_modifier = capital_european_imperious_autocrat
+				remove_province_modifier = capital_european_prince_of_terror
+				remove_province_modifier = capital_european_efficient_sociopath
+				remove_province_modifier = capital_european_pig_headed_isolationist
+				remove_province_modifier = capital_european_ambitious_union_boss
+				remove_province_modifier = capital_european_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = european_pig_headed_isolationist duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_european_pig_headed_isolationist duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -2997,31 +4041,31 @@
 
 	# Non-Dictatorships - socialist
 	country_event = {
-		id = 400040021
+		id = 130040021
 		title = "EVTNAMEMINISTERAPPOINTED"
 		desc = "EVTDESC100040021"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = germanic
-				is_culture_group = beneluxian
-				is_culture_group = scandinavian
-				is_culture_group = pan_british
-				is_culture_group = italian
-				is_culture_group = pan_french
-				is_culture_group = pan_romanian
-				is_culture_group = pan_albanian
-				is_culture_group = hungarian_culture_group
-				is_culture_group = south_slavic
-				is_culture_group = polish_culture_group
-				is_culture_group = czecho_slovak_culture_group
-				is_culture_group = baltic
-				is_culture_group = levantine
-				is_culture_group = jewish_cultures
-				is_culture_group = american_cultures
-				is_culture_group = neo_european_cultures
-			}
+                is_culture_group = germanic
+                is_culture_group = beneluxian
+                is_culture_group = scandinavian
+                is_culture_group = pan_british
+                is_culture_group = italian
+                is_culture_group = pan_french
+                is_culture_group = pan_romanian
+                is_culture_group = pan_albanian
+                is_culture_group = hungarian_culture_group
+                is_culture_group = south_slavic
+                is_culture_group = polish_culture_group
+                is_culture_group = czecho_slovak_culture_group
+                is_culture_group = baltic
+                is_culture_group = levantine
+                is_culture_group = jewish_cultures
+                is_culture_group = american_cultures
+                is_culture_group = neo_european_cultures
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -3067,40 +4111,69 @@
 			remove_country_modifier = european_pig_headed_isolationist
 			remove_country_modifier = european_ambitious_union_boss
 			remove_country_modifier = european_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_european_expert_diplomat
+				remove_province_modifier = capital_european_successful_industrialist
+				remove_province_modifier = capital_european_ivory_tower_intellectual
+				remove_province_modifier = capital_european_man_of_the_people
+				remove_province_modifier = capital_european_landed_gentleman
+				remove_province_modifier = capital_european_military_man
+				remove_province_modifier = capital_european_lord_admiral
+				remove_province_modifier = capital_european_raving_loon
+				remove_province_modifier = capital_european_luddite
+				remove_province_modifier = capital_european_great_statesman
+				remove_province_modifier = capital_european_backroom_boy
+				remove_province_modifier = capital_european_great_reformer
+				remove_province_modifier = capital_european_gauche_buffoon
+				remove_province_modifier = capital_european_administrative_genius
+				remove_province_modifier = capital_european_visionary_thinker
+				remove_province_modifier = capital_european_competent_placeholder
+				remove_province_modifier = capital_european_imperious_autocrat
+				remove_province_modifier = capital_european_prince_of_terror
+				remove_province_modifier = capital_european_efficient_sociopath
+				remove_province_modifier = capital_european_pig_headed_isolationist
+				remove_province_modifier = capital_european_ambitious_union_boss
+				remove_province_modifier = capital_european_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = european_ambitious_union_boss duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_european_ambitious_union_boss duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
 
 	# Dictatorships - non-bourgeois
 	country_event = {
-		id = 400050022
+		id = 130050022
 		title = "EVTNAMELEADEREMERGES"
 		desc = "EVTDESC100050022"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = germanic
-				is_culture_group = beneluxian
-				is_culture_group = scandinavian
-				is_culture_group = pan_british
-				is_culture_group = italian
-				is_culture_group = pan_french
-				is_culture_group = pan_romanian
-				is_culture_group = pan_albanian
-				is_culture_group = hungarian_culture_group
-				is_culture_group = south_slavic
-				is_culture_group = polish_culture_group
-				is_culture_group = czecho_slovak_culture_group
-				is_culture_group = baltic
-				is_culture_group = levantine
-				is_culture_group = jewish_cultures
-				is_culture_group = american_cultures
-				is_culture_group = neo_european_cultures
-			}
+                is_culture_group = germanic
+                is_culture_group = beneluxian
+                is_culture_group = scandinavian
+                is_culture_group = pan_british
+                is_culture_group = italian
+                is_culture_group = pan_french
+                is_culture_group = pan_romanian
+                is_culture_group = pan_albanian
+                is_culture_group = hungarian_culture_group
+                is_culture_group = south_slavic
+                is_culture_group = polish_culture_group
+                is_culture_group = czecho_slovak_culture_group
+                is_culture_group = baltic
+                is_culture_group = levantine
+                is_culture_group = jewish_cultures
+                is_culture_group = american_cultures
+                is_culture_group = neo_european_cultures
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -3142,9 +4215,38 @@
 			remove_country_modifier = european_pig_headed_isolationist
 			remove_country_modifier = european_ambitious_union_boss
 			remove_country_modifier = european_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_european_expert_diplomat
+				remove_province_modifier = capital_european_successful_industrialist
+				remove_province_modifier = capital_european_ivory_tower_intellectual
+				remove_province_modifier = capital_european_man_of_the_people
+				remove_province_modifier = capital_european_landed_gentleman
+				remove_province_modifier = capital_european_military_man
+				remove_province_modifier = capital_european_lord_admiral
+				remove_province_modifier = capital_european_raving_loon
+				remove_province_modifier = capital_european_luddite
+				remove_province_modifier = capital_european_great_statesman
+				remove_province_modifier = capital_european_backroom_boy
+				remove_province_modifier = capital_european_great_reformer
+				remove_province_modifier = capital_european_gauche_buffoon
+				remove_province_modifier = capital_european_administrative_genius
+				remove_province_modifier = capital_european_visionary_thinker
+				remove_province_modifier = capital_european_competent_placeholder
+				remove_province_modifier = capital_european_imperious_autocrat
+				remove_province_modifier = capital_european_prince_of_terror
+				remove_province_modifier = capital_european_efficient_sociopath
+				remove_province_modifier = capital_european_pig_headed_isolationist
+				remove_province_modifier = capital_european_ambitious_union_boss
+				remove_province_modifier = capital_european_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = european_ambitious_union_boss duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_european_ambitious_union_boss duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -3153,31 +4255,31 @@
 
 	# Non-Dictatorships - conservative
 	country_event = {
-		id = 400070022
+		id = 130070022
 		title = "EVTNAMEMINISTERAPPOINTED"
 		desc = "EVTDESC100040022"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = germanic
-				is_culture_group = beneluxian
-				is_culture_group = scandinavian
-				is_culture_group = pan_british
-				is_culture_group = italian
-				is_culture_group = pan_french
-				is_culture_group = pan_romanian
-				is_culture_group = pan_albanian
-				is_culture_group = hungarian_culture_group
-				is_culture_group = south_slavic
-				is_culture_group = polish_culture_group
-				is_culture_group = czecho_slovak_culture_group
-				is_culture_group = baltic
-				is_culture_group = levantine
-				is_culture_group = jewish_cultures
-				is_culture_group = american_cultures
-				is_culture_group = neo_european_cultures
-			}
+                is_culture_group = germanic
+                is_culture_group = beneluxian
+                is_culture_group = scandinavian
+                is_culture_group = pan_british
+                is_culture_group = italian
+                is_culture_group = pan_french
+                is_culture_group = pan_romanian
+                is_culture_group = pan_albanian
+                is_culture_group = hungarian_culture_group
+                is_culture_group = south_slavic
+                is_culture_group = polish_culture_group
+                is_culture_group = czecho_slovak_culture_group
+                is_culture_group = baltic
+                is_culture_group = levantine
+                is_culture_group = jewish_cultures
+                is_culture_group = american_cultures
+                is_culture_group = neo_european_cultures
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -3223,40 +4325,69 @@
 			remove_country_modifier = european_pig_headed_isolationist
 			remove_country_modifier = european_ambitious_union_boss
 			remove_country_modifier = european_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_european_expert_diplomat
+				remove_province_modifier = capital_european_successful_industrialist
+				remove_province_modifier = capital_european_ivory_tower_intellectual
+				remove_province_modifier = capital_european_man_of_the_people
+				remove_province_modifier = capital_european_landed_gentleman
+				remove_province_modifier = capital_european_military_man
+				remove_province_modifier = capital_european_lord_admiral
+				remove_province_modifier = capital_european_raving_loon
+				remove_province_modifier = capital_european_luddite
+				remove_province_modifier = capital_european_great_statesman
+				remove_province_modifier = capital_european_backroom_boy
+				remove_province_modifier = capital_european_great_reformer
+				remove_province_modifier = capital_european_gauche_buffoon
+				remove_province_modifier = capital_european_administrative_genius
+				remove_province_modifier = capital_european_visionary_thinker
+				remove_province_modifier = capital_european_competent_placeholder
+				remove_province_modifier = capital_european_imperious_autocrat
+				remove_province_modifier = capital_european_prince_of_terror
+				remove_province_modifier = capital_european_efficient_sociopath
+				remove_province_modifier = capital_european_pig_headed_isolationist
+				remove_province_modifier = capital_european_ambitious_union_boss
+				remove_province_modifier = capital_european_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = european_dour_economist duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_european_dour_economist duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
 
 	# Dictatorships - non-fascist
 	country_event = {
-		id = 400050050
+		id = 130050050
 		title = "EVTNAMELEADEREMERGES"
 		desc = "EVTDESC100050050"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = germanic
-				is_culture_group = beneluxian
-				is_culture_group = scandinavian
-				is_culture_group = pan_british
-				is_culture_group = italian
-				is_culture_group = pan_french
-				is_culture_group = pan_romanian
-				is_culture_group = pan_albanian
-				is_culture_group = hungarian_culture_group
-				is_culture_group = south_slavic
-				is_culture_group = polish_culture_group
-				is_culture_group = czecho_slovak_culture_group
-				is_culture_group = baltic
-				is_culture_group = levantine
-				is_culture_group = jewish_cultures
-				is_culture_group = american_cultures
-				is_culture_group = neo_european_cultures
-			}
+                is_culture_group = germanic
+                is_culture_group = beneluxian
+                is_culture_group = scandinavian
+                is_culture_group = pan_british
+                is_culture_group = italian
+                is_culture_group = pan_french
+                is_culture_group = pan_romanian
+                is_culture_group = pan_albanian
+                is_culture_group = hungarian_culture_group
+                is_culture_group = south_slavic
+                is_culture_group = polish_culture_group
+                is_culture_group = czecho_slovak_culture_group
+                is_culture_group = baltic
+                is_culture_group = levantine
+                is_culture_group = jewish_cultures
+                is_culture_group = american_cultures
+                is_culture_group = neo_european_cultures
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -3298,9 +4429,38 @@
 			remove_country_modifier = european_pig_headed_isolationist
 			remove_country_modifier = european_ambitious_union_boss
 			remove_country_modifier = european_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_european_expert_diplomat
+				remove_province_modifier = capital_european_successful_industrialist
+				remove_province_modifier = capital_european_ivory_tower_intellectual
+				remove_province_modifier = capital_european_man_of_the_people
+				remove_province_modifier = capital_european_landed_gentleman
+				remove_province_modifier = capital_european_military_man
+				remove_province_modifier = capital_european_lord_admiral
+				remove_province_modifier = capital_european_raving_loon
+				remove_province_modifier = capital_european_luddite
+				remove_province_modifier = capital_european_great_statesman
+				remove_province_modifier = capital_european_backroom_boy
+				remove_province_modifier = capital_european_great_reformer
+				remove_province_modifier = capital_european_gauche_buffoon
+				remove_province_modifier = capital_european_administrative_genius
+				remove_province_modifier = capital_european_visionary_thinker
+				remove_province_modifier = capital_european_competent_placeholder
+				remove_province_modifier = capital_european_imperious_autocrat
+				remove_province_modifier = capital_european_prince_of_terror
+				remove_province_modifier = capital_european_efficient_sociopath
+				remove_province_modifier = capital_european_pig_headed_isolationist
+				remove_province_modifier = capital_european_ambitious_union_boss
+				remove_province_modifier = capital_european_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = european_dour_economist duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_european_dour_economist duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -3309,31 +4469,31 @@
 
 	# First Minister Assassinated
 	country_event = {
-		id = 400040120
+		id = 130040120
 		title = "EVTNAME100040120"
 		desc = "EVTDESC100040120"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = germanic
-				is_culture_group = beneluxian
-				is_culture_group = scandinavian
-				is_culture_group = pan_british
-				is_culture_group = italian
-				is_culture_group = pan_french
-				is_culture_group = pan_romanian
-				is_culture_group = pan_albanian
-				is_culture_group = hungarian_culture_group
-				is_culture_group = south_slavic
-				is_culture_group = polish_culture_group
-				is_culture_group = czecho_slovak_culture_group
-				is_culture_group = baltic
-				is_culture_group = levantine
-				is_culture_group = jewish_cultures
-				is_culture_group = american_cultures
-				is_culture_group = neo_european_cultures
-			}
+                is_culture_group = germanic
+                is_culture_group = beneluxian
+                is_culture_group = scandinavian
+                is_culture_group = pan_british
+                is_culture_group = italian
+                is_culture_group = pan_french
+                is_culture_group = pan_romanian
+                is_culture_group = pan_albanian
+                is_culture_group = hungarian_culture_group
+                is_culture_group = south_slavic
+                is_culture_group = polish_culture_group
+                is_culture_group = czecho_slovak_culture_group
+                is_culture_group = baltic
+                is_culture_group = levantine
+                is_culture_group = jewish_cultures
+                is_culture_group = american_cultures
+                is_culture_group = neo_european_cultures
+            }
 			OR = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -3375,6 +4535,29 @@
 			remove_country_modifier = european_pig_headed_isolationist
 			remove_country_modifier = european_ambitious_union_boss
 			remove_country_modifier = european_dour_economist
+			
+			remove_country_modifier = capital_european_expert_diplomat
+			remove_country_modifier = capital_european_successful_industrialist
+			remove_country_modifier = capital_european_ivory_tower_intellectual
+			remove_country_modifier = capital_european_man_of_the_people
+			remove_country_modifier = capital_european_landed_gentleman
+			remove_country_modifier = capital_european_military_man
+			remove_country_modifier = capital_european_lord_admiral
+			remove_country_modifier = capital_european_raving_loon
+			remove_country_modifier = capital_european_luddite
+			remove_country_modifier = capital_european_great_statesman
+			remove_country_modifier = capital_european_backroom_boy
+			remove_country_modifier = capital_european_great_reformer
+			remove_country_modifier = capital_european_gauche_buffoon
+			remove_country_modifier = capital_european_administrative_genius
+			remove_country_modifier = capital_european_visionary_thinker
+			remove_country_modifier = capital_european_competent_placeholder
+			remove_country_modifier = capital_european_imperious_autocrat
+			remove_country_modifier = capital_european_prince_of_terror
+			remove_country_modifier = capital_european_efficient_sociopath
+			remove_country_modifier = capital_european_pig_headed_isolationist
+			remove_country_modifier = capital_european_ambitious_union_boss
+			remove_country_modifier = capital_european_dour_economist
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = national_confusion duration = 365 }
@@ -3383,31 +4566,31 @@
 
 	# First Minister Dies
 	country_event = {
-		id = 400080123
+		id = 130080123
 		title = "EVTNAME100080123"
 		desc = "EVTDESC100080123"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = germanic
-				is_culture_group = beneluxian
-				is_culture_group = scandinavian
-				is_culture_group = pan_british
-				is_culture_group = italian
-				is_culture_group = pan_french
-				is_culture_group = pan_romanian
-				is_culture_group = pan_albanian
-				is_culture_group = hungarian_culture_group
-				is_culture_group = south_slavic
-				is_culture_group = polish_culture_group
-				is_culture_group = czecho_slovak_culture_group
-				is_culture_group = baltic
-				is_culture_group = levantine
-				is_culture_group = jewish_cultures
-				is_culture_group = american_cultures
-				is_culture_group = neo_european_cultures
-			}
+                is_culture_group = germanic
+                is_culture_group = beneluxian
+                is_culture_group = scandinavian
+                is_culture_group = pan_british
+                is_culture_group = italian
+                is_culture_group = pan_french
+                is_culture_group = pan_romanian
+                is_culture_group = pan_albanian
+                is_culture_group = hungarian_culture_group
+                is_culture_group = south_slavic
+                is_culture_group = polish_culture_group
+                is_culture_group = czecho_slovak_culture_group
+                is_culture_group = baltic
+                is_culture_group = levantine
+                is_culture_group = jewish_cultures
+                is_culture_group = american_cultures
+                is_culture_group = neo_european_cultures
+            }
 			NOT = {
 				has_country_flag = communist_gov
 				government = presidential_dictatorship
@@ -3449,6 +4632,29 @@
 			remove_country_modifier = european_pig_headed_isolationist
 			remove_country_modifier = european_ambitious_union_boss
 			remove_country_modifier = european_dour_economist
+			
+			remove_country_modifier = capital_european_expert_diplomat
+			remove_country_modifier = capital_european_successful_industrialist
+			remove_country_modifier = capital_european_ivory_tower_intellectual
+			remove_country_modifier = capital_european_man_of_the_people
+			remove_country_modifier = capital_european_landed_gentleman
+			remove_country_modifier = capital_european_military_man
+			remove_country_modifier = capital_european_lord_admiral
+			remove_country_modifier = capital_european_raving_loon
+			remove_country_modifier = capital_european_luddite
+			remove_country_modifier = capital_european_great_statesman
+			remove_country_modifier = capital_european_backroom_boy
+			remove_country_modifier = capital_european_great_reformer
+			remove_country_modifier = capital_european_gauche_buffoon
+			remove_country_modifier = capital_european_administrative_genius
+			remove_country_modifier = capital_european_visionary_thinker
+			remove_country_modifier = capital_european_competent_placeholder
+			remove_country_modifier = capital_european_imperious_autocrat
+			remove_country_modifier = capital_european_prince_of_terror
+			remove_country_modifier = capital_european_efficient_sociopath
+			remove_country_modifier = capital_european_pig_headed_isolationist
+			remove_country_modifier = capital_european_ambitious_union_boss
+			remove_country_modifier = capital_european_dour_economist
 			remove_country_modifier = has_political_leader
 			remove_country_modifier = otto_von_bismarck
 			remove_country_modifier = has_political_leader
@@ -3457,31 +4663,31 @@
 
 	# First Minister Committed
 	country_event = {
-		id = 400080124
+		id = 130080124
 		title = "EVTNAME100080124"
 		desc = "EVTDESC100080124"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = germanic
-				is_culture_group = beneluxian
-				is_culture_group = scandinavian
-				is_culture_group = pan_british
-				is_culture_group = italian
-				is_culture_group = pan_french
-				is_culture_group = pan_romanian
-				is_culture_group = pan_albanian
-				is_culture_group = hungarian_culture_group
-				is_culture_group = south_slavic
-				is_culture_group = polish_culture_group
-				is_culture_group = czecho_slovak_culture_group
-				is_culture_group = baltic
-				is_culture_group = levantine
-				is_culture_group = jewish_cultures
-				is_culture_group = american_cultures
-				is_culture_group = neo_european_cultures
-			}
+                is_culture_group = germanic
+                is_culture_group = beneluxian
+                is_culture_group = scandinavian
+                is_culture_group = pan_british
+                is_culture_group = italian
+                is_culture_group = pan_french
+                is_culture_group = pan_romanian
+                is_culture_group = pan_albanian
+                is_culture_group = hungarian_culture_group
+                is_culture_group = south_slavic
+                is_culture_group = polish_culture_group
+                is_culture_group = czecho_slovak_culture_group
+                is_culture_group = baltic
+                is_culture_group = levantine
+                is_culture_group = jewish_cultures
+                is_culture_group = american_cultures
+                is_culture_group = neo_european_cultures
+            }
 			NOT = {
 				has_country_flag = communist_gov
 				government = presidential_dictatorship
@@ -3507,31 +4713,31 @@
 
 	# Dictator Dies
 	country_event = {
-		id = 400080125
+		id = 130080125
 		title = "EVTNAME100080125"
 		desc = "EVTDESC100080125"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = germanic
-				is_culture_group = beneluxian
-				is_culture_group = scandinavian
-				is_culture_group = pan_british
-				is_culture_group = italian
-				is_culture_group = pan_french
-				is_culture_group = pan_romanian
-				is_culture_group = pan_albanian
-				is_culture_group = hungarian_culture_group
-				is_culture_group = south_slavic
-				is_culture_group = polish_culture_group
-				is_culture_group = czecho_slovak_culture_group
-				is_culture_group = baltic
-				is_culture_group = levantine
-				is_culture_group = jewish_cultures
-				is_culture_group = american_cultures
-				is_culture_group = neo_european_cultures
-			}
+                is_culture_group = germanic
+                is_culture_group = beneluxian
+                is_culture_group = scandinavian
+                is_culture_group = pan_british
+                is_culture_group = italian
+                is_culture_group = pan_french
+                is_culture_group = pan_romanian
+                is_culture_group = pan_albanian
+                is_culture_group = hungarian_culture_group
+                is_culture_group = south_slavic
+                is_culture_group = polish_culture_group
+                is_culture_group = czecho_slovak_culture_group
+                is_culture_group = baltic
+                is_culture_group = levantine
+                is_culture_group = jewish_cultures
+                is_culture_group = american_cultures
+                is_culture_group = neo_european_cultures
+            }
 			OR = {
 				has_country_flag = communist_gov
 				government = presidential_dictatorship
@@ -3574,6 +4780,29 @@
 			remove_country_modifier = european_ambitious_union_boss
 			remove_country_modifier = european_dour_economist
 			remove_country_modifier = otto_von_bismarck
+			
+			remove_country_modifier = capital_european_expert_diplomat
+			remove_country_modifier = capital_european_successful_industrialist
+			remove_country_modifier = capital_european_ivory_tower_intellectual
+			remove_country_modifier = capital_european_man_of_the_people
+			remove_country_modifier = capital_european_landed_gentleman
+			remove_country_modifier = capital_european_military_man
+			remove_country_modifier = capital_european_lord_admiral
+			remove_country_modifier = capital_european_raving_loon
+			remove_country_modifier = capital_european_luddite
+			remove_country_modifier = capital_european_great_statesman
+			remove_country_modifier = capital_european_backroom_boy
+			remove_country_modifier = capital_european_great_reformer
+			remove_country_modifier = capital_european_gauche_buffoon
+			remove_country_modifier = capital_european_administrative_genius
+			remove_country_modifier = capital_european_visionary_thinker
+			remove_country_modifier = capital_european_competent_placeholder
+			remove_country_modifier = capital_european_imperious_autocrat
+			remove_country_modifier = capital_european_prince_of_terror
+			remove_country_modifier = capital_european_efficient_sociopath
+			remove_country_modifier = capital_european_pig_headed_isolationist
+			remove_country_modifier = capital_european_ambitious_union_boss
+			remove_country_modifier = capital_european_dour_economist
 			remove_country_modifier = has_political_leader
 			
 			add_country_modifier = { name = power_vacuum duration = 365 }
@@ -3582,7 +4811,7 @@
 
 	# Dictator Assassinated
 	country_event = {
-		id = 400050120
+		id = 130050120
 		title = "EVTNAME100050120"
 		desc = "EVTDESC100050120"
 		picture = "assassination"
@@ -3595,24 +4824,24 @@
 
 		trigger = {
 			OR = {
-				is_culture_group = germanic
-				is_culture_group = beneluxian
-				is_culture_group = scandinavian
-				is_culture_group = pan_british
-				is_culture_group = italian
-				is_culture_group = pan_french
-				is_culture_group = pan_romanian
-				is_culture_group = pan_albanian
-				is_culture_group = hungarian_culture_group
-				is_culture_group = south_slavic
-				is_culture_group = polish_culture_group
-				is_culture_group = czecho_slovak_culture_group
-				is_culture_group = baltic
-				is_culture_group = levantine
-				is_culture_group = jewish_cultures
-				is_culture_group = american_cultures
-				is_culture_group = neo_european_cultures
-			}
+                is_culture_group = germanic
+                is_culture_group = beneluxian
+                is_culture_group = scandinavian
+                is_culture_group = pan_british
+                is_culture_group = italian
+                is_culture_group = pan_french
+                is_culture_group = pan_romanian
+                is_culture_group = pan_albanian
+                is_culture_group = hungarian_culture_group
+                is_culture_group = south_slavic
+                is_culture_group = polish_culture_group
+                is_culture_group = czecho_slovak_culture_group
+                is_culture_group = baltic
+                is_culture_group = levantine
+                is_culture_group = jewish_cultures
+                is_culture_group = american_cultures
+                is_culture_group = neo_european_cultures
+            }
 			has_country_modifier = has_political_leader
 			average_militancy = 5
 			OR = {
@@ -3654,6 +4883,29 @@
 			remove_country_modifier = european_ambitious_union_boss
 			remove_country_modifier = european_dour_economist
 			remove_country_modifier = otto_von_bismarck
+			
+			remove_country_modifier = capital_european_expert_diplomat
+			remove_country_modifier = capital_european_successful_industrialist
+			remove_country_modifier = capital_european_ivory_tower_intellectual
+			remove_country_modifier = capital_european_man_of_the_people
+			remove_country_modifier = capital_european_landed_gentleman
+			remove_country_modifier = capital_european_military_man
+			remove_country_modifier = capital_european_lord_admiral
+			remove_country_modifier = capital_european_raving_loon
+			remove_country_modifier = capital_european_luddite
+			remove_country_modifier = capital_european_great_statesman
+			remove_country_modifier = capital_european_backroom_boy
+			remove_country_modifier = capital_european_great_reformer
+			remove_country_modifier = capital_european_gauche_buffoon
+			remove_country_modifier = capital_european_administrative_genius
+			remove_country_modifier = capital_european_visionary_thinker
+			remove_country_modifier = capital_european_competent_placeholder
+			remove_country_modifier = capital_european_imperious_autocrat
+			remove_country_modifier = capital_european_prince_of_terror
+			remove_country_modifier = capital_european_efficient_sociopath
+			remove_country_modifier = capital_european_pig_headed_isolationist
+			remove_country_modifier = capital_european_ambitious_union_boss
+			remove_country_modifier = capital_european_dour_economist
 			remove_country_modifier = has_political_leader
 			
 			add_country_modifier = { name = national_confusion duration = 365 }

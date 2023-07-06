@@ -6,18 +6,18 @@
 
 	# Non-Dictatorships - any
 	country_event = {
-		id = 300040001
+		id = 120040001
 		title = "EVTNAMEMINISTERAPPOINTED"
 		desc = "EVTDESC100040001"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = central_asian
-				is_culture_group = southeast_asian
-				is_culture_group = east_asian
-				is_culture_group = far_east_asian
-			}
+                is_culture_group = central_asian
+                is_culture_group = southeast_asian
+                is_culture_group = east_asian
+                is_culture_group = far_east_asian
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -74,27 +74,56 @@
 			remove_country_modifier = asian_pig_headed_isolationist
 			remove_country_modifier = asian_ambitious_union_boss
 			remove_country_modifier = asian_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_asian_expert_diplomat
+				remove_province_modifier = capital_asian_successful_industrialist
+				remove_province_modifier = capital_asian_ivory_tower_intellectual
+				remove_province_modifier = capital_asian_man_of_the_people
+				remove_province_modifier = capital_asian_landed_gentleman
+				remove_province_modifier = capital_asian_military_man
+				remove_province_modifier = capital_asian_lord_admiral
+				remove_province_modifier = capital_asian_raving_loon
+				remove_province_modifier = capital_asian_luddite
+				remove_province_modifier = capital_asian_great_statesman
+				remove_province_modifier = capital_asian_backroom_boy
+				remove_province_modifier = capital_asian_great_reformer
+				remove_province_modifier = capital_asian_gauche_buffoon
+				remove_province_modifier = capital_asian_administrative_genius
+				remove_province_modifier = capital_asian_visionary_thinker
+				remove_province_modifier = capital_asian_competent_placeholder
+				remove_province_modifier = capital_asian_imperious_autocrat
+				remove_province_modifier = capital_asian_prince_of_terror
+				remove_province_modifier = capital_asian_efficient_sociopath
+				remove_province_modifier = capital_asian_pig_headed_isolationist
+				remove_province_modifier = capital_asian_ambitious_union_boss
+				remove_province_modifier = capital_asian_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = asian_expert_diplomat duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_asian_expert_diplomat duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
 
 	# Dictatorships - non-communist
 	country_event = {
-		id = 300050001
+		id = 120050001
 		title = "EVTNAMELEADEREMERGES"
 		desc = "EVTDESC100050001"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = central_asian
-				is_culture_group = southeast_asian
-				is_culture_group = east_asian
-				is_culture_group = far_east_asian
-			}
+                is_culture_group = central_asian
+                is_culture_group = southeast_asian
+                is_culture_group = east_asian
+                is_culture_group = far_east_asian
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -136,9 +165,38 @@
 			remove_country_modifier = asian_pig_headed_isolationist
 			remove_country_modifier = asian_ambitious_union_boss
 			remove_country_modifier = asian_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_asian_expert_diplomat
+				remove_province_modifier = capital_asian_successful_industrialist
+				remove_province_modifier = capital_asian_ivory_tower_intellectual
+				remove_province_modifier = capital_asian_man_of_the_people
+				remove_province_modifier = capital_asian_landed_gentleman
+				remove_province_modifier = capital_asian_military_man
+				remove_province_modifier = capital_asian_lord_admiral
+				remove_province_modifier = capital_asian_raving_loon
+				remove_province_modifier = capital_asian_luddite
+				remove_province_modifier = capital_asian_great_statesman
+				remove_province_modifier = capital_asian_backroom_boy
+				remove_province_modifier = capital_asian_great_reformer
+				remove_province_modifier = capital_asian_gauche_buffoon
+				remove_province_modifier = capital_asian_administrative_genius
+				remove_province_modifier = capital_asian_visionary_thinker
+				remove_province_modifier = capital_asian_competent_placeholder
+				remove_province_modifier = capital_asian_imperious_autocrat
+				remove_province_modifier = capital_asian_prince_of_terror
+				remove_province_modifier = capital_asian_efficient_sociopath
+				remove_province_modifier = capital_asian_pig_headed_isolationist
+				remove_province_modifier = capital_asian_ambitious_union_boss
+				remove_province_modifier = capital_asian_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = asian_expert_diplomat duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_asian_expert_diplomat duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -147,18 +205,18 @@
 
 	# Non-Dictatorships - monarchy or liberal
 	country_event = {
-		id = 300040002
+		id = 120040002
 		title = "EVTNAMEMINISTERAPPOINTED"
 		desc = "EVTDESC100040002"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = central_asian
-				is_culture_group = southeast_asian
-				is_culture_group = east_asian
-				is_culture_group = far_east_asian
-			}
+                is_culture_group = central_asian
+                is_culture_group = southeast_asian
+                is_culture_group = east_asian
+                is_culture_group = far_east_asian
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -210,27 +268,56 @@
 			remove_country_modifier = asian_pig_headed_isolationist
 			remove_country_modifier = asian_ambitious_union_boss
 			remove_country_modifier = asian_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_asian_expert_diplomat
+				remove_province_modifier = capital_asian_successful_industrialist
+				remove_province_modifier = capital_asian_ivory_tower_intellectual
+				remove_province_modifier = capital_asian_man_of_the_people
+				remove_province_modifier = capital_asian_landed_gentleman
+				remove_province_modifier = capital_asian_military_man
+				remove_province_modifier = capital_asian_lord_admiral
+				remove_province_modifier = capital_asian_raving_loon
+				remove_province_modifier = capital_asian_luddite
+				remove_province_modifier = capital_asian_great_statesman
+				remove_province_modifier = capital_asian_backroom_boy
+				remove_province_modifier = capital_asian_great_reformer
+				remove_province_modifier = capital_asian_gauche_buffoon
+				remove_province_modifier = capital_asian_administrative_genius
+				remove_province_modifier = capital_asian_visionary_thinker
+				remove_province_modifier = capital_asian_competent_placeholder
+				remove_province_modifier = capital_asian_imperious_autocrat
+				remove_province_modifier = capital_asian_prince_of_terror
+				remove_province_modifier = capital_asian_efficient_sociopath
+				remove_province_modifier = capital_asian_pig_headed_isolationist
+				remove_province_modifier = capital_asian_ambitious_union_boss
+				remove_province_modifier = capital_asian_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = asian_successful_industrialist duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_asian_successful_industrialist duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
 
 	# Dictatorships - any
 	country_event = {
-		id = 300050002
+		id = 120050002
 		title = "EVTNAMELEADEREMERGES"
 		desc = "EVTDESC100050002"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = central_asian
-				is_culture_group = southeast_asian
-				is_culture_group = east_asian
-				is_culture_group = far_east_asian
-			}
+                is_culture_group = central_asian
+                is_culture_group = southeast_asian
+                is_culture_group = east_asian
+                is_culture_group = far_east_asian
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -273,9 +360,38 @@
 			remove_country_modifier = asian_pig_headed_isolationist
 			remove_country_modifier = asian_ambitious_union_boss
 			remove_country_modifier = asian_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_asian_expert_diplomat
+				remove_province_modifier = capital_asian_successful_industrialist
+				remove_province_modifier = capital_asian_ivory_tower_intellectual
+				remove_province_modifier = capital_asian_man_of_the_people
+				remove_province_modifier = capital_asian_landed_gentleman
+				remove_province_modifier = capital_asian_military_man
+				remove_province_modifier = capital_asian_lord_admiral
+				remove_province_modifier = capital_asian_raving_loon
+				remove_province_modifier = capital_asian_luddite
+				remove_province_modifier = capital_asian_great_statesman
+				remove_province_modifier = capital_asian_backroom_boy
+				remove_province_modifier = capital_asian_great_reformer
+				remove_province_modifier = capital_asian_gauche_buffoon
+				remove_province_modifier = capital_asian_administrative_genius
+				remove_province_modifier = capital_asian_visionary_thinker
+				remove_province_modifier = capital_asian_competent_placeholder
+				remove_province_modifier = capital_asian_imperious_autocrat
+				remove_province_modifier = capital_asian_prince_of_terror
+				remove_province_modifier = capital_asian_efficient_sociopath
+				remove_province_modifier = capital_asian_pig_headed_isolationist
+				remove_province_modifier = capital_asian_ambitious_union_boss
+				remove_province_modifier = capital_asian_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = asian_successful_industrialist duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_asian_successful_industrialist duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -284,18 +400,18 @@
 
 	# Non-Dictatorships - any
 	country_event = {
-		id = 300040003
+		id = 120040003
 		title = "EVTNAMEMINISTERAPPOINTED"
 		desc = "EVTDESC100040003"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = central_asian
-				is_culture_group = southeast_asian
-				is_culture_group = east_asian
-				is_culture_group = far_east_asian
-			}
+                is_culture_group = central_asian
+                is_culture_group = southeast_asian
+                is_culture_group = east_asian
+                is_culture_group = far_east_asian
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -353,27 +469,56 @@
 			remove_country_modifier = asian_pig_headed_isolationist
 			remove_country_modifier = asian_ambitious_union_boss
 			remove_country_modifier = asian_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_asian_expert_diplomat
+				remove_province_modifier = capital_asian_successful_industrialist
+				remove_province_modifier = capital_asian_ivory_tower_intellectual
+				remove_province_modifier = capital_asian_man_of_the_people
+				remove_province_modifier = capital_asian_landed_gentleman
+				remove_province_modifier = capital_asian_military_man
+				remove_province_modifier = capital_asian_lord_admiral
+				remove_province_modifier = capital_asian_raving_loon
+				remove_province_modifier = capital_asian_luddite
+				remove_province_modifier = capital_asian_great_statesman
+				remove_province_modifier = capital_asian_backroom_boy
+				remove_province_modifier = capital_asian_great_reformer
+				remove_province_modifier = capital_asian_gauche_buffoon
+				remove_province_modifier = capital_asian_administrative_genius
+				remove_province_modifier = capital_asian_visionary_thinker
+				remove_province_modifier = capital_asian_competent_placeholder
+				remove_province_modifier = capital_asian_imperious_autocrat
+				remove_province_modifier = capital_asian_prince_of_terror
+				remove_province_modifier = capital_asian_efficient_sociopath
+				remove_province_modifier = capital_asian_pig_headed_isolationist
+				remove_province_modifier = capital_asian_ambitious_union_boss
+				remove_province_modifier = capital_asian_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = asian_ivory_tower_intellectual duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_asian_ivory_tower_intellectual duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
 
 	# Dictatorships - non-communist
 	country_event = {
-		id = 300050003
+		id = 120050003
 		title = "EVTNAMELEADEREMERGES"
 		desc = "EVTDESC100050003"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = central_asian
-				is_culture_group = southeast_asian
-				is_culture_group = east_asian
-				is_culture_group = far_east_asian
-			}
+                is_culture_group = central_asian
+                is_culture_group = southeast_asian
+                is_culture_group = east_asian
+                is_culture_group = far_east_asian
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -415,9 +560,38 @@
 			remove_country_modifier = asian_pig_headed_isolationist
 			remove_country_modifier = asian_ambitious_union_boss
 			remove_country_modifier = asian_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_asian_expert_diplomat
+				remove_province_modifier = capital_asian_successful_industrialist
+				remove_province_modifier = capital_asian_ivory_tower_intellectual
+				remove_province_modifier = capital_asian_man_of_the_people
+				remove_province_modifier = capital_asian_landed_gentleman
+				remove_province_modifier = capital_asian_military_man
+				remove_province_modifier = capital_asian_lord_admiral
+				remove_province_modifier = capital_asian_raving_loon
+				remove_province_modifier = capital_asian_luddite
+				remove_province_modifier = capital_asian_great_statesman
+				remove_province_modifier = capital_asian_backroom_boy
+				remove_province_modifier = capital_asian_great_reformer
+				remove_province_modifier = capital_asian_gauche_buffoon
+				remove_province_modifier = capital_asian_administrative_genius
+				remove_province_modifier = capital_asian_visionary_thinker
+				remove_province_modifier = capital_asian_competent_placeholder
+				remove_province_modifier = capital_asian_imperious_autocrat
+				remove_province_modifier = capital_asian_prince_of_terror
+				remove_province_modifier = capital_asian_efficient_sociopath
+				remove_province_modifier = capital_asian_pig_headed_isolationist
+				remove_province_modifier = capital_asian_ambitious_union_boss
+				remove_province_modifier = capital_asian_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = asian_ivory_tower_intellectual duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_asian_ivory_tower_intellectual duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -426,18 +600,18 @@
 
 	# Non-Dictatorships - non-conservative
 	country_event = {
-		id = 300040004
+		id = 120040004
 		title = "EVTNAMEMINISTERAPPOINTED"
 		desc = "EVTDESC100040004"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = central_asian
-				is_culture_group = southeast_asian
-				is_culture_group = east_asian
-				is_culture_group = far_east_asian
-			}
+                is_culture_group = central_asian
+                is_culture_group = southeast_asian
+                is_culture_group = east_asian
+                is_culture_group = far_east_asian
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -491,28 +665,57 @@
 			remove_country_modifier = asian_pig_headed_isolationist
 			remove_country_modifier = asian_ambitious_union_boss
 			remove_country_modifier = asian_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_asian_expert_diplomat
+				remove_province_modifier = capital_asian_successful_industrialist
+				remove_province_modifier = capital_asian_ivory_tower_intellectual
+				remove_province_modifier = capital_asian_man_of_the_people
+				remove_province_modifier = capital_asian_landed_gentleman
+				remove_province_modifier = capital_asian_military_man
+				remove_province_modifier = capital_asian_lord_admiral
+				remove_province_modifier = capital_asian_raving_loon
+				remove_province_modifier = capital_asian_luddite
+				remove_province_modifier = capital_asian_great_statesman
+				remove_province_modifier = capital_asian_backroom_boy
+				remove_province_modifier = capital_asian_great_reformer
+				remove_province_modifier = capital_asian_gauche_buffoon
+				remove_province_modifier = capital_asian_administrative_genius
+				remove_province_modifier = capital_asian_visionary_thinker
+				remove_province_modifier = capital_asian_competent_placeholder
+				remove_province_modifier = capital_asian_imperious_autocrat
+				remove_province_modifier = capital_asian_prince_of_terror
+				remove_province_modifier = capital_asian_efficient_sociopath
+				remove_province_modifier = capital_asian_pig_headed_isolationist
+				remove_province_modifier = capital_asian_ambitious_union_boss
+				remove_province_modifier = capital_asian_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 			add_country_modifier = {
 				name = asian_man_of_the_people
 				duration = 3650
+			}
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_asian_man_of_the_people duration = 3650 } 
 			}
 		}
 	}
 
 	# Dictatorships - any
 	country_event = {
-		id = 300050004
+		id = 120050004
 		title = "EVTNAMELEADEREMERGES"
 		desc = "EVTDESC100050004"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = central_asian
-				is_culture_group = southeast_asian
-				is_culture_group = east_asian
-				is_culture_group = far_east_asian
-			}
+                is_culture_group = central_asian
+                is_culture_group = southeast_asian
+                is_culture_group = east_asian
+                is_culture_group = far_east_asian
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -555,9 +758,38 @@
 			remove_country_modifier = asian_pig_headed_isolationist
 			remove_country_modifier = asian_ambitious_union_boss
 			remove_country_modifier = asian_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_asian_expert_diplomat
+				remove_province_modifier = capital_asian_successful_industrialist
+				remove_province_modifier = capital_asian_ivory_tower_intellectual
+				remove_province_modifier = capital_asian_man_of_the_people
+				remove_province_modifier = capital_asian_landed_gentleman
+				remove_province_modifier = capital_asian_military_man
+				remove_province_modifier = capital_asian_lord_admiral
+				remove_province_modifier = capital_asian_raving_loon
+				remove_province_modifier = capital_asian_luddite
+				remove_province_modifier = capital_asian_great_statesman
+				remove_province_modifier = capital_asian_backroom_boy
+				remove_province_modifier = capital_asian_great_reformer
+				remove_province_modifier = capital_asian_gauche_buffoon
+				remove_province_modifier = capital_asian_administrative_genius
+				remove_province_modifier = capital_asian_visionary_thinker
+				remove_province_modifier = capital_asian_competent_placeholder
+				remove_province_modifier = capital_asian_imperious_autocrat
+				remove_province_modifier = capital_asian_prince_of_terror
+				remove_province_modifier = capital_asian_efficient_sociopath
+				remove_province_modifier = capital_asian_pig_headed_isolationist
+				remove_province_modifier = capital_asian_ambitious_union_boss
+				remove_province_modifier = capital_asian_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = asian_man_of_the_people duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_asian_man_of_the_people duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -566,18 +798,18 @@
 
 	# Non-Dictatorships - monarchy or conservative
 	country_event = {
-		id = 300040005
+		id = 120040005
 		title = "EVTNAMEMINISTERAPPOINTED"
 		desc = "EVTDESC100040005"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = central_asian
-				is_culture_group = southeast_asian
-				is_culture_group = east_asian
-				is_culture_group = far_east_asian
-			}
+                is_culture_group = central_asian
+                is_culture_group = southeast_asian
+                is_culture_group = east_asian
+                is_culture_group = far_east_asian
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -629,27 +861,56 @@
 			remove_country_modifier = asian_pig_headed_isolationist
 			remove_country_modifier = asian_ambitious_union_boss
 			remove_country_modifier = asian_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_asian_expert_diplomat
+				remove_province_modifier = capital_asian_successful_industrialist
+				remove_province_modifier = capital_asian_ivory_tower_intellectual
+				remove_province_modifier = capital_asian_man_of_the_people
+				remove_province_modifier = capital_asian_landed_gentleman
+				remove_province_modifier = capital_asian_military_man
+				remove_province_modifier = capital_asian_lord_admiral
+				remove_province_modifier = capital_asian_raving_loon
+				remove_province_modifier = capital_asian_luddite
+				remove_province_modifier = capital_asian_great_statesman
+				remove_province_modifier = capital_asian_backroom_boy
+				remove_province_modifier = capital_asian_great_reformer
+				remove_province_modifier = capital_asian_gauche_buffoon
+				remove_province_modifier = capital_asian_administrative_genius
+				remove_province_modifier = capital_asian_visionary_thinker
+				remove_province_modifier = capital_asian_competent_placeholder
+				remove_province_modifier = capital_asian_imperious_autocrat
+				remove_province_modifier = capital_asian_prince_of_terror
+				remove_province_modifier = capital_asian_efficient_sociopath
+				remove_province_modifier = capital_asian_pig_headed_isolationist
+				remove_province_modifier = capital_asian_ambitious_union_boss
+				remove_province_modifier = capital_asian_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = asian_landed_gentleman duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_asian_landed_gentleman duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
 
 	# Dictatorships - presidential or fascist
 	country_event = {
-		id = 300050005
+		id = 120050005
 		title = "EVTNAMELEADEREMERGES"
 		desc = "EVTDESC100050005"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = central_asian
-				is_culture_group = southeast_asian
-				is_culture_group = east_asian
-				is_culture_group = far_east_asian
-			}
+                is_culture_group = central_asian
+                is_culture_group = southeast_asian
+                is_culture_group = east_asian
+                is_culture_group = far_east_asian
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -690,9 +951,38 @@
 			remove_country_modifier = asian_pig_headed_isolationist
 			remove_country_modifier = asian_ambitious_union_boss
 			remove_country_modifier = asian_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_asian_expert_diplomat
+				remove_province_modifier = capital_asian_successful_industrialist
+				remove_province_modifier = capital_asian_ivory_tower_intellectual
+				remove_province_modifier = capital_asian_man_of_the_people
+				remove_province_modifier = capital_asian_landed_gentleman
+				remove_province_modifier = capital_asian_military_man
+				remove_province_modifier = capital_asian_lord_admiral
+				remove_province_modifier = capital_asian_raving_loon
+				remove_province_modifier = capital_asian_luddite
+				remove_province_modifier = capital_asian_great_statesman
+				remove_province_modifier = capital_asian_backroom_boy
+				remove_province_modifier = capital_asian_great_reformer
+				remove_province_modifier = capital_asian_gauche_buffoon
+				remove_province_modifier = capital_asian_administrative_genius
+				remove_province_modifier = capital_asian_visionary_thinker
+				remove_province_modifier = capital_asian_competent_placeholder
+				remove_province_modifier = capital_asian_imperious_autocrat
+				remove_province_modifier = capital_asian_prince_of_terror
+				remove_province_modifier = capital_asian_efficient_sociopath
+				remove_province_modifier = capital_asian_pig_headed_isolationist
+				remove_province_modifier = capital_asian_ambitious_union_boss
+				remove_province_modifier = capital_asian_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = asian_landed_gentleman duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_asian_landed_gentleman duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -701,18 +991,18 @@
 
 	# Non-Dictatorships - non-socialist
 	country_event = {
-		id = 300040006
+		id = 120040006
 		title = "EVTNAMEMINISTERAPPOINTED"
 		desc = "EVTDESC100040006"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = central_asian
-				is_culture_group = southeast_asian
-				is_culture_group = east_asian
-				is_culture_group = far_east_asian
-			}
+                is_culture_group = central_asian
+                is_culture_group = southeast_asian
+                is_culture_group = east_asian
+                is_culture_group = far_east_asian
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -766,26 +1056,55 @@
 			remove_country_modifier = asian_pig_headed_isolationist
 			remove_country_modifier = asian_ambitious_union_boss
 			remove_country_modifier = asian_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_asian_expert_diplomat
+				remove_province_modifier = capital_asian_successful_industrialist
+				remove_province_modifier = capital_asian_ivory_tower_intellectual
+				remove_province_modifier = capital_asian_man_of_the_people
+				remove_province_modifier = capital_asian_landed_gentleman
+				remove_province_modifier = capital_asian_military_man
+				remove_province_modifier = capital_asian_lord_admiral
+				remove_province_modifier = capital_asian_raving_loon
+				remove_province_modifier = capital_asian_luddite
+				remove_province_modifier = capital_asian_great_statesman
+				remove_province_modifier = capital_asian_backroom_boy
+				remove_province_modifier = capital_asian_great_reformer
+				remove_province_modifier = capital_asian_gauche_buffoon
+				remove_province_modifier = capital_asian_administrative_genius
+				remove_province_modifier = capital_asian_visionary_thinker
+				remove_province_modifier = capital_asian_competent_placeholder
+				remove_province_modifier = capital_asian_imperious_autocrat
+				remove_province_modifier = capital_asian_prince_of_terror
+				remove_province_modifier = capital_asian_efficient_sociopath
+				remove_province_modifier = capital_asian_pig_headed_isolationist
+				remove_province_modifier = capital_asian_ambitious_union_boss
+				remove_province_modifier = capital_asian_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = asian_military_man duration = 3650 } 
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_asian_military_man duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
 
 	# Dictatorships - any
 	country_event = {
-		id = 300050006
+		id = 120050006
 		title = "EVTNAMELEADEREMERGES"
 		desc = "EVTDESC100050006"
 		picture = "danishgovernment"
 		trigger = {
 			OR = {
-				is_culture_group = central_asian
-				is_culture_group = southeast_asian
-				is_culture_group = east_asian
-				is_culture_group = far_east_asian
-			}
+                is_culture_group = central_asian
+                is_culture_group = southeast_asian
+                is_culture_group = east_asian
+                is_culture_group = far_east_asian
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -828,9 +1147,38 @@
 			remove_country_modifier = asian_pig_headed_isolationist
 			remove_country_modifier = asian_ambitious_union_boss
 			remove_country_modifier = asian_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_asian_expert_diplomat
+				remove_province_modifier = capital_asian_successful_industrialist
+				remove_province_modifier = capital_asian_ivory_tower_intellectual
+				remove_province_modifier = capital_asian_man_of_the_people
+				remove_province_modifier = capital_asian_landed_gentleman
+				remove_province_modifier = capital_asian_military_man
+				remove_province_modifier = capital_asian_lord_admiral
+				remove_province_modifier = capital_asian_raving_loon
+				remove_province_modifier = capital_asian_luddite
+				remove_province_modifier = capital_asian_great_statesman
+				remove_province_modifier = capital_asian_backroom_boy
+				remove_province_modifier = capital_asian_great_reformer
+				remove_province_modifier = capital_asian_gauche_buffoon
+				remove_province_modifier = capital_asian_administrative_genius
+				remove_province_modifier = capital_asian_visionary_thinker
+				remove_province_modifier = capital_asian_competent_placeholder
+				remove_province_modifier = capital_asian_imperious_autocrat
+				remove_province_modifier = capital_asian_prince_of_terror
+				remove_province_modifier = capital_asian_efficient_sociopath
+				remove_province_modifier = capital_asian_pig_headed_isolationist
+				remove_province_modifier = capital_asian_ambitious_union_boss
+				remove_province_modifier = capital_asian_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = asian_military_man duration = 3650 } 
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_asian_military_man duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -839,18 +1187,18 @@
 
 	# Non-Dictatorships - non-socialist
 	country_event = {
-		id = 300040007
+		id = 120040007
 		title = "EVTNAMEMINISTERAPPOINTED"
 		desc = "EVTDESC100040007"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = central_asian
-				is_culture_group = southeast_asian
-				is_culture_group = east_asian
-				is_culture_group = far_east_asian
-			}
+                is_culture_group = central_asian
+                is_culture_group = southeast_asian
+                is_culture_group = east_asian
+                is_culture_group = far_east_asian
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -905,26 +1253,55 @@
 			remove_country_modifier = asian_pig_headed_isolationist
 			remove_country_modifier = asian_ambitious_union_boss
 			remove_country_modifier = asian_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_asian_expert_diplomat
+				remove_province_modifier = capital_asian_successful_industrialist
+				remove_province_modifier = capital_asian_ivory_tower_intellectual
+				remove_province_modifier = capital_asian_man_of_the_people
+				remove_province_modifier = capital_asian_landed_gentleman
+				remove_province_modifier = capital_asian_military_man
+				remove_province_modifier = capital_asian_lord_admiral
+				remove_province_modifier = capital_asian_raving_loon
+				remove_province_modifier = capital_asian_luddite
+				remove_province_modifier = capital_asian_great_statesman
+				remove_province_modifier = capital_asian_backroom_boy
+				remove_province_modifier = capital_asian_great_reformer
+				remove_province_modifier = capital_asian_gauche_buffoon
+				remove_province_modifier = capital_asian_administrative_genius
+				remove_province_modifier = capital_asian_visionary_thinker
+				remove_province_modifier = capital_asian_competent_placeholder
+				remove_province_modifier = capital_asian_imperious_autocrat
+				remove_province_modifier = capital_asian_prince_of_terror
+				remove_province_modifier = capital_asian_efficient_sociopath
+				remove_province_modifier = capital_asian_pig_headed_isolationist
+				remove_province_modifier = capital_asian_ambitious_union_boss
+				remove_province_modifier = capital_asian_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = asian_lord_admiral duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_asian_lord_admiral duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
 
 	# Dictatorships - any
 	country_event = {
-		id = 300050007
+		id = 120050007
 		title = "EVTNAMELEADEREMERGES"
 		desc = "EVTDESC100050007"
 		picture = "danishgovernment"
 		trigger = {
 			OR = {
-				is_culture_group = central_asian
-				is_culture_group = southeast_asian
-				is_culture_group = east_asian
-				is_culture_group = far_east_asian
-			}
+                is_culture_group = central_asian
+                is_culture_group = southeast_asian
+                is_culture_group = east_asian
+                is_culture_group = far_east_asian
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -968,9 +1345,38 @@
 			remove_country_modifier = asian_pig_headed_isolationist
 			remove_country_modifier = asian_ambitious_union_boss
 			remove_country_modifier = asian_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_asian_expert_diplomat
+				remove_province_modifier = capital_asian_successful_industrialist
+				remove_province_modifier = capital_asian_ivory_tower_intellectual
+				remove_province_modifier = capital_asian_man_of_the_people
+				remove_province_modifier = capital_asian_landed_gentleman
+				remove_province_modifier = capital_asian_military_man
+				remove_province_modifier = capital_asian_lord_admiral
+				remove_province_modifier = capital_asian_raving_loon
+				remove_province_modifier = capital_asian_luddite
+				remove_province_modifier = capital_asian_great_statesman
+				remove_province_modifier = capital_asian_backroom_boy
+				remove_province_modifier = capital_asian_great_reformer
+				remove_province_modifier = capital_asian_gauche_buffoon
+				remove_province_modifier = capital_asian_administrative_genius
+				remove_province_modifier = capital_asian_visionary_thinker
+				remove_province_modifier = capital_asian_competent_placeholder
+				remove_province_modifier = capital_asian_imperious_autocrat
+				remove_province_modifier = capital_asian_prince_of_terror
+				remove_province_modifier = capital_asian_efficient_sociopath
+				remove_province_modifier = capital_asian_pig_headed_isolationist
+				remove_province_modifier = capital_asian_ambitious_union_boss
+				remove_province_modifier = capital_asian_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = asian_lord_admiral duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_asian_lord_admiral duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -979,18 +1385,18 @@
 
 	# Non-Dictatorships - any
 	country_event = {
-		id = 300040008
+		id = 120040008
 		title = "EVTNAMEMINISTERAPPOINTED"
 		desc = "EVTDESC100040008"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = central_asian
-				is_culture_group = southeast_asian
-				is_culture_group = east_asian
-				is_culture_group = far_east_asian
-			}
+                is_culture_group = central_asian
+                is_culture_group = southeast_asian
+                is_culture_group = east_asian
+                is_culture_group = far_east_asian
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -1047,27 +1453,56 @@
 			remove_country_modifier = asian_pig_headed_isolationist
 			remove_country_modifier = asian_ambitious_union_boss
 			remove_country_modifier = asian_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_asian_expert_diplomat
+				remove_province_modifier = capital_asian_successful_industrialist
+				remove_province_modifier = capital_asian_ivory_tower_intellectual
+				remove_province_modifier = capital_asian_man_of_the_people
+				remove_province_modifier = capital_asian_landed_gentleman
+				remove_province_modifier = capital_asian_military_man
+				remove_province_modifier = capital_asian_lord_admiral
+				remove_province_modifier = capital_asian_raving_loon
+				remove_province_modifier = capital_asian_luddite
+				remove_province_modifier = capital_asian_great_statesman
+				remove_province_modifier = capital_asian_backroom_boy
+				remove_province_modifier = capital_asian_great_reformer
+				remove_province_modifier = capital_asian_gauche_buffoon
+				remove_province_modifier = capital_asian_administrative_genius
+				remove_province_modifier = capital_asian_visionary_thinker
+				remove_province_modifier = capital_asian_competent_placeholder
+				remove_province_modifier = capital_asian_imperious_autocrat
+				remove_province_modifier = capital_asian_prince_of_terror
+				remove_province_modifier = capital_asian_efficient_sociopath
+				remove_province_modifier = capital_asian_pig_headed_isolationist
+				remove_province_modifier = capital_asian_ambitious_union_boss
+				remove_province_modifier = capital_asian_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = asian_raving_loon duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_asian_raving_loon duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
 
 	# Dictatorships - any
 	country_event = {
-		id = 300050008
+		id = 120050008
 		title = "EVTNAMELEADEREMERGES"
 		desc = "EVTDESC100050008"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = central_asian
-				is_culture_group = southeast_asian
-				is_culture_group = east_asian
-				is_culture_group = far_east_asian
-			}
+                is_culture_group = central_asian
+                is_culture_group = southeast_asian
+                is_culture_group = east_asian
+                is_culture_group = far_east_asian
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -1110,9 +1545,38 @@
 			remove_country_modifier = asian_pig_headed_isolationist
 			remove_country_modifier = asian_ambitious_union_boss
 			remove_country_modifier = asian_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_asian_expert_diplomat
+				remove_province_modifier = capital_asian_successful_industrialist
+				remove_province_modifier = capital_asian_ivory_tower_intellectual
+				remove_province_modifier = capital_asian_man_of_the_people
+				remove_province_modifier = capital_asian_landed_gentleman
+				remove_province_modifier = capital_asian_military_man
+				remove_province_modifier = capital_asian_lord_admiral
+				remove_province_modifier = capital_asian_raving_loon
+				remove_province_modifier = capital_asian_luddite
+				remove_province_modifier = capital_asian_great_statesman
+				remove_province_modifier = capital_asian_backroom_boy
+				remove_province_modifier = capital_asian_great_reformer
+				remove_province_modifier = capital_asian_gauche_buffoon
+				remove_province_modifier = capital_asian_administrative_genius
+				remove_province_modifier = capital_asian_visionary_thinker
+				remove_province_modifier = capital_asian_competent_placeholder
+				remove_province_modifier = capital_asian_imperious_autocrat
+				remove_province_modifier = capital_asian_prince_of_terror
+				remove_province_modifier = capital_asian_efficient_sociopath
+				remove_province_modifier = capital_asian_pig_headed_isolationist
+				remove_province_modifier = capital_asian_ambitious_union_boss
+				remove_province_modifier = capital_asian_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = asian_raving_loon duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_asian_raving_loon duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -1121,17 +1585,17 @@
 
 	# Non-Dictatorships - non-liberal
 	country_event = {
-		id = 300040009
+		id = 120040009
 		title = "EVTNAMEMINISTERAPPOINTED"
 		desc = "EVTDESC100040009"
 		picture = "danishgovernment"
 		trigger = {
 			OR = {
-				is_culture_group = central_asian
-				is_culture_group = southeast_asian
-				is_culture_group = east_asian
-				is_culture_group = far_east_asian
-			}
+                is_culture_group = central_asian
+                is_culture_group = southeast_asian
+                is_culture_group = east_asian
+                is_culture_group = far_east_asian
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -1186,27 +1650,56 @@
 			remove_country_modifier = asian_pig_headed_isolationist
 			remove_country_modifier = asian_ambitious_union_boss
 			remove_country_modifier = asian_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_asian_expert_diplomat
+				remove_province_modifier = capital_asian_successful_industrialist
+				remove_province_modifier = capital_asian_ivory_tower_intellectual
+				remove_province_modifier = capital_asian_man_of_the_people
+				remove_province_modifier = capital_asian_landed_gentleman
+				remove_province_modifier = capital_asian_military_man
+				remove_province_modifier = capital_asian_lord_admiral
+				remove_province_modifier = capital_asian_raving_loon
+				remove_province_modifier = capital_asian_luddite
+				remove_province_modifier = capital_asian_great_statesman
+				remove_province_modifier = capital_asian_backroom_boy
+				remove_province_modifier = capital_asian_great_reformer
+				remove_province_modifier = capital_asian_gauche_buffoon
+				remove_province_modifier = capital_asian_administrative_genius
+				remove_province_modifier = capital_asian_visionary_thinker
+				remove_province_modifier = capital_asian_competent_placeholder
+				remove_province_modifier = capital_asian_imperious_autocrat
+				remove_province_modifier = capital_asian_prince_of_terror
+				remove_province_modifier = capital_asian_efficient_sociopath
+				remove_province_modifier = capital_asian_pig_headed_isolationist
+				remove_province_modifier = capital_asian_ambitious_union_boss
+				remove_province_modifier = capital_asian_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = asian_luddite duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_asian_luddite duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
 
 	# Dictatorships - presidential or fascist
 	country_event = {
-		id = 300050009
+		id = 120050009
 		title = "EVTNAMELEADEREMERGES"
 		desc = "EVTDESC100050009"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = central_asian
-				is_culture_group = southeast_asian
-				is_culture_group = east_asian
-				is_culture_group = far_east_asian
-			}
+                is_culture_group = central_asian
+                is_culture_group = southeast_asian
+                is_culture_group = east_asian
+                is_culture_group = far_east_asian
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -1247,9 +1740,38 @@
 			remove_country_modifier = asian_pig_headed_isolationist
 			remove_country_modifier = asian_ambitious_union_boss
 			remove_country_modifier = asian_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_asian_expert_diplomat
+				remove_province_modifier = capital_asian_successful_industrialist
+				remove_province_modifier = capital_asian_ivory_tower_intellectual
+				remove_province_modifier = capital_asian_man_of_the_people
+				remove_province_modifier = capital_asian_landed_gentleman
+				remove_province_modifier = capital_asian_military_man
+				remove_province_modifier = capital_asian_lord_admiral
+				remove_province_modifier = capital_asian_raving_loon
+				remove_province_modifier = capital_asian_luddite
+				remove_province_modifier = capital_asian_great_statesman
+				remove_province_modifier = capital_asian_backroom_boy
+				remove_province_modifier = capital_asian_great_reformer
+				remove_province_modifier = capital_asian_gauche_buffoon
+				remove_province_modifier = capital_asian_administrative_genius
+				remove_province_modifier = capital_asian_visionary_thinker
+				remove_province_modifier = capital_asian_competent_placeholder
+				remove_province_modifier = capital_asian_imperious_autocrat
+				remove_province_modifier = capital_asian_prince_of_terror
+				remove_province_modifier = capital_asian_efficient_sociopath
+				remove_province_modifier = capital_asian_pig_headed_isolationist
+				remove_province_modifier = capital_asian_ambitious_union_boss
+				remove_province_modifier = capital_asian_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = asian_luddite duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_asian_luddite duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -1258,18 +1780,18 @@
 
 	# Non-Dictatorships - any
 	country_event = {
-		id = 300040010
+		id = 120040010
 		title = "EVTNAMEMINISTERAPPOINTED"
 		desc = "EVTDESC100040010"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = central_asian
-				is_culture_group = southeast_asian
-				is_culture_group = east_asian
-				is_culture_group = far_east_asian
-			}
+                is_culture_group = central_asian
+                is_culture_group = southeast_asian
+                is_culture_group = east_asian
+                is_culture_group = far_east_asian
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -1326,27 +1848,56 @@
 			remove_country_modifier = asian_pig_headed_isolationist
 			remove_country_modifier = asian_ambitious_union_boss
 			remove_country_modifier = asian_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_asian_expert_diplomat
+				remove_province_modifier = capital_asian_successful_industrialist
+				remove_province_modifier = capital_asian_ivory_tower_intellectual
+				remove_province_modifier = capital_asian_man_of_the_people
+				remove_province_modifier = capital_asian_landed_gentleman
+				remove_province_modifier = capital_asian_military_man
+				remove_province_modifier = capital_asian_lord_admiral
+				remove_province_modifier = capital_asian_raving_loon
+				remove_province_modifier = capital_asian_luddite
+				remove_province_modifier = capital_asian_great_statesman
+				remove_province_modifier = capital_asian_backroom_boy
+				remove_province_modifier = capital_asian_great_reformer
+				remove_province_modifier = capital_asian_gauche_buffoon
+				remove_province_modifier = capital_asian_administrative_genius
+				remove_province_modifier = capital_asian_visionary_thinker
+				remove_province_modifier = capital_asian_competent_placeholder
+				remove_province_modifier = capital_asian_imperious_autocrat
+				remove_province_modifier = capital_asian_prince_of_terror
+				remove_province_modifier = capital_asian_efficient_sociopath
+				remove_province_modifier = capital_asian_pig_headed_isolationist
+				remove_province_modifier = capital_asian_ambitious_union_boss
+				remove_province_modifier = capital_asian_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = asian_great_statesman duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_asian_great_statesman duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
 
 	# Dictatorships - non-communist
 	country_event = {
-		id = 300050010
+		id = 120050010
 		title = "EVTNAMELEADEREMERGES"
 		desc = "EVTDESC100050010"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = central_asian
-				is_culture_group = southeast_asian
-				is_culture_group = east_asian
-				is_culture_group = far_east_asian
-			}
+                is_culture_group = central_asian
+                is_culture_group = southeast_asian
+                is_culture_group = east_asian
+                is_culture_group = far_east_asian
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -1388,9 +1939,38 @@
 			remove_country_modifier = asian_pig_headed_isolationist
 			remove_country_modifier = asian_ambitious_union_boss
 			remove_country_modifier = asian_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_asian_expert_diplomat
+				remove_province_modifier = capital_asian_successful_industrialist
+				remove_province_modifier = capital_asian_ivory_tower_intellectual
+				remove_province_modifier = capital_asian_man_of_the_people
+				remove_province_modifier = capital_asian_landed_gentleman
+				remove_province_modifier = capital_asian_military_man
+				remove_province_modifier = capital_asian_lord_admiral
+				remove_province_modifier = capital_asian_raving_loon
+				remove_province_modifier = capital_asian_luddite
+				remove_province_modifier = capital_asian_great_statesman
+				remove_province_modifier = capital_asian_backroom_boy
+				remove_province_modifier = capital_asian_great_reformer
+				remove_province_modifier = capital_asian_gauche_buffoon
+				remove_province_modifier = capital_asian_administrative_genius
+				remove_province_modifier = capital_asian_visionary_thinker
+				remove_province_modifier = capital_asian_competent_placeholder
+				remove_province_modifier = capital_asian_imperious_autocrat
+				remove_province_modifier = capital_asian_prince_of_terror
+				remove_province_modifier = capital_asian_efficient_sociopath
+				remove_province_modifier = capital_asian_pig_headed_isolationist
+				remove_province_modifier = capital_asian_ambitious_union_boss
+				remove_province_modifier = capital_asian_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = asian_great_statesman duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_asian_great_statesman duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -1399,18 +1979,18 @@
 
 	# Non-Dictatorships - any
 	country_event = {
-		id = 300040011
+		id = 120040011
 		title = "EVTNAMEMINISTERAPPOINTED"
 		desc = "EVTDESC100040011"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = central_asian
-				is_culture_group = southeast_asian
-				is_culture_group = east_asian
-				is_culture_group = far_east_asian
-			}
+                is_culture_group = central_asian
+                is_culture_group = southeast_asian
+                is_culture_group = east_asian
+                is_culture_group = far_east_asian
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -1467,9 +2047,38 @@
 			remove_country_modifier = asian_pig_headed_isolationist
 			remove_country_modifier = asian_ambitious_union_boss
 			remove_country_modifier = asian_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_asian_expert_diplomat
+				remove_province_modifier = capital_asian_successful_industrialist
+				remove_province_modifier = capital_asian_ivory_tower_intellectual
+				remove_province_modifier = capital_asian_man_of_the_people
+				remove_province_modifier = capital_asian_landed_gentleman
+				remove_province_modifier = capital_asian_military_man
+				remove_province_modifier = capital_asian_lord_admiral
+				remove_province_modifier = capital_asian_raving_loon
+				remove_province_modifier = capital_asian_luddite
+				remove_province_modifier = capital_asian_great_statesman
+				remove_province_modifier = capital_asian_backroom_boy
+				remove_province_modifier = capital_asian_great_reformer
+				remove_province_modifier = capital_asian_gauche_buffoon
+				remove_province_modifier = capital_asian_administrative_genius
+				remove_province_modifier = capital_asian_visionary_thinker
+				remove_province_modifier = capital_asian_competent_placeholder
+				remove_province_modifier = capital_asian_imperious_autocrat
+				remove_province_modifier = capital_asian_prince_of_terror
+				remove_province_modifier = capital_asian_efficient_sociopath
+				remove_province_modifier = capital_asian_pig_headed_isolationist
+				remove_province_modifier = capital_asian_ambitious_union_boss
+				remove_province_modifier = capital_asian_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = asian_backroom_boy duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_asian_backroom_boy duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -1478,18 +2087,18 @@
 
 	# Non-Dictatorships - non-conservative
 	country_event = {
-		id = 300040012
+		id = 120040012
 		title = "EVTNAMEMINISTERAPPOINTED"
 		desc = "EVTDESC100040012"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = central_asian
-				is_culture_group = southeast_asian
-				is_culture_group = east_asian
-				is_culture_group = far_east_asian
-			}
+                is_culture_group = central_asian
+                is_culture_group = southeast_asian
+                is_culture_group = east_asian
+                is_culture_group = far_east_asian
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -1544,9 +2153,38 @@
 			remove_country_modifier = asian_pig_headed_isolationist
 			remove_country_modifier = asian_ambitious_union_boss
 			remove_country_modifier = asian_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_asian_expert_diplomat
+				remove_province_modifier = capital_asian_successful_industrialist
+				remove_province_modifier = capital_asian_ivory_tower_intellectual
+				remove_province_modifier = capital_asian_man_of_the_people
+				remove_province_modifier = capital_asian_landed_gentleman
+				remove_province_modifier = capital_asian_military_man
+				remove_province_modifier = capital_asian_lord_admiral
+				remove_province_modifier = capital_asian_raving_loon
+				remove_province_modifier = capital_asian_luddite
+				remove_province_modifier = capital_asian_great_statesman
+				remove_province_modifier = capital_asian_backroom_boy
+				remove_province_modifier = capital_asian_great_reformer
+				remove_province_modifier = capital_asian_gauche_buffoon
+				remove_province_modifier = capital_asian_administrative_genius
+				remove_province_modifier = capital_asian_visionary_thinker
+				remove_province_modifier = capital_asian_competent_placeholder
+				remove_province_modifier = capital_asian_imperious_autocrat
+				remove_province_modifier = capital_asian_prince_of_terror
+				remove_province_modifier = capital_asian_efficient_sociopath
+				remove_province_modifier = capital_asian_pig_headed_isolationist
+				remove_province_modifier = capital_asian_ambitious_union_boss
+				remove_province_modifier = capital_asian_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = asian_great_reformer duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_asian_great_reformer duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -1555,18 +2193,18 @@
 
 	# Non-Dictatorships - non-socialist
 	country_event = {
-		id = 300040013
+		id = 120040013
 		title = "EVTNAMEMINISTERAPPOINTED"
 		desc = "EVTDESC100040013"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = central_asian
-				is_culture_group = southeast_asian
-				is_culture_group = east_asian
-				is_culture_group = far_east_asian
-			}
+                is_culture_group = central_asian
+                is_culture_group = southeast_asian
+                is_culture_group = east_asian
+                is_culture_group = far_east_asian
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -1620,9 +2258,38 @@
 			remove_country_modifier = asian_pig_headed_isolationist
 			remove_country_modifier = asian_ambitious_union_boss
 			remove_country_modifier = asian_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_asian_expert_diplomat
+				remove_province_modifier = capital_asian_successful_industrialist
+				remove_province_modifier = capital_asian_ivory_tower_intellectual
+				remove_province_modifier = capital_asian_man_of_the_people
+				remove_province_modifier = capital_asian_landed_gentleman
+				remove_province_modifier = capital_asian_military_man
+				remove_province_modifier = capital_asian_lord_admiral
+				remove_province_modifier = capital_asian_raving_loon
+				remove_province_modifier = capital_asian_luddite
+				remove_province_modifier = capital_asian_great_statesman
+				remove_province_modifier = capital_asian_backroom_boy
+				remove_province_modifier = capital_asian_great_reformer
+				remove_province_modifier = capital_asian_gauche_buffoon
+				remove_province_modifier = capital_asian_administrative_genius
+				remove_province_modifier = capital_asian_visionary_thinker
+				remove_province_modifier = capital_asian_competent_placeholder
+				remove_province_modifier = capital_asian_imperious_autocrat
+				remove_province_modifier = capital_asian_prince_of_terror
+				remove_province_modifier = capital_asian_efficient_sociopath
+				remove_province_modifier = capital_asian_pig_headed_isolationist
+				remove_province_modifier = capital_asian_ambitious_union_boss
+				remove_province_modifier = capital_asian_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = asian_gauche_buffoon duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_asian_gauche_buffoon duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -1631,18 +2298,18 @@
 
 	# Non-Dictatorships - any
 	country_event = {
-		id = 300040014
+		id = 120040014
 		title = "EVTNAMEMINISTERAPPOINTED"
 		desc = "EVTDESC100040014"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = central_asian
-				is_culture_group = southeast_asian
-				is_culture_group = east_asian
-				is_culture_group = far_east_asian
-			}
+                is_culture_group = central_asian
+                is_culture_group = southeast_asian
+                is_culture_group = east_asian
+                is_culture_group = far_east_asian
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -1699,27 +2366,56 @@
 			remove_country_modifier = asian_pig_headed_isolationist
 			remove_country_modifier = asian_ambitious_union_boss
 			remove_country_modifier = asian_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_asian_expert_diplomat
+				remove_province_modifier = capital_asian_successful_industrialist
+				remove_province_modifier = capital_asian_ivory_tower_intellectual
+				remove_province_modifier = capital_asian_man_of_the_people
+				remove_province_modifier = capital_asian_landed_gentleman
+				remove_province_modifier = capital_asian_military_man
+				remove_province_modifier = capital_asian_lord_admiral
+				remove_province_modifier = capital_asian_raving_loon
+				remove_province_modifier = capital_asian_luddite
+				remove_province_modifier = capital_asian_great_statesman
+				remove_province_modifier = capital_asian_backroom_boy
+				remove_province_modifier = capital_asian_great_reformer
+				remove_province_modifier = capital_asian_gauche_buffoon
+				remove_province_modifier = capital_asian_administrative_genius
+				remove_province_modifier = capital_asian_visionary_thinker
+				remove_province_modifier = capital_asian_competent_placeholder
+				remove_province_modifier = capital_asian_imperious_autocrat
+				remove_province_modifier = capital_asian_prince_of_terror
+				remove_province_modifier = capital_asian_efficient_sociopath
+				remove_province_modifier = capital_asian_pig_headed_isolationist
+				remove_province_modifier = capital_asian_ambitious_union_boss
+				remove_province_modifier = capital_asian_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = asian_administrative_genius duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_asian_administrative_genius duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
 
 	# Dictatorships - any
 	country_event = {
-		id = 300050014
+		id = 120050014
 		title = "EVTNAMELEADEREMERGES"
 		desc = "EVTDESC100050014"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = central_asian
-				is_culture_group = southeast_asian
-				is_culture_group = east_asian
-				is_culture_group = far_east_asian
-			}
+                is_culture_group = central_asian
+                is_culture_group = southeast_asian
+                is_culture_group = east_asian
+                is_culture_group = far_east_asian
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -1762,9 +2458,38 @@
 			remove_country_modifier = asian_pig_headed_isolationist
 			remove_country_modifier = asian_ambitious_union_boss
 			remove_country_modifier = asian_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_asian_expert_diplomat
+				remove_province_modifier = capital_asian_successful_industrialist
+				remove_province_modifier = capital_asian_ivory_tower_intellectual
+				remove_province_modifier = capital_asian_man_of_the_people
+				remove_province_modifier = capital_asian_landed_gentleman
+				remove_province_modifier = capital_asian_military_man
+				remove_province_modifier = capital_asian_lord_admiral
+				remove_province_modifier = capital_asian_raving_loon
+				remove_province_modifier = capital_asian_luddite
+				remove_province_modifier = capital_asian_great_statesman
+				remove_province_modifier = capital_asian_backroom_boy
+				remove_province_modifier = capital_asian_great_reformer
+				remove_province_modifier = capital_asian_gauche_buffoon
+				remove_province_modifier = capital_asian_administrative_genius
+				remove_province_modifier = capital_asian_visionary_thinker
+				remove_province_modifier = capital_asian_competent_placeholder
+				remove_province_modifier = capital_asian_imperious_autocrat
+				remove_province_modifier = capital_asian_prince_of_terror
+				remove_province_modifier = capital_asian_efficient_sociopath
+				remove_province_modifier = capital_asian_pig_headed_isolationist
+				remove_province_modifier = capital_asian_ambitious_union_boss
+				remove_province_modifier = capital_asian_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = asian_administrative_genius duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_asian_administrative_genius duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -1773,18 +2498,18 @@
 
 	# Non-Dictatorships - any
 	country_event = {
-		id = 300040015
+		id = 120040015
 		title = "EVTNAMEMINISTERAPPOINTED"
 		desc = "EVTDESC100040015"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = central_asian
-				is_culture_group = southeast_asian
-				is_culture_group = east_asian
-				is_culture_group = far_east_asian
-			}
+                is_culture_group = central_asian
+                is_culture_group = southeast_asian
+                is_culture_group = east_asian
+                is_culture_group = far_east_asian
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -1841,26 +2566,55 @@
 			remove_country_modifier = asian_pig_headed_isolationist
 			remove_country_modifier = asian_ambitious_union_boss
 			remove_country_modifier = asian_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_asian_expert_diplomat
+				remove_province_modifier = capital_asian_successful_industrialist
+				remove_province_modifier = capital_asian_ivory_tower_intellectual
+				remove_province_modifier = capital_asian_man_of_the_people
+				remove_province_modifier = capital_asian_landed_gentleman
+				remove_province_modifier = capital_asian_military_man
+				remove_province_modifier = capital_asian_lord_admiral
+				remove_province_modifier = capital_asian_raving_loon
+				remove_province_modifier = capital_asian_luddite
+				remove_province_modifier = capital_asian_great_statesman
+				remove_province_modifier = capital_asian_backroom_boy
+				remove_province_modifier = capital_asian_great_reformer
+				remove_province_modifier = capital_asian_gauche_buffoon
+				remove_province_modifier = capital_asian_administrative_genius
+				remove_province_modifier = capital_asian_visionary_thinker
+				remove_province_modifier = capital_asian_competent_placeholder
+				remove_province_modifier = capital_asian_imperious_autocrat
+				remove_province_modifier = capital_asian_prince_of_terror
+				remove_province_modifier = capital_asian_efficient_sociopath
+				remove_province_modifier = capital_asian_pig_headed_isolationist
+				remove_province_modifier = capital_asian_ambitious_union_boss
+				remove_province_modifier = capital_asian_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = asian_visionary_thinker duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_asian_visionary_thinker duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
 
 	# Dictatorships - any
 	country_event = {
-		id = 300050015
+		id = 120050015
 		title = "EVTNAMELEADEREMERGES"
 		desc = "EVTDESC100050015"
 		picture = "danishgovernment"
 		trigger = {
 			OR = {
-				is_culture_group = central_asian
-				is_culture_group = southeast_asian
-				is_culture_group = east_asian
-				is_culture_group = far_east_asian
-			}
+                is_culture_group = central_asian
+                is_culture_group = southeast_asian
+                is_culture_group = east_asian
+                is_culture_group = far_east_asian
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -1903,9 +2657,38 @@
 			remove_country_modifier = asian_pig_headed_isolationist
 			remove_country_modifier = asian_ambitious_union_boss
 			remove_country_modifier = asian_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_asian_expert_diplomat
+				remove_province_modifier = capital_asian_successful_industrialist
+				remove_province_modifier = capital_asian_ivory_tower_intellectual
+				remove_province_modifier = capital_asian_man_of_the_people
+				remove_province_modifier = capital_asian_landed_gentleman
+				remove_province_modifier = capital_asian_military_man
+				remove_province_modifier = capital_asian_lord_admiral
+				remove_province_modifier = capital_asian_raving_loon
+				remove_province_modifier = capital_asian_luddite
+				remove_province_modifier = capital_asian_great_statesman
+				remove_province_modifier = capital_asian_backroom_boy
+				remove_province_modifier = capital_asian_great_reformer
+				remove_province_modifier = capital_asian_gauche_buffoon
+				remove_province_modifier = capital_asian_administrative_genius
+				remove_province_modifier = capital_asian_visionary_thinker
+				remove_province_modifier = capital_asian_competent_placeholder
+				remove_province_modifier = capital_asian_imperious_autocrat
+				remove_province_modifier = capital_asian_prince_of_terror
+				remove_province_modifier = capital_asian_efficient_sociopath
+				remove_province_modifier = capital_asian_pig_headed_isolationist
+				remove_province_modifier = capital_asian_ambitious_union_boss
+				remove_province_modifier = capital_asian_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = asian_visionary_thinker duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_asian_visionary_thinker duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -1914,18 +2697,18 @@
 
 	# Non-Dictatorships - any
 	country_event = {
-		id = 300040016
+		id = 120040016
 		title = "EVTNAMEMINISTERAPPOINTED"
 		desc = "EVTDESC100040016"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = central_asian
-				is_culture_group = southeast_asian
-				is_culture_group = east_asian
-				is_culture_group = far_east_asian
-			}
+                is_culture_group = central_asian
+                is_culture_group = southeast_asian
+                is_culture_group = east_asian
+                is_culture_group = far_east_asian
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -1982,9 +2765,38 @@
 			remove_country_modifier = asian_pig_headed_isolationist
 			remove_country_modifier = asian_ambitious_union_boss
 			remove_country_modifier = asian_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_asian_expert_diplomat
+				remove_province_modifier = capital_asian_successful_industrialist
+				remove_province_modifier = capital_asian_ivory_tower_intellectual
+				remove_province_modifier = capital_asian_man_of_the_people
+				remove_province_modifier = capital_asian_landed_gentleman
+				remove_province_modifier = capital_asian_military_man
+				remove_province_modifier = capital_asian_lord_admiral
+				remove_province_modifier = capital_asian_raving_loon
+				remove_province_modifier = capital_asian_luddite
+				remove_province_modifier = capital_asian_great_statesman
+				remove_province_modifier = capital_asian_backroom_boy
+				remove_province_modifier = capital_asian_great_reformer
+				remove_province_modifier = capital_asian_gauche_buffoon
+				remove_province_modifier = capital_asian_administrative_genius
+				remove_province_modifier = capital_asian_visionary_thinker
+				remove_province_modifier = capital_asian_competent_placeholder
+				remove_province_modifier = capital_asian_imperious_autocrat
+				remove_province_modifier = capital_asian_prince_of_terror
+				remove_province_modifier = capital_asian_efficient_sociopath
+				remove_province_modifier = capital_asian_pig_headed_isolationist
+				remove_province_modifier = capital_asian_ambitious_union_boss
+				remove_province_modifier = capital_asian_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = asian_competent_placeholder duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_asian_competent_placeholder duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -1993,18 +2805,18 @@
 
 	# Non-Dictatorships - monarchy or conservative
 	country_event = {
-		id = 300040017
+		id = 120040017
 		title = "EVTNAMEMINISTERAPPOINTED"
 		desc = "EVTDESC100040017"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = central_asian
-				is_culture_group = southeast_asian
-				is_culture_group = east_asian
-				is_culture_group = far_east_asian
-			}
+                is_culture_group = central_asian
+                is_culture_group = southeast_asian
+                is_culture_group = east_asian
+                is_culture_group = far_east_asian
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -2056,27 +2868,56 @@
 			remove_country_modifier = asian_pig_headed_isolationist
 			remove_country_modifier = asian_ambitious_union_boss
 			remove_country_modifier = asian_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_asian_expert_diplomat
+				remove_province_modifier = capital_asian_successful_industrialist
+				remove_province_modifier = capital_asian_ivory_tower_intellectual
+				remove_province_modifier = capital_asian_man_of_the_people
+				remove_province_modifier = capital_asian_landed_gentleman
+				remove_province_modifier = capital_asian_military_man
+				remove_province_modifier = capital_asian_lord_admiral
+				remove_province_modifier = capital_asian_raving_loon
+				remove_province_modifier = capital_asian_luddite
+				remove_province_modifier = capital_asian_great_statesman
+				remove_province_modifier = capital_asian_backroom_boy
+				remove_province_modifier = capital_asian_great_reformer
+				remove_province_modifier = capital_asian_gauche_buffoon
+				remove_province_modifier = capital_asian_administrative_genius
+				remove_province_modifier = capital_asian_visionary_thinker
+				remove_province_modifier = capital_asian_competent_placeholder
+				remove_province_modifier = capital_asian_imperious_autocrat
+				remove_province_modifier = capital_asian_prince_of_terror
+				remove_province_modifier = capital_asian_efficient_sociopath
+				remove_province_modifier = capital_asian_pig_headed_isolationist
+				remove_province_modifier = capital_asian_ambitious_union_boss
+				remove_province_modifier = capital_asian_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = asian_imperious_autocrat duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_asian_imperious_autocrat duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
 
 	# Dictatorships - non-communist
 	country_event = {
-		id = 300050017
+		id = 120050017
 		title = "EVTNAMELEADEREMERGES"
 		desc = "EVTDESC100050017"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = central_asian
-				is_culture_group = southeast_asian
-				is_culture_group = east_asian
-				is_culture_group = far_east_asian
-			}
+                is_culture_group = central_asian
+                is_culture_group = southeast_asian
+                is_culture_group = east_asian
+                is_culture_group = far_east_asian
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -2118,9 +2959,38 @@
 			remove_country_modifier = asian_pig_headed_isolationist
 			remove_country_modifier = asian_ambitious_union_boss
 			remove_country_modifier = asian_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_asian_expert_diplomat
+				remove_province_modifier = capital_asian_successful_industrialist
+				remove_province_modifier = capital_asian_ivory_tower_intellectual
+				remove_province_modifier = capital_asian_man_of_the_people
+				remove_province_modifier = capital_asian_landed_gentleman
+				remove_province_modifier = capital_asian_military_man
+				remove_province_modifier = capital_asian_lord_admiral
+				remove_province_modifier = capital_asian_raving_loon
+				remove_province_modifier = capital_asian_luddite
+				remove_province_modifier = capital_asian_great_statesman
+				remove_province_modifier = capital_asian_backroom_boy
+				remove_province_modifier = capital_asian_great_reformer
+				remove_province_modifier = capital_asian_gauche_buffoon
+				remove_province_modifier = capital_asian_administrative_genius
+				remove_province_modifier = capital_asian_visionary_thinker
+				remove_province_modifier = capital_asian_competent_placeholder
+				remove_province_modifier = capital_asian_imperious_autocrat
+				remove_province_modifier = capital_asian_prince_of_terror
+				remove_province_modifier = capital_asian_efficient_sociopath
+				remove_province_modifier = capital_asian_pig_headed_isolationist
+				remove_province_modifier = capital_asian_ambitious_union_boss
+				remove_province_modifier = capital_asian_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = asian_imperious_autocrat duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_asian_imperious_autocrat duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -2129,18 +2999,18 @@
 
 	# Non-Dictatorships - monarchy
 	country_event = {
-		id = 300040018
+		id = 120040018
 		title = "EVTNAMEMINISTERAPPOINTED"
 		desc = "EVTDESC100040018"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = central_asian
-				is_culture_group = southeast_asian
-				is_culture_group = east_asian
-				is_culture_group = far_east_asian
-			}
+                is_culture_group = central_asian
+                is_culture_group = southeast_asian
+                is_culture_group = east_asian
+                is_culture_group = far_east_asian
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -2181,27 +3051,56 @@
 			remove_country_modifier = asian_pig_headed_isolationist
 			remove_country_modifier = asian_ambitious_union_boss
 			remove_country_modifier = asian_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_asian_expert_diplomat
+				remove_province_modifier = capital_asian_successful_industrialist
+				remove_province_modifier = capital_asian_ivory_tower_intellectual
+				remove_province_modifier = capital_asian_man_of_the_people
+				remove_province_modifier = capital_asian_landed_gentleman
+				remove_province_modifier = capital_asian_military_man
+				remove_province_modifier = capital_asian_lord_admiral
+				remove_province_modifier = capital_asian_raving_loon
+				remove_province_modifier = capital_asian_luddite
+				remove_province_modifier = capital_asian_great_statesman
+				remove_province_modifier = capital_asian_backroom_boy
+				remove_province_modifier = capital_asian_great_reformer
+				remove_province_modifier = capital_asian_gauche_buffoon
+				remove_province_modifier = capital_asian_administrative_genius
+				remove_province_modifier = capital_asian_visionary_thinker
+				remove_province_modifier = capital_asian_competent_placeholder
+				remove_province_modifier = capital_asian_imperious_autocrat
+				remove_province_modifier = capital_asian_prince_of_terror
+				remove_province_modifier = capital_asian_efficient_sociopath
+				remove_province_modifier = capital_asian_pig_headed_isolationist
+				remove_province_modifier = capital_asian_ambitious_union_boss
+				remove_province_modifier = capital_asian_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = asian_prince_of_terror duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_asian_prince_of_terror duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
 
 	# Dictatorships - non-bourgeois
 	country_event = {
-		id = 300050018
+		id = 120050018
 		title = "EVTNAMELEADEREMERGES"
 		desc = "EVTDESC100050018"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = central_asian
-				is_culture_group = southeast_asian
-				is_culture_group = east_asian
-				is_culture_group = far_east_asian
-			}
+                is_culture_group = central_asian
+                is_culture_group = southeast_asian
+                is_culture_group = east_asian
+                is_culture_group = far_east_asian
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -2243,9 +3142,38 @@
 			remove_country_modifier = asian_pig_headed_isolationist
 			remove_country_modifier = asian_ambitious_union_boss
 			remove_country_modifier = asian_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_asian_expert_diplomat
+				remove_province_modifier = capital_asian_successful_industrialist
+				remove_province_modifier = capital_asian_ivory_tower_intellectual
+				remove_province_modifier = capital_asian_man_of_the_people
+				remove_province_modifier = capital_asian_landed_gentleman
+				remove_province_modifier = capital_asian_military_man
+				remove_province_modifier = capital_asian_lord_admiral
+				remove_province_modifier = capital_asian_raving_loon
+				remove_province_modifier = capital_asian_luddite
+				remove_province_modifier = capital_asian_great_statesman
+				remove_province_modifier = capital_asian_backroom_boy
+				remove_province_modifier = capital_asian_great_reformer
+				remove_province_modifier = capital_asian_gauche_buffoon
+				remove_province_modifier = capital_asian_administrative_genius
+				remove_province_modifier = capital_asian_visionary_thinker
+				remove_province_modifier = capital_asian_competent_placeholder
+				remove_province_modifier = capital_asian_imperious_autocrat
+				remove_province_modifier = capital_asian_prince_of_terror
+				remove_province_modifier = capital_asian_efficient_sociopath
+				remove_province_modifier = capital_asian_pig_headed_isolationist
+				remove_province_modifier = capital_asian_ambitious_union_boss
+				remove_province_modifier = capital_asian_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = asian_prince_of_terror duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_asian_prince_of_terror duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -2254,18 +3182,18 @@
 
 	# Non-Dictatorships - monarchy or socialist
 	country_event = {
-		id = 300040019
+		id = 120040019
 		title = "EVTNAMEMINISTERAPPOINTED"
 		desc = "EVTDESC100040019"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = central_asian
-				is_culture_group = southeast_asian
-				is_culture_group = east_asian
-				is_culture_group = far_east_asian
-			}
+                is_culture_group = central_asian
+                is_culture_group = southeast_asian
+                is_culture_group = east_asian
+                is_culture_group = far_east_asian
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -2317,27 +3245,56 @@
 			remove_country_modifier = asian_pig_headed_isolationist
 			remove_country_modifier = asian_ambitious_union_boss
 			remove_country_modifier = asian_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_asian_expert_diplomat
+				remove_province_modifier = capital_asian_successful_industrialist
+				remove_province_modifier = capital_asian_ivory_tower_intellectual
+				remove_province_modifier = capital_asian_man_of_the_people
+				remove_province_modifier = capital_asian_landed_gentleman
+				remove_province_modifier = capital_asian_military_man
+				remove_province_modifier = capital_asian_lord_admiral
+				remove_province_modifier = capital_asian_raving_loon
+				remove_province_modifier = capital_asian_luddite
+				remove_province_modifier = capital_asian_great_statesman
+				remove_province_modifier = capital_asian_backroom_boy
+				remove_province_modifier = capital_asian_great_reformer
+				remove_province_modifier = capital_asian_gauche_buffoon
+				remove_province_modifier = capital_asian_administrative_genius
+				remove_province_modifier = capital_asian_visionary_thinker
+				remove_province_modifier = capital_asian_competent_placeholder
+				remove_province_modifier = capital_asian_imperious_autocrat
+				remove_province_modifier = capital_asian_prince_of_terror
+				remove_province_modifier = capital_asian_efficient_sociopath
+				remove_province_modifier = capital_asian_pig_headed_isolationist
+				remove_province_modifier = capital_asian_ambitious_union_boss
+				remove_province_modifier = capital_asian_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = asian_efficient_sociopath duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_asian_efficient_sociopath duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
 
 	# Dictatorships - non-bourgeois
 	country_event = {
-		id = 300050019
+		id = 120050019
 		title = "EVTNAMELEADEREMERGES"
 		desc = "EVTDESC100050019"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = central_asian
-				is_culture_group = southeast_asian
-				is_culture_group = east_asian
-				is_culture_group = far_east_asian
-			}
+                is_culture_group = central_asian
+                is_culture_group = southeast_asian
+                is_culture_group = east_asian
+                is_culture_group = far_east_asian
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -2379,9 +3336,38 @@
 			remove_country_modifier = asian_pig_headed_isolationist
 			remove_country_modifier = asian_ambitious_union_boss
 			remove_country_modifier = asian_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_asian_expert_diplomat
+				remove_province_modifier = capital_asian_successful_industrialist
+				remove_province_modifier = capital_asian_ivory_tower_intellectual
+				remove_province_modifier = capital_asian_man_of_the_people
+				remove_province_modifier = capital_asian_landed_gentleman
+				remove_province_modifier = capital_asian_military_man
+				remove_province_modifier = capital_asian_lord_admiral
+				remove_province_modifier = capital_asian_raving_loon
+				remove_province_modifier = capital_asian_luddite
+				remove_province_modifier = capital_asian_great_statesman
+				remove_province_modifier = capital_asian_backroom_boy
+				remove_province_modifier = capital_asian_great_reformer
+				remove_province_modifier = capital_asian_gauche_buffoon
+				remove_province_modifier = capital_asian_administrative_genius
+				remove_province_modifier = capital_asian_visionary_thinker
+				remove_province_modifier = capital_asian_competent_placeholder
+				remove_province_modifier = capital_asian_imperious_autocrat
+				remove_province_modifier = capital_asian_prince_of_terror
+				remove_province_modifier = capital_asian_efficient_sociopath
+				remove_province_modifier = capital_asian_pig_headed_isolationist
+				remove_province_modifier = capital_asian_ambitious_union_boss
+				remove_province_modifier = capital_asian_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = asian_efficient_sociopath duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_asian_efficient_sociopath duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -2390,18 +3376,18 @@
 
 	# Non-Dictatorships - non-liberal
 	country_event = {
-		id = 300040020
+		id = 120040020
 		title = "EVTNAMEMINISTERAPPOINTED"
 		desc = "EVTDESC100040020"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = central_asian
-				is_culture_group = southeast_asian
-				is_culture_group = east_asian
-				is_culture_group = far_east_asian
-			}
+                is_culture_group = central_asian
+                is_culture_group = southeast_asian
+                is_culture_group = east_asian
+                is_culture_group = far_east_asian
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -2456,26 +3442,55 @@
 			remove_country_modifier = asian_pig_headed_isolationist
 			remove_country_modifier = asian_ambitious_union_boss
 			remove_country_modifier = asian_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_asian_expert_diplomat
+				remove_province_modifier = capital_asian_successful_industrialist
+				remove_province_modifier = capital_asian_ivory_tower_intellectual
+				remove_province_modifier = capital_asian_man_of_the_people
+				remove_province_modifier = capital_asian_landed_gentleman
+				remove_province_modifier = capital_asian_military_man
+				remove_province_modifier = capital_asian_lord_admiral
+				remove_province_modifier = capital_asian_raving_loon
+				remove_province_modifier = capital_asian_luddite
+				remove_province_modifier = capital_asian_great_statesman
+				remove_province_modifier = capital_asian_backroom_boy
+				remove_province_modifier = capital_asian_great_reformer
+				remove_province_modifier = capital_asian_gauche_buffoon
+				remove_province_modifier = capital_asian_administrative_genius
+				remove_province_modifier = capital_asian_visionary_thinker
+				remove_province_modifier = capital_asian_competent_placeholder
+				remove_province_modifier = capital_asian_imperious_autocrat
+				remove_province_modifier = capital_asian_prince_of_terror
+				remove_province_modifier = capital_asian_efficient_sociopath
+				remove_province_modifier = capital_asian_pig_headed_isolationist
+				remove_province_modifier = capital_asian_ambitious_union_boss
+				remove_province_modifier = capital_asian_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = asian_pig_headed_isolationist duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_asian_pig_headed_isolationist duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
 
 	# Dictatorships - any
 	country_event = {
-		id = 300050020
+		id = 120050020
 		title = "EVTNAMELEADEREMERGES"
 		desc = "EVTDESC100050020"
 		picture = "danishgovernment"
 		trigger = {
 			OR = {
-				is_culture_group = central_asian
-				is_culture_group = southeast_asian
-				is_culture_group = east_asian
-				is_culture_group = far_east_asian
-			}
+                is_culture_group = central_asian
+                is_culture_group = southeast_asian
+                is_culture_group = east_asian
+                is_culture_group = far_east_asian
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -2518,9 +3533,38 @@
 			remove_country_modifier = asian_pig_headed_isolationist
 			remove_country_modifier = asian_ambitious_union_boss
 			remove_country_modifier = asian_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_asian_expert_diplomat
+				remove_province_modifier = capital_asian_successful_industrialist
+				remove_province_modifier = capital_asian_ivory_tower_intellectual
+				remove_province_modifier = capital_asian_man_of_the_people
+				remove_province_modifier = capital_asian_landed_gentleman
+				remove_province_modifier = capital_asian_military_man
+				remove_province_modifier = capital_asian_lord_admiral
+				remove_province_modifier = capital_asian_raving_loon
+				remove_province_modifier = capital_asian_luddite
+				remove_province_modifier = capital_asian_great_statesman
+				remove_province_modifier = capital_asian_backroom_boy
+				remove_province_modifier = capital_asian_great_reformer
+				remove_province_modifier = capital_asian_gauche_buffoon
+				remove_province_modifier = capital_asian_administrative_genius
+				remove_province_modifier = capital_asian_visionary_thinker
+				remove_province_modifier = capital_asian_competent_placeholder
+				remove_province_modifier = capital_asian_imperious_autocrat
+				remove_province_modifier = capital_asian_prince_of_terror
+				remove_province_modifier = capital_asian_efficient_sociopath
+				remove_province_modifier = capital_asian_pig_headed_isolationist
+				remove_province_modifier = capital_asian_ambitious_union_boss
+				remove_province_modifier = capital_asian_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = asian_pig_headed_isolationist duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_asian_pig_headed_isolationist duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -2529,18 +3573,18 @@
 
 	# Non-Dictatorships - socialist
 	country_event = {
-		id = 300040021
+		id = 120040021
 		title = "EVTNAMEMINISTERAPPOINTED"
 		desc = "EVTDESC100040021"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = central_asian
-				is_culture_group = southeast_asian
-				is_culture_group = east_asian
-				is_culture_group = far_east_asian
-			}
+                is_culture_group = central_asian
+                is_culture_group = southeast_asian
+                is_culture_group = east_asian
+                is_culture_group = far_east_asian
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -2586,27 +3630,56 @@
 			remove_country_modifier = asian_pig_headed_isolationist
 			remove_country_modifier = asian_ambitious_union_boss
 			remove_country_modifier = asian_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_asian_expert_diplomat
+				remove_province_modifier = capital_asian_successful_industrialist
+				remove_province_modifier = capital_asian_ivory_tower_intellectual
+				remove_province_modifier = capital_asian_man_of_the_people
+				remove_province_modifier = capital_asian_landed_gentleman
+				remove_province_modifier = capital_asian_military_man
+				remove_province_modifier = capital_asian_lord_admiral
+				remove_province_modifier = capital_asian_raving_loon
+				remove_province_modifier = capital_asian_luddite
+				remove_province_modifier = capital_asian_great_statesman
+				remove_province_modifier = capital_asian_backroom_boy
+				remove_province_modifier = capital_asian_great_reformer
+				remove_province_modifier = capital_asian_gauche_buffoon
+				remove_province_modifier = capital_asian_administrative_genius
+				remove_province_modifier = capital_asian_visionary_thinker
+				remove_province_modifier = capital_asian_competent_placeholder
+				remove_province_modifier = capital_asian_imperious_autocrat
+				remove_province_modifier = capital_asian_prince_of_terror
+				remove_province_modifier = capital_asian_efficient_sociopath
+				remove_province_modifier = capital_asian_pig_headed_isolationist
+				remove_province_modifier = capital_asian_ambitious_union_boss
+				remove_province_modifier = capital_asian_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = asian_ambitious_union_boss duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_asian_ambitious_union_boss duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
 
 	# Dictatorships - non-bourgeois
 	country_event = {
-		id = 300050022
+		id = 120050022
 		title = "EVTNAMELEADEREMERGES"
 		desc = "EVTDESC100050022"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = central_asian
-				is_culture_group = southeast_asian
-				is_culture_group = east_asian
-				is_culture_group = far_east_asian
-			}
+                is_culture_group = central_asian
+                is_culture_group = southeast_asian
+                is_culture_group = east_asian
+                is_culture_group = far_east_asian
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -2648,9 +3721,38 @@
 			remove_country_modifier = asian_pig_headed_isolationist
 			remove_country_modifier = asian_ambitious_union_boss
 			remove_country_modifier = asian_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_asian_expert_diplomat
+				remove_province_modifier = capital_asian_successful_industrialist
+				remove_province_modifier = capital_asian_ivory_tower_intellectual
+				remove_province_modifier = capital_asian_man_of_the_people
+				remove_province_modifier = capital_asian_landed_gentleman
+				remove_province_modifier = capital_asian_military_man
+				remove_province_modifier = capital_asian_lord_admiral
+				remove_province_modifier = capital_asian_raving_loon
+				remove_province_modifier = capital_asian_luddite
+				remove_province_modifier = capital_asian_great_statesman
+				remove_province_modifier = capital_asian_backroom_boy
+				remove_province_modifier = capital_asian_great_reformer
+				remove_province_modifier = capital_asian_gauche_buffoon
+				remove_province_modifier = capital_asian_administrative_genius
+				remove_province_modifier = capital_asian_visionary_thinker
+				remove_province_modifier = capital_asian_competent_placeholder
+				remove_province_modifier = capital_asian_imperious_autocrat
+				remove_province_modifier = capital_asian_prince_of_terror
+				remove_province_modifier = capital_asian_efficient_sociopath
+				remove_province_modifier = capital_asian_pig_headed_isolationist
+				remove_province_modifier = capital_asian_ambitious_union_boss
+				remove_province_modifier = capital_asian_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = asian_ambitious_union_boss duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_asian_ambitious_union_boss duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -2659,18 +3761,18 @@
 
 	# Non-Dictatorships - conservative
 	country_event = {
-		id = 300070022
+		id = 120070022
 		title = "EVTNAMEMINISTERAPPOINTED"
 		desc = "EVTDESC100040022"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = central_asian
-				is_culture_group = southeast_asian
-				is_culture_group = east_asian
-				is_culture_group = far_east_asian
-			}
+                is_culture_group = central_asian
+                is_culture_group = southeast_asian
+                is_culture_group = east_asian
+                is_culture_group = far_east_asian
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -2716,27 +3818,56 @@
 			remove_country_modifier = asian_pig_headed_isolationist
 			remove_country_modifier = asian_ambitious_union_boss
 			remove_country_modifier = asian_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_asian_expert_diplomat
+				remove_province_modifier = capital_asian_successful_industrialist
+				remove_province_modifier = capital_asian_ivory_tower_intellectual
+				remove_province_modifier = capital_asian_man_of_the_people
+				remove_province_modifier = capital_asian_landed_gentleman
+				remove_province_modifier = capital_asian_military_man
+				remove_province_modifier = capital_asian_lord_admiral
+				remove_province_modifier = capital_asian_raving_loon
+				remove_province_modifier = capital_asian_luddite
+				remove_province_modifier = capital_asian_great_statesman
+				remove_province_modifier = capital_asian_backroom_boy
+				remove_province_modifier = capital_asian_great_reformer
+				remove_province_modifier = capital_asian_gauche_buffoon
+				remove_province_modifier = capital_asian_administrative_genius
+				remove_province_modifier = capital_asian_visionary_thinker
+				remove_province_modifier = capital_asian_competent_placeholder
+				remove_province_modifier = capital_asian_imperious_autocrat
+				remove_province_modifier = capital_asian_prince_of_terror
+				remove_province_modifier = capital_asian_efficient_sociopath
+				remove_province_modifier = capital_asian_pig_headed_isolationist
+				remove_province_modifier = capital_asian_ambitious_union_boss
+				remove_province_modifier = capital_asian_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = asian_dour_economist duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_asian_dour_economist duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
 
 	# Dictatorships - non-fascist
 	country_event = {
-		id = 300050050
+		id = 120050050
 		title = "EVTNAMELEADEREMERGES"
 		desc = "EVTDESC100050050"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = central_asian
-				is_culture_group = southeast_asian
-				is_culture_group = east_asian
-				is_culture_group = far_east_asian
-			}
+                is_culture_group = central_asian
+                is_culture_group = southeast_asian
+                is_culture_group = east_asian
+                is_culture_group = far_east_asian
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -2778,9 +3909,38 @@
 			remove_country_modifier = asian_pig_headed_isolationist
 			remove_country_modifier = asian_ambitious_union_boss
 			remove_country_modifier = asian_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_asian_expert_diplomat
+				remove_province_modifier = capital_asian_successful_industrialist
+				remove_province_modifier = capital_asian_ivory_tower_intellectual
+				remove_province_modifier = capital_asian_man_of_the_people
+				remove_province_modifier = capital_asian_landed_gentleman
+				remove_province_modifier = capital_asian_military_man
+				remove_province_modifier = capital_asian_lord_admiral
+				remove_province_modifier = capital_asian_raving_loon
+				remove_province_modifier = capital_asian_luddite
+				remove_province_modifier = capital_asian_great_statesman
+				remove_province_modifier = capital_asian_backroom_boy
+				remove_province_modifier = capital_asian_great_reformer
+				remove_province_modifier = capital_asian_gauche_buffoon
+				remove_province_modifier = capital_asian_administrative_genius
+				remove_province_modifier = capital_asian_visionary_thinker
+				remove_province_modifier = capital_asian_competent_placeholder
+				remove_province_modifier = capital_asian_imperious_autocrat
+				remove_province_modifier = capital_asian_prince_of_terror
+				remove_province_modifier = capital_asian_efficient_sociopath
+				remove_province_modifier = capital_asian_pig_headed_isolationist
+				remove_province_modifier = capital_asian_ambitious_union_boss
+				remove_province_modifier = capital_asian_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = asian_dour_economist duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_asian_dour_economist duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -2789,18 +3949,18 @@
 
 	# First Minister Assassinated
 	country_event = {
-		id = 300040120
+		id = 120040120
 		title = "EVTNAME100040120"
 		desc = "EVTDESC100040120"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = central_asian
-				is_culture_group = southeast_asian
-				is_culture_group = east_asian
-				is_culture_group = far_east_asian
-			}
+                is_culture_group = central_asian
+                is_culture_group = southeast_asian
+                is_culture_group = east_asian
+                is_culture_group = far_east_asian
+            }
 			OR = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -2842,6 +4002,29 @@
 			remove_country_modifier = asian_pig_headed_isolationist
 			remove_country_modifier = asian_ambitious_union_boss
 			remove_country_modifier = asian_dour_economist
+			
+			remove_country_modifier = capital_asian_expert_diplomat
+			remove_country_modifier = capital_asian_successful_industrialist
+			remove_country_modifier = capital_asian_ivory_tower_intellectual
+			remove_country_modifier = capital_asian_man_of_the_people
+			remove_country_modifier = capital_asian_landed_gentleman
+			remove_country_modifier = capital_asian_military_man
+			remove_country_modifier = capital_asian_lord_admiral
+			remove_country_modifier = capital_asian_raving_loon
+			remove_country_modifier = capital_asian_luddite
+			remove_country_modifier = capital_asian_great_statesman
+			remove_country_modifier = capital_asian_backroom_boy
+			remove_country_modifier = capital_asian_great_reformer
+			remove_country_modifier = capital_asian_gauche_buffoon
+			remove_country_modifier = capital_asian_administrative_genius
+			remove_country_modifier = capital_asian_visionary_thinker
+			remove_country_modifier = capital_asian_competent_placeholder
+			remove_country_modifier = capital_asian_imperious_autocrat
+			remove_country_modifier = capital_asian_prince_of_terror
+			remove_country_modifier = capital_asian_efficient_sociopath
+			remove_country_modifier = capital_asian_pig_headed_isolationist
+			remove_country_modifier = capital_asian_ambitious_union_boss
+			remove_country_modifier = capital_asian_dour_economist
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = national_confusion duration = 365 }
@@ -2850,18 +4033,18 @@
 
 	# First Minister Dies
 	country_event = {
-		id = 300080123
+		id = 120080123
 		title = "EVTNAME100080123"
 		desc = "EVTDESC100080123"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = central_asian
-				is_culture_group = southeast_asian
-				is_culture_group = east_asian
-				is_culture_group = far_east_asian
-			}
+                is_culture_group = central_asian
+                is_culture_group = southeast_asian
+                is_culture_group = east_asian
+                is_culture_group = far_east_asian
+            }
 			NOT = {
 				has_country_flag = communist_gov
 				government = presidential_dictatorship
@@ -2903,6 +4086,29 @@
 			remove_country_modifier = asian_pig_headed_isolationist
 			remove_country_modifier = asian_ambitious_union_boss
 			remove_country_modifier = asian_dour_economist
+			
+			remove_country_modifier = capital_asian_expert_diplomat
+			remove_country_modifier = capital_asian_successful_industrialist
+			remove_country_modifier = capital_asian_ivory_tower_intellectual
+			remove_country_modifier = capital_asian_man_of_the_people
+			remove_country_modifier = capital_asian_landed_gentleman
+			remove_country_modifier = capital_asian_military_man
+			remove_country_modifier = capital_asian_lord_admiral
+			remove_country_modifier = capital_asian_raving_loon
+			remove_country_modifier = capital_asian_luddite
+			remove_country_modifier = capital_asian_great_statesman
+			remove_country_modifier = capital_asian_backroom_boy
+			remove_country_modifier = capital_asian_great_reformer
+			remove_country_modifier = capital_asian_gauche_buffoon
+			remove_country_modifier = capital_asian_administrative_genius
+			remove_country_modifier = capital_asian_visionary_thinker
+			remove_country_modifier = capital_asian_competent_placeholder
+			remove_country_modifier = capital_asian_imperious_autocrat
+			remove_country_modifier = capital_asian_prince_of_terror
+			remove_country_modifier = capital_asian_efficient_sociopath
+			remove_country_modifier = capital_asian_pig_headed_isolationist
+			remove_country_modifier = capital_asian_ambitious_union_boss
+			remove_country_modifier = capital_asian_dour_economist
 			remove_country_modifier = has_political_leader
 			remove_country_modifier = otto_von_bismarck
 			remove_country_modifier = has_political_leader
@@ -2911,18 +4117,18 @@
 
 	# First Minister Committed
 	country_event = {
-		id = 300080124
+		id = 120080124
 		title = "EVTNAME100080124"
 		desc = "EVTDESC100080124"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = central_asian
-				is_culture_group = southeast_asian
-				is_culture_group = east_asian
-				is_culture_group = far_east_asian
-			}
+                is_culture_group = central_asian
+                is_culture_group = southeast_asian
+                is_culture_group = east_asian
+                is_culture_group = far_east_asian
+            }
 			NOT = {
 				has_country_flag = communist_gov
 				government = presidential_dictatorship
@@ -2948,18 +4154,18 @@
 
 	# Dictator Dies
 	country_event = {
-		id = 300080125
+		id = 120080125
 		title = "EVTNAME100080125"
 		desc = "EVTDESC100080125"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = central_asian
-				is_culture_group = southeast_asian
-				is_culture_group = east_asian
-				is_culture_group = far_east_asian
-			}
+                is_culture_group = central_asian
+                is_culture_group = southeast_asian
+                is_culture_group = east_asian
+                is_culture_group = far_east_asian
+            }
 			OR = {
 				has_country_flag = communist_gov
 				government = presidential_dictatorship
@@ -3002,6 +4208,29 @@
 			remove_country_modifier = asian_ambitious_union_boss
 			remove_country_modifier = asian_dour_economist
 			remove_country_modifier = otto_von_bismarck
+			
+			remove_country_modifier = capital_asian_expert_diplomat
+			remove_country_modifier = capital_asian_successful_industrialist
+			remove_country_modifier = capital_asian_ivory_tower_intellectual
+			remove_country_modifier = capital_asian_man_of_the_people
+			remove_country_modifier = capital_asian_landed_gentleman
+			remove_country_modifier = capital_asian_military_man
+			remove_country_modifier = capital_asian_lord_admiral
+			remove_country_modifier = capital_asian_raving_loon
+			remove_country_modifier = capital_asian_luddite
+			remove_country_modifier = capital_asian_great_statesman
+			remove_country_modifier = capital_asian_backroom_boy
+			remove_country_modifier = capital_asian_great_reformer
+			remove_country_modifier = capital_asian_gauche_buffoon
+			remove_country_modifier = capital_asian_administrative_genius
+			remove_country_modifier = capital_asian_visionary_thinker
+			remove_country_modifier = capital_asian_competent_placeholder
+			remove_country_modifier = capital_asian_imperious_autocrat
+			remove_country_modifier = capital_asian_prince_of_terror
+			remove_country_modifier = capital_asian_efficient_sociopath
+			remove_country_modifier = capital_asian_pig_headed_isolationist
+			remove_country_modifier = capital_asian_ambitious_union_boss
+			remove_country_modifier = capital_asian_dour_economist
 			remove_country_modifier = has_political_leader
 			
 			add_country_modifier = { name = power_vacuum duration = 365 }
@@ -3010,7 +4239,7 @@
 
 	# Dictator Assassinated
 	country_event = {
-		id = 300050120
+		id = 120050120
 		title = "EVTNAME100050120"
 		desc = "EVTDESC100050120"
 		picture = "assassination"
@@ -3023,11 +4252,11 @@
 
 		trigger = {
 			OR = {
-				is_culture_group = central_asian
-				is_culture_group = southeast_asian
-				is_culture_group = east_asian
-				is_culture_group = far_east_asian
-			}
+                is_culture_group = central_asian
+                is_culture_group = southeast_asian
+                is_culture_group = east_asian
+                is_culture_group = far_east_asian
+            }
 			has_country_modifier = has_political_leader
 			average_militancy = 5
 			OR = {
@@ -3069,6 +4298,29 @@
 			remove_country_modifier = asian_ambitious_union_boss
 			remove_country_modifier = asian_dour_economist
 			remove_country_modifier = otto_von_bismarck
+			
+			remove_country_modifier = capital_asian_expert_diplomat
+			remove_country_modifier = capital_asian_successful_industrialist
+			remove_country_modifier = capital_asian_ivory_tower_intellectual
+			remove_country_modifier = capital_asian_man_of_the_people
+			remove_country_modifier = capital_asian_landed_gentleman
+			remove_country_modifier = capital_asian_military_man
+			remove_country_modifier = capital_asian_lord_admiral
+			remove_country_modifier = capital_asian_raving_loon
+			remove_country_modifier = capital_asian_luddite
+			remove_country_modifier = capital_asian_great_statesman
+			remove_country_modifier = capital_asian_backroom_boy
+			remove_country_modifier = capital_asian_great_reformer
+			remove_country_modifier = capital_asian_gauche_buffoon
+			remove_country_modifier = capital_asian_administrative_genius
+			remove_country_modifier = capital_asian_visionary_thinker
+			remove_country_modifier = capital_asian_competent_placeholder
+			remove_country_modifier = capital_asian_imperious_autocrat
+			remove_country_modifier = capital_asian_prince_of_terror
+			remove_country_modifier = capital_asian_efficient_sociopath
+			remove_country_modifier = capital_asian_pig_headed_isolationist
+			remove_country_modifier = capital_asian_ambitious_union_boss
+			remove_country_modifier = capital_asian_dour_economist
 			remove_country_modifier = has_political_leader
 			
 			add_country_modifier = { name = national_confusion duration = 365 }

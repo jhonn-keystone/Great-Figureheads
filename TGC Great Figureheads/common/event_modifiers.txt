@@ -6244,6 +6244,94 @@ african_dour_economist = {
     icon = 42
 }
 
+capital_african_expert_diplomat = {
+    icon = 42
+}
+
+capital_african_successful_industrialist = {
+    icon = 44
+}
+
+capital_african_ivory_tower_intellectual = {
+    icon = 45
+}
+
+capital_african_man_of_the_people = {
+    icon = 43
+}
+
+capital_african_landed_gentleman = {
+    icon = 46
+}
+
+capital_african_military_man = {
+    icon = 41
+}
+
+capital_african_lord_admiral = {
+    icon = 47
+}
+
+capital_african_raving_loon = {
+    icon = 45
+}
+
+capital_african_luddite = {
+    icon = 44
+}
+
+capital_african_great_statesman = {
+    icon = 41
+}
+
+capital_african_backroom_boy = {
+    icon = 48
+}
+
+capital_african_great_reformer = {
+    icon = 43
+}
+
+capital_african_gauche_buffoon = {
+    icon = 47
+}
+
+capital_african_administrative_genius = {
+    icon = 44
+}
+
+capital_african_visionary_thinker = {
+    icon = 43
+}
+
+capital_african_competent_placeholder = {
+    icon = 42
+}
+
+capital_african_imperious_autocrat = {
+    icon = 41
+}
+
+capital_african_prince_of_terror = {
+    icon = 46
+}
+
+capital_african_efficient_sociopath = {
+    icon = 48
+}
+
+capital_african_pig_headed_isolationist = {
+    icon = 45
+}
+
+capital_african_ambitious_union_boss = {
+    icon = 43
+}
+
+capital_african_dour_economist = {
+    icon = 44
+}
+
 ### Arab Leaders ###
 
 arab_expert_diplomat = {
@@ -6384,6 +6472,94 @@ arab_dour_economist = {
     ruling_party_support = -0.2
     issue_change_speed = -0.1
     icon = 51
+}
+
+capital_arab_expert_diplomat = {
+    icon = 49
+}
+
+capital_arab_successful_industrialist = {
+    icon = 53
+}
+
+capital_arab_ivory_tower_intellectual = {
+    icon = 55
+}
+
+capital_arab_man_of_the_people = {
+    icon = 50
+}
+
+capital_arab_landed_gentleman = {
+    icon = 52
+}
+
+capital_arab_military_man = {
+    icon = 56
+}
+
+capital_arab_lord_admiral = {
+    icon = 58
+}
+
+capital_arab_raving_loon = {
+    icon = 54
+}
+
+capital_arab_luddite = {
+    icon = 51
+}
+
+capital_arab_great_statesman = {
+    icon = 59
+}
+
+capital_arab_backroom_boy = {
+    icon = 60
+}
+
+capital_arab_great_reformer = {
+    icon = 61
+}
+
+capital_arab_gauche_buffoon = {
+    icon = 57
+}
+
+capital_arab_administrative_genius = {
+    icon = 62
+}
+
+capital_arab_visionary_thinker = {
+    icon = 53
+}
+
+capital_arab_competent_placeholder = {
+    icon = 49
+}
+
+capital_arab_imperious_autocrat = {
+    icon = 50
+}
+
+capital_arab_prince_of_terror = {
+    icon = 56
+}
+
+capital_arab_efficient_sociopath = {
+    icon = 52	
+}
+
+capital_arab_pig_headed_isolationist = {
+    icon = 54
+}
+
+capital_arab_ambitious_union_boss = {
+    icon = 55
+}
+
+capital_arab_dour_economist = {
+    icon = 53
 }
 
 ### Asian Leaders ###
@@ -6528,12 +6704,100 @@ asian_dour_economist = {
     icon = 71
 }
 
+capital_asian_expert_diplomat = {
+    icon = 67
+}
+
+capital_asian_successful_industrialist = {
+    icon = 66
+}
+
+capital_asian_ivory_tower_intellectual = {
+    icon = 68
+}
+
+capital_asian_man_of_the_people = {
+    icon = 69
+}
+
+capital_asian_landed_gentleman = {
+    icon = 71
+}
+
+capital_asian_military_man = {
+    icon = 65
+}
+
+capital_asian_lord_admiral = {
+    icon = 72
+}
+
+capital_asian_raving_loon = {
+    icon = 75
+}
+
+capital_asian_luddite = {
+    icon = 76
+}
+
+capital_asian_great_statesman = {
+    icon = 64
+}
+
+capital_asian_backroom_boy = {
+    icon = 73
+}
+
+capital_asian_great_reformer = {
+    icon = 74
+}
+
+capital_asian_gauche_buffoon = {
+    icon = 77
+}
+
+capital_asian_administrative_genius = {
+    icon = 67
+}
+
+capital_asian_visionary_thinker = {
+    icon = 68
+}
+
+capital_asian_competent_placeholder = {
+    icon = 69
+}
+
+capital_asian_imperious_autocrat = {
+    icon = 71
+}
+
+capital_asian_prince_of_terror = {
+    icon = 70
+}
+
+capital_asian_efficient_sociopath = {
+    icon = 66	
+}
+
+capital_asian_pig_headed_isolationist = {
+    icon = 76
+}
+
+capital_asian_ambitious_union_boss = {
+    icon = 77
+}
+
+capital_asian_dour_economist = {
+    icon = 73
+}
+
 ### European ###
 
 european_expert_diplomat = {
 	diplomatic_points_modifier = 0.5
 	badboy = -0.05
-	icon = 77
+	icon = 129
 }
 
 european_successful_industrialist = {
@@ -6541,20 +6805,20 @@ european_successful_industrialist = {
 	factory_throughput = 0.05
 	farm_RGO_size = -0.05
 	mine_RGO_size = -0.05
-	icon = 78
+	icon = 119
 }
 
 european_ivory_tower_intellectual = {
 	research_points = 1
 	global_pop_consciousness_modifier = 0.01
-	icon = 84
+	icon = 128
 }
 
 european_man_of_the_people = {
 	global_pop_militancy_modifier = -0.02
 	global_pop_consciousness_modifier = 0.02
 	ruling_party_support = 1
-	icon = 79
+	icon = 122
 }
 
 european_landed_gentleman = {
@@ -6562,33 +6826,33 @@ european_landed_gentleman = {
 	farm_RGO_size = 0.05
 	mine_RGO_size = 0.05
 	factory_throughput = -0.05
-	icon = 80
+	icon = 89
 }
 
 european_military_man = {
 	org_regain = 0.1
 	land_organisation = 0.05
-	icon = 76
+	icon = 125
 }
 
 european_lord_admiral = {
 	org_regain = 0.1
 	naval_organisation = 0.05
-	icon = 134
+	icon = 165
 }
 
 european_raving_loon = {
 	global_pop_militancy_modifier = 0.05
 	research_points_modifier = -0.05
 	ruling_party_support = -0.5
-	icon = 81
+	icon = 90
 }
 
 european_luddite = {
 	research_points_modifier = -0.05
 	factory_owner_cost = 0.2
 	RGO_throughput = 0.05
-	icon = 189
+	icon = 83
 }
 
 european_great_statesman = {
@@ -6596,14 +6860,14 @@ european_great_statesman = {
 	diplomatic_points_modifier = 0.25
 	ruling_party_support = 0.5
 	badboy = -0.03
-	icon = 180
+	icon = 132
 }
 
 european_backroom_boy = {
 	RGO_throughput = 0.02
 	research_points_modifier = 0.02
 	leadership = 0.02
-	icon = 191
+	icon = 79
 }
 
 european_great_reformer = {
@@ -6611,63 +6875,151 @@ european_great_reformer = {
 	global_pop_consciousness_modifier = 0.04
 	ruling_party_support = 0.2
 	issue_change_speed = 0.2
-	icon = 177
+	icon = 80
 }
 
 european_gauche_buffoon = {
 	prestige = -0.01
 	diplomatic_points_modifier = -0.5
 	issue_change_speed = 0.1
-	icon = 185
+	icon = 88
 }
 
 european_administrative_genius = {
 	mobilisation_size = 0.01
 	supply_consumption = -0.05
-	icon = 184
+	icon = 120
 }
 
 european_visionary_thinker = {
 	research_points_modifier = 0.2
-	icon = 188
+	icon = 113
 }
 
 european_competent_placeholder = {
-	icon = 178
+	icon = 107
 }
 
 european_imperious_autocrat = {
 	prestige = 0.02
-	icon = 183
+	icon = 130
 }
 
 european_prince_of_terror = {
 	global_pop_militancy_modifier = -0.1
 	badboy = 0.02
-	icon = 182
+	icon = 98
 }
 
 european_efficient_sociopath = {
 	factory_output = 0.05
 	leadership = -0.1
-	icon = 190
+	icon = 116
 }
 
 european_pig_headed_isolationist = {
 	global_pop_consciousness_modifier = -0.05
-	icon = 186
+	icon = 96
 }
 
 european_ambitious_union_boss = {
 	global_pop_consciousness_modifier = 0.03
-	icon = 177
+	icon = 86
 }
 
 european_dour_economist = {
 	factory_owner_cost = -0.1
 	ruling_party_support = -0.2
 	issue_change_speed = -0.1
-	icon = 184
+	icon = 126
+}
+
+capital_european_expert_diplomat = {
+    icon = 131
+}
+
+capital_european_successful_industrialist = {
+    icon = 121
+}
+
+capital_european_ivory_tower_intellectual = {
+    icon = 130
+}
+
+capital_european_man_of_the_people = {
+    icon = 124
+}
+
+capital_european_landed_gentleman = {
+    icon = 91
+}
+
+capital_european_military_man = {
+    icon = 127
+}
+
+capital_european_lord_admiral = {
+    icon = 167
+}
+
+capital_european_raving_loon = {
+    icon = 92
+}
+
+capital_european_luddite = {
+    icon = 85
+}
+
+capital_european_great_statesman = {
+    icon = 134
+}
+
+capital_european_backroom_boy = {
+    icon = 81
+}
+
+capital_european_great_reformer = {
+    icon = 82
+}
+
+capital_european_gauche_buffoon = {
+    icon = 90
+}
+
+capital_european_administrative_genius = {
+    icon = 122
+}
+
+capital_european_visionary_thinker = {
+    icon = 115
+}
+
+capital_european_competent_placeholder = {
+    icon = 109
+}
+
+capital_european_imperious_autocrat = {
+    icon = 132
+}
+
+capital_european_prince_of_terror = {
+    icon = 100
+}
+
+capital_european_efficient_sociopath = {
+    icon = 118
+}
+
+capital_european_pig_headed_isolationist = {
+    icon = 98
+}
+
+capital_european_ambitious_union_boss = {
+    icon = 88
+}
+
+capital_european_dour_economist = {
+    icon = 128
 }
 
 ### Indian ###
@@ -6812,6 +7164,94 @@ indian_dour_economist = {
 	icon = 167
 }
 
+capital_indian_expert_diplomat = {
+    icon = 170
+}
+
+capital_indian_successful_industrialist = {
+    icon = 169
+}
+
+capital_indian_ivory_tower_intellectual = {
+    icon = 171
+}
+
+capital_indian_man_of_the_people = {
+    icon = 172
+}
+
+capital_indian_landed_gentleman = {
+    icon = 173
+}
+
+capital_indian_military_man = {
+    icon = 169
+}
+
+capital_indian_lord_admiral = {
+    icon = 173
+}
+
+capital_indian_raving_loon = {
+    icon = 168
+}
+
+capital_indian_luddite = {
+    icon = 168
+}
+
+capital_indian_great_statesman = {
+    icon = 171
+}
+
+capital_indian_backroom_boy = {
+    icon = 170
+}
+
+capital_indian_great_reformer = {
+    icon = 172
+}
+
+capital_indian_gauche_buffoon = {
+    icon = 170
+}
+
+capital_indian_administrative_genius = {
+    icon = 173
+}
+
+capital_indian_visionary_thinker = {
+    icon = 171
+}
+
+capital_indian_competent_placeholder = {
+    icon = 168
+}
+
+capital_indian_imperious_autocrat = {
+    icon = 173
+}
+
+capital_indian_prince_of_terror = {
+    icon = 170
+}
+
+capital_indian_efficient_sociopath = {
+    icon = 169
+}
+
+capital_indian_pig_headed_isolationist = {
+    icon = 172
+}
+
+capital_indian_ambitious_union_boss = {
+    icon = 171
+}
+
+capital_indian_dour_economist = {
+    icon = 169
+}
+
 ### Native American ###
 
 nativeamerican_expert_diplomat = {
@@ -6952,6 +7392,94 @@ nativeamerican_dour_economist = {
 	ruling_party_support = -0.2
 	issue_change_speed = -0.1
 	icon = 172
+}
+
+capital_nativeamerican_expert_diplomat = {
+    icon = 174
+}
+
+capital_nativeamerican_successful_industrialist = {
+    icon = 174
+}
+
+capital_nativeamerican_ivory_tower_intellectual = {
+    icon = 174
+}
+
+capital_nativeamerican_man_of_the_people = {
+    icon = 174
+}
+
+capital_nativeamerican_landed_gentleman = {
+    icon = 174
+}
+
+capital_nativeamerican_military_man = {
+    icon = 174
+}
+
+capital_nativeamerican_lord_admiral = {
+    icon = 175
+}
+
+capital_nativeamerican_raving_loon = {
+    icon = 174
+}
+
+capital_nativeamerican_luddite = {
+    icon = 174
+}
+
+capital_nativeamerican_great_statesman = {
+    icon = 174
+}
+
+capital_nativeamerican_backroom_boy = {
+    icon = 174
+}
+
+capital_nativeamerican_great_reformer = {
+    icon = 174
+}
+
+capital_nativeamerican_gauche_buffoon = {
+    icon = 174
+}
+
+capital_nativeamerican_administrative_genius = {
+    icon = 174
+}
+
+capital_nativeamerican_visionary_thinker = {
+    icon = 174
+}
+
+capital_nativeamerican_competent_placeholder = {
+    icon = 174
+}
+
+capital_nativeamerican_imperious_autocrat = {
+    icon = 174
+}
+
+capital_nativeamerican_prince_of_terror = {
+    icon = 174
+}
+
+capital_nativeamerican_efficient_sociopath = {
+    icon = 174
+}
+
+capital_nativeamerican_pig_headed_isolationist = {
+    icon = 174
+}
+
+capital_nativeamerican_ambitious_union_boss = {
+    icon = 174
+}
+
+capital_nativeamerican_dour_economist = {
+    icon = 174
 }
 
 ### Russian ###
@@ -7096,6 +7624,94 @@ russian_dour_economist = {
     icon = 182
 }
 
+capital_russian_expert_diplomat = {
+    icon = 177
+}
+
+capital_russian_successful_industrialist = {
+    icon = 179
+}
+
+capital_russian_ivory_tower_intellectual = {
+    icon = 182
+}
+
+capital_russian_man_of_the_people = {
+    icon = 176
+}
+
+capital_russian_landed_gentleman = {
+    icon = 180
+}
+
+capital_russian_military_man = {
+    icon = 183
+}
+
+capital_russian_lord_admiral = {
+    icon = 191
+}
+
+capital_russian_raving_loon = {
+    icon = 188
+}
+
+capital_russian_luddite = {
+    icon = 185
+}
+
+capital_russian_great_statesman = {
+    icon = 181
+}
+
+capital_russian_backroom_boy = {
+    icon = 186
+}
+
+capital_russian_great_reformer = {
+    icon = 188
+}
+
+capital_russian_gauche_buffoon = {
+    icon = 187
+}
+
+capital_russian_administrative_genius = {
+    icon = 192
+}
+
+capital_russian_visionary_thinker = {
+    icon = 194
+}
+
+capital_russian_competent_placeholder = {
+    icon = 190
+}
+
+capital_russian_imperious_autocrat = {
+    icon = 195
+}
+
+capital_russian_prince_of_terror = {
+    icon = 178
+}
+
+capital_russian_efficient_sociopath = {
+    icon = 183
+}
+
+capital_russian_pig_headed_isolationist = {
+    icon = 193
+}
+
+capital_russian_ambitious_union_boss = {
+    icon = 182
+}
+
+capital_russian_dour_economist = {
+    icon = 184
+}
+
 ### South American ###
 
 southamerican_expert_diplomat = {
@@ -7236,4 +7852,92 @@ southamerican_dour_economist = {
     ruling_party_support = -0.2
     issue_change_speed = -0.1
     icon = 203
+}
+
+capital_southamerican_expert_diplomat = {
+    icon = 199
+}
+
+capital_southamerican_successful_industrialist = {
+    icon = 203
+}
+
+capital_southamerican_ivory_tower_intellectual = {
+    icon = 209
+}
+
+capital_southamerican_man_of_the_people = {
+    icon = 204
+}
+
+capital_southamerican_landed_gentleman = {
+    icon = 211
+}
+
+capital_southamerican_military_man = {
+    icon = 200
+}
+
+capital_southamerican_lord_admiral = {
+    icon = 208
+}
+
+capital_southamerican_raving_loon = {
+    icon = 202
+}
+
+capital_southamerican_luddite = {
+    icon = 210
+}
+
+capital_southamerican_great_statesman = {
+    icon = 201
+}
+
+capital_southamerican_backroom_boy = {
+    icon = 212
+}
+
+capital_southamerican_great_reformer = {
+    icon = 198
+}
+
+capital_southamerican_gauche_buffoon = {
+    icon = 206
+}
+
+capital_southamerican_administrative_genius = {
+    icon = 205
+}
+
+capital_southamerican_visionary_thinker = {
+    icon = 209
+}
+
+capital_southamerican_competent_placeholder = {
+    icon = 199
+}
+
+capital_southamerican_imperious_autocrat = {
+    icon = 204
+}
+
+capital_southamerican_prince_of_terror = {
+    icon = 203
+}
+
+capital_southamerican_efficient_sociopath = {
+    icon = 211
+}
+
+capital_southamerican_pig_headed_isolationist = {
+    icon = 207
+}
+
+capital_southamerican_ambitious_union_boss = {
+    icon = 198
+}
+
+capital_southamerican_dour_economist = {
+    icon = 205
 }

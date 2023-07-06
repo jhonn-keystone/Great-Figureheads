@@ -6,17 +6,17 @@
 
 	# Non-Dictatorships - any
 	country_event = {
-		id = 200040001
+		id = 110040001
 		title = "EVTNAMEMINISTERAPPOINTED"
 		desc = "EVTDESC100040001"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = turko_semitic
-				is_culture_group = arab
-				is_culture_group = iranian_turanian
-			}
+                is_culture_group = turko_semitic
+                is_culture_group = arab
+                is_culture_group = iranian_turanian
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -73,26 +73,55 @@
 			remove_country_modifier = arab_pig_headed_isolationist
 			remove_country_modifier = arab_ambitious_union_boss
 			remove_country_modifier = arab_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_arab_expert_diplomat
+				remove_province_modifier = capital_arab_successful_industrialist
+				remove_province_modifier = capital_arab_ivory_tower_intellectual
+				remove_province_modifier = capital_arab_man_of_the_people
+				remove_province_modifier = capital_arab_landed_gentleman
+				remove_province_modifier = capital_arab_military_man
+				remove_province_modifier = capital_arab_lord_admiral
+				remove_province_modifier = capital_arab_raving_loon
+				remove_province_modifier = capital_arab_luddite
+				remove_province_modifier = capital_arab_great_statesman
+				remove_province_modifier = capital_arab_backroom_boy
+				remove_province_modifier = capital_arab_great_reformer
+				remove_province_modifier = capital_arab_gauche_buffoon
+				remove_province_modifier = capital_arab_administrative_genius
+				remove_province_modifier = capital_arab_visionary_thinker
+				remove_province_modifier = capital_arab_competent_placeholder
+				remove_province_modifier = capital_arab_imperious_autocrat
+				remove_province_modifier = capital_arab_prince_of_terror
+				remove_province_modifier = capital_arab_efficient_sociopath
+				remove_province_modifier = capital_arab_pig_headed_isolationist
+				remove_province_modifier = capital_arab_ambitious_union_boss
+				remove_province_modifier = capital_arab_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = arab_expert_diplomat duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_arab_expert_diplomat duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
 
 	# Dictatorships - non-communist
 	country_event = {
-		id = 200050001
+		id = 110050001
 		title = "EVTNAMELEADEREMERGES"
 		desc = "EVTDESC100050001"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = turko_semitic
-				is_culture_group = arab
-				is_culture_group = iranian_turanian
-			}
+                is_culture_group = turko_semitic
+                is_culture_group = arab
+                is_culture_group = iranian_turanian
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -134,9 +163,38 @@
 			remove_country_modifier = arab_pig_headed_isolationist
 			remove_country_modifier = arab_ambitious_union_boss
 			remove_country_modifier = arab_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_arab_expert_diplomat
+				remove_province_modifier = capital_arab_successful_industrialist
+				remove_province_modifier = capital_arab_ivory_tower_intellectual
+				remove_province_modifier = capital_arab_man_of_the_people
+				remove_province_modifier = capital_arab_landed_gentleman
+				remove_province_modifier = capital_arab_military_man
+				remove_province_modifier = capital_arab_lord_admiral
+				remove_province_modifier = capital_arab_raving_loon
+				remove_province_modifier = capital_arab_luddite
+				remove_province_modifier = capital_arab_great_statesman
+				remove_province_modifier = capital_arab_backroom_boy
+				remove_province_modifier = capital_arab_great_reformer
+				remove_province_modifier = capital_arab_gauche_buffoon
+				remove_province_modifier = capital_arab_administrative_genius
+				remove_province_modifier = capital_arab_visionary_thinker
+				remove_province_modifier = capital_arab_competent_placeholder
+				remove_province_modifier = capital_arab_imperious_autocrat
+				remove_province_modifier = capital_arab_prince_of_terror
+				remove_province_modifier = capital_arab_efficient_sociopath
+				remove_province_modifier = capital_arab_pig_headed_isolationist
+				remove_province_modifier = capital_arab_ambitious_union_boss
+				remove_province_modifier = capital_arab_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = arab_expert_diplomat duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_arab_expert_diplomat duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -145,17 +203,17 @@
 
 	# Non-Dictatorships - monarchy or liberal
 	country_event = {
-		id = 200040002
+		id = 110040002
 		title = "EVTNAMEMINISTERAPPOINTED"
 		desc = "EVTDESC100040002"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = turko_semitic
-				is_culture_group = arab
-				is_culture_group = iranian_turanian
-			}
+                is_culture_group = turko_semitic
+                is_culture_group = arab
+                is_culture_group = iranian_turanian
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -207,26 +265,55 @@
 			remove_country_modifier = arab_pig_headed_isolationist
 			remove_country_modifier = arab_ambitious_union_boss
 			remove_country_modifier = arab_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_arab_expert_diplomat
+				remove_province_modifier = capital_arab_successful_industrialist
+				remove_province_modifier = capital_arab_ivory_tower_intellectual
+				remove_province_modifier = capital_arab_man_of_the_people
+				remove_province_modifier = capital_arab_landed_gentleman
+				remove_province_modifier = capital_arab_military_man
+				remove_province_modifier = capital_arab_lord_admiral
+				remove_province_modifier = capital_arab_raving_loon
+				remove_province_modifier = capital_arab_luddite
+				remove_province_modifier = capital_arab_great_statesman
+				remove_province_modifier = capital_arab_backroom_boy
+				remove_province_modifier = capital_arab_great_reformer
+				remove_province_modifier = capital_arab_gauche_buffoon
+				remove_province_modifier = capital_arab_administrative_genius
+				remove_province_modifier = capital_arab_visionary_thinker
+				remove_province_modifier = capital_arab_competent_placeholder
+				remove_province_modifier = capital_arab_imperious_autocrat
+				remove_province_modifier = capital_arab_prince_of_terror
+				remove_province_modifier = capital_arab_efficient_sociopath
+				remove_province_modifier = capital_arab_pig_headed_isolationist
+				remove_province_modifier = capital_arab_ambitious_union_boss
+				remove_province_modifier = capital_arab_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = arab_successful_industrialist duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_arab_successful_industrialist duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
 
 	# Dictatorships - any
 	country_event = {
-		id = 200050002
+		id = 110050002
 		title = "EVTNAMELEADEREMERGES"
 		desc = "EVTDESC100050002"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = turko_semitic
-				is_culture_group = arab
-				is_culture_group = iranian_turanian
-			}
+                is_culture_group = turko_semitic
+                is_culture_group = arab
+                is_culture_group = iranian_turanian
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -269,9 +356,38 @@
 			remove_country_modifier = arab_pig_headed_isolationist
 			remove_country_modifier = arab_ambitious_union_boss
 			remove_country_modifier = arab_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_arab_expert_diplomat
+				remove_province_modifier = capital_arab_successful_industrialist
+				remove_province_modifier = capital_arab_ivory_tower_intellectual
+				remove_province_modifier = capital_arab_man_of_the_people
+				remove_province_modifier = capital_arab_landed_gentleman
+				remove_province_modifier = capital_arab_military_man
+				remove_province_modifier = capital_arab_lord_admiral
+				remove_province_modifier = capital_arab_raving_loon
+				remove_province_modifier = capital_arab_luddite
+				remove_province_modifier = capital_arab_great_statesman
+				remove_province_modifier = capital_arab_backroom_boy
+				remove_province_modifier = capital_arab_great_reformer
+				remove_province_modifier = capital_arab_gauche_buffoon
+				remove_province_modifier = capital_arab_administrative_genius
+				remove_province_modifier = capital_arab_visionary_thinker
+				remove_province_modifier = capital_arab_competent_placeholder
+				remove_province_modifier = capital_arab_imperious_autocrat
+				remove_province_modifier = capital_arab_prince_of_terror
+				remove_province_modifier = capital_arab_efficient_sociopath
+				remove_province_modifier = capital_arab_pig_headed_isolationist
+				remove_province_modifier = capital_arab_ambitious_union_boss
+				remove_province_modifier = capital_arab_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = arab_successful_industrialist duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_arab_successful_industrialist duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -280,17 +396,17 @@
 
 	# Non-Dictatorships - any
 	country_event = {
-		id = 200040003
+		id = 110040003
 		title = "EVTNAMEMINISTERAPPOINTED"
 		desc = "EVTDESC100040003"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = turko_semitic
-				is_culture_group = arab
-				is_culture_group = iranian_turanian
-			}
+                is_culture_group = turko_semitic
+                is_culture_group = arab
+                is_culture_group = iranian_turanian
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -348,26 +464,55 @@
 			remove_country_modifier = arab_pig_headed_isolationist
 			remove_country_modifier = arab_ambitious_union_boss
 			remove_country_modifier = arab_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_arab_expert_diplomat
+				remove_province_modifier = capital_arab_successful_industrialist
+				remove_province_modifier = capital_arab_ivory_tower_intellectual
+				remove_province_modifier = capital_arab_man_of_the_people
+				remove_province_modifier = capital_arab_landed_gentleman
+				remove_province_modifier = capital_arab_military_man
+				remove_province_modifier = capital_arab_lord_admiral
+				remove_province_modifier = capital_arab_raving_loon
+				remove_province_modifier = capital_arab_luddite
+				remove_province_modifier = capital_arab_great_statesman
+				remove_province_modifier = capital_arab_backroom_boy
+				remove_province_modifier = capital_arab_great_reformer
+				remove_province_modifier = capital_arab_gauche_buffoon
+				remove_province_modifier = capital_arab_administrative_genius
+				remove_province_modifier = capital_arab_visionary_thinker
+				remove_province_modifier = capital_arab_competent_placeholder
+				remove_province_modifier = capital_arab_imperious_autocrat
+				remove_province_modifier = capital_arab_prince_of_terror
+				remove_province_modifier = capital_arab_efficient_sociopath
+				remove_province_modifier = capital_arab_pig_headed_isolationist
+				remove_province_modifier = capital_arab_ambitious_union_boss
+				remove_province_modifier = capital_arab_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = arab_ivory_tower_intellectual duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_arab_ivory_tower_intellectual duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
 
 	# Dictatorships - non-communist
 	country_event = {
-		id = 200050003
+		id = 110050003
 		title = "EVTNAMELEADEREMERGES"
 		desc = "EVTDESC100050003"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = turko_semitic
-				is_culture_group = arab
-				is_culture_group = iranian_turanian
-			}
+                is_culture_group = turko_semitic
+                is_culture_group = arab
+                is_culture_group = iranian_turanian
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -409,9 +554,38 @@
 			remove_country_modifier = arab_pig_headed_isolationist
 			remove_country_modifier = arab_ambitious_union_boss
 			remove_country_modifier = arab_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_arab_expert_diplomat
+				remove_province_modifier = capital_arab_successful_industrialist
+				remove_province_modifier = capital_arab_ivory_tower_intellectual
+				remove_province_modifier = capital_arab_man_of_the_people
+				remove_province_modifier = capital_arab_landed_gentleman
+				remove_province_modifier = capital_arab_military_man
+				remove_province_modifier = capital_arab_lord_admiral
+				remove_province_modifier = capital_arab_raving_loon
+				remove_province_modifier = capital_arab_luddite
+				remove_province_modifier = capital_arab_great_statesman
+				remove_province_modifier = capital_arab_backroom_boy
+				remove_province_modifier = capital_arab_great_reformer
+				remove_province_modifier = capital_arab_gauche_buffoon
+				remove_province_modifier = capital_arab_administrative_genius
+				remove_province_modifier = capital_arab_visionary_thinker
+				remove_province_modifier = capital_arab_competent_placeholder
+				remove_province_modifier = capital_arab_imperious_autocrat
+				remove_province_modifier = capital_arab_prince_of_terror
+				remove_province_modifier = capital_arab_efficient_sociopath
+				remove_province_modifier = capital_arab_pig_headed_isolationist
+				remove_province_modifier = capital_arab_ambitious_union_boss
+				remove_province_modifier = capital_arab_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = arab_ivory_tower_intellectual duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_arab_ivory_tower_intellectual duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -420,17 +594,17 @@
 
 	# Non-Dictatorships - non-conservative
 	country_event = {
-		id = 200040004
+		id = 110040004
 		title = "EVTNAMEMINISTERAPPOINTED"
 		desc = "EVTDESC100040004"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = turko_semitic
-				is_culture_group = arab
-				is_culture_group = iranian_turanian
-			}
+                is_culture_group = turko_semitic
+                is_culture_group = arab
+                is_culture_group = iranian_turanian
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -484,27 +658,56 @@
 			remove_country_modifier = arab_pig_headed_isolationist
 			remove_country_modifier = arab_ambitious_union_boss
 			remove_country_modifier = arab_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_arab_expert_diplomat
+				remove_province_modifier = capital_arab_successful_industrialist
+				remove_province_modifier = capital_arab_ivory_tower_intellectual
+				remove_province_modifier = capital_arab_man_of_the_people
+				remove_province_modifier = capital_arab_landed_gentleman
+				remove_province_modifier = capital_arab_military_man
+				remove_province_modifier = capital_arab_lord_admiral
+				remove_province_modifier = capital_arab_raving_loon
+				remove_province_modifier = capital_arab_luddite
+				remove_province_modifier = capital_arab_great_statesman
+				remove_province_modifier = capital_arab_backroom_boy
+				remove_province_modifier = capital_arab_great_reformer
+				remove_province_modifier = capital_arab_gauche_buffoon
+				remove_province_modifier = capital_arab_administrative_genius
+				remove_province_modifier = capital_arab_visionary_thinker
+				remove_province_modifier = capital_arab_competent_placeholder
+				remove_province_modifier = capital_arab_imperious_autocrat
+				remove_province_modifier = capital_arab_prince_of_terror
+				remove_province_modifier = capital_arab_efficient_sociopath
+				remove_province_modifier = capital_arab_pig_headed_isolationist
+				remove_province_modifier = capital_arab_ambitious_union_boss
+				remove_province_modifier = capital_arab_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 			add_country_modifier = {
 				name = arab_man_of_the_people
 				duration = 3650
+			}
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_arab_man_of_the_people duration = 3650 } 
 			}
 		}
 	}
 
 	# Dictatorships - any
 	country_event = {
-		id = 200050004
+		id = 110050004
 		title = "EVTNAMELEADEREMERGES"
 		desc = "EVTDESC100050004"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = turko_semitic
-				is_culture_group = arab
-				is_culture_group = iranian_turanian
-			}
+                is_culture_group = turko_semitic
+                is_culture_group = arab
+                is_culture_group = iranian_turanian
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -547,9 +750,38 @@
 			remove_country_modifier = arab_pig_headed_isolationist
 			remove_country_modifier = arab_ambitious_union_boss
 			remove_country_modifier = arab_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_arab_expert_diplomat
+				remove_province_modifier = capital_arab_successful_industrialist
+				remove_province_modifier = capital_arab_ivory_tower_intellectual
+				remove_province_modifier = capital_arab_man_of_the_people
+				remove_province_modifier = capital_arab_landed_gentleman
+				remove_province_modifier = capital_arab_military_man
+				remove_province_modifier = capital_arab_lord_admiral
+				remove_province_modifier = capital_arab_raving_loon
+				remove_province_modifier = capital_arab_luddite
+				remove_province_modifier = capital_arab_great_statesman
+				remove_province_modifier = capital_arab_backroom_boy
+				remove_province_modifier = capital_arab_great_reformer
+				remove_province_modifier = capital_arab_gauche_buffoon
+				remove_province_modifier = capital_arab_administrative_genius
+				remove_province_modifier = capital_arab_visionary_thinker
+				remove_province_modifier = capital_arab_competent_placeholder
+				remove_province_modifier = capital_arab_imperious_autocrat
+				remove_province_modifier = capital_arab_prince_of_terror
+				remove_province_modifier = capital_arab_efficient_sociopath
+				remove_province_modifier = capital_arab_pig_headed_isolationist
+				remove_province_modifier = capital_arab_ambitious_union_boss
+				remove_province_modifier = capital_arab_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = arab_man_of_the_people duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_arab_man_of_the_people duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -558,17 +790,17 @@
 
 	# Non-Dictatorships - monarchy or conservative
 	country_event = {
-		id = 200040005
+		id = 110040005
 		title = "EVTNAMEMINISTERAPPOINTED"
 		desc = "EVTDESC100040005"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = turko_semitic
-				is_culture_group = arab
-				is_culture_group = iranian_turanian
-			}
+                is_culture_group = turko_semitic
+                is_culture_group = arab
+                is_culture_group = iranian_turanian
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -620,26 +852,55 @@
 			remove_country_modifier = arab_pig_headed_isolationist
 			remove_country_modifier = arab_ambitious_union_boss
 			remove_country_modifier = arab_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_arab_expert_diplomat
+				remove_province_modifier = capital_arab_successful_industrialist
+				remove_province_modifier = capital_arab_ivory_tower_intellectual
+				remove_province_modifier = capital_arab_man_of_the_people
+				remove_province_modifier = capital_arab_landed_gentleman
+				remove_province_modifier = capital_arab_military_man
+				remove_province_modifier = capital_arab_lord_admiral
+				remove_province_modifier = capital_arab_raving_loon
+				remove_province_modifier = capital_arab_luddite
+				remove_province_modifier = capital_arab_great_statesman
+				remove_province_modifier = capital_arab_backroom_boy
+				remove_province_modifier = capital_arab_great_reformer
+				remove_province_modifier = capital_arab_gauche_buffoon
+				remove_province_modifier = capital_arab_administrative_genius
+				remove_province_modifier = capital_arab_visionary_thinker
+				remove_province_modifier = capital_arab_competent_placeholder
+				remove_province_modifier = capital_arab_imperious_autocrat
+				remove_province_modifier = capital_arab_prince_of_terror
+				remove_province_modifier = capital_arab_efficient_sociopath
+				remove_province_modifier = capital_arab_pig_headed_isolationist
+				remove_province_modifier = capital_arab_ambitious_union_boss
+				remove_province_modifier = capital_arab_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = arab_landed_gentleman duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_arab_landed_gentleman duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
 
 	# Dictatorships - presidential or fascist
 	country_event = {
-		id = 200050005
+		id = 110050005
 		title = "EVTNAMELEADEREMERGES"
 		desc = "EVTDESC100050005"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = turko_semitic
-				is_culture_group = arab
-				is_culture_group = iranian_turanian
-			}
+                is_culture_group = turko_semitic
+                is_culture_group = arab
+                is_culture_group = iranian_turanian
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -680,9 +941,38 @@
 			remove_country_modifier = arab_pig_headed_isolationist
 			remove_country_modifier = arab_ambitious_union_boss
 			remove_country_modifier = arab_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_arab_expert_diplomat
+				remove_province_modifier = capital_arab_successful_industrialist
+				remove_province_modifier = capital_arab_ivory_tower_intellectual
+				remove_province_modifier = capital_arab_man_of_the_people
+				remove_province_modifier = capital_arab_landed_gentleman
+				remove_province_modifier = capital_arab_military_man
+				remove_province_modifier = capital_arab_lord_admiral
+				remove_province_modifier = capital_arab_raving_loon
+				remove_province_modifier = capital_arab_luddite
+				remove_province_modifier = capital_arab_great_statesman
+				remove_province_modifier = capital_arab_backroom_boy
+				remove_province_modifier = capital_arab_great_reformer
+				remove_province_modifier = capital_arab_gauche_buffoon
+				remove_province_modifier = capital_arab_administrative_genius
+				remove_province_modifier = capital_arab_visionary_thinker
+				remove_province_modifier = capital_arab_competent_placeholder
+				remove_province_modifier = capital_arab_imperious_autocrat
+				remove_province_modifier = capital_arab_prince_of_terror
+				remove_province_modifier = capital_arab_efficient_sociopath
+				remove_province_modifier = capital_arab_pig_headed_isolationist
+				remove_province_modifier = capital_arab_ambitious_union_boss
+				remove_province_modifier = capital_arab_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = arab_landed_gentleman duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_arab_landed_gentleman duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -691,17 +981,17 @@
 
 	# Non-Dictatorships - non-socialist
 	country_event = {
-		id = 200040006
+		id = 110040006
 		title = "EVTNAMEMINISTERAPPOINTED"
 		desc = "EVTDESC100040006"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = turko_semitic
-				is_culture_group = arab
-				is_culture_group = iranian_turanian
-			}
+                is_culture_group = turko_semitic
+                is_culture_group = arab
+                is_culture_group = iranian_turanian
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -755,25 +1045,54 @@
 			remove_country_modifier = arab_pig_headed_isolationist
 			remove_country_modifier = arab_ambitious_union_boss
 			remove_country_modifier = arab_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_arab_expert_diplomat
+				remove_province_modifier = capital_arab_successful_industrialist
+				remove_province_modifier = capital_arab_ivory_tower_intellectual
+				remove_province_modifier = capital_arab_man_of_the_people
+				remove_province_modifier = capital_arab_landed_gentleman
+				remove_province_modifier = capital_arab_military_man
+				remove_province_modifier = capital_arab_lord_admiral
+				remove_province_modifier = capital_arab_raving_loon
+				remove_province_modifier = capital_arab_luddite
+				remove_province_modifier = capital_arab_great_statesman
+				remove_province_modifier = capital_arab_backroom_boy
+				remove_province_modifier = capital_arab_great_reformer
+				remove_province_modifier = capital_arab_gauche_buffoon
+				remove_province_modifier = capital_arab_administrative_genius
+				remove_province_modifier = capital_arab_visionary_thinker
+				remove_province_modifier = capital_arab_competent_placeholder
+				remove_province_modifier = capital_arab_imperious_autocrat
+				remove_province_modifier = capital_arab_prince_of_terror
+				remove_province_modifier = capital_arab_efficient_sociopath
+				remove_province_modifier = capital_arab_pig_headed_isolationist
+				remove_province_modifier = capital_arab_ambitious_union_boss
+				remove_province_modifier = capital_arab_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = arab_military_man duration = 3650 } 
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_arab_military_man duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
 
 	# Dictatorships - any
 	country_event = {
-		id = 200050006
+		id = 110050006
 		title = "EVTNAMELEADEREMERGES"
 		desc = "EVTDESC100050006"
 		picture = "danishgovernment"
 		trigger = {
 			OR = {
-				is_culture_group = turko_semitic
-				is_culture_group = arab
-				is_culture_group = iranian_turanian
-			}
+                is_culture_group = turko_semitic
+                is_culture_group = arab
+                is_culture_group = iranian_turanian
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -816,9 +1135,38 @@
 			remove_country_modifier = arab_pig_headed_isolationist
 			remove_country_modifier = arab_ambitious_union_boss
 			remove_country_modifier = arab_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_arab_expert_diplomat
+				remove_province_modifier = capital_arab_successful_industrialist
+				remove_province_modifier = capital_arab_ivory_tower_intellectual
+				remove_province_modifier = capital_arab_man_of_the_people
+				remove_province_modifier = capital_arab_landed_gentleman
+				remove_province_modifier = capital_arab_military_man
+				remove_province_modifier = capital_arab_lord_admiral
+				remove_province_modifier = capital_arab_raving_loon
+				remove_province_modifier = capital_arab_luddite
+				remove_province_modifier = capital_arab_great_statesman
+				remove_province_modifier = capital_arab_backroom_boy
+				remove_province_modifier = capital_arab_great_reformer
+				remove_province_modifier = capital_arab_gauche_buffoon
+				remove_province_modifier = capital_arab_administrative_genius
+				remove_province_modifier = capital_arab_visionary_thinker
+				remove_province_modifier = capital_arab_competent_placeholder
+				remove_province_modifier = capital_arab_imperious_autocrat
+				remove_province_modifier = capital_arab_prince_of_terror
+				remove_province_modifier = capital_arab_efficient_sociopath
+				remove_province_modifier = capital_arab_pig_headed_isolationist
+				remove_province_modifier = capital_arab_ambitious_union_boss
+				remove_province_modifier = capital_arab_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = arab_military_man duration = 3650 } 
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_arab_military_man duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -827,17 +1175,17 @@
 
 	# Non-Dictatorships - non-socialist
 	country_event = {
-		id = 200040007
+		id = 110040007
 		title = "EVTNAMEMINISTERAPPOINTED"
 		desc = "EVTDESC100040007"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = turko_semitic
-				is_culture_group = arab
-				is_culture_group = iranian_turanian
-			}
+                is_culture_group = turko_semitic
+                is_culture_group = arab
+                is_culture_group = iranian_turanian
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -892,25 +1240,54 @@
 			remove_country_modifier = arab_pig_headed_isolationist
 			remove_country_modifier = arab_ambitious_union_boss
 			remove_country_modifier = arab_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_arab_expert_diplomat
+				remove_province_modifier = capital_arab_successful_industrialist
+				remove_province_modifier = capital_arab_ivory_tower_intellectual
+				remove_province_modifier = capital_arab_man_of_the_people
+				remove_province_modifier = capital_arab_landed_gentleman
+				remove_province_modifier = capital_arab_military_man
+				remove_province_modifier = capital_arab_lord_admiral
+				remove_province_modifier = capital_arab_raving_loon
+				remove_province_modifier = capital_arab_luddite
+				remove_province_modifier = capital_arab_great_statesman
+				remove_province_modifier = capital_arab_backroom_boy
+				remove_province_modifier = capital_arab_great_reformer
+				remove_province_modifier = capital_arab_gauche_buffoon
+				remove_province_modifier = capital_arab_administrative_genius
+				remove_province_modifier = capital_arab_visionary_thinker
+				remove_province_modifier = capital_arab_competent_placeholder
+				remove_province_modifier = capital_arab_imperious_autocrat
+				remove_province_modifier = capital_arab_prince_of_terror
+				remove_province_modifier = capital_arab_efficient_sociopath
+				remove_province_modifier = capital_arab_pig_headed_isolationist
+				remove_province_modifier = capital_arab_ambitious_union_boss
+				remove_province_modifier = capital_arab_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = arab_lord_admiral duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_arab_lord_admiral duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
 
 	# Dictatorships - any
 	country_event = {
-		id = 200050007
+		id = 110050007
 		title = "EVTNAMELEADEREMERGES"
 		desc = "EVTDESC100050007"
 		picture = "danishgovernment"
 		trigger = {
 			OR = {
-				is_culture_group = turko_semitic
-				is_culture_group = arab
-				is_culture_group = iranian_turanian
-			}
+                is_culture_group = turko_semitic
+                is_culture_group = arab
+                is_culture_group = iranian_turanian
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -954,9 +1331,38 @@
 			remove_country_modifier = arab_pig_headed_isolationist
 			remove_country_modifier = arab_ambitious_union_boss
 			remove_country_modifier = arab_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_arab_expert_diplomat
+				remove_province_modifier = capital_arab_successful_industrialist
+				remove_province_modifier = capital_arab_ivory_tower_intellectual
+				remove_province_modifier = capital_arab_man_of_the_people
+				remove_province_modifier = capital_arab_landed_gentleman
+				remove_province_modifier = capital_arab_military_man
+				remove_province_modifier = capital_arab_lord_admiral
+				remove_province_modifier = capital_arab_raving_loon
+				remove_province_modifier = capital_arab_luddite
+				remove_province_modifier = capital_arab_great_statesman
+				remove_province_modifier = capital_arab_backroom_boy
+				remove_province_modifier = capital_arab_great_reformer
+				remove_province_modifier = capital_arab_gauche_buffoon
+				remove_province_modifier = capital_arab_administrative_genius
+				remove_province_modifier = capital_arab_visionary_thinker
+				remove_province_modifier = capital_arab_competent_placeholder
+				remove_province_modifier = capital_arab_imperious_autocrat
+				remove_province_modifier = capital_arab_prince_of_terror
+				remove_province_modifier = capital_arab_efficient_sociopath
+				remove_province_modifier = capital_arab_pig_headed_isolationist
+				remove_province_modifier = capital_arab_ambitious_union_boss
+				remove_province_modifier = capital_arab_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = arab_lord_admiral duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_arab_lord_admiral duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -965,17 +1371,17 @@
 
 	# Non-Dictatorships - any
 	country_event = {
-		id = 200040008
+		id = 110040008
 		title = "EVTNAMEMINISTERAPPOINTED"
 		desc = "EVTDESC100040008"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = turko_semitic
-				is_culture_group = arab
-				is_culture_group = iranian_turanian
-			}
+                is_culture_group = turko_semitic
+                is_culture_group = arab
+                is_culture_group = iranian_turanian
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -1032,26 +1438,55 @@
 			remove_country_modifier = arab_pig_headed_isolationist
 			remove_country_modifier = arab_ambitious_union_boss
 			remove_country_modifier = arab_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_arab_expert_diplomat
+				remove_province_modifier = capital_arab_successful_industrialist
+				remove_province_modifier = capital_arab_ivory_tower_intellectual
+				remove_province_modifier = capital_arab_man_of_the_people
+				remove_province_modifier = capital_arab_landed_gentleman
+				remove_province_modifier = capital_arab_military_man
+				remove_province_modifier = capital_arab_lord_admiral
+				remove_province_modifier = capital_arab_raving_loon
+				remove_province_modifier = capital_arab_luddite
+				remove_province_modifier = capital_arab_great_statesman
+				remove_province_modifier = capital_arab_backroom_boy
+				remove_province_modifier = capital_arab_great_reformer
+				remove_province_modifier = capital_arab_gauche_buffoon
+				remove_province_modifier = capital_arab_administrative_genius
+				remove_province_modifier = capital_arab_visionary_thinker
+				remove_province_modifier = capital_arab_competent_placeholder
+				remove_province_modifier = capital_arab_imperious_autocrat
+				remove_province_modifier = capital_arab_prince_of_terror
+				remove_province_modifier = capital_arab_efficient_sociopath
+				remove_province_modifier = capital_arab_pig_headed_isolationist
+				remove_province_modifier = capital_arab_ambitious_union_boss
+				remove_province_modifier = capital_arab_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = arab_raving_loon duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_arab_raving_loon duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
 
 	# Dictatorships - any
 	country_event = {
-		id = 200050008
+		id = 110050008
 		title = "EVTNAMELEADEREMERGES"
 		desc = "EVTDESC100050008"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = turko_semitic
-				is_culture_group = arab
-				is_culture_group = iranian_turanian
-			}
+                is_culture_group = turko_semitic
+                is_culture_group = arab
+                is_culture_group = iranian_turanian
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -1094,9 +1529,38 @@
 			remove_country_modifier = arab_pig_headed_isolationist
 			remove_country_modifier = arab_ambitious_union_boss
 			remove_country_modifier = arab_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_arab_expert_diplomat
+				remove_province_modifier = capital_arab_successful_industrialist
+				remove_province_modifier = capital_arab_ivory_tower_intellectual
+				remove_province_modifier = capital_arab_man_of_the_people
+				remove_province_modifier = capital_arab_landed_gentleman
+				remove_province_modifier = capital_arab_military_man
+				remove_province_modifier = capital_arab_lord_admiral
+				remove_province_modifier = capital_arab_raving_loon
+				remove_province_modifier = capital_arab_luddite
+				remove_province_modifier = capital_arab_great_statesman
+				remove_province_modifier = capital_arab_backroom_boy
+				remove_province_modifier = capital_arab_great_reformer
+				remove_province_modifier = capital_arab_gauche_buffoon
+				remove_province_modifier = capital_arab_administrative_genius
+				remove_province_modifier = capital_arab_visionary_thinker
+				remove_province_modifier = capital_arab_competent_placeholder
+				remove_province_modifier = capital_arab_imperious_autocrat
+				remove_province_modifier = capital_arab_prince_of_terror
+				remove_province_modifier = capital_arab_efficient_sociopath
+				remove_province_modifier = capital_arab_pig_headed_isolationist
+				remove_province_modifier = capital_arab_ambitious_union_boss
+				remove_province_modifier = capital_arab_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = arab_raving_loon duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_arab_raving_loon duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -1105,16 +1569,16 @@
 
 	# Non-Dictatorships - non-liberal
 	country_event = {
-		id = 200040009
+		id = 110040009
 		title = "EVTNAMEMINISTERAPPOINTED"
 		desc = "EVTDESC100040009"
 		picture = "danishgovernment"
 		trigger = {
 			OR = {
-				is_culture_group = turko_semitic
-				is_culture_group = arab
-				is_culture_group = iranian_turanian
-			}
+                is_culture_group = turko_semitic
+                is_culture_group = arab
+                is_culture_group = iranian_turanian
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -1169,26 +1633,55 @@
 			remove_country_modifier = arab_pig_headed_isolationist
 			remove_country_modifier = arab_ambitious_union_boss
 			remove_country_modifier = arab_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_arab_expert_diplomat
+				remove_province_modifier = capital_arab_successful_industrialist
+				remove_province_modifier = capital_arab_ivory_tower_intellectual
+				remove_province_modifier = capital_arab_man_of_the_people
+				remove_province_modifier = capital_arab_landed_gentleman
+				remove_province_modifier = capital_arab_military_man
+				remove_province_modifier = capital_arab_lord_admiral
+				remove_province_modifier = capital_arab_raving_loon
+				remove_province_modifier = capital_arab_luddite
+				remove_province_modifier = capital_arab_great_statesman
+				remove_province_modifier = capital_arab_backroom_boy
+				remove_province_modifier = capital_arab_great_reformer
+				remove_province_modifier = capital_arab_gauche_buffoon
+				remove_province_modifier = capital_arab_administrative_genius
+				remove_province_modifier = capital_arab_visionary_thinker
+				remove_province_modifier = capital_arab_competent_placeholder
+				remove_province_modifier = capital_arab_imperious_autocrat
+				remove_province_modifier = capital_arab_prince_of_terror
+				remove_province_modifier = capital_arab_efficient_sociopath
+				remove_province_modifier = capital_arab_pig_headed_isolationist
+				remove_province_modifier = capital_arab_ambitious_union_boss
+				remove_province_modifier = capital_arab_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = arab_luddite duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_arab_luddite duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
 
 	# Dictatorships - presidential or fascist
 	country_event = {
-		id = 200050009
+		id = 110050009
 		title = "EVTNAMELEADEREMERGES"
 		desc = "EVTDESC100050009"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = turko_semitic
-				is_culture_group = arab
-				is_culture_group = iranian_turanian
-			}
+                is_culture_group = turko_semitic
+                is_culture_group = arab
+                is_culture_group = iranian_turanian
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -1229,9 +1722,38 @@
 			remove_country_modifier = arab_pig_headed_isolationist
 			remove_country_modifier = arab_ambitious_union_boss
 			remove_country_modifier = arab_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_arab_expert_diplomat
+				remove_province_modifier = capital_arab_successful_industrialist
+				remove_province_modifier = capital_arab_ivory_tower_intellectual
+				remove_province_modifier = capital_arab_man_of_the_people
+				remove_province_modifier = capital_arab_landed_gentleman
+				remove_province_modifier = capital_arab_military_man
+				remove_province_modifier = capital_arab_lord_admiral
+				remove_province_modifier = capital_arab_raving_loon
+				remove_province_modifier = capital_arab_luddite
+				remove_province_modifier = capital_arab_great_statesman
+				remove_province_modifier = capital_arab_backroom_boy
+				remove_province_modifier = capital_arab_great_reformer
+				remove_province_modifier = capital_arab_gauche_buffoon
+				remove_province_modifier = capital_arab_administrative_genius
+				remove_province_modifier = capital_arab_visionary_thinker
+				remove_province_modifier = capital_arab_competent_placeholder
+				remove_province_modifier = capital_arab_imperious_autocrat
+				remove_province_modifier = capital_arab_prince_of_terror
+				remove_province_modifier = capital_arab_efficient_sociopath
+				remove_province_modifier = capital_arab_pig_headed_isolationist
+				remove_province_modifier = capital_arab_ambitious_union_boss
+				remove_province_modifier = capital_arab_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = arab_luddite duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_arab_luddite duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -1240,17 +1762,17 @@
 
 	# Non-Dictatorships - any
 	country_event = {
-		id = 200040010
+		id = 110040010
 		title = "EVTNAMEMINISTERAPPOINTED"
 		desc = "EVTDESC100040010"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = turko_semitic
-				is_culture_group = arab
-				is_culture_group = iranian_turanian
-			}
+                is_culture_group = turko_semitic
+                is_culture_group = arab
+                is_culture_group = iranian_turanian
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -1307,26 +1829,55 @@
 			remove_country_modifier = arab_pig_headed_isolationist
 			remove_country_modifier = arab_ambitious_union_boss
 			remove_country_modifier = arab_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_arab_expert_diplomat
+				remove_province_modifier = capital_arab_successful_industrialist
+				remove_province_modifier = capital_arab_ivory_tower_intellectual
+				remove_province_modifier = capital_arab_man_of_the_people
+				remove_province_modifier = capital_arab_landed_gentleman
+				remove_province_modifier = capital_arab_military_man
+				remove_province_modifier = capital_arab_lord_admiral
+				remove_province_modifier = capital_arab_raving_loon
+				remove_province_modifier = capital_arab_luddite
+				remove_province_modifier = capital_arab_great_statesman
+				remove_province_modifier = capital_arab_backroom_boy
+				remove_province_modifier = capital_arab_great_reformer
+				remove_province_modifier = capital_arab_gauche_buffoon
+				remove_province_modifier = capital_arab_administrative_genius
+				remove_province_modifier = capital_arab_visionary_thinker
+				remove_province_modifier = capital_arab_competent_placeholder
+				remove_province_modifier = capital_arab_imperious_autocrat
+				remove_province_modifier = capital_arab_prince_of_terror
+				remove_province_modifier = capital_arab_efficient_sociopath
+				remove_province_modifier = capital_arab_pig_headed_isolationist
+				remove_province_modifier = capital_arab_ambitious_union_boss
+				remove_province_modifier = capital_arab_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = arab_great_statesman duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_arab_great_statesman duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
 
 	# Dictatorships - non-communist
 	country_event = {
-		id = 200050010
+		id = 110050010
 		title = "EVTNAMELEADEREMERGES"
 		desc = "EVTDESC100050010"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = turko_semitic
-				is_culture_group = arab
-				is_culture_group = iranian_turanian
-			}
+                is_culture_group = turko_semitic
+                is_culture_group = arab
+                is_culture_group = iranian_turanian
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -1368,9 +1919,38 @@
 			remove_country_modifier = arab_pig_headed_isolationist
 			remove_country_modifier = arab_ambitious_union_boss
 			remove_country_modifier = arab_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_arab_expert_diplomat
+				remove_province_modifier = capital_arab_successful_industrialist
+				remove_province_modifier = capital_arab_ivory_tower_intellectual
+				remove_province_modifier = capital_arab_man_of_the_people
+				remove_province_modifier = capital_arab_landed_gentleman
+				remove_province_modifier = capital_arab_military_man
+				remove_province_modifier = capital_arab_lord_admiral
+				remove_province_modifier = capital_arab_raving_loon
+				remove_province_modifier = capital_arab_luddite
+				remove_province_modifier = capital_arab_great_statesman
+				remove_province_modifier = capital_arab_backroom_boy
+				remove_province_modifier = capital_arab_great_reformer
+				remove_province_modifier = capital_arab_gauche_buffoon
+				remove_province_modifier = capital_arab_administrative_genius
+				remove_province_modifier = capital_arab_visionary_thinker
+				remove_province_modifier = capital_arab_competent_placeholder
+				remove_province_modifier = capital_arab_imperious_autocrat
+				remove_province_modifier = capital_arab_prince_of_terror
+				remove_province_modifier = capital_arab_efficient_sociopath
+				remove_province_modifier = capital_arab_pig_headed_isolationist
+				remove_province_modifier = capital_arab_ambitious_union_boss
+				remove_province_modifier = capital_arab_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = arab_great_statesman duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_arab_great_statesman duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -1379,17 +1959,17 @@
 
 	# Non-Dictatorships - any
 	country_event = {
-		id = 200040011
+		id = 110040011
 		title = "EVTNAMEMINISTERAPPOINTED"
 		desc = "EVTDESC100040011"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = turko_semitic
-				is_culture_group = arab
-				is_culture_group = iranian_turanian
-			}
+                is_culture_group = turko_semitic
+                is_culture_group = arab
+                is_culture_group = iranian_turanian
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -1446,9 +2026,38 @@
 			remove_country_modifier = arab_pig_headed_isolationist
 			remove_country_modifier = arab_ambitious_union_boss
 			remove_country_modifier = arab_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_arab_expert_diplomat
+				remove_province_modifier = capital_arab_successful_industrialist
+				remove_province_modifier = capital_arab_ivory_tower_intellectual
+				remove_province_modifier = capital_arab_man_of_the_people
+				remove_province_modifier = capital_arab_landed_gentleman
+				remove_province_modifier = capital_arab_military_man
+				remove_province_modifier = capital_arab_lord_admiral
+				remove_province_modifier = capital_arab_raving_loon
+				remove_province_modifier = capital_arab_luddite
+				remove_province_modifier = capital_arab_great_statesman
+				remove_province_modifier = capital_arab_backroom_boy
+				remove_province_modifier = capital_arab_great_reformer
+				remove_province_modifier = capital_arab_gauche_buffoon
+				remove_province_modifier = capital_arab_administrative_genius
+				remove_province_modifier = capital_arab_visionary_thinker
+				remove_province_modifier = capital_arab_competent_placeholder
+				remove_province_modifier = capital_arab_imperious_autocrat
+				remove_province_modifier = capital_arab_prince_of_terror
+				remove_province_modifier = capital_arab_efficient_sociopath
+				remove_province_modifier = capital_arab_pig_headed_isolationist
+				remove_province_modifier = capital_arab_ambitious_union_boss
+				remove_province_modifier = capital_arab_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = arab_backroom_boy duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_arab_backroom_boy duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -1457,17 +2066,17 @@
 
 	# Non-Dictatorships - non-conservative
 	country_event = {
-		id = 200040012
+		id = 110040012
 		title = "EVTNAMEMINISTERAPPOINTED"
 		desc = "EVTDESC100040012"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = turko_semitic
-				is_culture_group = arab
-				is_culture_group = iranian_turanian
-			}
+                is_culture_group = turko_semitic
+                is_culture_group = arab
+                is_culture_group = iranian_turanian
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -1522,9 +2131,38 @@
 			remove_country_modifier = arab_pig_headed_isolationist
 			remove_country_modifier = arab_ambitious_union_boss
 			remove_country_modifier = arab_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_arab_expert_diplomat
+				remove_province_modifier = capital_arab_successful_industrialist
+				remove_province_modifier = capital_arab_ivory_tower_intellectual
+				remove_province_modifier = capital_arab_man_of_the_people
+				remove_province_modifier = capital_arab_landed_gentleman
+				remove_province_modifier = capital_arab_military_man
+				remove_province_modifier = capital_arab_lord_admiral
+				remove_province_modifier = capital_arab_raving_loon
+				remove_province_modifier = capital_arab_luddite
+				remove_province_modifier = capital_arab_great_statesman
+				remove_province_modifier = capital_arab_backroom_boy
+				remove_province_modifier = capital_arab_great_reformer
+				remove_province_modifier = capital_arab_gauche_buffoon
+				remove_province_modifier = capital_arab_administrative_genius
+				remove_province_modifier = capital_arab_visionary_thinker
+				remove_province_modifier = capital_arab_competent_placeholder
+				remove_province_modifier = capital_arab_imperious_autocrat
+				remove_province_modifier = capital_arab_prince_of_terror
+				remove_province_modifier = capital_arab_efficient_sociopath
+				remove_province_modifier = capital_arab_pig_headed_isolationist
+				remove_province_modifier = capital_arab_ambitious_union_boss
+				remove_province_modifier = capital_arab_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = arab_great_reformer duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_arab_great_reformer duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -1533,17 +2171,17 @@
 
 	# Non-Dictatorships - non-socialist
 	country_event = {
-		id = 200040013
+		id = 110040013
 		title = "EVTNAMEMINISTERAPPOINTED"
 		desc = "EVTDESC100040013"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = turko_semitic
-				is_culture_group = arab
-				is_culture_group = iranian_turanian
-			}
+                is_culture_group = turko_semitic
+                is_culture_group = arab
+                is_culture_group = iranian_turanian
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -1597,9 +2235,38 @@
 			remove_country_modifier = arab_pig_headed_isolationist
 			remove_country_modifier = arab_ambitious_union_boss
 			remove_country_modifier = arab_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_arab_expert_diplomat
+				remove_province_modifier = capital_arab_successful_industrialist
+				remove_province_modifier = capital_arab_ivory_tower_intellectual
+				remove_province_modifier = capital_arab_man_of_the_people
+				remove_province_modifier = capital_arab_landed_gentleman
+				remove_province_modifier = capital_arab_military_man
+				remove_province_modifier = capital_arab_lord_admiral
+				remove_province_modifier = capital_arab_raving_loon
+				remove_province_modifier = capital_arab_luddite
+				remove_province_modifier = capital_arab_great_statesman
+				remove_province_modifier = capital_arab_backroom_boy
+				remove_province_modifier = capital_arab_great_reformer
+				remove_province_modifier = capital_arab_gauche_buffoon
+				remove_province_modifier = capital_arab_administrative_genius
+				remove_province_modifier = capital_arab_visionary_thinker
+				remove_province_modifier = capital_arab_competent_placeholder
+				remove_province_modifier = capital_arab_imperious_autocrat
+				remove_province_modifier = capital_arab_prince_of_terror
+				remove_province_modifier = capital_arab_efficient_sociopath
+				remove_province_modifier = capital_arab_pig_headed_isolationist
+				remove_province_modifier = capital_arab_ambitious_union_boss
+				remove_province_modifier = capital_arab_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = arab_gauche_buffoon duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_arab_gauche_buffoon duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -1608,17 +2275,17 @@
 
 	# Non-Dictatorships - any
 	country_event = {
-		id = 200040014
+		id = 110040014
 		title = "EVTNAMEMINISTERAPPOINTED"
 		desc = "EVTDESC100040014"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = turko_semitic
-				is_culture_group = arab
-				is_culture_group = iranian_turanian
-			}
+                is_culture_group = turko_semitic
+                is_culture_group = arab
+                is_culture_group = iranian_turanian
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -1675,26 +2342,55 @@
 			remove_country_modifier = arab_pig_headed_isolationist
 			remove_country_modifier = arab_ambitious_union_boss
 			remove_country_modifier = arab_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_arab_expert_diplomat
+				remove_province_modifier = capital_arab_successful_industrialist
+				remove_province_modifier = capital_arab_ivory_tower_intellectual
+				remove_province_modifier = capital_arab_man_of_the_people
+				remove_province_modifier = capital_arab_landed_gentleman
+				remove_province_modifier = capital_arab_military_man
+				remove_province_modifier = capital_arab_lord_admiral
+				remove_province_modifier = capital_arab_raving_loon
+				remove_province_modifier = capital_arab_luddite
+				remove_province_modifier = capital_arab_great_statesman
+				remove_province_modifier = capital_arab_backroom_boy
+				remove_province_modifier = capital_arab_great_reformer
+				remove_province_modifier = capital_arab_gauche_buffoon
+				remove_province_modifier = capital_arab_administrative_genius
+				remove_province_modifier = capital_arab_visionary_thinker
+				remove_province_modifier = capital_arab_competent_placeholder
+				remove_province_modifier = capital_arab_imperious_autocrat
+				remove_province_modifier = capital_arab_prince_of_terror
+				remove_province_modifier = capital_arab_efficient_sociopath
+				remove_province_modifier = capital_arab_pig_headed_isolationist
+				remove_province_modifier = capital_arab_ambitious_union_boss
+				remove_province_modifier = capital_arab_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = arab_administrative_genius duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_arab_administrative_genius duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
 
 	# Dictatorships - any
 	country_event = {
-		id = 200050014
+		id = 110050014
 		title = "EVTNAMELEADEREMERGES"
 		desc = "EVTDESC100050014"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = turko_semitic
-				is_culture_group = arab
-				is_culture_group = iranian_turanian
-			}
+                is_culture_group = turko_semitic
+                is_culture_group = arab
+                is_culture_group = iranian_turanian
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -1737,9 +2433,38 @@
 			remove_country_modifier = arab_pig_headed_isolationist
 			remove_country_modifier = arab_ambitious_union_boss
 			remove_country_modifier = arab_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_arab_expert_diplomat
+				remove_province_modifier = capital_arab_successful_industrialist
+				remove_province_modifier = capital_arab_ivory_tower_intellectual
+				remove_province_modifier = capital_arab_man_of_the_people
+				remove_province_modifier = capital_arab_landed_gentleman
+				remove_province_modifier = capital_arab_military_man
+				remove_province_modifier = capital_arab_lord_admiral
+				remove_province_modifier = capital_arab_raving_loon
+				remove_province_modifier = capital_arab_luddite
+				remove_province_modifier = capital_arab_great_statesman
+				remove_province_modifier = capital_arab_backroom_boy
+				remove_province_modifier = capital_arab_great_reformer
+				remove_province_modifier = capital_arab_gauche_buffoon
+				remove_province_modifier = capital_arab_administrative_genius
+				remove_province_modifier = capital_arab_visionary_thinker
+				remove_province_modifier = capital_arab_competent_placeholder
+				remove_province_modifier = capital_arab_imperious_autocrat
+				remove_province_modifier = capital_arab_prince_of_terror
+				remove_province_modifier = capital_arab_efficient_sociopath
+				remove_province_modifier = capital_arab_pig_headed_isolationist
+				remove_province_modifier = capital_arab_ambitious_union_boss
+				remove_province_modifier = capital_arab_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = arab_administrative_genius duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_arab_administrative_genius duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -1748,17 +2473,17 @@
 
 	# Non-Dictatorships - any
 	country_event = {
-		id = 200040015
+		id = 110040015
 		title = "EVTNAMEMINISTERAPPOINTED"
 		desc = "EVTDESC100040015"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = turko_semitic
-				is_culture_group = arab
-				is_culture_group = iranian_turanian
-			}
+                is_culture_group = turko_semitic
+                is_culture_group = arab
+                is_culture_group = iranian_turanian
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -1815,25 +2540,54 @@
 			remove_country_modifier = arab_pig_headed_isolationist
 			remove_country_modifier = arab_ambitious_union_boss
 			remove_country_modifier = arab_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_arab_expert_diplomat
+				remove_province_modifier = capital_arab_successful_industrialist
+				remove_province_modifier = capital_arab_ivory_tower_intellectual
+				remove_province_modifier = capital_arab_man_of_the_people
+				remove_province_modifier = capital_arab_landed_gentleman
+				remove_province_modifier = capital_arab_military_man
+				remove_province_modifier = capital_arab_lord_admiral
+				remove_province_modifier = capital_arab_raving_loon
+				remove_province_modifier = capital_arab_luddite
+				remove_province_modifier = capital_arab_great_statesman
+				remove_province_modifier = capital_arab_backroom_boy
+				remove_province_modifier = capital_arab_great_reformer
+				remove_province_modifier = capital_arab_gauche_buffoon
+				remove_province_modifier = capital_arab_administrative_genius
+				remove_province_modifier = capital_arab_visionary_thinker
+				remove_province_modifier = capital_arab_competent_placeholder
+				remove_province_modifier = capital_arab_imperious_autocrat
+				remove_province_modifier = capital_arab_prince_of_terror
+				remove_province_modifier = capital_arab_efficient_sociopath
+				remove_province_modifier = capital_arab_pig_headed_isolationist
+				remove_province_modifier = capital_arab_ambitious_union_boss
+				remove_province_modifier = capital_arab_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = arab_visionary_thinker duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_arab_visionary_thinker duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
 
 	# Dictatorships - any
 	country_event = {
-		id = 200050015
+		id = 110050015
 		title = "EVTNAMELEADEREMERGES"
 		desc = "EVTDESC100050015"
 		picture = "danishgovernment"
 		trigger = {
 			OR = {
-				is_culture_group = turko_semitic
-				is_culture_group = arab
-				is_culture_group = iranian_turanian
-			}
+                is_culture_group = turko_semitic
+                is_culture_group = arab
+                is_culture_group = iranian_turanian
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -1876,9 +2630,38 @@
 			remove_country_modifier = arab_pig_headed_isolationist
 			remove_country_modifier = arab_ambitious_union_boss
 			remove_country_modifier = arab_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_arab_expert_diplomat
+				remove_province_modifier = capital_arab_successful_industrialist
+				remove_province_modifier = capital_arab_ivory_tower_intellectual
+				remove_province_modifier = capital_arab_man_of_the_people
+				remove_province_modifier = capital_arab_landed_gentleman
+				remove_province_modifier = capital_arab_military_man
+				remove_province_modifier = capital_arab_lord_admiral
+				remove_province_modifier = capital_arab_raving_loon
+				remove_province_modifier = capital_arab_luddite
+				remove_province_modifier = capital_arab_great_statesman
+				remove_province_modifier = capital_arab_backroom_boy
+				remove_province_modifier = capital_arab_great_reformer
+				remove_province_modifier = capital_arab_gauche_buffoon
+				remove_province_modifier = capital_arab_administrative_genius
+				remove_province_modifier = capital_arab_visionary_thinker
+				remove_province_modifier = capital_arab_competent_placeholder
+				remove_province_modifier = capital_arab_imperious_autocrat
+				remove_province_modifier = capital_arab_prince_of_terror
+				remove_province_modifier = capital_arab_efficient_sociopath
+				remove_province_modifier = capital_arab_pig_headed_isolationist
+				remove_province_modifier = capital_arab_ambitious_union_boss
+				remove_province_modifier = capital_arab_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = arab_visionary_thinker duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_arab_visionary_thinker duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -1887,17 +2670,17 @@
 
 	# Non-Dictatorships - any
 	country_event = {
-		id = 200040016
+		id = 110040016
 		title = "EVTNAMEMINISTERAPPOINTED"
 		desc = "EVTDESC100040016"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = turko_semitic
-				is_culture_group = arab
-				is_culture_group = iranian_turanian
-			}
+                is_culture_group = turko_semitic
+                is_culture_group = arab
+                is_culture_group = iranian_turanian
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -1954,9 +2737,38 @@
 			remove_country_modifier = arab_pig_headed_isolationist
 			remove_country_modifier = arab_ambitious_union_boss
 			remove_country_modifier = arab_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_arab_expert_diplomat
+				remove_province_modifier = capital_arab_successful_industrialist
+				remove_province_modifier = capital_arab_ivory_tower_intellectual
+				remove_province_modifier = capital_arab_man_of_the_people
+				remove_province_modifier = capital_arab_landed_gentleman
+				remove_province_modifier = capital_arab_military_man
+				remove_province_modifier = capital_arab_lord_admiral
+				remove_province_modifier = capital_arab_raving_loon
+				remove_province_modifier = capital_arab_luddite
+				remove_province_modifier = capital_arab_great_statesman
+				remove_province_modifier = capital_arab_backroom_boy
+				remove_province_modifier = capital_arab_great_reformer
+				remove_province_modifier = capital_arab_gauche_buffoon
+				remove_province_modifier = capital_arab_administrative_genius
+				remove_province_modifier = capital_arab_visionary_thinker
+				remove_province_modifier = capital_arab_competent_placeholder
+				remove_province_modifier = capital_arab_imperious_autocrat
+				remove_province_modifier = capital_arab_prince_of_terror
+				remove_province_modifier = capital_arab_efficient_sociopath
+				remove_province_modifier = capital_arab_pig_headed_isolationist
+				remove_province_modifier = capital_arab_ambitious_union_boss
+				remove_province_modifier = capital_arab_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = arab_competent_placeholder duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_arab_competent_placeholder duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -1965,17 +2777,17 @@
 
 	# Non-Dictatorships - monarchy or conservative
 	country_event = {
-		id = 200040017
+		id = 110040017
 		title = "EVTNAMEMINISTERAPPOINTED"
 		desc = "EVTDESC100040017"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = turko_semitic
-				is_culture_group = arab
-				is_culture_group = iranian_turanian
-			}
+                is_culture_group = turko_semitic
+                is_culture_group = arab
+                is_culture_group = iranian_turanian
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -2027,26 +2839,55 @@
 			remove_country_modifier = arab_pig_headed_isolationist
 			remove_country_modifier = arab_ambitious_union_boss
 			remove_country_modifier = arab_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_arab_expert_diplomat
+				remove_province_modifier = capital_arab_successful_industrialist
+				remove_province_modifier = capital_arab_ivory_tower_intellectual
+				remove_province_modifier = capital_arab_man_of_the_people
+				remove_province_modifier = capital_arab_landed_gentleman
+				remove_province_modifier = capital_arab_military_man
+				remove_province_modifier = capital_arab_lord_admiral
+				remove_province_modifier = capital_arab_raving_loon
+				remove_province_modifier = capital_arab_luddite
+				remove_province_modifier = capital_arab_great_statesman
+				remove_province_modifier = capital_arab_backroom_boy
+				remove_province_modifier = capital_arab_great_reformer
+				remove_province_modifier = capital_arab_gauche_buffoon
+				remove_province_modifier = capital_arab_administrative_genius
+				remove_province_modifier = capital_arab_visionary_thinker
+				remove_province_modifier = capital_arab_competent_placeholder
+				remove_province_modifier = capital_arab_imperious_autocrat
+				remove_province_modifier = capital_arab_prince_of_terror
+				remove_province_modifier = capital_arab_efficient_sociopath
+				remove_province_modifier = capital_arab_pig_headed_isolationist
+				remove_province_modifier = capital_arab_ambitious_union_boss
+				remove_province_modifier = capital_arab_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = arab_imperious_autocrat duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_arab_imperious_autocrat duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
 
 	# Dictatorships - non-communist
 	country_event = {
-		id = 200050017
+		id = 110050017
 		title = "EVTNAMELEADEREMERGES"
 		desc = "EVTDESC100050017"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = turko_semitic
-				is_culture_group = arab
-				is_culture_group = iranian_turanian
-			}
+                is_culture_group = turko_semitic
+                is_culture_group = arab
+                is_culture_group = iranian_turanian
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -2088,9 +2929,38 @@
 			remove_country_modifier = arab_pig_headed_isolationist
 			remove_country_modifier = arab_ambitious_union_boss
 			remove_country_modifier = arab_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_arab_expert_diplomat
+				remove_province_modifier = capital_arab_successful_industrialist
+				remove_province_modifier = capital_arab_ivory_tower_intellectual
+				remove_province_modifier = capital_arab_man_of_the_people
+				remove_province_modifier = capital_arab_landed_gentleman
+				remove_province_modifier = capital_arab_military_man
+				remove_province_modifier = capital_arab_lord_admiral
+				remove_province_modifier = capital_arab_raving_loon
+				remove_province_modifier = capital_arab_luddite
+				remove_province_modifier = capital_arab_great_statesman
+				remove_province_modifier = capital_arab_backroom_boy
+				remove_province_modifier = capital_arab_great_reformer
+				remove_province_modifier = capital_arab_gauche_buffoon
+				remove_province_modifier = capital_arab_administrative_genius
+				remove_province_modifier = capital_arab_visionary_thinker
+				remove_province_modifier = capital_arab_competent_placeholder
+				remove_province_modifier = capital_arab_imperious_autocrat
+				remove_province_modifier = capital_arab_prince_of_terror
+				remove_province_modifier = capital_arab_efficient_sociopath
+				remove_province_modifier = capital_arab_pig_headed_isolationist
+				remove_province_modifier = capital_arab_ambitious_union_boss
+				remove_province_modifier = capital_arab_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = arab_imperious_autocrat duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_arab_imperious_autocrat duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -2099,17 +2969,17 @@
 
 	# Non-Dictatorships - monarchy
 	country_event = {
-		id = 200040018
+		id = 110040018
 		title = "EVTNAMEMINISTERAPPOINTED"
 		desc = "EVTDESC100040018"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = turko_semitic
-				is_culture_group = arab
-				is_culture_group = iranian_turanian
-			}
+                is_culture_group = turko_semitic
+                is_culture_group = arab
+                is_culture_group = iranian_turanian
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -2150,26 +3020,55 @@
 			remove_country_modifier = arab_pig_headed_isolationist
 			remove_country_modifier = arab_ambitious_union_boss
 			remove_country_modifier = arab_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_arab_expert_diplomat
+				remove_province_modifier = capital_arab_successful_industrialist
+				remove_province_modifier = capital_arab_ivory_tower_intellectual
+				remove_province_modifier = capital_arab_man_of_the_people
+				remove_province_modifier = capital_arab_landed_gentleman
+				remove_province_modifier = capital_arab_military_man
+				remove_province_modifier = capital_arab_lord_admiral
+				remove_province_modifier = capital_arab_raving_loon
+				remove_province_modifier = capital_arab_luddite
+				remove_province_modifier = capital_arab_great_statesman
+				remove_province_modifier = capital_arab_backroom_boy
+				remove_province_modifier = capital_arab_great_reformer
+				remove_province_modifier = capital_arab_gauche_buffoon
+				remove_province_modifier = capital_arab_administrative_genius
+				remove_province_modifier = capital_arab_visionary_thinker
+				remove_province_modifier = capital_arab_competent_placeholder
+				remove_province_modifier = capital_arab_imperious_autocrat
+				remove_province_modifier = capital_arab_prince_of_terror
+				remove_province_modifier = capital_arab_efficient_sociopath
+				remove_province_modifier = capital_arab_pig_headed_isolationist
+				remove_province_modifier = capital_arab_ambitious_union_boss
+				remove_province_modifier = capital_arab_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = arab_prince_of_terror duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_arab_prince_of_terror duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
 
 	# Dictatorships - non-bourgeois
 	country_event = {
-		id = 200050018
+		id = 110050018
 		title = "EVTNAMELEADEREMERGES"
 		desc = "EVTDESC100050018"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = turko_semitic
-				is_culture_group = arab
-				is_culture_group = iranian_turanian
-			}
+                is_culture_group = turko_semitic
+                is_culture_group = arab
+                is_culture_group = iranian_turanian
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -2211,9 +3110,38 @@
 			remove_country_modifier = arab_pig_headed_isolationist
 			remove_country_modifier = arab_ambitious_union_boss
 			remove_country_modifier = arab_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_arab_expert_diplomat
+				remove_province_modifier = capital_arab_successful_industrialist
+				remove_province_modifier = capital_arab_ivory_tower_intellectual
+				remove_province_modifier = capital_arab_man_of_the_people
+				remove_province_modifier = capital_arab_landed_gentleman
+				remove_province_modifier = capital_arab_military_man
+				remove_province_modifier = capital_arab_lord_admiral
+				remove_province_modifier = capital_arab_raving_loon
+				remove_province_modifier = capital_arab_luddite
+				remove_province_modifier = capital_arab_great_statesman
+				remove_province_modifier = capital_arab_backroom_boy
+				remove_province_modifier = capital_arab_great_reformer
+				remove_province_modifier = capital_arab_gauche_buffoon
+				remove_province_modifier = capital_arab_administrative_genius
+				remove_province_modifier = capital_arab_visionary_thinker
+				remove_province_modifier = capital_arab_competent_placeholder
+				remove_province_modifier = capital_arab_imperious_autocrat
+				remove_province_modifier = capital_arab_prince_of_terror
+				remove_province_modifier = capital_arab_efficient_sociopath
+				remove_province_modifier = capital_arab_pig_headed_isolationist
+				remove_province_modifier = capital_arab_ambitious_union_boss
+				remove_province_modifier = capital_arab_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = arab_prince_of_terror duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_arab_prince_of_terror duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -2222,17 +3150,17 @@
 
 	# Non-Dictatorships - monarchy or socialist
 	country_event = {
-		id = 200040019
+		id = 110040019
 		title = "EVTNAMEMINISTERAPPOINTED"
 		desc = "EVTDESC100040019"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = turko_semitic
-				is_culture_group = arab
-				is_culture_group = iranian_turanian
-			}
+                is_culture_group = turko_semitic
+                is_culture_group = arab
+                is_culture_group = iranian_turanian
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -2284,26 +3212,55 @@
 			remove_country_modifier = arab_pig_headed_isolationist
 			remove_country_modifier = arab_ambitious_union_boss
 			remove_country_modifier = arab_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_arab_expert_diplomat
+				remove_province_modifier = capital_arab_successful_industrialist
+				remove_province_modifier = capital_arab_ivory_tower_intellectual
+				remove_province_modifier = capital_arab_man_of_the_people
+				remove_province_modifier = capital_arab_landed_gentleman
+				remove_province_modifier = capital_arab_military_man
+				remove_province_modifier = capital_arab_lord_admiral
+				remove_province_modifier = capital_arab_raving_loon
+				remove_province_modifier = capital_arab_luddite
+				remove_province_modifier = capital_arab_great_statesman
+				remove_province_modifier = capital_arab_backroom_boy
+				remove_province_modifier = capital_arab_great_reformer
+				remove_province_modifier = capital_arab_gauche_buffoon
+				remove_province_modifier = capital_arab_administrative_genius
+				remove_province_modifier = capital_arab_visionary_thinker
+				remove_province_modifier = capital_arab_competent_placeholder
+				remove_province_modifier = capital_arab_imperious_autocrat
+				remove_province_modifier = capital_arab_prince_of_terror
+				remove_province_modifier = capital_arab_efficient_sociopath
+				remove_province_modifier = capital_arab_pig_headed_isolationist
+				remove_province_modifier = capital_arab_ambitious_union_boss
+				remove_province_modifier = capital_arab_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = arab_efficient_sociopath duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_arab_efficient_sociopath duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
 
 	# Dictatorships - non-bourgeois
 	country_event = {
-		id = 200050019
+		id = 110050019
 		title = "EVTNAMELEADEREMERGES"
 		desc = "EVTDESC100050019"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = turko_semitic
-				is_culture_group = arab
-				is_culture_group = iranian_turanian
-			}
+                is_culture_group = turko_semitic
+                is_culture_group = arab
+                is_culture_group = iranian_turanian
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -2345,9 +3302,38 @@
 			remove_country_modifier = arab_pig_headed_isolationist
 			remove_country_modifier = arab_ambitious_union_boss
 			remove_country_modifier = arab_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_arab_expert_diplomat
+				remove_province_modifier = capital_arab_successful_industrialist
+				remove_province_modifier = capital_arab_ivory_tower_intellectual
+				remove_province_modifier = capital_arab_man_of_the_people
+				remove_province_modifier = capital_arab_landed_gentleman
+				remove_province_modifier = capital_arab_military_man
+				remove_province_modifier = capital_arab_lord_admiral
+				remove_province_modifier = capital_arab_raving_loon
+				remove_province_modifier = capital_arab_luddite
+				remove_province_modifier = capital_arab_great_statesman
+				remove_province_modifier = capital_arab_backroom_boy
+				remove_province_modifier = capital_arab_great_reformer
+				remove_province_modifier = capital_arab_gauche_buffoon
+				remove_province_modifier = capital_arab_administrative_genius
+				remove_province_modifier = capital_arab_visionary_thinker
+				remove_province_modifier = capital_arab_competent_placeholder
+				remove_province_modifier = capital_arab_imperious_autocrat
+				remove_province_modifier = capital_arab_prince_of_terror
+				remove_province_modifier = capital_arab_efficient_sociopath
+				remove_province_modifier = capital_arab_pig_headed_isolationist
+				remove_province_modifier = capital_arab_ambitious_union_boss
+				remove_province_modifier = capital_arab_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = arab_efficient_sociopath duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_arab_efficient_sociopath duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -2356,17 +3342,17 @@
 
 	# Non-Dictatorships - non-liberal
 	country_event = {
-		id = 200040020
+		id = 110040020
 		title = "EVTNAMEMINISTERAPPOINTED"
 		desc = "EVTDESC100040020"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = turko_semitic
-				is_culture_group = arab
-				is_culture_group = iranian_turanian
-			}
+                is_culture_group = turko_semitic
+                is_culture_group = arab
+                is_culture_group = iranian_turanian
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -2421,25 +3407,54 @@
 			remove_country_modifier = arab_pig_headed_isolationist
 			remove_country_modifier = arab_ambitious_union_boss
 			remove_country_modifier = arab_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_arab_expert_diplomat
+				remove_province_modifier = capital_arab_successful_industrialist
+				remove_province_modifier = capital_arab_ivory_tower_intellectual
+				remove_province_modifier = capital_arab_man_of_the_people
+				remove_province_modifier = capital_arab_landed_gentleman
+				remove_province_modifier = capital_arab_military_man
+				remove_province_modifier = capital_arab_lord_admiral
+				remove_province_modifier = capital_arab_raving_loon
+				remove_province_modifier = capital_arab_luddite
+				remove_province_modifier = capital_arab_great_statesman
+				remove_province_modifier = capital_arab_backroom_boy
+				remove_province_modifier = capital_arab_great_reformer
+				remove_province_modifier = capital_arab_gauche_buffoon
+				remove_province_modifier = capital_arab_administrative_genius
+				remove_province_modifier = capital_arab_visionary_thinker
+				remove_province_modifier = capital_arab_competent_placeholder
+				remove_province_modifier = capital_arab_imperious_autocrat
+				remove_province_modifier = capital_arab_prince_of_terror
+				remove_province_modifier = capital_arab_efficient_sociopath
+				remove_province_modifier = capital_arab_pig_headed_isolationist
+				remove_province_modifier = capital_arab_ambitious_union_boss
+				remove_province_modifier = capital_arab_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = arab_pig_headed_isolationist duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_arab_pig_headed_isolationist duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
 
 	# Dictatorships - any
 	country_event = {
-		id = 200050020
+		id = 110050020
 		title = "EVTNAMELEADEREMERGES"
 		desc = "EVTDESC100050020"
 		picture = "danishgovernment"
 		trigger = {
 			OR = {
-				is_culture_group = turko_semitic
-				is_culture_group = arab
-				is_culture_group = iranian_turanian
-			}
+                is_culture_group = turko_semitic
+                is_culture_group = arab
+                is_culture_group = iranian_turanian
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -2482,9 +3497,38 @@
 			remove_country_modifier = arab_pig_headed_isolationist
 			remove_country_modifier = arab_ambitious_union_boss
 			remove_country_modifier = arab_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_arab_expert_diplomat
+				remove_province_modifier = capital_arab_successful_industrialist
+				remove_province_modifier = capital_arab_ivory_tower_intellectual
+				remove_province_modifier = capital_arab_man_of_the_people
+				remove_province_modifier = capital_arab_landed_gentleman
+				remove_province_modifier = capital_arab_military_man
+				remove_province_modifier = capital_arab_lord_admiral
+				remove_province_modifier = capital_arab_raving_loon
+				remove_province_modifier = capital_arab_luddite
+				remove_province_modifier = capital_arab_great_statesman
+				remove_province_modifier = capital_arab_backroom_boy
+				remove_province_modifier = capital_arab_great_reformer
+				remove_province_modifier = capital_arab_gauche_buffoon
+				remove_province_modifier = capital_arab_administrative_genius
+				remove_province_modifier = capital_arab_visionary_thinker
+				remove_province_modifier = capital_arab_competent_placeholder
+				remove_province_modifier = capital_arab_imperious_autocrat
+				remove_province_modifier = capital_arab_prince_of_terror
+				remove_province_modifier = capital_arab_efficient_sociopath
+				remove_province_modifier = capital_arab_pig_headed_isolationist
+				remove_province_modifier = capital_arab_ambitious_union_boss
+				remove_province_modifier = capital_arab_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = arab_pig_headed_isolationist duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_arab_pig_headed_isolationist duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -2493,17 +3537,17 @@
 
 	# Non-Dictatorships - socialist
 	country_event = {
-		id = 200040021
+		id = 110040021
 		title = "EVTNAMEMINISTERAPPOINTED"
 		desc = "EVTDESC100040021"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = turko_semitic
-				is_culture_group = arab
-				is_culture_group = iranian_turanian
-			}
+                is_culture_group = turko_semitic
+                is_culture_group = arab
+                is_culture_group = iranian_turanian
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -2549,26 +3593,55 @@
 			remove_country_modifier = arab_pig_headed_isolationist
 			remove_country_modifier = arab_ambitious_union_boss
 			remove_country_modifier = arab_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_arab_expert_diplomat
+				remove_province_modifier = capital_arab_successful_industrialist
+				remove_province_modifier = capital_arab_ivory_tower_intellectual
+				remove_province_modifier = capital_arab_man_of_the_people
+				remove_province_modifier = capital_arab_landed_gentleman
+				remove_province_modifier = capital_arab_military_man
+				remove_province_modifier = capital_arab_lord_admiral
+				remove_province_modifier = capital_arab_raving_loon
+				remove_province_modifier = capital_arab_luddite
+				remove_province_modifier = capital_arab_great_statesman
+				remove_province_modifier = capital_arab_backroom_boy
+				remove_province_modifier = capital_arab_great_reformer
+				remove_province_modifier = capital_arab_gauche_buffoon
+				remove_province_modifier = capital_arab_administrative_genius
+				remove_province_modifier = capital_arab_visionary_thinker
+				remove_province_modifier = capital_arab_competent_placeholder
+				remove_province_modifier = capital_arab_imperious_autocrat
+				remove_province_modifier = capital_arab_prince_of_terror
+				remove_province_modifier = capital_arab_efficient_sociopath
+				remove_province_modifier = capital_arab_pig_headed_isolationist
+				remove_province_modifier = capital_arab_ambitious_union_boss
+				remove_province_modifier = capital_arab_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = arab_ambitious_union_boss duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_arab_ambitious_union_boss duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
 
 	# Dictatorships - non-bourgeois
 	country_event = {
-		id = 200050022
+		id = 110050022
 		title = "EVTNAMELEADEREMERGES"
 		desc = "EVTDESC100050022"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = turko_semitic
-				is_culture_group = arab
-				is_culture_group = iranian_turanian
-			}
+                is_culture_group = turko_semitic
+                is_culture_group = arab
+                is_culture_group = iranian_turanian
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -2610,9 +3683,38 @@
 			remove_country_modifier = arab_pig_headed_isolationist
 			remove_country_modifier = arab_ambitious_union_boss
 			remove_country_modifier = arab_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_arab_expert_diplomat
+				remove_province_modifier = capital_arab_successful_industrialist
+				remove_province_modifier = capital_arab_ivory_tower_intellectual
+				remove_province_modifier = capital_arab_man_of_the_people
+				remove_province_modifier = capital_arab_landed_gentleman
+				remove_province_modifier = capital_arab_military_man
+				remove_province_modifier = capital_arab_lord_admiral
+				remove_province_modifier = capital_arab_raving_loon
+				remove_province_modifier = capital_arab_luddite
+				remove_province_modifier = capital_arab_great_statesman
+				remove_province_modifier = capital_arab_backroom_boy
+				remove_province_modifier = capital_arab_great_reformer
+				remove_province_modifier = capital_arab_gauche_buffoon
+				remove_province_modifier = capital_arab_administrative_genius
+				remove_province_modifier = capital_arab_visionary_thinker
+				remove_province_modifier = capital_arab_competent_placeholder
+				remove_province_modifier = capital_arab_imperious_autocrat
+				remove_province_modifier = capital_arab_prince_of_terror
+				remove_province_modifier = capital_arab_efficient_sociopath
+				remove_province_modifier = capital_arab_pig_headed_isolationist
+				remove_province_modifier = capital_arab_ambitious_union_boss
+				remove_province_modifier = capital_arab_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = arab_ambitious_union_boss duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_arab_ambitious_union_boss duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -2621,17 +3723,17 @@
 
 	# Non-Dictatorships - conservative
 	country_event = {
-		id = 200070022
+		id = 110070022
 		title = "EVTNAMEMINISTERAPPOINTED"
 		desc = "EVTDESC100040022"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = turko_semitic
-				is_culture_group = arab
-				is_culture_group = iranian_turanian
-			}
+                is_culture_group = turko_semitic
+                is_culture_group = arab
+                is_culture_group = iranian_turanian
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -2677,26 +3779,55 @@
 			remove_country_modifier = arab_pig_headed_isolationist
 			remove_country_modifier = arab_ambitious_union_boss
 			remove_country_modifier = arab_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_arab_expert_diplomat
+				remove_province_modifier = capital_arab_successful_industrialist
+				remove_province_modifier = capital_arab_ivory_tower_intellectual
+				remove_province_modifier = capital_arab_man_of_the_people
+				remove_province_modifier = capital_arab_landed_gentleman
+				remove_province_modifier = capital_arab_military_man
+				remove_province_modifier = capital_arab_lord_admiral
+				remove_province_modifier = capital_arab_raving_loon
+				remove_province_modifier = capital_arab_luddite
+				remove_province_modifier = capital_arab_great_statesman
+				remove_province_modifier = capital_arab_backroom_boy
+				remove_province_modifier = capital_arab_great_reformer
+				remove_province_modifier = capital_arab_gauche_buffoon
+				remove_province_modifier = capital_arab_administrative_genius
+				remove_province_modifier = capital_arab_visionary_thinker
+				remove_province_modifier = capital_arab_competent_placeholder
+				remove_province_modifier = capital_arab_imperious_autocrat
+				remove_province_modifier = capital_arab_prince_of_terror
+				remove_province_modifier = capital_arab_efficient_sociopath
+				remove_province_modifier = capital_arab_pig_headed_isolationist
+				remove_province_modifier = capital_arab_ambitious_union_boss
+				remove_province_modifier = capital_arab_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = arab_dour_economist duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_arab_dour_economist duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
 
 	# Dictatorships - non-fascist
 	country_event = {
-		id = 200050050
+		id = 110050050
 		title = "EVTNAMELEADEREMERGES"
 		desc = "EVTDESC100050050"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = turko_semitic
-				is_culture_group = arab
-				is_culture_group = iranian_turanian
-			}
+                is_culture_group = turko_semitic
+                is_culture_group = arab
+                is_culture_group = iranian_turanian
+            }
 			NOT = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -2738,9 +3869,38 @@
 			remove_country_modifier = arab_pig_headed_isolationist
 			remove_country_modifier = arab_ambitious_union_boss
 			remove_country_modifier = arab_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_arab_expert_diplomat
+				remove_province_modifier = capital_arab_successful_industrialist
+				remove_province_modifier = capital_arab_ivory_tower_intellectual
+				remove_province_modifier = capital_arab_man_of_the_people
+				remove_province_modifier = capital_arab_landed_gentleman
+				remove_province_modifier = capital_arab_military_man
+				remove_province_modifier = capital_arab_lord_admiral
+				remove_province_modifier = capital_arab_raving_loon
+				remove_province_modifier = capital_arab_luddite
+				remove_province_modifier = capital_arab_great_statesman
+				remove_province_modifier = capital_arab_backroom_boy
+				remove_province_modifier = capital_arab_great_reformer
+				remove_province_modifier = capital_arab_gauche_buffoon
+				remove_province_modifier = capital_arab_administrative_genius
+				remove_province_modifier = capital_arab_visionary_thinker
+				remove_province_modifier = capital_arab_competent_placeholder
+				remove_province_modifier = capital_arab_imperious_autocrat
+				remove_province_modifier = capital_arab_prince_of_terror
+				remove_province_modifier = capital_arab_efficient_sociopath
+				remove_province_modifier = capital_arab_pig_headed_isolationist
+				remove_province_modifier = capital_arab_ambitious_union_boss
+				remove_province_modifier = capital_arab_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = arab_dour_economist duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_arab_dour_economist duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -2749,17 +3909,17 @@
 
 	# First Minister Assassinated
 	country_event = {
-		id = 200040120
+		id = 110040120
 		title = "EVTNAME100040120"
 		desc = "EVTDESC100040120"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = turko_semitic
-				is_culture_group = arab
-				is_culture_group = iranian_turanian
-			}
+                is_culture_group = turko_semitic
+                is_culture_group = arab
+                is_culture_group = iranian_turanian
+            }
 			OR = {
 				has_country_modifier = has_political_leader
 				has_country_modifier = power_vacuum
@@ -2801,6 +3961,29 @@
 			remove_country_modifier = arab_pig_headed_isolationist
 			remove_country_modifier = arab_ambitious_union_boss
 			remove_country_modifier = arab_dour_economist
+			
+			remove_country_modifier = capital_arab_expert_diplomat
+			remove_country_modifier = capital_arab_successful_industrialist
+			remove_country_modifier = capital_arab_ivory_tower_intellectual
+			remove_country_modifier = capital_arab_man_of_the_people
+			remove_country_modifier = capital_arab_landed_gentleman
+			remove_country_modifier = capital_arab_military_man
+			remove_country_modifier = capital_arab_lord_admiral
+			remove_country_modifier = capital_arab_raving_loon
+			remove_country_modifier = capital_arab_luddite
+			remove_country_modifier = capital_arab_great_statesman
+			remove_country_modifier = capital_arab_backroom_boy
+			remove_country_modifier = capital_arab_great_reformer
+			remove_country_modifier = capital_arab_gauche_buffoon
+			remove_country_modifier = capital_arab_administrative_genius
+			remove_country_modifier = capital_arab_visionary_thinker
+			remove_country_modifier = capital_arab_competent_placeholder
+			remove_country_modifier = capital_arab_imperious_autocrat
+			remove_country_modifier = capital_arab_prince_of_terror
+			remove_country_modifier = capital_arab_efficient_sociopath
+			remove_country_modifier = capital_arab_pig_headed_isolationist
+			remove_country_modifier = capital_arab_ambitious_union_boss
+			remove_country_modifier = capital_arab_dour_economist
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = national_confusion duration = 365 }
@@ -2809,17 +3992,17 @@
 
 	# First Minister Dies
 	country_event = {
-		id = 200080123
+		id = 110080123
 		title = "EVTNAME100080123"
 		desc = "EVTDESC100080123"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = turko_semitic
-				is_culture_group = arab
-				is_culture_group = iranian_turanian
-			}
+                is_culture_group = turko_semitic
+                is_culture_group = arab
+                is_culture_group = iranian_turanian
+            }
 			NOT = {
 				has_country_flag = communist_gov
 				government = presidential_dictatorship
@@ -2861,6 +4044,29 @@
 			remove_country_modifier = arab_pig_headed_isolationist
 			remove_country_modifier = arab_ambitious_union_boss
 			remove_country_modifier = arab_dour_economist
+			
+			remove_country_modifier = capital_arab_expert_diplomat
+			remove_country_modifier = capital_arab_successful_industrialist
+			remove_country_modifier = capital_arab_ivory_tower_intellectual
+			remove_country_modifier = capital_arab_man_of_the_people
+			remove_country_modifier = capital_arab_landed_gentleman
+			remove_country_modifier = capital_arab_military_man
+			remove_country_modifier = capital_arab_lord_admiral
+			remove_country_modifier = capital_arab_raving_loon
+			remove_country_modifier = capital_arab_luddite
+			remove_country_modifier = capital_arab_great_statesman
+			remove_country_modifier = capital_arab_backroom_boy
+			remove_country_modifier = capital_arab_great_reformer
+			remove_country_modifier = capital_arab_gauche_buffoon
+			remove_country_modifier = capital_arab_administrative_genius
+			remove_country_modifier = capital_arab_visionary_thinker
+			remove_country_modifier = capital_arab_competent_placeholder
+			remove_country_modifier = capital_arab_imperious_autocrat
+			remove_country_modifier = capital_arab_prince_of_terror
+			remove_country_modifier = capital_arab_efficient_sociopath
+			remove_country_modifier = capital_arab_pig_headed_isolationist
+			remove_country_modifier = capital_arab_ambitious_union_boss
+			remove_country_modifier = capital_arab_dour_economist
 			remove_country_modifier = has_political_leader
 			remove_country_modifier = otto_von_bismarck
 			remove_country_modifier = has_political_leader
@@ -2869,17 +4075,17 @@
 
 	# First Minister Committed
 	country_event = {
-		id = 200080124
+		id = 110080124
 		title = "EVTNAME100080124"
 		desc = "EVTDESC100080124"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = turko_semitic
-				is_culture_group = arab
-				is_culture_group = iranian_turanian
-			}
+                is_culture_group = turko_semitic
+                is_culture_group = arab
+                is_culture_group = iranian_turanian
+            }
 			NOT = {
 				has_country_flag = communist_gov
 				government = presidential_dictatorship
@@ -2905,17 +4111,17 @@
 
 	# Dictator Dies
 	country_event = {
-		id = 200080125
+		id = 110080125
 		title = "EVTNAME100080125"
 		desc = "EVTDESC100080125"
 		picture = "danishgovernment"
 
 		trigger = {
 			OR = {
-				is_culture_group = turko_semitic
-				is_culture_group = arab
-				is_culture_group = iranian_turanian
-			}
+                is_culture_group = turko_semitic
+                is_culture_group = arab
+                is_culture_group = iranian_turanian
+            }
 			OR = {
 				has_country_flag = communist_gov
 				government = presidential_dictatorship
@@ -2958,6 +4164,29 @@
 			remove_country_modifier = arab_ambitious_union_boss
 			remove_country_modifier = arab_dour_economist
 			remove_country_modifier = otto_von_bismarck
+			
+			remove_country_modifier = capital_arab_expert_diplomat
+			remove_country_modifier = capital_arab_successful_industrialist
+			remove_country_modifier = capital_arab_ivory_tower_intellectual
+			remove_country_modifier = capital_arab_man_of_the_people
+			remove_country_modifier = capital_arab_landed_gentleman
+			remove_country_modifier = capital_arab_military_man
+			remove_country_modifier = capital_arab_lord_admiral
+			remove_country_modifier = capital_arab_raving_loon
+			remove_country_modifier = capital_arab_luddite
+			remove_country_modifier = capital_arab_great_statesman
+			remove_country_modifier = capital_arab_backroom_boy
+			remove_country_modifier = capital_arab_great_reformer
+			remove_country_modifier = capital_arab_gauche_buffoon
+			remove_country_modifier = capital_arab_administrative_genius
+			remove_country_modifier = capital_arab_visionary_thinker
+			remove_country_modifier = capital_arab_competent_placeholder
+			remove_country_modifier = capital_arab_imperious_autocrat
+			remove_country_modifier = capital_arab_prince_of_terror
+			remove_country_modifier = capital_arab_efficient_sociopath
+			remove_country_modifier = capital_arab_pig_headed_isolationist
+			remove_country_modifier = capital_arab_ambitious_union_boss
+			remove_country_modifier = capital_arab_dour_economist
 			remove_country_modifier = has_political_leader
 			
 			add_country_modifier = { name = power_vacuum duration = 365 }
@@ -2966,7 +4195,7 @@
 
 	# Dictator Assassinated
 	country_event = {
-		id = 200050120
+		id = 110050120
 		title = "EVTNAME100050120"
 		desc = "EVTDESC100050120"
 		picture = "assassination"
@@ -2979,10 +4208,10 @@
 
 		trigger = {
 			OR = {
-				is_culture_group = turko_semitic
-				is_culture_group = arab
-				is_culture_group = iranian_turanian
-			}
+                is_culture_group = turko_semitic
+                is_culture_group = arab
+                is_culture_group = iranian_turanian
+            }
 			has_country_modifier = has_political_leader
 			average_militancy = 5
 			OR = {
@@ -3024,6 +4253,29 @@
 			remove_country_modifier = arab_ambitious_union_boss
 			remove_country_modifier = arab_dour_economist
 			remove_country_modifier = otto_von_bismarck
+			
+			remove_country_modifier = capital_arab_expert_diplomat
+			remove_country_modifier = capital_arab_successful_industrialist
+			remove_country_modifier = capital_arab_ivory_tower_intellectual
+			remove_country_modifier = capital_arab_man_of_the_people
+			remove_country_modifier = capital_arab_landed_gentleman
+			remove_country_modifier = capital_arab_military_man
+			remove_country_modifier = capital_arab_lord_admiral
+			remove_country_modifier = capital_arab_raving_loon
+			remove_country_modifier = capital_arab_luddite
+			remove_country_modifier = capital_arab_great_statesman
+			remove_country_modifier = capital_arab_backroom_boy
+			remove_country_modifier = capital_arab_great_reformer
+			remove_country_modifier = capital_arab_gauche_buffoon
+			remove_country_modifier = capital_arab_administrative_genius
+			remove_country_modifier = capital_arab_visionary_thinker
+			remove_country_modifier = capital_arab_competent_placeholder
+			remove_country_modifier = capital_arab_imperious_autocrat
+			remove_country_modifier = capital_arab_prince_of_terror
+			remove_country_modifier = capital_arab_efficient_sociopath
+			remove_country_modifier = capital_arab_pig_headed_isolationist
+			remove_country_modifier = capital_arab_ambitious_union_boss
+			remove_country_modifier = capital_arab_dour_economist
 			remove_country_modifier = has_political_leader
 			
 			add_country_modifier = { name = national_confusion duration = 365 }

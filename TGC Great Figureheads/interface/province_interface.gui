@@ -14,14 +14,14 @@ guiTypes = {
 		iconType = {
 			name ="background"
 			spriteType = "GFX_provinceview_bg"
-			position = { x= 0 y = -22 }
+			position = { x= 0 y = -36 }
 			Orientation = "UPPER_LEFT"
 		}
 
 		guiButtonType = {
 			name = "close_button"
 			quadTextureSprite = "GFX_main_close_button"
-			position = { x= 376 y = -20 }
+			position = { x= 376 y = -33 }
 			Orientation = "UPPER_LEFT"
 			shortcut = "ESCAPE"
 		}
@@ -49,7 +49,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "state_name"
-				position = { x = 16 y = 7 }
+				position = { x = 16 y = -6 }
 				font = "vic_22"
 				text = "state_name"
 				maxWidth = 200
@@ -60,10 +60,10 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "province_name"
-				position = { x = 17 y = 45 }
-				font = "vic_18"
+				position = { x = 17 y = 35 }
+				font = "vic_22"
 				text = "province_name"
-				maxWidth = 200
+				maxWidth = 300
 				maxHeight = 16
 				format = left
 			}
@@ -79,7 +79,7 @@ guiTypes = {
 
 			OverlappingElementsBoxType = {
 				name = "province_modifiers"
-				position = { x = 188 y = 35 }
+				position = { x = 188 y = 26 }
 				size = { x=200 y= 32 }
 				Orientation = "UPPER_LEFT"
 				format = right
@@ -89,7 +89,7 @@ guiTypes = {
 			iconType = {
 				name = "slave_state_icon"
 				spriteType = "GFX_pops_mini"
-				position = { x= 195 y = 0 }
+				position = { x= 195 y = -14 }
 				Orientation = "UPPER_LEFT"
 				frame = 10
 			}
@@ -97,14 +97,14 @@ guiTypes = {
 			guiButtonType = {
 				name = "colony_button"
 				quadTextureSprite = "GFX_province_colony_icon"
-				position = { x= 227 y = 4 }
+				position = { x= 227 y = -10 }
 				Orientation = "UPPER_LEFT"
 			}
 
 			guiButtonType = {
 				name = "national_focus"
 				quadTextureSprite = "GFX_province_natfocus_strip"
-				position = { x= 259 y = 1 }
+				position = { x= 259 y = -14 }
 				Orientation = "UPPER_LEFT"
 				shortcut = "f"
 			}
@@ -112,13 +112,13 @@ guiTypes = {
 			iconType = {
 				name = "admin_icon"
 				spriteType = "GFX_pops_mini"
-				position = { x= 302 y = -6 }
+				position = { x= 302 y = -23 }
 				Orientation = "UPPER_LEFT"
 			}
 
 			instantTextBoxType = {
 				name = "admin_efficiency"
-				position = { x = 298 y = 22 }
+				position = { x = 298 y = 8 }
 				font = "Arial12"
 				text = "10%"
 				maxWidth = 40
@@ -129,13 +129,13 @@ guiTypes = {
 			iconType = {
 				name = "owner_icon"
 				spriteType = "GFX_pops_mini"
-				position = { x= 343 y = -6 }
+				position = { x= 343 y = -23 }
 				Orientation = "UPPER_LEFT"
 			}
 
 			instantTextBoxType = {
 				name = "owner_presence"
-				position = { x = 339 y = 22 }
+				position = { x = 339 y = 8 }
 				font = "Arial12"
 				text = "10%"
 				maxWidth = 40
@@ -145,7 +145,7 @@ guiTypes = {
 
 			iconType = {
 				name = "controller_flag"
-				position = { x=356 y =134 }
+				position = { x=356 y =132 }
 				spriteType ="GFX_minishield_small"
 			}
 
@@ -172,17 +172,17 @@ guiTypes = {
 			iconType = {
 				name = "occupation_progress"
 				spriteType = "GFX_occupation_progress"
-				position = { x = 222 y = 143 }
+				position = { x = 222 y = 139 }
 			}
 			iconType = {
 				name = "occupation_icon"
 				spriteType = "GFX_province_siege_icon"
-				position = { x = 194 y = 87 }
+				position = { x = 194 y = 84 }
 			}
 			iconType = {
 				name = "occupation_flag"
 				spriteType = "GFX_minishield_small"
-				position = { x = 194 y = 135 }
+				position = { x = 194 y = 132 }
 			}
 		}
 
@@ -866,7 +866,7 @@ guiTypes = {
 			## Country Info
 			guiButtonType = {
 				name = "country_flag"
-				position = { x= 17 y = 149 }
+				position = { x= 18 y = 149 }
 				quadTextureSprite ="GFX_topbarflag"
 				buttonText = " "
 				buttonFont = "vic_18_black"
@@ -891,7 +891,7 @@ guiTypes = {
 			iconType = {
 				name ="country_flag_overlay"
 				spriteType = "GFX_topbar_flag_overlay_trans"
-				position = { x= 8 y = 132 }
+				position = { x= 6 y = 132 }
 				Orientation = "UPPER_LEFT"
 			}
 
@@ -1586,7 +1586,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "modifier"
-			position = { x=0 y =-2 }
+			position = { x=0 y =0 }
 			quadTextureSprite ="GFX_modifier_icons"
 			buttonText = " "
 			buttonFont = "vic_18_black"

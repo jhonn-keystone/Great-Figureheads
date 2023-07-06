@@ -76,9 +76,38 @@
 			remove_country_modifier = african_pig_headed_isolationist
 			remove_country_modifier = african_ambitious_union_boss
 			remove_country_modifier = african_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_african_expert_diplomat
+				remove_province_modifier = capital_african_successful_industrialist
+				remove_province_modifier = capital_african_ivory_tower_intellectual
+				remove_province_modifier = capital_african_man_of_the_people
+				remove_province_modifier = capital_african_landed_gentleman
+				remove_province_modifier = capital_african_military_man
+				remove_province_modifier = capital_african_lord_admiral
+				remove_province_modifier = capital_african_raving_loon
+				remove_province_modifier = capital_african_luddite
+				remove_province_modifier = capital_african_great_statesman
+				remove_province_modifier = capital_african_backroom_boy
+				remove_province_modifier = capital_african_great_reformer
+				remove_province_modifier = capital_african_gauche_buffoon
+				remove_province_modifier = capital_african_administrative_genius
+				remove_province_modifier = capital_african_visionary_thinker
+				remove_province_modifier = capital_african_competent_placeholder
+				remove_province_modifier = capital_african_imperious_autocrat
+				remove_province_modifier = capital_african_prince_of_terror
+				remove_province_modifier = capital_african_efficient_sociopath
+				remove_province_modifier = capital_african_pig_headed_isolationist
+				remove_province_modifier = capital_african_ambitious_union_boss
+				remove_province_modifier = capital_african_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = african_expert_diplomat duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_african_expert_diplomat duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -140,9 +169,38 @@
 			remove_country_modifier = african_pig_headed_isolationist
 			remove_country_modifier = african_ambitious_union_boss
 			remove_country_modifier = african_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_african_expert_diplomat
+				remove_province_modifier = capital_african_successful_industrialist
+				remove_province_modifier = capital_african_ivory_tower_intellectual
+				remove_province_modifier = capital_african_man_of_the_people
+				remove_province_modifier = capital_african_landed_gentleman
+				remove_province_modifier = capital_african_military_man
+				remove_province_modifier = capital_african_lord_admiral
+				remove_province_modifier = capital_african_raving_loon
+				remove_province_modifier = capital_african_luddite
+				remove_province_modifier = capital_african_great_statesman
+				remove_province_modifier = capital_african_backroom_boy
+				remove_province_modifier = capital_african_great_reformer
+				remove_province_modifier = capital_african_gauche_buffoon
+				remove_province_modifier = capital_african_administrative_genius
+				remove_province_modifier = capital_african_visionary_thinker
+				remove_province_modifier = capital_african_competent_placeholder
+				remove_province_modifier = capital_african_imperious_autocrat
+				remove_province_modifier = capital_african_prince_of_terror
+				remove_province_modifier = capital_african_efficient_sociopath
+				remove_province_modifier = capital_african_pig_headed_isolationist
+				remove_province_modifier = capital_african_ambitious_union_boss
+				remove_province_modifier = capital_african_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = african_expert_diplomat duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_african_expert_diplomat duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -216,9 +274,38 @@
 			remove_country_modifier = african_pig_headed_isolationist
 			remove_country_modifier = african_ambitious_union_boss
 			remove_country_modifier = african_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_african_expert_diplomat
+				remove_province_modifier = capital_african_successful_industrialist
+				remove_province_modifier = capital_african_ivory_tower_intellectual
+				remove_province_modifier = capital_african_man_of_the_people
+				remove_province_modifier = capital_african_landed_gentleman
+				remove_province_modifier = capital_african_military_man
+				remove_province_modifier = capital_african_lord_admiral
+				remove_province_modifier = capital_african_raving_loon
+				remove_province_modifier = capital_african_luddite
+				remove_province_modifier = capital_african_great_statesman
+				remove_province_modifier = capital_african_backroom_boy
+				remove_province_modifier = capital_african_great_reformer
+				remove_province_modifier = capital_african_gauche_buffoon
+				remove_province_modifier = capital_african_administrative_genius
+				remove_province_modifier = capital_african_visionary_thinker
+				remove_province_modifier = capital_african_competent_placeholder
+				remove_province_modifier = capital_african_imperious_autocrat
+				remove_province_modifier = capital_african_prince_of_terror
+				remove_province_modifier = capital_african_efficient_sociopath
+				remove_province_modifier = capital_african_pig_headed_isolationist
+				remove_province_modifier = capital_african_ambitious_union_boss
+				remove_province_modifier = capital_african_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = african_successful_industrialist duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_african_successful_industrialist duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -281,9 +368,38 @@
 			remove_country_modifier = african_pig_headed_isolationist
 			remove_country_modifier = african_ambitious_union_boss
 			remove_country_modifier = african_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_african_expert_diplomat
+				remove_province_modifier = capital_african_successful_industrialist
+				remove_province_modifier = capital_african_ivory_tower_intellectual
+				remove_province_modifier = capital_african_man_of_the_people
+				remove_province_modifier = capital_african_landed_gentleman
+				remove_province_modifier = capital_african_military_man
+				remove_province_modifier = capital_african_lord_admiral
+				remove_province_modifier = capital_african_raving_loon
+				remove_province_modifier = capital_african_luddite
+				remove_province_modifier = capital_african_great_statesman
+				remove_province_modifier = capital_african_backroom_boy
+				remove_province_modifier = capital_african_great_reformer
+				remove_province_modifier = capital_african_gauche_buffoon
+				remove_province_modifier = capital_african_administrative_genius
+				remove_province_modifier = capital_african_visionary_thinker
+				remove_province_modifier = capital_african_competent_placeholder
+				remove_province_modifier = capital_african_imperious_autocrat
+				remove_province_modifier = capital_african_prince_of_terror
+				remove_province_modifier = capital_african_efficient_sociopath
+				remove_province_modifier = capital_african_pig_headed_isolationist
+				remove_province_modifier = capital_african_ambitious_union_boss
+				remove_province_modifier = capital_african_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = african_successful_industrialist duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_african_successful_industrialist duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -363,9 +479,38 @@
 			remove_country_modifier = african_pig_headed_isolationist
 			remove_country_modifier = african_ambitious_union_boss
 			remove_country_modifier = african_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_african_expert_diplomat
+				remove_province_modifier = capital_african_successful_industrialist
+				remove_province_modifier = capital_african_ivory_tower_intellectual
+				remove_province_modifier = capital_african_man_of_the_people
+				remove_province_modifier = capital_african_landed_gentleman
+				remove_province_modifier = capital_african_military_man
+				remove_province_modifier = capital_african_lord_admiral
+				remove_province_modifier = capital_african_raving_loon
+				remove_province_modifier = capital_african_luddite
+				remove_province_modifier = capital_african_great_statesman
+				remove_province_modifier = capital_african_backroom_boy
+				remove_province_modifier = capital_african_great_reformer
+				remove_province_modifier = capital_african_gauche_buffoon
+				remove_province_modifier = capital_african_administrative_genius
+				remove_province_modifier = capital_african_visionary_thinker
+				remove_province_modifier = capital_african_competent_placeholder
+				remove_province_modifier = capital_african_imperious_autocrat
+				remove_province_modifier = capital_african_prince_of_terror
+				remove_province_modifier = capital_african_efficient_sociopath
+				remove_province_modifier = capital_african_pig_headed_isolationist
+				remove_province_modifier = capital_african_ambitious_union_boss
+				remove_province_modifier = capital_african_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = african_ivory_tower_intellectual duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_african_ivory_tower_intellectual duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -427,9 +572,38 @@
 			remove_country_modifier = african_pig_headed_isolationist
 			remove_country_modifier = african_ambitious_union_boss
 			remove_country_modifier = african_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_african_expert_diplomat
+				remove_province_modifier = capital_african_successful_industrialist
+				remove_province_modifier = capital_african_ivory_tower_intellectual
+				remove_province_modifier = capital_african_man_of_the_people
+				remove_province_modifier = capital_african_landed_gentleman
+				remove_province_modifier = capital_african_military_man
+				remove_province_modifier = capital_african_lord_admiral
+				remove_province_modifier = capital_african_raving_loon
+				remove_province_modifier = capital_african_luddite
+				remove_province_modifier = capital_african_great_statesman
+				remove_province_modifier = capital_african_backroom_boy
+				remove_province_modifier = capital_african_great_reformer
+				remove_province_modifier = capital_african_gauche_buffoon
+				remove_province_modifier = capital_african_administrative_genius
+				remove_province_modifier = capital_african_visionary_thinker
+				remove_province_modifier = capital_african_competent_placeholder
+				remove_province_modifier = capital_african_imperious_autocrat
+				remove_province_modifier = capital_african_prince_of_terror
+				remove_province_modifier = capital_african_efficient_sociopath
+				remove_province_modifier = capital_african_pig_headed_isolationist
+				remove_province_modifier = capital_african_ambitious_union_boss
+				remove_province_modifier = capital_african_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = african_ivory_tower_intellectual duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_african_ivory_tower_intellectual duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -505,10 +679,39 @@
 			remove_country_modifier = african_pig_headed_isolationist
 			remove_country_modifier = african_ambitious_union_boss
 			remove_country_modifier = african_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_african_expert_diplomat
+				remove_province_modifier = capital_african_successful_industrialist
+				remove_province_modifier = capital_african_ivory_tower_intellectual
+				remove_province_modifier = capital_african_man_of_the_people
+				remove_province_modifier = capital_african_landed_gentleman
+				remove_province_modifier = capital_african_military_man
+				remove_province_modifier = capital_african_lord_admiral
+				remove_province_modifier = capital_african_raving_loon
+				remove_province_modifier = capital_african_luddite
+				remove_province_modifier = capital_african_great_statesman
+				remove_province_modifier = capital_african_backroom_boy
+				remove_province_modifier = capital_african_great_reformer
+				remove_province_modifier = capital_african_gauche_buffoon
+				remove_province_modifier = capital_african_administrative_genius
+				remove_province_modifier = capital_african_visionary_thinker
+				remove_province_modifier = capital_african_competent_placeholder
+				remove_province_modifier = capital_african_imperious_autocrat
+				remove_province_modifier = capital_african_prince_of_terror
+				remove_province_modifier = capital_african_efficient_sociopath
+				remove_province_modifier = capital_african_pig_headed_isolationist
+				remove_province_modifier = capital_african_ambitious_union_boss
+				remove_province_modifier = capital_african_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 			add_country_modifier = {
 				name = african_man_of_the_people
 				duration = 3650
+			}
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_african_man_of_the_people duration = 3650 } 
 			}
 		}
 	}
@@ -571,9 +774,38 @@
 			remove_country_modifier = african_pig_headed_isolationist
 			remove_country_modifier = african_ambitious_union_boss
 			remove_country_modifier = african_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_african_expert_diplomat
+				remove_province_modifier = capital_african_successful_industrialist
+				remove_province_modifier = capital_african_ivory_tower_intellectual
+				remove_province_modifier = capital_african_man_of_the_people
+				remove_province_modifier = capital_african_landed_gentleman
+				remove_province_modifier = capital_african_military_man
+				remove_province_modifier = capital_african_lord_admiral
+				remove_province_modifier = capital_african_raving_loon
+				remove_province_modifier = capital_african_luddite
+				remove_province_modifier = capital_african_great_statesman
+				remove_province_modifier = capital_african_backroom_boy
+				remove_province_modifier = capital_african_great_reformer
+				remove_province_modifier = capital_african_gauche_buffoon
+				remove_province_modifier = capital_african_administrative_genius
+				remove_province_modifier = capital_african_visionary_thinker
+				remove_province_modifier = capital_african_competent_placeholder
+				remove_province_modifier = capital_african_imperious_autocrat
+				remove_province_modifier = capital_african_prince_of_terror
+				remove_province_modifier = capital_african_efficient_sociopath
+				remove_province_modifier = capital_african_pig_headed_isolationist
+				remove_province_modifier = capital_african_ambitious_union_boss
+				remove_province_modifier = capital_african_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = african_man_of_the_people duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_african_man_of_the_people duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -647,9 +879,38 @@
 			remove_country_modifier = african_pig_headed_isolationist
 			remove_country_modifier = african_ambitious_union_boss
 			remove_country_modifier = african_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_african_expert_diplomat
+				remove_province_modifier = capital_african_successful_industrialist
+				remove_province_modifier = capital_african_ivory_tower_intellectual
+				remove_province_modifier = capital_african_man_of_the_people
+				remove_province_modifier = capital_african_landed_gentleman
+				remove_province_modifier = capital_african_military_man
+				remove_province_modifier = capital_african_lord_admiral
+				remove_province_modifier = capital_african_raving_loon
+				remove_province_modifier = capital_african_luddite
+				remove_province_modifier = capital_african_great_statesman
+				remove_province_modifier = capital_african_backroom_boy
+				remove_province_modifier = capital_african_great_reformer
+				remove_province_modifier = capital_african_gauche_buffoon
+				remove_province_modifier = capital_african_administrative_genius
+				remove_province_modifier = capital_african_visionary_thinker
+				remove_province_modifier = capital_african_competent_placeholder
+				remove_province_modifier = capital_african_imperious_autocrat
+				remove_province_modifier = capital_african_prince_of_terror
+				remove_province_modifier = capital_african_efficient_sociopath
+				remove_province_modifier = capital_african_pig_headed_isolationist
+				remove_province_modifier = capital_african_ambitious_union_boss
+				remove_province_modifier = capital_african_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = african_landed_gentleman duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_african_landed_gentleman duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -710,9 +971,38 @@
 			remove_country_modifier = african_pig_headed_isolationist
 			remove_country_modifier = african_ambitious_union_boss
 			remove_country_modifier = african_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_african_expert_diplomat
+				remove_province_modifier = capital_african_successful_industrialist
+				remove_province_modifier = capital_african_ivory_tower_intellectual
+				remove_province_modifier = capital_african_man_of_the_people
+				remove_province_modifier = capital_african_landed_gentleman
+				remove_province_modifier = capital_african_military_man
+				remove_province_modifier = capital_african_lord_admiral
+				remove_province_modifier = capital_african_raving_loon
+				remove_province_modifier = capital_african_luddite
+				remove_province_modifier = capital_african_great_statesman
+				remove_province_modifier = capital_african_backroom_boy
+				remove_province_modifier = capital_african_great_reformer
+				remove_province_modifier = capital_african_gauche_buffoon
+				remove_province_modifier = capital_african_administrative_genius
+				remove_province_modifier = capital_african_visionary_thinker
+				remove_province_modifier = capital_african_competent_placeholder
+				remove_province_modifier = capital_african_imperious_autocrat
+				remove_province_modifier = capital_african_prince_of_terror
+				remove_province_modifier = capital_african_efficient_sociopath
+				remove_province_modifier = capital_african_pig_headed_isolationist
+				remove_province_modifier = capital_african_ambitious_union_boss
+				remove_province_modifier = capital_african_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = african_landed_gentleman duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_african_landed_gentleman duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -788,9 +1078,38 @@
 			remove_country_modifier = african_pig_headed_isolationist
 			remove_country_modifier = african_ambitious_union_boss
 			remove_country_modifier = african_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_african_expert_diplomat
+				remove_province_modifier = capital_african_successful_industrialist
+				remove_province_modifier = capital_african_ivory_tower_intellectual
+				remove_province_modifier = capital_african_man_of_the_people
+				remove_province_modifier = capital_african_landed_gentleman
+				remove_province_modifier = capital_african_military_man
+				remove_province_modifier = capital_african_lord_admiral
+				remove_province_modifier = capital_african_raving_loon
+				remove_province_modifier = capital_african_luddite
+				remove_province_modifier = capital_african_great_statesman
+				remove_province_modifier = capital_african_backroom_boy
+				remove_province_modifier = capital_african_great_reformer
+				remove_province_modifier = capital_african_gauche_buffoon
+				remove_province_modifier = capital_african_administrative_genius
+				remove_province_modifier = capital_african_visionary_thinker
+				remove_province_modifier = capital_african_competent_placeholder
+				remove_province_modifier = capital_african_imperious_autocrat
+				remove_province_modifier = capital_african_prince_of_terror
+				remove_province_modifier = capital_african_efficient_sociopath
+				remove_province_modifier = capital_african_pig_headed_isolationist
+				remove_province_modifier = capital_african_ambitious_union_boss
+				remove_province_modifier = capital_african_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = african_military_man duration = 3650 } 
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_african_military_man duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -852,9 +1171,38 @@
 			remove_country_modifier = african_pig_headed_isolationist
 			remove_country_modifier = african_ambitious_union_boss
 			remove_country_modifier = african_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_african_expert_diplomat
+				remove_province_modifier = capital_african_successful_industrialist
+				remove_province_modifier = capital_african_ivory_tower_intellectual
+				remove_province_modifier = capital_african_man_of_the_people
+				remove_province_modifier = capital_african_landed_gentleman
+				remove_province_modifier = capital_african_military_man
+				remove_province_modifier = capital_african_lord_admiral
+				remove_province_modifier = capital_african_raving_loon
+				remove_province_modifier = capital_african_luddite
+				remove_province_modifier = capital_african_great_statesman
+				remove_province_modifier = capital_african_backroom_boy
+				remove_province_modifier = capital_african_great_reformer
+				remove_province_modifier = capital_african_gauche_buffoon
+				remove_province_modifier = capital_african_administrative_genius
+				remove_province_modifier = capital_african_visionary_thinker
+				remove_province_modifier = capital_african_competent_placeholder
+				remove_province_modifier = capital_african_imperious_autocrat
+				remove_province_modifier = capital_african_prince_of_terror
+				remove_province_modifier = capital_african_efficient_sociopath
+				remove_province_modifier = capital_african_pig_headed_isolationist
+				remove_province_modifier = capital_african_ambitious_union_boss
+				remove_province_modifier = capital_african_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = african_military_man duration = 3650 } 
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_african_military_man duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -931,9 +1279,38 @@
 			remove_country_modifier = african_pig_headed_isolationist
 			remove_country_modifier = african_ambitious_union_boss
 			remove_country_modifier = african_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_african_expert_diplomat
+				remove_province_modifier = capital_african_successful_industrialist
+				remove_province_modifier = capital_african_ivory_tower_intellectual
+				remove_province_modifier = capital_african_man_of_the_people
+				remove_province_modifier = capital_african_landed_gentleman
+				remove_province_modifier = capital_african_military_man
+				remove_province_modifier = capital_african_lord_admiral
+				remove_province_modifier = capital_african_raving_loon
+				remove_province_modifier = capital_african_luddite
+				remove_province_modifier = capital_african_great_statesman
+				remove_province_modifier = capital_african_backroom_boy
+				remove_province_modifier = capital_african_great_reformer
+				remove_province_modifier = capital_african_gauche_buffoon
+				remove_province_modifier = capital_african_administrative_genius
+				remove_province_modifier = capital_african_visionary_thinker
+				remove_province_modifier = capital_african_competent_placeholder
+				remove_province_modifier = capital_african_imperious_autocrat
+				remove_province_modifier = capital_african_prince_of_terror
+				remove_province_modifier = capital_african_efficient_sociopath
+				remove_province_modifier = capital_african_pig_headed_isolationist
+				remove_province_modifier = capital_african_ambitious_union_boss
+				remove_province_modifier = capital_african_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = african_lord_admiral duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_african_lord_admiral duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -996,9 +1373,38 @@
 			remove_country_modifier = african_pig_headed_isolationist
 			remove_country_modifier = african_ambitious_union_boss
 			remove_country_modifier = african_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_african_expert_diplomat
+				remove_province_modifier = capital_african_successful_industrialist
+				remove_province_modifier = capital_african_ivory_tower_intellectual
+				remove_province_modifier = capital_african_man_of_the_people
+				remove_province_modifier = capital_african_landed_gentleman
+				remove_province_modifier = capital_african_military_man
+				remove_province_modifier = capital_african_lord_admiral
+				remove_province_modifier = capital_african_raving_loon
+				remove_province_modifier = capital_african_luddite
+				remove_province_modifier = capital_african_great_statesman
+				remove_province_modifier = capital_african_backroom_boy
+				remove_province_modifier = capital_african_great_reformer
+				remove_province_modifier = capital_african_gauche_buffoon
+				remove_province_modifier = capital_african_administrative_genius
+				remove_province_modifier = capital_african_visionary_thinker
+				remove_province_modifier = capital_african_competent_placeholder
+				remove_province_modifier = capital_african_imperious_autocrat
+				remove_province_modifier = capital_african_prince_of_terror
+				remove_province_modifier = capital_african_efficient_sociopath
+				remove_province_modifier = capital_african_pig_headed_isolationist
+				remove_province_modifier = capital_african_ambitious_union_boss
+				remove_province_modifier = capital_african_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = african_lord_admiral duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_african_lord_admiral duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -1077,9 +1483,38 @@
 			remove_country_modifier = african_pig_headed_isolationist
 			remove_country_modifier = african_ambitious_union_boss
 			remove_country_modifier = african_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_african_expert_diplomat
+				remove_province_modifier = capital_african_successful_industrialist
+				remove_province_modifier = capital_african_ivory_tower_intellectual
+				remove_province_modifier = capital_african_man_of_the_people
+				remove_province_modifier = capital_african_landed_gentleman
+				remove_province_modifier = capital_african_military_man
+				remove_province_modifier = capital_african_lord_admiral
+				remove_province_modifier = capital_african_raving_loon
+				remove_province_modifier = capital_african_luddite
+				remove_province_modifier = capital_african_great_statesman
+				remove_province_modifier = capital_african_backroom_boy
+				remove_province_modifier = capital_african_great_reformer
+				remove_province_modifier = capital_african_gauche_buffoon
+				remove_province_modifier = capital_african_administrative_genius
+				remove_province_modifier = capital_african_visionary_thinker
+				remove_province_modifier = capital_african_competent_placeholder
+				remove_province_modifier = capital_african_imperious_autocrat
+				remove_province_modifier = capital_african_prince_of_terror
+				remove_province_modifier = capital_african_efficient_sociopath
+				remove_province_modifier = capital_african_pig_headed_isolationist
+				remove_province_modifier = capital_african_ambitious_union_boss
+				remove_province_modifier = capital_african_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = african_raving_loon duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_african_raving_loon duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -1142,9 +1577,38 @@
 			remove_country_modifier = african_pig_headed_isolationist
 			remove_country_modifier = african_ambitious_union_boss
 			remove_country_modifier = african_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_african_expert_diplomat
+				remove_province_modifier = capital_african_successful_industrialist
+				remove_province_modifier = capital_african_ivory_tower_intellectual
+				remove_province_modifier = capital_african_man_of_the_people
+				remove_province_modifier = capital_african_landed_gentleman
+				remove_province_modifier = capital_african_military_man
+				remove_province_modifier = capital_african_lord_admiral
+				remove_province_modifier = capital_african_raving_loon
+				remove_province_modifier = capital_african_luddite
+				remove_province_modifier = capital_african_great_statesman
+				remove_province_modifier = capital_african_backroom_boy
+				remove_province_modifier = capital_african_great_reformer
+				remove_province_modifier = capital_african_gauche_buffoon
+				remove_province_modifier = capital_african_administrative_genius
+				remove_province_modifier = capital_african_visionary_thinker
+				remove_province_modifier = capital_african_competent_placeholder
+				remove_province_modifier = capital_african_imperious_autocrat
+				remove_province_modifier = capital_african_prince_of_terror
+				remove_province_modifier = capital_african_efficient_sociopath
+				remove_province_modifier = capital_african_pig_headed_isolationist
+				remove_province_modifier = capital_african_ambitious_union_boss
+				remove_province_modifier = capital_african_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = african_raving_loon duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_african_raving_loon duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -1220,9 +1684,38 @@
 			remove_country_modifier = african_pig_headed_isolationist
 			remove_country_modifier = african_ambitious_union_boss
 			remove_country_modifier = african_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_african_expert_diplomat
+				remove_province_modifier = capital_african_successful_industrialist
+				remove_province_modifier = capital_african_ivory_tower_intellectual
+				remove_province_modifier = capital_african_man_of_the_people
+				remove_province_modifier = capital_african_landed_gentleman
+				remove_province_modifier = capital_african_military_man
+				remove_province_modifier = capital_african_lord_admiral
+				remove_province_modifier = capital_african_raving_loon
+				remove_province_modifier = capital_african_luddite
+				remove_province_modifier = capital_african_great_statesman
+				remove_province_modifier = capital_african_backroom_boy
+				remove_province_modifier = capital_african_great_reformer
+				remove_province_modifier = capital_african_gauche_buffoon
+				remove_province_modifier = capital_african_administrative_genius
+				remove_province_modifier = capital_african_visionary_thinker
+				remove_province_modifier = capital_african_competent_placeholder
+				remove_province_modifier = capital_african_imperious_autocrat
+				remove_province_modifier = capital_african_prince_of_terror
+				remove_province_modifier = capital_african_efficient_sociopath
+				remove_province_modifier = capital_african_pig_headed_isolationist
+				remove_province_modifier = capital_african_ambitious_union_boss
+				remove_province_modifier = capital_african_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = african_luddite duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_african_luddite duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -1283,9 +1776,38 @@
 			remove_country_modifier = african_pig_headed_isolationist
 			remove_country_modifier = african_ambitious_union_boss
 			remove_country_modifier = african_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_african_expert_diplomat
+				remove_province_modifier = capital_african_successful_industrialist
+				remove_province_modifier = capital_african_ivory_tower_intellectual
+				remove_province_modifier = capital_african_man_of_the_people
+				remove_province_modifier = capital_african_landed_gentleman
+				remove_province_modifier = capital_african_military_man
+				remove_province_modifier = capital_african_lord_admiral
+				remove_province_modifier = capital_african_raving_loon
+				remove_province_modifier = capital_african_luddite
+				remove_province_modifier = capital_african_great_statesman
+				remove_province_modifier = capital_african_backroom_boy
+				remove_province_modifier = capital_african_great_reformer
+				remove_province_modifier = capital_african_gauche_buffoon
+				remove_province_modifier = capital_african_administrative_genius
+				remove_province_modifier = capital_african_visionary_thinker
+				remove_province_modifier = capital_african_competent_placeholder
+				remove_province_modifier = capital_african_imperious_autocrat
+				remove_province_modifier = capital_african_prince_of_terror
+				remove_province_modifier = capital_african_efficient_sociopath
+				remove_province_modifier = capital_african_pig_headed_isolationist
+				remove_province_modifier = capital_african_ambitious_union_boss
+				remove_province_modifier = capital_african_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = african_luddite duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_african_luddite duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -1364,9 +1886,38 @@
 			remove_country_modifier = african_pig_headed_isolationist
 			remove_country_modifier = african_ambitious_union_boss
 			remove_country_modifier = african_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_african_expert_diplomat
+				remove_province_modifier = capital_african_successful_industrialist
+				remove_province_modifier = capital_african_ivory_tower_intellectual
+				remove_province_modifier = capital_african_man_of_the_people
+				remove_province_modifier = capital_african_landed_gentleman
+				remove_province_modifier = capital_african_military_man
+				remove_province_modifier = capital_african_lord_admiral
+				remove_province_modifier = capital_african_raving_loon
+				remove_province_modifier = capital_african_luddite
+				remove_province_modifier = capital_african_great_statesman
+				remove_province_modifier = capital_african_backroom_boy
+				remove_province_modifier = capital_african_great_reformer
+				remove_province_modifier = capital_african_gauche_buffoon
+				remove_province_modifier = capital_african_administrative_genius
+				remove_province_modifier = capital_african_visionary_thinker
+				remove_province_modifier = capital_african_competent_placeholder
+				remove_province_modifier = capital_african_imperious_autocrat
+				remove_province_modifier = capital_african_prince_of_terror
+				remove_province_modifier = capital_african_efficient_sociopath
+				remove_province_modifier = capital_african_pig_headed_isolationist
+				remove_province_modifier = capital_african_ambitious_union_boss
+				remove_province_modifier = capital_african_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = african_great_statesman duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_african_great_statesman duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -1428,9 +1979,38 @@
 			remove_country_modifier = african_pig_headed_isolationist
 			remove_country_modifier = african_ambitious_union_boss
 			remove_country_modifier = african_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_african_expert_diplomat
+				remove_province_modifier = capital_african_successful_industrialist
+				remove_province_modifier = capital_african_ivory_tower_intellectual
+				remove_province_modifier = capital_african_man_of_the_people
+				remove_province_modifier = capital_african_landed_gentleman
+				remove_province_modifier = capital_african_military_man
+				remove_province_modifier = capital_african_lord_admiral
+				remove_province_modifier = capital_african_raving_loon
+				remove_province_modifier = capital_african_luddite
+				remove_province_modifier = capital_african_great_statesman
+				remove_province_modifier = capital_african_backroom_boy
+				remove_province_modifier = capital_african_great_reformer
+				remove_province_modifier = capital_african_gauche_buffoon
+				remove_province_modifier = capital_african_administrative_genius
+				remove_province_modifier = capital_african_visionary_thinker
+				remove_province_modifier = capital_african_competent_placeholder
+				remove_province_modifier = capital_african_imperious_autocrat
+				remove_province_modifier = capital_african_prince_of_terror
+				remove_province_modifier = capital_african_efficient_sociopath
+				remove_province_modifier = capital_african_pig_headed_isolationist
+				remove_province_modifier = capital_african_ambitious_union_boss
+				remove_province_modifier = capital_african_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = african_great_statesman duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_african_great_statesman duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -1509,9 +2089,38 @@
 			remove_country_modifier = african_pig_headed_isolationist
 			remove_country_modifier = african_ambitious_union_boss
 			remove_country_modifier = african_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_african_expert_diplomat
+				remove_province_modifier = capital_african_successful_industrialist
+				remove_province_modifier = capital_african_ivory_tower_intellectual
+				remove_province_modifier = capital_african_man_of_the_people
+				remove_province_modifier = capital_african_landed_gentleman
+				remove_province_modifier = capital_african_military_man
+				remove_province_modifier = capital_african_lord_admiral
+				remove_province_modifier = capital_african_raving_loon
+				remove_province_modifier = capital_african_luddite
+				remove_province_modifier = capital_african_great_statesman
+				remove_province_modifier = capital_african_backroom_boy
+				remove_province_modifier = capital_african_great_reformer
+				remove_province_modifier = capital_african_gauche_buffoon
+				remove_province_modifier = capital_african_administrative_genius
+				remove_province_modifier = capital_african_visionary_thinker
+				remove_province_modifier = capital_african_competent_placeholder
+				remove_province_modifier = capital_african_imperious_autocrat
+				remove_province_modifier = capital_african_prince_of_terror
+				remove_province_modifier = capital_african_efficient_sociopath
+				remove_province_modifier = capital_african_pig_headed_isolationist
+				remove_province_modifier = capital_african_ambitious_union_boss
+				remove_province_modifier = capital_african_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = african_backroom_boy duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_african_backroom_boy duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -1588,9 +2197,38 @@
 			remove_country_modifier = african_pig_headed_isolationist
 			remove_country_modifier = african_ambitious_union_boss
 			remove_country_modifier = african_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_african_expert_diplomat
+				remove_province_modifier = capital_african_successful_industrialist
+				remove_province_modifier = capital_african_ivory_tower_intellectual
+				remove_province_modifier = capital_african_man_of_the_people
+				remove_province_modifier = capital_african_landed_gentleman
+				remove_province_modifier = capital_african_military_man
+				remove_province_modifier = capital_african_lord_admiral
+				remove_province_modifier = capital_african_raving_loon
+				remove_province_modifier = capital_african_luddite
+				remove_province_modifier = capital_african_great_statesman
+				remove_province_modifier = capital_african_backroom_boy
+				remove_province_modifier = capital_african_great_reformer
+				remove_province_modifier = capital_african_gauche_buffoon
+				remove_province_modifier = capital_african_administrative_genius
+				remove_province_modifier = capital_african_visionary_thinker
+				remove_province_modifier = capital_african_competent_placeholder
+				remove_province_modifier = capital_african_imperious_autocrat
+				remove_province_modifier = capital_african_prince_of_terror
+				remove_province_modifier = capital_african_efficient_sociopath
+				remove_province_modifier = capital_african_pig_headed_isolationist
+				remove_province_modifier = capital_african_ambitious_union_boss
+				remove_province_modifier = capital_african_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = african_great_reformer duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_african_great_reformer duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -1666,9 +2304,38 @@
 			remove_country_modifier = african_pig_headed_isolationist
 			remove_country_modifier = african_ambitious_union_boss
 			remove_country_modifier = african_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_african_expert_diplomat
+				remove_province_modifier = capital_african_successful_industrialist
+				remove_province_modifier = capital_african_ivory_tower_intellectual
+				remove_province_modifier = capital_african_man_of_the_people
+				remove_province_modifier = capital_african_landed_gentleman
+				remove_province_modifier = capital_african_military_man
+				remove_province_modifier = capital_african_lord_admiral
+				remove_province_modifier = capital_african_raving_loon
+				remove_province_modifier = capital_african_luddite
+				remove_province_modifier = capital_african_great_statesman
+				remove_province_modifier = capital_african_backroom_boy
+				remove_province_modifier = capital_african_great_reformer
+				remove_province_modifier = capital_african_gauche_buffoon
+				remove_province_modifier = capital_african_administrative_genius
+				remove_province_modifier = capital_african_visionary_thinker
+				remove_province_modifier = capital_african_competent_placeholder
+				remove_province_modifier = capital_african_imperious_autocrat
+				remove_province_modifier = capital_african_prince_of_terror
+				remove_province_modifier = capital_african_efficient_sociopath
+				remove_province_modifier = capital_african_pig_headed_isolationist
+				remove_province_modifier = capital_african_ambitious_union_boss
+				remove_province_modifier = capital_african_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = african_gauche_buffoon duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_african_gauche_buffoon duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -1747,9 +2414,38 @@
 			remove_country_modifier = african_pig_headed_isolationist
 			remove_country_modifier = african_ambitious_union_boss
 			remove_country_modifier = african_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_african_expert_diplomat
+				remove_province_modifier = capital_african_successful_industrialist
+				remove_province_modifier = capital_african_ivory_tower_intellectual
+				remove_province_modifier = capital_african_man_of_the_people
+				remove_province_modifier = capital_african_landed_gentleman
+				remove_province_modifier = capital_african_military_man
+				remove_province_modifier = capital_african_lord_admiral
+				remove_province_modifier = capital_african_raving_loon
+				remove_province_modifier = capital_african_luddite
+				remove_province_modifier = capital_african_great_statesman
+				remove_province_modifier = capital_african_backroom_boy
+				remove_province_modifier = capital_african_great_reformer
+				remove_province_modifier = capital_african_gauche_buffoon
+				remove_province_modifier = capital_african_administrative_genius
+				remove_province_modifier = capital_african_visionary_thinker
+				remove_province_modifier = capital_african_competent_placeholder
+				remove_province_modifier = capital_african_imperious_autocrat
+				remove_province_modifier = capital_african_prince_of_terror
+				remove_province_modifier = capital_african_efficient_sociopath
+				remove_province_modifier = capital_african_pig_headed_isolationist
+				remove_province_modifier = capital_african_ambitious_union_boss
+				remove_province_modifier = capital_african_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = african_administrative_genius duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_african_administrative_genius duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -1812,9 +2508,38 @@
 			remove_country_modifier = african_pig_headed_isolationist
 			remove_country_modifier = african_ambitious_union_boss
 			remove_country_modifier = african_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_african_expert_diplomat
+				remove_province_modifier = capital_african_successful_industrialist
+				remove_province_modifier = capital_african_ivory_tower_intellectual
+				remove_province_modifier = capital_african_man_of_the_people
+				remove_province_modifier = capital_african_landed_gentleman
+				remove_province_modifier = capital_african_military_man
+				remove_province_modifier = capital_african_lord_admiral
+				remove_province_modifier = capital_african_raving_loon
+				remove_province_modifier = capital_african_luddite
+				remove_province_modifier = capital_african_great_statesman
+				remove_province_modifier = capital_african_backroom_boy
+				remove_province_modifier = capital_african_great_reformer
+				remove_province_modifier = capital_african_gauche_buffoon
+				remove_province_modifier = capital_african_administrative_genius
+				remove_province_modifier = capital_african_visionary_thinker
+				remove_province_modifier = capital_african_competent_placeholder
+				remove_province_modifier = capital_african_imperious_autocrat
+				remove_province_modifier = capital_african_prince_of_terror
+				remove_province_modifier = capital_african_efficient_sociopath
+				remove_province_modifier = capital_african_pig_headed_isolationist
+				remove_province_modifier = capital_african_ambitious_union_boss
+				remove_province_modifier = capital_african_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = african_administrative_genius duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_african_administrative_genius duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -1893,9 +2618,38 @@
 			remove_country_modifier = african_pig_headed_isolationist
 			remove_country_modifier = african_ambitious_union_boss
 			remove_country_modifier = african_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_african_expert_diplomat
+				remove_province_modifier = capital_african_successful_industrialist
+				remove_province_modifier = capital_african_ivory_tower_intellectual
+				remove_province_modifier = capital_african_man_of_the_people
+				remove_province_modifier = capital_african_landed_gentleman
+				remove_province_modifier = capital_african_military_man
+				remove_province_modifier = capital_african_lord_admiral
+				remove_province_modifier = capital_african_raving_loon
+				remove_province_modifier = capital_african_luddite
+				remove_province_modifier = capital_african_great_statesman
+				remove_province_modifier = capital_african_backroom_boy
+				remove_province_modifier = capital_african_great_reformer
+				remove_province_modifier = capital_african_gauche_buffoon
+				remove_province_modifier = capital_african_administrative_genius
+				remove_province_modifier = capital_african_visionary_thinker
+				remove_province_modifier = capital_african_competent_placeholder
+				remove_province_modifier = capital_african_imperious_autocrat
+				remove_province_modifier = capital_african_prince_of_terror
+				remove_province_modifier = capital_african_efficient_sociopath
+				remove_province_modifier = capital_african_pig_headed_isolationist
+				remove_province_modifier = capital_african_ambitious_union_boss
+				remove_province_modifier = capital_african_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = african_visionary_thinker duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_african_visionary_thinker duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -1957,9 +2711,38 @@
 			remove_country_modifier = african_pig_headed_isolationist
 			remove_country_modifier = african_ambitious_union_boss
 			remove_country_modifier = african_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_african_expert_diplomat
+				remove_province_modifier = capital_african_successful_industrialist
+				remove_province_modifier = capital_african_ivory_tower_intellectual
+				remove_province_modifier = capital_african_man_of_the_people
+				remove_province_modifier = capital_african_landed_gentleman
+				remove_province_modifier = capital_african_military_man
+				remove_province_modifier = capital_african_lord_admiral
+				remove_province_modifier = capital_african_raving_loon
+				remove_province_modifier = capital_african_luddite
+				remove_province_modifier = capital_african_great_statesman
+				remove_province_modifier = capital_african_backroom_boy
+				remove_province_modifier = capital_african_great_reformer
+				remove_province_modifier = capital_african_gauche_buffoon
+				remove_province_modifier = capital_african_administrative_genius
+				remove_province_modifier = capital_african_visionary_thinker
+				remove_province_modifier = capital_african_competent_placeholder
+				remove_province_modifier = capital_african_imperious_autocrat
+				remove_province_modifier = capital_african_prince_of_terror
+				remove_province_modifier = capital_african_efficient_sociopath
+				remove_province_modifier = capital_african_pig_headed_isolationist
+				remove_province_modifier = capital_african_ambitious_union_boss
+				remove_province_modifier = capital_african_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = african_visionary_thinker duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_african_visionary_thinker duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -2038,9 +2821,38 @@
 			remove_country_modifier = african_pig_headed_isolationist
 			remove_country_modifier = african_ambitious_union_boss
 			remove_country_modifier = african_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_african_expert_diplomat
+				remove_province_modifier = capital_african_successful_industrialist
+				remove_province_modifier = capital_african_ivory_tower_intellectual
+				remove_province_modifier = capital_african_man_of_the_people
+				remove_province_modifier = capital_african_landed_gentleman
+				remove_province_modifier = capital_african_military_man
+				remove_province_modifier = capital_african_lord_admiral
+				remove_province_modifier = capital_african_raving_loon
+				remove_province_modifier = capital_african_luddite
+				remove_province_modifier = capital_african_great_statesman
+				remove_province_modifier = capital_african_backroom_boy
+				remove_province_modifier = capital_african_great_reformer
+				remove_province_modifier = capital_african_gauche_buffoon
+				remove_province_modifier = capital_african_administrative_genius
+				remove_province_modifier = capital_african_visionary_thinker
+				remove_province_modifier = capital_african_competent_placeholder
+				remove_province_modifier = capital_african_imperious_autocrat
+				remove_province_modifier = capital_african_prince_of_terror
+				remove_province_modifier = capital_african_efficient_sociopath
+				remove_province_modifier = capital_african_pig_headed_isolationist
+				remove_province_modifier = capital_african_ambitious_union_boss
+				remove_province_modifier = capital_african_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = african_competent_placeholder duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_african_competent_placeholder duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -2114,9 +2926,38 @@
 			remove_country_modifier = african_pig_headed_isolationist
 			remove_country_modifier = african_ambitious_union_boss
 			remove_country_modifier = african_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_african_expert_diplomat
+				remove_province_modifier = capital_african_successful_industrialist
+				remove_province_modifier = capital_african_ivory_tower_intellectual
+				remove_province_modifier = capital_african_man_of_the_people
+				remove_province_modifier = capital_african_landed_gentleman
+				remove_province_modifier = capital_african_military_man
+				remove_province_modifier = capital_african_lord_admiral
+				remove_province_modifier = capital_african_raving_loon
+				remove_province_modifier = capital_african_luddite
+				remove_province_modifier = capital_african_great_statesman
+				remove_province_modifier = capital_african_backroom_boy
+				remove_province_modifier = capital_african_great_reformer
+				remove_province_modifier = capital_african_gauche_buffoon
+				remove_province_modifier = capital_african_administrative_genius
+				remove_province_modifier = capital_african_visionary_thinker
+				remove_province_modifier = capital_african_competent_placeholder
+				remove_province_modifier = capital_african_imperious_autocrat
+				remove_province_modifier = capital_african_prince_of_terror
+				remove_province_modifier = capital_african_efficient_sociopath
+				remove_province_modifier = capital_african_pig_headed_isolationist
+				remove_province_modifier = capital_african_ambitious_union_boss
+				remove_province_modifier = capital_african_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = african_imperious_autocrat duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_african_imperious_autocrat duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -2178,9 +3019,38 @@
 			remove_country_modifier = african_pig_headed_isolationist
 			remove_country_modifier = african_ambitious_union_boss
 			remove_country_modifier = african_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_african_expert_diplomat
+				remove_province_modifier = capital_african_successful_industrialist
+				remove_province_modifier = capital_african_ivory_tower_intellectual
+				remove_province_modifier = capital_african_man_of_the_people
+				remove_province_modifier = capital_african_landed_gentleman
+				remove_province_modifier = capital_african_military_man
+				remove_province_modifier = capital_african_lord_admiral
+				remove_province_modifier = capital_african_raving_loon
+				remove_province_modifier = capital_african_luddite
+				remove_province_modifier = capital_african_great_statesman
+				remove_province_modifier = capital_african_backroom_boy
+				remove_province_modifier = capital_african_great_reformer
+				remove_province_modifier = capital_african_gauche_buffoon
+				remove_province_modifier = capital_african_administrative_genius
+				remove_province_modifier = capital_african_visionary_thinker
+				remove_province_modifier = capital_african_competent_placeholder
+				remove_province_modifier = capital_african_imperious_autocrat
+				remove_province_modifier = capital_african_prince_of_terror
+				remove_province_modifier = capital_african_efficient_sociopath
+				remove_province_modifier = capital_african_pig_headed_isolationist
+				remove_province_modifier = capital_african_ambitious_union_boss
+				remove_province_modifier = capital_african_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = african_imperious_autocrat duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_african_imperious_autocrat duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -2243,9 +3113,38 @@
 			remove_country_modifier = african_pig_headed_isolationist
 			remove_country_modifier = african_ambitious_union_boss
 			remove_country_modifier = african_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_african_expert_diplomat
+				remove_province_modifier = capital_african_successful_industrialist
+				remove_province_modifier = capital_african_ivory_tower_intellectual
+				remove_province_modifier = capital_african_man_of_the_people
+				remove_province_modifier = capital_african_landed_gentleman
+				remove_province_modifier = capital_african_military_man
+				remove_province_modifier = capital_african_lord_admiral
+				remove_province_modifier = capital_african_raving_loon
+				remove_province_modifier = capital_african_luddite
+				remove_province_modifier = capital_african_great_statesman
+				remove_province_modifier = capital_african_backroom_boy
+				remove_province_modifier = capital_african_great_reformer
+				remove_province_modifier = capital_african_gauche_buffoon
+				remove_province_modifier = capital_african_administrative_genius
+				remove_province_modifier = capital_african_visionary_thinker
+				remove_province_modifier = capital_african_competent_placeholder
+				remove_province_modifier = capital_african_imperious_autocrat
+				remove_province_modifier = capital_african_prince_of_terror
+				remove_province_modifier = capital_african_efficient_sociopath
+				remove_province_modifier = capital_african_pig_headed_isolationist
+				remove_province_modifier = capital_african_ambitious_union_boss
+				remove_province_modifier = capital_african_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = african_prince_of_terror duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_african_prince_of_terror duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -2307,9 +3206,38 @@
 			remove_country_modifier = african_pig_headed_isolationist
 			remove_country_modifier = african_ambitious_union_boss
 			remove_country_modifier = african_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_african_expert_diplomat
+				remove_province_modifier = capital_african_successful_industrialist
+				remove_province_modifier = capital_african_ivory_tower_intellectual
+				remove_province_modifier = capital_african_man_of_the_people
+				remove_province_modifier = capital_african_landed_gentleman
+				remove_province_modifier = capital_african_military_man
+				remove_province_modifier = capital_african_lord_admiral
+				remove_province_modifier = capital_african_raving_loon
+				remove_province_modifier = capital_african_luddite
+				remove_province_modifier = capital_african_great_statesman
+				remove_province_modifier = capital_african_backroom_boy
+				remove_province_modifier = capital_african_great_reformer
+				remove_province_modifier = capital_african_gauche_buffoon
+				remove_province_modifier = capital_african_administrative_genius
+				remove_province_modifier = capital_african_visionary_thinker
+				remove_province_modifier = capital_african_competent_placeholder
+				remove_province_modifier = capital_african_imperious_autocrat
+				remove_province_modifier = capital_african_prince_of_terror
+				remove_province_modifier = capital_african_efficient_sociopath
+				remove_province_modifier = capital_african_pig_headed_isolationist
+				remove_province_modifier = capital_african_ambitious_union_boss
+				remove_province_modifier = capital_african_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = african_prince_of_terror duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_african_prince_of_terror duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -2383,9 +3311,38 @@
 			remove_country_modifier = african_pig_headed_isolationist
 			remove_country_modifier = african_ambitious_union_boss
 			remove_country_modifier = african_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_african_expert_diplomat
+				remove_province_modifier = capital_african_successful_industrialist
+				remove_province_modifier = capital_african_ivory_tower_intellectual
+				remove_province_modifier = capital_african_man_of_the_people
+				remove_province_modifier = capital_african_landed_gentleman
+				remove_province_modifier = capital_african_military_man
+				remove_province_modifier = capital_african_lord_admiral
+				remove_province_modifier = capital_african_raving_loon
+				remove_province_modifier = capital_african_luddite
+				remove_province_modifier = capital_african_great_statesman
+				remove_province_modifier = capital_african_backroom_boy
+				remove_province_modifier = capital_african_great_reformer
+				remove_province_modifier = capital_african_gauche_buffoon
+				remove_province_modifier = capital_african_administrative_genius
+				remove_province_modifier = capital_african_visionary_thinker
+				remove_province_modifier = capital_african_competent_placeholder
+				remove_province_modifier = capital_african_imperious_autocrat
+				remove_province_modifier = capital_african_prince_of_terror
+				remove_province_modifier = capital_african_efficient_sociopath
+				remove_province_modifier = capital_african_pig_headed_isolationist
+				remove_province_modifier = capital_african_ambitious_union_boss
+				remove_province_modifier = capital_african_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = african_efficient_sociopath duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_african_efficient_sociopath duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -2447,9 +3404,38 @@
 			remove_country_modifier = african_pig_headed_isolationist
 			remove_country_modifier = african_ambitious_union_boss
 			remove_country_modifier = african_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_african_expert_diplomat
+				remove_province_modifier = capital_african_successful_industrialist
+				remove_province_modifier = capital_african_ivory_tower_intellectual
+				remove_province_modifier = capital_african_man_of_the_people
+				remove_province_modifier = capital_african_landed_gentleman
+				remove_province_modifier = capital_african_military_man
+				remove_province_modifier = capital_african_lord_admiral
+				remove_province_modifier = capital_african_raving_loon
+				remove_province_modifier = capital_african_luddite
+				remove_province_modifier = capital_african_great_statesman
+				remove_province_modifier = capital_african_backroom_boy
+				remove_province_modifier = capital_african_great_reformer
+				remove_province_modifier = capital_african_gauche_buffoon
+				remove_province_modifier = capital_african_administrative_genius
+				remove_province_modifier = capital_african_visionary_thinker
+				remove_province_modifier = capital_african_competent_placeholder
+				remove_province_modifier = capital_african_imperious_autocrat
+				remove_province_modifier = capital_african_prince_of_terror
+				remove_province_modifier = capital_african_efficient_sociopath
+				remove_province_modifier = capital_african_pig_headed_isolationist
+				remove_province_modifier = capital_african_ambitious_union_boss
+				remove_province_modifier = capital_african_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = african_efficient_sociopath duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_african_efficient_sociopath duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -2526,9 +3512,38 @@
 			remove_country_modifier = african_pig_headed_isolationist
 			remove_country_modifier = african_ambitious_union_boss
 			remove_country_modifier = african_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_african_expert_diplomat
+				remove_province_modifier = capital_african_successful_industrialist
+				remove_province_modifier = capital_african_ivory_tower_intellectual
+				remove_province_modifier = capital_african_man_of_the_people
+				remove_province_modifier = capital_african_landed_gentleman
+				remove_province_modifier = capital_african_military_man
+				remove_province_modifier = capital_african_lord_admiral
+				remove_province_modifier = capital_african_raving_loon
+				remove_province_modifier = capital_african_luddite
+				remove_province_modifier = capital_african_great_statesman
+				remove_province_modifier = capital_african_backroom_boy
+				remove_province_modifier = capital_african_great_reformer
+				remove_province_modifier = capital_african_gauche_buffoon
+				remove_province_modifier = capital_african_administrative_genius
+				remove_province_modifier = capital_african_visionary_thinker
+				remove_province_modifier = capital_african_competent_placeholder
+				remove_province_modifier = capital_african_imperious_autocrat
+				remove_province_modifier = capital_african_prince_of_terror
+				remove_province_modifier = capital_african_efficient_sociopath
+				remove_province_modifier = capital_african_pig_headed_isolationist
+				remove_province_modifier = capital_african_ambitious_union_boss
+				remove_province_modifier = capital_african_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = african_pig_headed_isolationist duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_african_pig_headed_isolationist duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -2590,9 +3605,38 @@
 			remove_country_modifier = african_pig_headed_isolationist
 			remove_country_modifier = african_ambitious_union_boss
 			remove_country_modifier = african_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_african_expert_diplomat
+				remove_province_modifier = capital_african_successful_industrialist
+				remove_province_modifier = capital_african_ivory_tower_intellectual
+				remove_province_modifier = capital_african_man_of_the_people
+				remove_province_modifier = capital_african_landed_gentleman
+				remove_province_modifier = capital_african_military_man
+				remove_province_modifier = capital_african_lord_admiral
+				remove_province_modifier = capital_african_raving_loon
+				remove_province_modifier = capital_african_luddite
+				remove_province_modifier = capital_african_great_statesman
+				remove_province_modifier = capital_african_backroom_boy
+				remove_province_modifier = capital_african_great_reformer
+				remove_province_modifier = capital_african_gauche_buffoon
+				remove_province_modifier = capital_african_administrative_genius
+				remove_province_modifier = capital_african_visionary_thinker
+				remove_province_modifier = capital_african_competent_placeholder
+				remove_province_modifier = capital_african_imperious_autocrat
+				remove_province_modifier = capital_african_prince_of_terror
+				remove_province_modifier = capital_african_efficient_sociopath
+				remove_province_modifier = capital_african_pig_headed_isolationist
+				remove_province_modifier = capital_african_ambitious_union_boss
+				remove_province_modifier = capital_african_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = african_pig_headed_isolationist duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_african_pig_headed_isolationist duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -2660,9 +3704,38 @@
 			remove_country_modifier = african_pig_headed_isolationist
 			remove_country_modifier = african_ambitious_union_boss
 			remove_country_modifier = african_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_african_expert_diplomat
+				remove_province_modifier = capital_african_successful_industrialist
+				remove_province_modifier = capital_african_ivory_tower_intellectual
+				remove_province_modifier = capital_african_man_of_the_people
+				remove_province_modifier = capital_african_landed_gentleman
+				remove_province_modifier = capital_african_military_man
+				remove_province_modifier = capital_african_lord_admiral
+				remove_province_modifier = capital_african_raving_loon
+				remove_province_modifier = capital_african_luddite
+				remove_province_modifier = capital_african_great_statesman
+				remove_province_modifier = capital_african_backroom_boy
+				remove_province_modifier = capital_african_great_reformer
+				remove_province_modifier = capital_african_gauche_buffoon
+				remove_province_modifier = capital_african_administrative_genius
+				remove_province_modifier = capital_african_visionary_thinker
+				remove_province_modifier = capital_african_competent_placeholder
+				remove_province_modifier = capital_african_imperious_autocrat
+				remove_province_modifier = capital_african_prince_of_terror
+				remove_province_modifier = capital_african_efficient_sociopath
+				remove_province_modifier = capital_african_pig_headed_isolationist
+				remove_province_modifier = capital_african_ambitious_union_boss
+				remove_province_modifier = capital_african_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = african_ambitious_union_boss duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_african_ambitious_union_boss duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -2724,9 +3797,38 @@
 			remove_country_modifier = african_pig_headed_isolationist
 			remove_country_modifier = african_ambitious_union_boss
 			remove_country_modifier = african_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_african_expert_diplomat
+				remove_province_modifier = capital_african_successful_industrialist
+				remove_province_modifier = capital_african_ivory_tower_intellectual
+				remove_province_modifier = capital_african_man_of_the_people
+				remove_province_modifier = capital_african_landed_gentleman
+				remove_province_modifier = capital_african_military_man
+				remove_province_modifier = capital_african_lord_admiral
+				remove_province_modifier = capital_african_raving_loon
+				remove_province_modifier = capital_african_luddite
+				remove_province_modifier = capital_african_great_statesman
+				remove_province_modifier = capital_african_backroom_boy
+				remove_province_modifier = capital_african_great_reformer
+				remove_province_modifier = capital_african_gauche_buffoon
+				remove_province_modifier = capital_african_administrative_genius
+				remove_province_modifier = capital_african_visionary_thinker
+				remove_province_modifier = capital_african_competent_placeholder
+				remove_province_modifier = capital_african_imperious_autocrat
+				remove_province_modifier = capital_african_prince_of_terror
+				remove_province_modifier = capital_african_efficient_sociopath
+				remove_province_modifier = capital_african_pig_headed_isolationist
+				remove_province_modifier = capital_african_ambitious_union_boss
+				remove_province_modifier = capital_african_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = african_ambitious_union_boss duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_african_ambitious_union_boss duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -2794,9 +3896,38 @@
 			remove_country_modifier = african_pig_headed_isolationist
 			remove_country_modifier = african_ambitious_union_boss
 			remove_country_modifier = african_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_african_expert_diplomat
+				remove_province_modifier = capital_african_successful_industrialist
+				remove_province_modifier = capital_african_ivory_tower_intellectual
+				remove_province_modifier = capital_african_man_of_the_people
+				remove_province_modifier = capital_african_landed_gentleman
+				remove_province_modifier = capital_african_military_man
+				remove_province_modifier = capital_african_lord_admiral
+				remove_province_modifier = capital_african_raving_loon
+				remove_province_modifier = capital_african_luddite
+				remove_province_modifier = capital_african_great_statesman
+				remove_province_modifier = capital_african_backroom_boy
+				remove_province_modifier = capital_african_great_reformer
+				remove_province_modifier = capital_african_gauche_buffoon
+				remove_province_modifier = capital_african_administrative_genius
+				remove_province_modifier = capital_african_visionary_thinker
+				remove_province_modifier = capital_african_competent_placeholder
+				remove_province_modifier = capital_african_imperious_autocrat
+				remove_province_modifier = capital_african_prince_of_terror
+				remove_province_modifier = capital_african_efficient_sociopath
+				remove_province_modifier = capital_african_pig_headed_isolationist
+				remove_province_modifier = capital_african_ambitious_union_boss
+				remove_province_modifier = capital_african_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = african_dour_economist duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_african_dour_economist duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -2858,9 +3989,38 @@
 			remove_country_modifier = african_pig_headed_isolationist
 			remove_country_modifier = african_ambitious_union_boss
 			remove_country_modifier = african_dour_economist
+
+			capital_scope = {
+				remove_province_modifier = capital_african_expert_diplomat
+				remove_province_modifier = capital_african_successful_industrialist
+				remove_province_modifier = capital_african_ivory_tower_intellectual
+				remove_province_modifier = capital_african_man_of_the_people
+				remove_province_modifier = capital_african_landed_gentleman
+				remove_province_modifier = capital_african_military_man
+				remove_province_modifier = capital_african_lord_admiral
+				remove_province_modifier = capital_african_raving_loon
+				remove_province_modifier = capital_african_luddite
+				remove_province_modifier = capital_african_great_statesman
+				remove_province_modifier = capital_african_backroom_boy
+				remove_province_modifier = capital_african_great_reformer
+				remove_province_modifier = capital_african_gauche_buffoon
+				remove_province_modifier = capital_african_administrative_genius
+				remove_province_modifier = capital_african_visionary_thinker
+				remove_province_modifier = capital_african_competent_placeholder
+				remove_province_modifier = capital_african_imperious_autocrat
+				remove_province_modifier = capital_african_prince_of_terror
+				remove_province_modifier = capital_african_efficient_sociopath
+				remove_province_modifier = capital_african_pig_headed_isolationist
+				remove_province_modifier = capital_african_ambitious_union_boss
+				remove_province_modifier = capital_african_dour_economist
+			}
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = african_dour_economist duration = 3650 }
+			any_owned = { 
+				limit = { is_capital = yes }
+				add_province_modifier = { name = capital_african_dour_economist duration = 3650 } 
+			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
 	}
@@ -2924,6 +4084,29 @@
 			remove_country_modifier = african_pig_headed_isolationist
 			remove_country_modifier = african_ambitious_union_boss
 			remove_country_modifier = african_dour_economist
+			
+			remove_country_modifier = capital_african_expert_diplomat
+			remove_country_modifier = capital_african_successful_industrialist
+			remove_country_modifier = capital_african_ivory_tower_intellectual
+			remove_country_modifier = capital_african_man_of_the_people
+			remove_country_modifier = capital_african_landed_gentleman
+			remove_country_modifier = capital_african_military_man
+			remove_country_modifier = capital_african_lord_admiral
+			remove_country_modifier = capital_african_raving_loon
+			remove_country_modifier = capital_african_luddite
+			remove_country_modifier = capital_african_great_statesman
+			remove_country_modifier = capital_african_backroom_boy
+			remove_country_modifier = capital_african_great_reformer
+			remove_country_modifier = capital_african_gauche_buffoon
+			remove_country_modifier = capital_african_administrative_genius
+			remove_country_modifier = capital_african_visionary_thinker
+			remove_country_modifier = capital_african_competent_placeholder
+			remove_country_modifier = capital_african_imperious_autocrat
+			remove_country_modifier = capital_african_prince_of_terror
+			remove_country_modifier = capital_african_efficient_sociopath
+			remove_country_modifier = capital_african_pig_headed_isolationist
+			remove_country_modifier = capital_african_ambitious_union_boss
+			remove_country_modifier = capital_african_dour_economist
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = national_confusion duration = 365 }
@@ -2987,6 +4170,29 @@
 			remove_country_modifier = african_pig_headed_isolationist
 			remove_country_modifier = african_ambitious_union_boss
 			remove_country_modifier = african_dour_economist
+			
+			remove_country_modifier = capital_african_expert_diplomat
+			remove_country_modifier = capital_african_successful_industrialist
+			remove_country_modifier = capital_african_ivory_tower_intellectual
+			remove_country_modifier = capital_african_man_of_the_people
+			remove_country_modifier = capital_african_landed_gentleman
+			remove_country_modifier = capital_african_military_man
+			remove_country_modifier = capital_african_lord_admiral
+			remove_country_modifier = capital_african_raving_loon
+			remove_country_modifier = capital_african_luddite
+			remove_country_modifier = capital_african_great_statesman
+			remove_country_modifier = capital_african_backroom_boy
+			remove_country_modifier = capital_african_great_reformer
+			remove_country_modifier = capital_african_gauche_buffoon
+			remove_country_modifier = capital_african_administrative_genius
+			remove_country_modifier = capital_african_visionary_thinker
+			remove_country_modifier = capital_african_competent_placeholder
+			remove_country_modifier = capital_african_imperious_autocrat
+			remove_country_modifier = capital_african_prince_of_terror
+			remove_country_modifier = capital_african_efficient_sociopath
+			remove_country_modifier = capital_african_pig_headed_isolationist
+			remove_country_modifier = capital_african_ambitious_union_boss
+			remove_country_modifier = capital_african_dour_economist
 			remove_country_modifier = has_political_leader
 			remove_country_modifier = otto_von_bismarck
 			remove_country_modifier = has_political_leader
@@ -3090,6 +4296,29 @@
 			remove_country_modifier = african_ambitious_union_boss
 			remove_country_modifier = african_dour_economist
 			remove_country_modifier = otto_von_bismarck
+			
+			remove_country_modifier = capital_african_expert_diplomat
+			remove_country_modifier = capital_african_successful_industrialist
+			remove_country_modifier = capital_african_ivory_tower_intellectual
+			remove_country_modifier = capital_african_man_of_the_people
+			remove_country_modifier = capital_african_landed_gentleman
+			remove_country_modifier = capital_african_military_man
+			remove_country_modifier = capital_african_lord_admiral
+			remove_country_modifier = capital_african_raving_loon
+			remove_country_modifier = capital_african_luddite
+			remove_country_modifier = capital_african_great_statesman
+			remove_country_modifier = capital_african_backroom_boy
+			remove_country_modifier = capital_african_great_reformer
+			remove_country_modifier = capital_african_gauche_buffoon
+			remove_country_modifier = capital_african_administrative_genius
+			remove_country_modifier = capital_african_visionary_thinker
+			remove_country_modifier = capital_african_competent_placeholder
+			remove_country_modifier = capital_african_imperious_autocrat
+			remove_country_modifier = capital_african_prince_of_terror
+			remove_country_modifier = capital_african_efficient_sociopath
+			remove_country_modifier = capital_african_pig_headed_isolationist
+			remove_country_modifier = capital_african_ambitious_union_boss
+			remove_country_modifier = capital_african_dour_economist
 			remove_country_modifier = has_political_leader
 			
 			add_country_modifier = { name = power_vacuum duration = 365 }
@@ -3159,6 +4388,29 @@
 			remove_country_modifier = african_ambitious_union_boss
 			remove_country_modifier = african_dour_economist
 			remove_country_modifier = otto_von_bismarck
+			
+			remove_country_modifier = capital_african_expert_diplomat
+			remove_country_modifier = capital_african_successful_industrialist
+			remove_country_modifier = capital_african_ivory_tower_intellectual
+			remove_country_modifier = capital_african_man_of_the_people
+			remove_country_modifier = capital_african_landed_gentleman
+			remove_country_modifier = capital_african_military_man
+			remove_country_modifier = capital_african_lord_admiral
+			remove_country_modifier = capital_african_raving_loon
+			remove_country_modifier = capital_african_luddite
+			remove_country_modifier = capital_african_great_statesman
+			remove_country_modifier = capital_african_backroom_boy
+			remove_country_modifier = capital_african_great_reformer
+			remove_country_modifier = capital_african_gauche_buffoon
+			remove_country_modifier = capital_african_administrative_genius
+			remove_country_modifier = capital_african_visionary_thinker
+			remove_country_modifier = capital_african_competent_placeholder
+			remove_country_modifier = capital_african_imperious_autocrat
+			remove_country_modifier = capital_african_prince_of_terror
+			remove_country_modifier = capital_african_efficient_sociopath
+			remove_country_modifier = capital_african_pig_headed_isolationist
+			remove_country_modifier = capital_african_ambitious_union_boss
+			remove_country_modifier = capital_african_dour_economist
 			remove_country_modifier = has_political_leader
 			
 			add_country_modifier = { name = national_confusion duration = 365 }
