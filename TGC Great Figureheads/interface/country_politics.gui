@@ -180,8 +180,8 @@ guiTypes = {
 		### COUNTRY MODIFIERS
 		OverlappingElementsBoxType = {
 			name = "country_modifier_overlappingbox"
-			position = { x= 390 y = -35 }
-			size = { x=850 y= 32 }
+			position = { x= 640 y = -35 }
+			size = { x=350 y= 32 }
 			Orientation = "CENTER"
 			format = centre
 			spacing = 1.0
