@@ -1,0 +1,1594 @@
+political_decisions = {
+
+	leaders_setup = {
+		picture = noimage
+		potential = {
+			tag = JAN
+			NOT = { has_global_flag = leader_setup_complete }
+		}
+
+		allow = {
+		}
+
+		effect = {
+			any_country = {
+                limit = {
+                    OR = {
+                        is_culture_group = african_diaspora_cultures
+                        is_culture_group = central_african
+                        is_culture_group = east_african
+                        is_culture_group = khoe_san
+                        is_culture_group = southern_african
+                        is_culture_group = west_african
+                    }
+                }
+                random_list = {
+                    5 = {
+                        add_country_modifier = { name = african_expert_diplomat duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_african_expert_diplomat duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = african_successful_industrialist duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_african_successful_industrialist duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = african_ivory_tower_intellectual duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_african_ivory_tower_intellectual duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = african_ivory_tower_intellectual duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_african_ivory_tower_intellectual duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = african_man_of_the_people duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_african_man_of_the_people duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+
+                    }
+                    5 = {
+                        add_country_modifier = { name = african_landed_gentleman duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_african_landed_gentleman duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = { 
+                        add_country_modifier = { name = african_military_man duration = -1 } 
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_african_military_man duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = { 
+                        add_country_modifier = { name = african_lord_admiral duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_african_lord_admiral duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = african_raving_loon duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_african_raving_loon duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = african_luddite duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_african_luddite duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = african_great_statesman duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_african_great_statesman duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = african_backroom_boy duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_african_backroom_boy duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = african_great_reformer duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_african_great_reformer duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = african_gauche_buffoon duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_african_gauche_buffoon duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = african_administrative_genius duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_african_administrative_genius duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = african_visionary_thinker duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_african_visionary_thinker duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = african_competent_placeholder duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_african_competent_placeholder duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = african_imperious_autocrat duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_african_imperious_autocrat duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = african_prince_of_terror duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_african_prince_of_terror duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = african_efficient_sociopath duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_african_efficient_sociopath duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = african_pig_headed_isolationist duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_african_pig_headed_isolationist duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = { 
+                        add_country_modifier = { name = african_ambitious_union_boss duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_african_ambitious_union_boss duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = african_dour_economist duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_african_dour_economist duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                }
+            }
+            any_country = {
+                limit = {
+                    OR = {
+                        is_culture_group = turko_semitic
+                        is_culture_group = arab
+                        is_culture_group = iranian_turanian
+                    }
+                }
+                random_list = {
+                    5 = {
+                        add_country_modifier = { name = arab_expert_diplomat duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_arab_expert_diplomat duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = arab_successful_industrialist duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_arab_successful_industrialist duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = arab_ivory_tower_intellectual duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_arab_ivory_tower_intellectual duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = arab_ivory_tower_intellectual duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_arab_ivory_tower_intellectual duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = arab_man_of_the_people duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_arab_man_of_the_people duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+
+                    }
+                    5 = {
+                        add_country_modifier = { name = arab_landed_gentleman duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_arab_landed_gentleman duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = { 
+                        add_country_modifier = { name = arab_military_man duration = -1 } 
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_arab_military_man duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = { 
+                        add_country_modifier = { name = arab_lord_admiral duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_arab_lord_admiral duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = arab_raving_loon duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_arab_raving_loon duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = arab_luddite duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_arab_luddite duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = arab_great_statesman duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_arab_great_statesman duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = arab_backroom_boy duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_arab_backroom_boy duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = arab_great_reformer duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_arab_great_reformer duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = arab_gauche_buffoon duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_arab_gauche_buffoon duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = arab_administrative_genius duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_arab_administrative_genius duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = arab_visionary_thinker duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_arab_visionary_thinker duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = arab_competent_placeholder duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_arab_competent_placeholder duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = arab_imperious_autocrat duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_arab_imperious_autocrat duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = arab_prince_of_terror duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_arab_prince_of_terror duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = arab_efficient_sociopath duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_arab_efficient_sociopath duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = arab_pig_headed_isolationist duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_arab_pig_headed_isolationist duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = { 
+                        add_country_modifier = { name = arab_ambitious_union_boss duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_arab_ambitious_union_boss duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = arab_dour_economist duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_arab_dour_economist duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                }
+            }
+            any_country = {
+                limit = {
+                    OR = {
+                        is_culture_group = central_asian
+                        is_culture_group = southeast_asian
+                        is_culture_group = east_asian
+                        is_culture_group = far_east_asian
+                    }
+                }
+                random_list = {
+                    5 = {
+                        add_country_modifier = { name = asian_expert_diplomat duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_asian_expert_diplomat duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = asian_successful_industrialist duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_asian_successful_industrialist duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = asian_ivory_tower_intellectual duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_asian_ivory_tower_intellectual duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = asian_ivory_tower_intellectual duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_asian_ivory_tower_intellectual duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = asian_man_of_the_people duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_asian_man_of_the_people duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+
+                    }
+                    5 = {
+                        add_country_modifier = { name = asian_landed_gentleman duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_asian_landed_gentleman duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = { 
+                        add_country_modifier = { name = asian_military_man duration = -1 } 
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_asian_military_man duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = { 
+                        add_country_modifier = { name = asian_lord_admiral duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_asian_lord_admiral duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = asian_raving_loon duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_asian_raving_loon duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = asian_luddite duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_asian_luddite duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = asian_great_statesman duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_asian_great_statesman duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = asian_backroom_boy duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_asian_backroom_boy duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = asian_great_reformer duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_asian_great_reformer duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = asian_gauche_buffoon duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_asian_gauche_buffoon duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = asian_administrative_genius duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_asian_administrative_genius duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = asian_visionary_thinker duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_asian_visionary_thinker duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = asian_competent_placeholder duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_asian_competent_placeholder duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = asian_imperious_autocrat duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_asian_imperious_autocrat duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = asian_prince_of_terror duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_asian_prince_of_terror duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = asian_efficient_sociopath duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_asian_efficient_sociopath duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = asian_pig_headed_isolationist duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_asian_pig_headed_isolationist duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = { 
+                        add_country_modifier = { name = asian_ambitious_union_boss duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_asian_ambitious_union_boss duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = asian_dour_economist duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_asian_dour_economist duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                }
+            }
+            any_country = {
+                limit = {
+                    OR = {
+                        is_culture_group = germanic
+                        is_culture_group = beneluxian
+                        is_culture_group = scandinavian
+                        is_culture_group = pan_british
+                        is_culture_group = italian
+                        is_culture_group = pan_french
+                        is_culture_group = pan_romanian
+                        is_culture_group = pan_albanian
+                        is_culture_group = hungarian_culture_group
+                        is_culture_group = south_slavic
+                        is_culture_group = polish_culture_group
+                        is_culture_group = czecho_slovak_culture_group
+                        is_culture_group = baltic
+                        is_culture_group = levantine
+                        is_culture_group = jewish_cultures
+                        is_culture_group = american_cultures
+                        is_culture_group = neo_european_cultures
+                    }
+                }
+                random_list = {
+                    5 = {
+                        add_country_modifier = { name = european_expert_diplomat duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_european_expert_diplomat duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = european_successful_industrialist duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_european_successful_industrialist duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = european_ivory_tower_intellectual duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_european_ivory_tower_intellectual duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = european_ivory_tower_intellectual duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_european_ivory_tower_intellectual duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = european_man_of_the_people duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_european_man_of_the_people duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = european_landed_gentleman duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_european_landed_gentleman duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = { 
+                        add_country_modifier = { name = european_military_man duration = -1 } 
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_european_military_man duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = { 
+                        add_country_modifier = { name = european_lord_admiral duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_european_lord_admiral duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = european_raving_loon duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_european_raving_loon duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = european_luddite duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_european_luddite duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = european_great_statesman duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_european_great_statesman duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = european_backroom_boy duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_european_backroom_boy duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = european_great_reformer duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_european_great_reformer duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = european_gauche_buffoon duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_european_gauche_buffoon duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = european_administrative_genius duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_european_administrative_genius duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = european_visionary_thinker duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_european_visionary_thinker duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = european_competent_placeholder duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_european_competent_placeholder duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = european_imperious_autocrat duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_european_imperious_autocrat duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = european_prince_of_terror duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_european_prince_of_terror duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = european_efficient_sociopath duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_european_efficient_sociopath duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = european_pig_headed_isolationist duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_european_pig_headed_isolationist duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = { 
+                        add_country_modifier = { name = european_ambitious_union_boss duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_european_ambitious_union_boss duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = european_dour_economist duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_european_dour_economist duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                }
+            }
+            any_country = {
+                limit = {
+                    OR = {
+                        is_culture_group = south_asian
+                        is_culture_group = indo_iranian
+                    }
+                }
+                random_list = {
+                    5 = {
+                        add_country_modifier = { name = indian_expert_diplomat duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_indian_expert_diplomat duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = indian_successful_industrialist duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_indian_successful_industrialist duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = indian_ivory_tower_intellectual duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_indian_ivory_tower_intellectual duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = indian_ivory_tower_intellectual duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_indian_ivory_tower_intellectual duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = indian_man_of_the_people duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_indian_man_of_the_people duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = indian_landed_gentleman duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_indian_landed_gentleman duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = { 
+                        add_country_modifier = { name = indian_military_man duration = -1 } 
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_indian_military_man duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = { 
+                        add_country_modifier = { name = indian_lord_admiral duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_indian_lord_admiral duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = indian_raving_loon duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_indian_raving_loon duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = indian_luddite duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_indian_luddite duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = indian_great_statesman duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_indian_great_statesman duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = indian_backroom_boy duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_indian_backroom_boy duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = indian_great_reformer duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_indian_great_reformer duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = indian_gauche_buffoon duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_indian_gauche_buffoon duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = indian_administrative_genius duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_indian_administrative_genius duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = indian_visionary_thinker duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_indian_visionary_thinker duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = indian_competent_placeholder duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_indian_competent_placeholder duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = indian_imperious_autocrat duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_indian_imperious_autocrat duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = indian_prince_of_terror duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_indian_prince_of_terror duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = indian_efficient_sociopath duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_indian_efficient_sociopath duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = indian_pig_headed_isolationist duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_indian_pig_headed_isolationist duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = { 
+                        add_country_modifier = { name = indian_ambitious_union_boss duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_indian_ambitious_union_boss duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = indian_dour_economist duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_indian_dour_economist duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                }
+            }
+            any_country = {
+                limit = {
+                    OR = {
+                        is_culture_group = oceanic
+                        is_culture_group = native_american
+                    }
+                }
+                random_list = {
+                    5 = {
+                        add_country_modifier = { name = nativeamerican_expert_diplomat duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_nativeamerican_expert_diplomat duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = nativeamerican_successful_industrialist duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_nativeamerican_successful_industrialist duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = nativeamerican_ivory_tower_intellectual duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_nativeamerican_ivory_tower_intellectual duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = nativeamerican_ivory_tower_intellectual duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_nativeamerican_ivory_tower_intellectual duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = nativeamerican_man_of_the_people duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_nativeamerican_man_of_the_people duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = nativeamerican_landed_gentleman duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_nativeamerican_landed_gentleman duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = { 
+                        add_country_modifier = { name = nativeamerican_military_man duration = -1 } 
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_nativeamerican_military_man duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = { 
+                        add_country_modifier = { name = nativeamerican_lord_admiral duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_nativeamerican_lord_admiral duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = nativeamerican_raving_loon duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_nativeamerican_raving_loon duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = nativeamerican_luddite duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_nativeamerican_luddite duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = nativeamerican_great_statesman duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_nativeamerican_great_statesman duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = nativeamerican_backroom_boy duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_nativeamerican_backroom_boy duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = nativeamerican_great_reformer duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_nativeamerican_great_reformer duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = nativeamerican_gauche_buffoon duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_nativeamerican_gauche_buffoon duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = nativeamerican_administrative_genius duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_nativeamerican_administrative_genius duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = nativeamerican_visionary_thinker duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_nativeamerican_visionary_thinker duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = nativeamerican_competent_placeholder duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_nativeamerican_competent_placeholder duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = nativeamerican_imperious_autocrat duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_nativeamerican_imperious_autocrat duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = nativeamerican_prince_of_terror duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_nativeamerican_prince_of_terror duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = nativeamerican_efficient_sociopath duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_nativeamerican_efficient_sociopath duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = nativeamerican_pig_headed_isolationist duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_nativeamerican_pig_headed_isolationist duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = { 
+                        add_country_modifier = { name = nativeamerican_ambitious_union_boss duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_nativeamerican_ambitious_union_boss duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = nativeamerican_dour_economist duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_nativeamerican_dour_economist duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                }
+            }
+            any_country = {
+                limit = {
+                    OR = {
+                        is_culture_group = east_slavic
+                        is_culture_group = caucasian
+                    }
+                }
+                random_list = {
+                    5 = {
+                        add_country_modifier = { name = russian_expert_diplomat duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_russian_expert_diplomat duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = russian_successful_industrialist duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_russian_successful_industrialist duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = russian_ivory_tower_intellectual duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_russian_ivory_tower_intellectual duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = russian_ivory_tower_intellectual duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_russian_ivory_tower_intellectual duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = russian_man_of_the_people duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_russian_man_of_the_people duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = russian_landed_gentleman duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_russian_landed_gentleman duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = { 
+                        add_country_modifier = { name = russian_military_man duration = -1 } 
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_russian_military_man duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = { 
+                        add_country_modifier = { name = russian_lord_admiral duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_russian_lord_admiral duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = russian_raving_loon duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_russian_raving_loon duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = russian_luddite duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_russian_luddite duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = russian_great_statesman duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_russian_great_statesman duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = russian_backroom_boy duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_russian_backroom_boy duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = russian_great_reformer duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_russian_great_reformer duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = russian_gauche_buffoon duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_russian_gauche_buffoon duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = russian_administrative_genius duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_russian_administrative_genius duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = russian_visionary_thinker duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_russian_visionary_thinker duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = russian_competent_placeholder duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_russian_competent_placeholder duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = russian_imperious_autocrat duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_russian_imperious_autocrat duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = russian_prince_of_terror duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_russian_prince_of_terror duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = russian_efficient_sociopath duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_russian_efficient_sociopath duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = russian_pig_headed_isolationist duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_russian_pig_headed_isolationist duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = { 
+                        add_country_modifier = { name = russian_ambitious_union_boss duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_russian_ambitious_union_boss duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = russian_dour_economist duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_russian_dour_economist duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                }
+            }
+            any_country = {
+                limit = {
+                    OR = {
+                        is_culture_group = latin_american_cultures
+                        is_culture_group = iberian
+                    }
+                }
+                random_list = {
+                    5 = {
+                        add_country_modifier = { name = southamerican_expert_diplomat duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_southamerican_expert_diplomat duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = southamerican_successful_industrialist duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_southamerican_successful_industrialist duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = southamerican_ivory_tower_intellectual duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_southamerican_ivory_tower_intellectual duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = southamerican_ivory_tower_intellectual duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_southamerican_ivory_tower_intellectual duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = southamerican_man_of_the_people duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_southamerican_man_of_the_people duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = southamerican_landed_gentleman duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_southamerican_landed_gentleman duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = { 
+                        add_country_modifier = { name = southamerican_military_man duration = -1 } 
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_southamerican_military_man duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = { 
+                        add_country_modifier = { name = southamerican_lord_admiral duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_southamerican_lord_admiral duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = southamerican_raving_loon duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_southamerican_raving_loon duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = southamerican_luddite duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_southamerican_luddite duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = southamerican_great_statesman duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_southamerican_great_statesman duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = southamerican_backroom_boy duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_southamerican_backroom_boy duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = southamerican_great_reformer duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_southamerican_great_reformer duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = southamerican_gauche_buffoon duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_southamerican_gauche_buffoon duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = southamerican_administrative_genius duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_southamerican_administrative_genius duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = southamerican_visionary_thinker duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_southamerican_visionary_thinker duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = southamerican_competent_placeholder duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_southamerican_competent_placeholder duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = southamerican_imperious_autocrat duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_southamerican_imperious_autocrat duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = southamerican_prince_of_terror duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_southamerican_prince_of_terror duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = southamerican_efficient_sociopath duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_southamerican_efficient_sociopath duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = southamerican_pig_headed_isolationist duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_southamerican_pig_headed_isolationist duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = { 
+                        add_country_modifier = { name = southamerican_ambitious_union_boss duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_southamerican_ambitious_union_boss duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                    5 = {
+                        add_country_modifier = { name = southamerican_dour_economist duration = -1 }
+                        any_owned = { 
+                            ## limit = { is_capital = yes }
+                            add_province_modifier = { name = capital_southamerican_dour_economist duration = -1 } 
+                        }
+                        add_country_modifier = { name = has_political_leader duration = 3650 }
+                    }
+                }
+            }
+            set_global_flag = leader_setup_complete
+        }
+    }
+}

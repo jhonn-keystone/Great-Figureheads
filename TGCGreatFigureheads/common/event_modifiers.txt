@@ -1,3 +1,1850 @@
+# TGC SUBMOD
+##################################################################################################
+#                                                                                                #
+#                                      Great Figureheads                                         #
+#                                                                                                #
+##################################################################################################
+
+### African Leaders ###
+
+african_expert_diplomat = {
+    diplomatic_points_modifier = 0.5
+    badboy = -0.05
+    icon = 40
+}
+
+african_successful_industrialist = {
+    factory_owner_cost = -0.25
+    factory_throughput = 0.05
+    farm_RGO_size = -0.05
+    mine_RGO_size = -0.05
+    icon = 42
+}
+
+african_ivory_tower_intellectual = {
+    research_points = 1
+    global_pop_consciousness_modifier = 0.01
+    icon = 43
+}
+
+african_man_of_the_people = {
+    global_pop_militancy_modifier = -0.02
+    global_pop_consciousness_modifier = 0.02
+    ruling_party_support = 1
+    icon = 41
+}
+
+african_landed_gentleman = {
+    RGO_throughput = 0.05
+    farm_RGO_size = 0.05
+    mine_RGO_size = 0.05
+    factory_throughput = -0.05
+    icon = 44
+}
+
+african_military_man = {
+    org_regain = 0.1
+    land_organisation = 0.05
+    icon = 39
+}
+
+african_lord_admiral = {
+    org_regain = 0.1
+    naval_organisation = 0.05
+    icon = 45
+}
+
+african_raving_loon = {
+    global_pop_militancy_modifier = 0.05
+    research_points_modifier = -0.05
+    ruling_party_support = -0.5
+    icon = 43
+}
+
+african_luddite = {
+    research_points_modifier = -0.05
+    factory_owner_cost = 0.2
+    RGO_throughput = 0.05
+    icon = 42
+}
+
+african_great_statesman = {
+    prestige = 0.01
+    diplomatic_points_modifier = 0.25
+    ruling_party_support = 0.5
+    badboy = -0.03
+    icon = 39
+}
+
+african_backroom_boy = {
+    RGO_throughput = 0.02
+    research_points_modifier = 0.02
+    leadership = 0.02
+    icon = 46
+}
+
+african_great_reformer = {
+    global_pop_militancy_modifier = -0.02
+    global_pop_consciousness_modifier = 0.04
+    ruling_party_support = 0.2
+    issue_change_speed = 0.2
+    icon = 41
+}
+
+african_gauche_buffoon = {
+    prestige = -0.01
+    diplomatic_points_modifier = -0.5
+    issue_change_speed = 0.1
+    icon = 45
+}
+
+african_administrative_genius = {
+    mobilisation_size = 0.01
+    supply_consumption = -0.05
+    icon = 42
+}
+
+african_visionary_thinker = {
+    research_points_modifier = 0.2
+    icon = 41
+}
+
+african_competent_placeholder = {
+    icon = 40
+}
+
+african_imperious_autocrat = {
+    prestige = 0.02
+    icon = 39
+}
+
+african_prince_of_terror = {
+    global_pop_militancy_modifier = -0.1
+    badboy = 0.02
+    icon = 44
+}
+
+african_efficient_sociopath = {
+    factory_output = 0.05
+    leadership = -0.1
+    icon = 46	
+}
+
+african_pig_headed_isolationist = {
+    global_pop_consciousness_modifier = -0.05
+    icon = 43
+}
+
+african_ambitious_union_boss = {
+    global_pop_consciousness_modifier = 0.03
+    icon = 41
+}
+
+african_dour_economist = {
+    factory_owner_cost = -0.1
+    ruling_party_support = -0.2
+    issue_change_speed = -0.1
+    icon = 42
+}
+
+capital_african_expert_diplomat = {
+    icon = 42
+}
+
+capital_african_successful_industrialist = {
+    icon = 44
+}
+
+capital_african_ivory_tower_intellectual = {
+    icon = 45
+}
+
+capital_african_man_of_the_people = {
+    icon = 43
+}
+
+capital_african_landed_gentleman = {
+    icon = 46
+}
+
+capital_african_military_man = {
+    icon = 41
+}
+
+capital_african_lord_admiral = {
+    icon = 47
+}
+
+capital_african_raving_loon = {
+    icon = 45
+}
+
+capital_african_luddite = {
+    icon = 44
+}
+
+capital_african_great_statesman = {
+    icon = 41
+}
+
+capital_african_backroom_boy = {
+    icon = 48
+}
+
+capital_african_great_reformer = {
+    icon = 43
+}
+
+capital_african_gauche_buffoon = {
+    icon = 47
+}
+
+capital_african_administrative_genius = {
+    icon = 44
+}
+
+capital_african_visionary_thinker = {
+    icon = 43
+}
+
+capital_african_competent_placeholder = {
+    icon = 42
+}
+
+capital_african_imperious_autocrat = {
+    icon = 41
+}
+
+capital_african_prince_of_terror = {
+    icon = 46
+}
+
+capital_african_efficient_sociopath = {
+    icon = 48
+}
+
+capital_african_pig_headed_isolationist = {
+    icon = 45
+}
+
+capital_african_ambitious_union_boss = {
+    icon = 43
+}
+
+capital_african_dour_economist = {
+    icon = 44
+}
+
+### Arab Leaders ###
+
+arab_expert_diplomat = {
+    diplomatic_points_modifier = 0.5
+    badboy = -0.05
+    icon = 47
+}
+
+arab_successful_industrialist = {
+    factory_owner_cost = -0.25
+    factory_throughput = 0.05
+    farm_RGO_size = -0.05
+    mine_RGO_size = -0.05
+    icon = 51
+}
+
+arab_ivory_tower_intellectual = {
+    research_points = 1
+    global_pop_consciousness_modifier = 0.01
+    icon = 53
+}
+
+arab_man_of_the_people = {
+    global_pop_militancy_modifier = -0.02
+    global_pop_consciousness_modifier = 0.02
+    ruling_party_support = 1
+    icon = 48
+}
+
+arab_landed_gentleman = {
+    RGO_throughput = 0.05
+    farm_RGO_size = 0.05
+    mine_RGO_size = 0.05
+    factory_throughput = -0.05
+    icon = 50
+}
+
+arab_military_man = {
+    org_regain = 0.1
+    land_organisation = 0.05
+    icon = 54
+}
+
+arab_lord_admiral = {
+    org_regain = 0.1
+    naval_organisation = 0.05
+    icon = 56
+}
+
+arab_raving_loon = {
+    global_pop_militancy_modifier = 0.05
+    research_points_modifier = -0.05
+    ruling_party_support = -0.5
+    icon = 52
+}
+
+arab_luddite = {
+    research_points_modifier = -0.05
+    factory_owner_cost = 0.2
+    RGO_throughput = 0.05
+    icon = 49
+}
+
+arab_great_statesman = {
+    prestige = 0.01
+    diplomatic_points_modifier = 0.25
+    ruling_party_support = 0.5
+    badboy = -0.03
+    icon = 57
+}
+
+arab_backroom_boy = {
+    RGO_throughput = 0.02
+    research_points_modifier = 0.02
+    leadership = 0.02
+    icon = 58
+}
+
+arab_great_reformer = {
+    global_pop_militancy_modifier = -0.02
+    global_pop_consciousness_modifier = 0.04
+    ruling_party_support = 0.2
+    issue_change_speed = 0.2
+    icon = 59
+}
+
+arab_gauche_buffoon = {
+    prestige = -0.01
+    diplomatic_points_modifier = -0.5
+    issue_change_speed = 0.1
+    icon = 55
+}
+
+arab_administrative_genius = {
+    mobilisation_size = 0.01
+    supply_consumption = -0.05
+    icon = 60
+}
+
+arab_visionary_thinker = {
+    research_points_modifier = 0.2
+    icon = 51
+}
+
+arab_competent_placeholder = {
+    icon = 47
+}
+
+arab_imperious_autocrat = {
+    prestige = 0.02
+    icon = 48
+}
+
+arab_prince_of_terror = {
+    global_pop_militancy_modifier = -0.1
+    badboy = 0.02
+    icon = 54
+}
+
+arab_efficient_sociopath = {
+    factory_output = 0.05
+    leadership = -0.1
+    icon = 50	
+}
+
+arab_pig_headed_isolationist = {
+    global_pop_consciousness_modifier = -0.05
+    icon = 52
+}
+
+arab_ambitious_union_boss = {
+    global_pop_consciousness_modifier = 0.03
+    icon = 53
+}
+
+arab_dour_economist = {
+    factory_owner_cost = -0.1
+    ruling_party_support = -0.2
+    issue_change_speed = -0.1
+    icon = 51
+}
+
+capital_arab_expert_diplomat = {
+    icon = 49
+}
+
+capital_arab_successful_industrialist = {
+    icon = 53
+}
+
+capital_arab_ivory_tower_intellectual = {
+    icon = 55
+}
+
+capital_arab_man_of_the_people = {
+    icon = 50
+}
+
+capital_arab_landed_gentleman = {
+    icon = 52
+}
+
+capital_arab_military_man = {
+    icon = 56
+}
+
+capital_arab_lord_admiral = {
+    icon = 58
+}
+
+capital_arab_raving_loon = {
+    icon = 54
+}
+
+capital_arab_luddite = {
+    icon = 51
+}
+
+capital_arab_great_statesman = {
+    icon = 59
+}
+
+capital_arab_backroom_boy = {
+    icon = 60
+}
+
+capital_arab_great_reformer = {
+    icon = 61
+}
+
+capital_arab_gauche_buffoon = {
+    icon = 57
+}
+
+capital_arab_administrative_genius = {
+    icon = 62
+}
+
+capital_arab_visionary_thinker = {
+    icon = 53
+}
+
+capital_arab_competent_placeholder = {
+    icon = 49
+}
+
+capital_arab_imperious_autocrat = {
+    icon = 50
+}
+
+capital_arab_prince_of_terror = {
+    icon = 56
+}
+
+capital_arab_efficient_sociopath = {
+    icon = 52	
+}
+
+capital_arab_pig_headed_isolationist = {
+    icon = 54
+}
+
+capital_arab_ambitious_union_boss = {
+    icon = 55
+}
+
+capital_arab_dour_economist = {
+    icon = 53
+}
+
+### Asian Leaders ###
+
+asian_expert_diplomat = {
+    diplomatic_points_modifier = 0.5
+    badboy = -0.05
+    icon = 65
+}
+
+asian_successful_industrialist = {
+    factory_owner_cost = -0.25
+    factory_throughput = 0.05
+    farm_RGO_size = -0.05
+    mine_RGO_size = -0.05
+    icon = 64
+}
+
+asian_ivory_tower_intellectual = {
+    research_points = 1
+    global_pop_consciousness_modifier = 0.01
+    icon = 66
+}
+
+asian_man_of_the_people = {
+    global_pop_militancy_modifier = -0.02
+    global_pop_consciousness_modifier = 0.02
+    ruling_party_support = 1
+    icon = 67	
+}
+
+asian_landed_gentleman = {
+    RGO_throughput = 0.05
+    farm_RGO_size = 0.05
+    mine_RGO_size = 0.05
+    factory_throughput = -0.05
+    icon = 69
+}
+
+asian_military_man = {
+    org_regain = 0.1
+    land_organisation = 0.05
+    icon = 63
+}
+
+asian_lord_admiral = {
+    org_regain = 0.1
+    naval_organisation = 0.05
+    icon = 70
+}
+
+asian_raving_loon = {
+    global_pop_militancy_modifier = 0.05
+    research_points_modifier = -0.05
+    ruling_party_support = -0.5
+    icon = 73
+}
+
+asian_luddite = {
+    research_points_modifier = -0.05
+    factory_owner_cost = 0.2
+    RGO_throughput = 0.05
+    icon = 74
+}
+
+asian_great_statesman = {
+    prestige = 0.01
+    diplomatic_points_modifier = 0.25
+    ruling_party_support = 0.5
+    badboy = -0.03
+    icon = 62
+}
+
+asian_backroom_boy = {
+    RGO_throughput = 0.02
+    research_points_modifier = 0.02
+    leadership = 0.02
+    icon = 71
+}
+
+asian_great_reformer = {
+    global_pop_militancy_modifier = -0.02
+    global_pop_consciousness_modifier = 0.04
+    ruling_party_support = 0.2
+    issue_change_speed = 0.2
+    icon = 72
+}
+
+asian_gauche_buffoon = {
+    prestige = -0.01
+    diplomatic_points_modifier = -0.5
+    issue_change_speed = 0.1
+    icon = 75
+}
+
+asian_administrative_genius = {
+    mobilisation_size = 0.01
+    supply_consumption = -0.05
+    icon = 65
+}
+
+asian_visionary_thinker = {
+    research_points_modifier = 0.2
+    icon = 66
+}
+
+asian_competent_placeholder = {
+    icon = 67
+}
+
+asian_imperious_autocrat = {
+    prestige = 0.02
+    icon = 69
+}
+
+asian_prince_of_terror = {
+    global_pop_militancy_modifier = -0.1
+    badboy = 0.02
+    icon = 68
+}
+
+asian_efficient_sociopath = {
+    factory_output = 0.05
+    leadership = -0.1
+    icon = 64	
+}
+
+asian_pig_headed_isolationist = {
+    global_pop_consciousness_modifier = -0.05
+    icon = 74
+}
+
+asian_ambitious_union_boss = {
+    global_pop_consciousness_modifier = 0.03
+    icon = 75
+}
+
+asian_dour_economist = {
+    factory_owner_cost = -0.1
+    ruling_party_support = -0.2
+    issue_change_speed = -0.1
+    icon = 71
+}
+
+capital_asian_expert_diplomat = {
+    icon = 67
+}
+
+capital_asian_successful_industrialist = {
+    icon = 66
+}
+
+capital_asian_ivory_tower_intellectual = {
+    icon = 68
+}
+
+capital_asian_man_of_the_people = {
+    icon = 69
+}
+
+capital_asian_landed_gentleman = {
+    icon = 71
+}
+
+capital_asian_military_man = {
+    icon = 65
+}
+
+capital_asian_lord_admiral = {
+    icon = 72
+}
+
+capital_asian_raving_loon = {
+    icon = 75
+}
+
+capital_asian_luddite = {
+    icon = 76
+}
+
+capital_asian_great_statesman = {
+    icon = 64
+}
+
+capital_asian_backroom_boy = {
+    icon = 73
+}
+
+capital_asian_great_reformer = {
+    icon = 74
+}
+
+capital_asian_gauche_buffoon = {
+    icon = 77
+}
+
+capital_asian_administrative_genius = {
+    icon = 67
+}
+
+capital_asian_visionary_thinker = {
+    icon = 68
+}
+
+capital_asian_competent_placeholder = {
+    icon = 69
+}
+
+capital_asian_imperious_autocrat = {
+    icon = 71
+}
+
+capital_asian_prince_of_terror = {
+    icon = 70
+}
+
+capital_asian_efficient_sociopath = {
+    icon = 66	
+}
+
+capital_asian_pig_headed_isolationist = {
+    icon = 76
+}
+
+capital_asian_ambitious_union_boss = {
+    icon = 77
+}
+
+capital_asian_dour_economist = {
+    icon = 73
+}
+
+### European ###
+
+european_expert_diplomat = {
+	diplomatic_points_modifier = 0.5
+	badboy = -0.05
+	icon = 129
+}
+
+european_successful_industrialist = {
+	factory_owner_cost = -0.25
+	factory_throughput = 0.05
+	farm_RGO_size = -0.05
+	mine_RGO_size = -0.05
+	icon = 119
+}
+
+european_ivory_tower_intellectual = {
+	research_points = 1
+	global_pop_consciousness_modifier = 0.01
+	icon = 128
+}
+
+european_man_of_the_people = {
+	global_pop_militancy_modifier = -0.02
+	global_pop_consciousness_modifier = 0.02
+	ruling_party_support = 1
+	icon = 122
+}
+
+european_landed_gentleman = {
+	RGO_throughput = 0.05
+	farm_RGO_size = 0.05
+	mine_RGO_size = 0.05
+	factory_throughput = -0.05
+	icon = 89
+}
+
+european_military_man = {
+	org_regain = 0.1
+	land_organisation = 0.05
+	icon = 125
+}
+
+european_lord_admiral = {
+	org_regain = 0.1
+	naval_organisation = 0.05
+	icon = 165
+}
+
+european_raving_loon = {
+	global_pop_militancy_modifier = 0.05
+	research_points_modifier = -0.05
+	ruling_party_support = -0.5
+	icon = 90
+}
+
+european_luddite = {
+	research_points_modifier = -0.05
+	factory_owner_cost = 0.2
+	RGO_throughput = 0.05
+	icon = 83
+}
+
+european_great_statesman = {
+	prestige = 0.01
+	diplomatic_points_modifier = 0.25
+	ruling_party_support = 0.5
+	badboy = -0.03
+	icon = 132
+}
+
+european_backroom_boy = {
+	RGO_throughput = 0.02
+	research_points_modifier = 0.02
+	leadership = 0.02
+	icon = 79
+}
+
+european_great_reformer = {
+	global_pop_militancy_modifier = -0.02
+	global_pop_consciousness_modifier = 0.04
+	ruling_party_support = 0.2
+	issue_change_speed = 0.2
+	icon = 80
+}
+
+european_gauche_buffoon = {
+	prestige = -0.01
+	diplomatic_points_modifier = -0.5
+	issue_change_speed = 0.1
+	icon = 88
+}
+
+european_administrative_genius = {
+	mobilisation_size = 0.01
+	supply_consumption = -0.05
+	icon = 120
+}
+
+european_visionary_thinker = {
+	research_points_modifier = 0.2
+	icon = 113
+}
+
+european_competent_placeholder = {
+	icon = 107
+}
+
+european_imperious_autocrat = {
+	prestige = 0.02
+	icon = 130
+}
+
+european_prince_of_terror = {
+	global_pop_militancy_modifier = -0.1
+	badboy = 0.02
+	icon = 98
+}
+
+european_efficient_sociopath = {
+	factory_output = 0.05
+	leadership = -0.1
+	icon = 116
+}
+
+european_pig_headed_isolationist = {
+	global_pop_consciousness_modifier = -0.05
+	icon = 96
+}
+
+european_ambitious_union_boss = {
+	global_pop_consciousness_modifier = 0.03
+	icon = 86
+}
+
+european_dour_economist = {
+	factory_owner_cost = -0.1
+	ruling_party_support = -0.2
+	issue_change_speed = -0.1
+	icon = 126
+}
+
+capital_european_expert_diplomat = {
+    icon = 131
+}
+
+capital_european_successful_industrialist = {
+    icon = 121
+}
+
+capital_european_ivory_tower_intellectual = {
+    icon = 130
+}
+
+capital_european_man_of_the_people = {
+    icon = 124
+}
+
+capital_european_landed_gentleman = {
+    icon = 91
+}
+
+capital_european_military_man = {
+    icon = 127
+}
+
+capital_european_lord_admiral = {
+    icon = 167
+}
+
+capital_european_raving_loon = {
+    icon = 92
+}
+
+capital_european_luddite = {
+    icon = 85
+}
+
+capital_european_great_statesman = {
+    icon = 134
+}
+
+capital_european_backroom_boy = {
+    icon = 81
+}
+
+capital_european_great_reformer = {
+    icon = 82
+}
+
+capital_european_gauche_buffoon = {
+    icon = 90
+}
+
+capital_european_administrative_genius = {
+    icon = 122
+}
+
+capital_european_visionary_thinker = {
+    icon = 115
+}
+
+capital_european_competent_placeholder = {
+    icon = 109
+}
+
+capital_european_imperious_autocrat = {
+    icon = 132
+}
+
+capital_european_prince_of_terror = {
+    icon = 100
+}
+
+capital_european_efficient_sociopath = {
+    icon = 118
+}
+
+capital_european_pig_headed_isolationist = {
+    icon = 98
+}
+
+capital_european_ambitious_union_boss = {
+    icon = 88
+}
+
+capital_european_dour_economist = {
+    icon = 128
+}
+
+### Indian ###
+
+indian_expert_diplomat = {
+	diplomatic_points_modifier = 0.5
+	badboy = -0.05
+	icon = 168
+}
+
+indian_successful_industrialist = {
+	factory_owner_cost = -0.25
+	factory_throughput = 0.05
+	farm_RGO_size = -0.05
+	mine_RGO_size = -0.05
+	icon = 167
+}
+
+indian_ivory_tower_intellectual = {
+	research_points = 1
+	global_pop_consciousness_modifier = 0.01
+	icon = 169
+}
+
+indian_man_of_the_people = {
+	global_pop_militancy_modifier = -0.02
+	global_pop_consciousness_modifier = 0.02
+	ruling_party_support = 1
+	icon = 170
+}
+
+indian_landed_gentleman = {
+	RGO_throughput = 0.05
+	farm_RGO_size = 0.05
+	mine_RGO_size = 0.05
+	factory_throughput = -0.05
+	icon = 171
+}
+
+indian_military_man = {
+	org_regain = 0.1
+	land_organisation = 0.05
+	icon = 167
+}
+
+indian_lord_admiral = {
+	org_regain = 0.1
+	naval_organisation = 0.05
+	icon = 171
+}
+
+indian_raving_loon = {
+	global_pop_militancy_modifier = 0.05
+	research_points_modifier = -0.05
+	ruling_party_support = -0.5
+	icon = 166
+}
+
+indian_luddite = {
+	research_points_modifier = -0.05
+	factory_owner_cost = 0.2
+	RGO_throughput = 0.05
+	icon = 166
+}
+
+indian_great_statesman = {
+	prestige = 0.01
+	diplomatic_points_modifier = 0.25
+	ruling_party_support = 0.5
+	badboy = -0.03
+	icon = 169
+}
+
+indian_backroom_boy = {
+	RGO_throughput = 0.02
+	research_points_modifier = 0.02
+	leadership = 0.02
+	icon = 168
+}
+
+indian_great_reformer = {
+	global_pop_militancy_modifier = -0.02
+	global_pop_consciousness_modifier = 0.04
+	ruling_party_support = 0.2
+	issue_change_speed = 0.2
+	icon = 170
+}
+
+indian_gauche_buffoon = {
+	prestige = -0.01
+	diplomatic_points_modifier = -0.5
+	issue_change_speed = 0.1
+	icon = 168
+}
+
+indian_administrative_genius = {
+	mobilisation_size = 0.01
+	supply_consumption = -0.05
+	icon = 171
+}
+
+indian_visionary_thinker = {
+	research_points_modifier = 0.2
+	icon = 169
+}
+
+indian_competent_placeholder = {
+	icon = 166
+}
+
+indian_imperious_autocrat = {
+	prestige = 0.02
+	icon = 171
+}
+
+indian_prince_of_terror = {
+	global_pop_militancy_modifier = -0.1
+	badboy = 0.02
+	icon = 168
+}
+
+indian_efficient_sociopath = {
+	factory_output = 0.05
+	leadership = -0.1
+	icon = 167
+}
+
+indian_pig_headed_isolationist = {
+	global_pop_consciousness_modifier = -0.05
+	icon = 170
+}
+
+indian_ambitious_union_boss = {
+	global_pop_consciousness_modifier = 0.03
+	icon = 169
+}
+
+indian_dour_economist = {
+	factory_owner_cost = -0.1
+	ruling_party_support = -0.2
+	issue_change_speed = -0.1
+	icon = 167
+}
+
+capital_indian_expert_diplomat = {
+    icon = 170
+}
+
+capital_indian_successful_industrialist = {
+    icon = 169
+}
+
+capital_indian_ivory_tower_intellectual = {
+    icon = 171
+}
+
+capital_indian_man_of_the_people = {
+    icon = 172
+}
+
+capital_indian_landed_gentleman = {
+    icon = 173
+}
+
+capital_indian_military_man = {
+    icon = 169
+}
+
+capital_indian_lord_admiral = {
+    icon = 173
+}
+
+capital_indian_raving_loon = {
+    icon = 168
+}
+
+capital_indian_luddite = {
+    icon = 168
+}
+
+capital_indian_great_statesman = {
+    icon = 171
+}
+
+capital_indian_backroom_boy = {
+    icon = 170
+}
+
+capital_indian_great_reformer = {
+    icon = 172
+}
+
+capital_indian_gauche_buffoon = {
+    icon = 170
+}
+
+capital_indian_administrative_genius = {
+    icon = 173
+}
+
+capital_indian_visionary_thinker = {
+    icon = 171
+}
+
+capital_indian_competent_placeholder = {
+    icon = 168
+}
+
+capital_indian_imperious_autocrat = {
+    icon = 173
+}
+
+capital_indian_prince_of_terror = {
+    icon = 170
+}
+
+capital_indian_efficient_sociopath = {
+    icon = 169
+}
+
+capital_indian_pig_headed_isolationist = {
+    icon = 172
+}
+
+capital_indian_ambitious_union_boss = {
+    icon = 171
+}
+
+capital_indian_dour_economist = {
+    icon = 169
+}
+
+### Native American ###
+
+nativeamerican_expert_diplomat = {
+	diplomatic_points_modifier = 0.5
+	badboy = -0.05
+	icon = 172
+}
+
+nativeamerican_successful_industrialist = {
+	factory_owner_cost = -0.25
+	factory_throughput = 0.05
+	farm_RGO_size = -0.05
+	mine_RGO_size = -0.05
+	icon = 172
+}
+
+nativeamerican_ivory_tower_intellectual = {
+	research_points = 1
+	global_pop_consciousness_modifier = 0.01
+	icon = 172
+}
+
+nativeamerican_man_of_the_people = {
+	global_pop_militancy_modifier = -0.02
+	global_pop_consciousness_modifier = 0.02
+	ruling_party_support = 1
+	icon = 172
+}
+
+nativeamerican_landed_gentleman = {
+	RGO_throughput = 0.05
+	farm_RGO_size = 0.05
+	mine_RGO_size = 0.05
+	factory_throughput = -0.05
+	icon = 172
+}
+
+nativeamerican_military_man = {
+	org_regain = 0.1
+	land_organisation = 0.05
+	icon = 172
+}
+
+nativeamerican_lord_admiral = {
+	org_regain = 0.1
+	naval_organisation = 0.05
+	icon = 173
+}
+
+nativeamerican_raving_loon = {
+	global_pop_militancy_modifier = 0.05
+	research_points_modifier = -0.05
+	ruling_party_support = -0.5
+	icon = 172
+}
+
+nativeamerican_luddite = {
+	research_points_modifier = -0.05
+	factory_owner_cost = 0.2
+	RGO_throughput = 0.05
+	icon = 172
+}
+
+nativeamerican_great_statesman = {
+	prestige = 0.01
+	diplomatic_points_modifier = 0.25
+	ruling_party_support = 0.5
+	badboy = -0.03
+	icon = 172
+}
+
+nativeamerican_backroom_boy = {
+	RGO_throughput = 0.02
+	research_points_modifier = 0.02
+	leadership = 0.02
+	icon = 172
+}
+
+nativeamerican_great_reformer = {
+	global_pop_militancy_modifier = -0.02
+	global_pop_consciousness_modifier = 0.04
+	ruling_party_support = 0.2
+	issue_change_speed = 0.2
+	icon = 172
+}
+
+nativeamerican_gauche_buffoon = {
+	prestige = -0.01
+	diplomatic_points_modifier = -0.5
+	issue_change_speed = 0.1
+	icon = 172
+}
+
+nativeamerican_administrative_genius = {
+	mobilisation_size = 0.01
+	supply_consumption = -0.05
+	icon = 172
+}
+
+nativeamerican_visionary_thinker = {
+	research_points_modifier = 0.2
+	icon = 172
+}
+
+nativeamerican_competent_placeholder = {
+	icon = 172
+}
+
+nativeamerican_imperious_autocrat = {
+	prestige = 0.02
+	icon = 172
+}
+
+nativeamerican_prince_of_terror = {
+	global_pop_militancy_modifier = -0.1
+	badboy = 0.02
+	icon = 172
+}
+
+nativeamerican_efficient_sociopath = {
+	factory_output = 0.05
+	leadership = -0.1
+	icon = 172
+}
+
+nativeamerican_pig_headed_isolationist = {
+	global_pop_consciousness_modifier = -0.05
+	icon = 172
+}
+
+nativeamerican_ambitious_union_boss = {
+	global_pop_consciousness_modifier = 0.03
+	icon = 172
+}
+
+nativeamerican_dour_economist = {
+	factory_owner_cost = -0.1
+	ruling_party_support = -0.2
+	issue_change_speed = -0.1
+	icon = 172
+}
+
+capital_nativeamerican_expert_diplomat = {
+    icon = 174
+}
+
+capital_nativeamerican_successful_industrialist = {
+    icon = 174
+}
+
+capital_nativeamerican_ivory_tower_intellectual = {
+    icon = 174
+}
+
+capital_nativeamerican_man_of_the_people = {
+    icon = 174
+}
+
+capital_nativeamerican_landed_gentleman = {
+    icon = 174
+}
+
+capital_nativeamerican_military_man = {
+    icon = 174
+}
+
+capital_nativeamerican_lord_admiral = {
+    icon = 175
+}
+
+capital_nativeamerican_raving_loon = {
+    icon = 174
+}
+
+capital_nativeamerican_luddite = {
+    icon = 174
+}
+
+capital_nativeamerican_great_statesman = {
+    icon = 174
+}
+
+capital_nativeamerican_backroom_boy = {
+    icon = 174
+}
+
+capital_nativeamerican_great_reformer = {
+    icon = 174
+}
+
+capital_nativeamerican_gauche_buffoon = {
+    icon = 174
+}
+
+capital_nativeamerican_administrative_genius = {
+    icon = 174
+}
+
+capital_nativeamerican_visionary_thinker = {
+    icon = 174
+}
+
+capital_nativeamerican_competent_placeholder = {
+    icon = 174
+}
+
+capital_nativeamerican_imperious_autocrat = {
+    icon = 174
+}
+
+capital_nativeamerican_prince_of_terror = {
+    icon = 174
+}
+
+capital_nativeamerican_efficient_sociopath = {
+    icon = 174
+}
+
+capital_nativeamerican_pig_headed_isolationist = {
+    icon = 174
+}
+
+capital_nativeamerican_ambitious_union_boss = {
+    icon = 174
+}
+
+capital_nativeamerican_dour_economist = {
+    icon = 174
+}
+
+### Russian ###
+
+russian_expert_diplomat = {
+    diplomatic_points_modifier = 0.5
+    badboy = -0.05
+    icon = 175
+}
+
+russian_successful_industrialist = {
+    factory_owner_cost = -0.25
+    factory_throughput = 0.05
+    farm_RGO_size = -0.05
+    mine_RGO_size = -0.05
+    icon = 177
+}
+
+russian_ivory_tower_intellectual = {
+    research_points = 1
+    global_pop_consciousness_modifier = 0.01
+    icon = 180
+}
+
+russian_man_of_the_people = {
+    global_pop_militancy_modifier = -0.02
+    global_pop_consciousness_modifier = 0.02
+    ruling_party_support = 1
+    icon = 174
+}
+
+russian_landed_gentleman = {
+    RGO_throughput = 0.05
+    farm_RGO_size = 0.05
+    mine_RGO_size = 0.05
+    factory_throughput = -0.05
+    icon = 178
+}
+
+russian_military_man = {
+    org_regain = 0.1
+    land_organisation = 0.05
+    icon = 181
+}
+
+russian_lord_admiral = {
+    org_regain = 0.1
+    naval_organisation = 0.05
+    icon = 189
+}
+
+russian_raving_loon = {
+    global_pop_militancy_modifier = 0.05
+    research_points_modifier = -0.05
+    ruling_party_support = -0.5
+    icon = 186
+}
+
+russian_luddite = {
+    research_points_modifier = -0.05
+    factory_owner_cost = 0.2
+    RGO_throughput = 0.05
+    icon = 183
+}
+
+russian_great_statesman = {
+    prestige = 0.01
+    diplomatic_points_modifier = 0.25
+    ruling_party_support = 0.5
+    badboy = -0.03
+    icon = 179
+}
+
+russian_backroom_boy = {
+    RGO_throughput = 0.02
+    research_points_modifier = 0.02
+    leadership = 0.02
+    icon = 184
+}
+
+russian_great_reformer = {
+    global_pop_militancy_modifier = -0.02
+    global_pop_consciousness_modifier = 0.04
+    ruling_party_support = 0.2
+    issue_change_speed = 0.2
+    icon = 186
+}
+
+russian_gauche_buffoon = {
+    prestige = -0.01
+    diplomatic_points_modifier = -0.5
+    issue_change_speed = 0.1
+    icon = 185
+}
+
+russian_administrative_genius = {
+    mobilisation_size = 0.01
+    supply_consumption = -0.05
+    icon = 190
+}
+
+russian_visionary_thinker = {
+    research_points_modifier = 0.2
+    icon = 192
+}
+
+russian_competent_placeholder = {
+    icon = 188
+}
+
+russian_imperious_autocrat = {
+    prestige = 0.02
+    icon = 193
+}
+
+russian_prince_of_terror = {
+    global_pop_militancy_modifier = -0.1
+    badboy = 0.02
+    icon = 176
+}
+
+russian_efficient_sociopath = {
+    factory_output = 0.05
+    leadership = -0.1
+    icon = 181
+}
+
+russian_pig_headed_isolationist = {
+    global_pop_consciousness_modifier = -0.05
+    icon = 191
+}
+
+russian_ambitious_union_boss = {
+    global_pop_consciousness_modifier = 0.03
+    icon = 180
+}
+
+russian_dour_economist = {
+    factory_owner_cost = -0.1
+    ruling_party_support = -0.2
+    issue_change_speed = -0.1
+    icon = 182
+}
+
+capital_russian_expert_diplomat = {
+    icon = 177
+}
+
+capital_russian_successful_industrialist = {
+    icon = 179
+}
+
+capital_russian_ivory_tower_intellectual = {
+    icon = 182
+}
+
+capital_russian_man_of_the_people = {
+    icon = 176
+}
+
+capital_russian_landed_gentleman = {
+    icon = 180
+}
+
+capital_russian_military_man = {
+    icon = 183
+}
+
+capital_russian_lord_admiral = {
+    icon = 191
+}
+
+capital_russian_raving_loon = {
+    icon = 188
+}
+
+capital_russian_luddite = {
+    icon = 185
+}
+
+capital_russian_great_statesman = {
+    icon = 181
+}
+
+capital_russian_backroom_boy = {
+    icon = 186
+}
+
+capital_russian_great_reformer = {
+    icon = 188
+}
+
+capital_russian_gauche_buffoon = {
+    icon = 187
+}
+
+capital_russian_administrative_genius = {
+    icon = 192
+}
+
+capital_russian_visionary_thinker = {
+    icon = 194
+}
+
+capital_russian_competent_placeholder = {
+    icon = 190
+}
+
+capital_russian_imperious_autocrat = {
+    icon = 195
+}
+
+capital_russian_prince_of_terror = {
+    icon = 178
+}
+
+capital_russian_efficient_sociopath = {
+    icon = 183
+}
+
+capital_russian_pig_headed_isolationist = {
+    icon = 193
+}
+
+capital_russian_ambitious_union_boss = {
+    icon = 182
+}
+
+capital_russian_dour_economist = {
+    icon = 184
+}
+
+### South American ###
+
+southamerican_expert_diplomat = {
+    diplomatic_points_modifier = 0.5
+    badboy = -0.05
+    icon = 197
+}
+
+southamerican_successful_industrialist = {
+    factory_owner_cost = -0.25
+    factory_throughput = 0.05
+    farm_RGO_size = -0.05
+    mine_RGO_size = -0.05
+    icon = 201
+}
+
+southamerican_ivory_tower_intellectual = {
+    research_points = 1
+    global_pop_consciousness_modifier = 0.01
+    icon = 207
+}
+
+southamerican_man_of_the_people = {
+    global_pop_militancy_modifier = -0.02
+    global_pop_consciousness_modifier = 0.02
+    ruling_party_support = 1
+    icon = 202	
+}
+
+southamerican_landed_gentleman = {
+    RGO_throughput = 0.05
+    farm_RGO_size = 0.05
+    mine_RGO_size = 0.05
+    factory_throughput = -0.05
+    icon = 209
+}
+
+southamerican_military_man = {
+    org_regain = 0.1
+    land_organisation = 0.05
+    icon = 198
+}
+
+southamerican_lord_admiral = {
+    org_regain = 0.1
+    naval_organisation = 0.05
+    icon = 206
+}
+
+southamerican_raving_loon = {
+    global_pop_militancy_modifier = 0.05
+    research_points_modifier = -0.05
+    ruling_party_support = -0.5
+    icon = 200
+}
+
+southamerican_luddite = {
+    research_points_modifier = -0.05
+    factory_owner_cost = 0.2
+    RGO_throughput = 0.05
+    icon = 208
+}
+
+southamerican_great_statesman = {
+    prestige = 0.01
+    diplomatic_points_modifier = 0.25
+    ruling_party_support = 0.5
+    badboy = -0.03
+    icon = 199
+}
+
+southamerican_backroom_boy = {
+    RGO_throughput = 0.02
+    research_points_modifier = 0.02
+    leadership = 0.02
+    icon = 210
+}
+
+southamerican_great_reformer = {
+    global_pop_militancy_modifier = -0.02
+    global_pop_consciousness_modifier = 0.04
+    ruling_party_support = 0.2
+    issue_change_speed = 0.2
+    icon = 196
+}
+
+southamerican_gauche_buffoon = {
+    prestige = -0.01
+    diplomatic_points_modifier = -0.5
+    issue_change_speed = 0.1
+    icon = 204
+}
+
+southamerican_administrative_genius = {
+    mobilisation_size = 0.01
+    supply_consumption = -0.05
+    icon = 203
+}
+
+southamerican_visionary_thinker = {
+    research_points_modifier = 0.2
+    icon = 207
+}
+
+southamerican_competent_placeholder = {
+    icon = 197
+}
+
+southamerican_imperious_autocrat = {
+    prestige = 0.02
+    icon = 202
+}
+
+southamerican_prince_of_terror = {
+    global_pop_militancy_modifier = -0.1
+    badboy = 0.02
+    icon = 201
+}
+
+southamerican_efficient_sociopath = {
+    factory_output = 0.05
+    leadership = -0.1
+    icon = 209
+}
+
+southamerican_pig_headed_isolationist = {
+    global_pop_consciousness_modifier = -0.05
+    icon = 205
+}
+
+southamerican_ambitious_union_boss = {
+    global_pop_consciousness_modifier = 0.03
+    icon = 196
+}
+
+southamerican_dour_economist = {
+    factory_owner_cost = -0.1
+    ruling_party_support = -0.2
+    issue_change_speed = -0.1
+    icon = 203
+}
+
+capital_southamerican_expert_diplomat = {
+    icon = 199
+}
+
+capital_southamerican_successful_industrialist = {
+    icon = 203
+}
+
+capital_southamerican_ivory_tower_intellectual = {
+    icon = 209
+}
+
+capital_southamerican_man_of_the_people = {
+    icon = 204
+}
+
+capital_southamerican_landed_gentleman = {
+    icon = 211
+}
+
+capital_southamerican_military_man = {
+    icon = 200
+}
+
+capital_southamerican_lord_admiral = {
+    icon = 208
+}
+
+capital_southamerican_raving_loon = {
+    icon = 202
+}
+
+capital_southamerican_luddite = {
+    icon = 210
+}
+
+capital_southamerican_great_statesman = {
+    icon = 201
+}
+
+capital_southamerican_backroom_boy = {
+    icon = 212
+}
+
+capital_southamerican_great_reformer = {
+    icon = 198
+}
+
+capital_southamerican_gauche_buffoon = {
+    icon = 206
+}
+
+capital_southamerican_administrative_genius = {
+    icon = 205
+}
+
+capital_southamerican_visionary_thinker = {
+    icon = 209
+}
+
+capital_southamerican_competent_placeholder = {
+    icon = 199
+}
+
+capital_southamerican_imperious_autocrat = {
+    icon = 204
+}
+
+capital_southamerican_prince_of_terror = {
+    icon = 203
+}
+
+capital_southamerican_efficient_sociopath = {
+    icon = 211
+}
+
+capital_southamerican_pig_headed_isolationist = {
+    icon = 207
+}
+
+capital_southamerican_ambitious_union_boss = {
+    icon = 198
+}
+
+capital_southamerican_dour_economist = {
+    icon = 205
+}
+
 ##################################################################################################
 # scriptable and usable for event-system below.
 ##################################################################################################
@@ -2500,8 +4347,8 @@ treaties_of_velasco = {
 	}
 
 	america_new_world = {
-		global_immigrant_attract = 0.5
-		global_population_growth = 0.01
+		global_immigrant_attract = 0.2
+		global_population_growth = 0.015
 		icon = 31
 	}
 
@@ -6097,1851 +7944,4 @@ ap_countdown = {
 
 sacrifice_cd = {
 	icon = 21
-}
-
-
-##################################################################################################
-#                                                                                                #
-#                                      Great Figureheads                                         #
-#                                                                                                #
-##################################################################################################
-
-### African Leaders ###
-
-african_expert_diplomat = {
-    diplomatic_points_modifier = 0.5
-    badboy = -0.05
-    icon = 40
-}
-
-african_successful_industrialist = {
-    factory_owner_cost = -0.25
-    factory_throughput = 0.05
-    farm_RGO_size = -0.05
-    mine_RGO_size = -0.05
-    icon = 42
-}
-
-african_ivory_tower_intellectual = {
-    research_points = 1
-    global_pop_consciousness_modifier = 0.01
-    icon = 43
-}
-
-african_man_of_the_people = {
-    global_pop_militancy_modifier = -0.02
-    global_pop_consciousness_modifier = 0.02
-    ruling_party_support = 1
-    icon = 41
-}
-
-african_landed_gentleman = {
-    RGO_throughput = 0.05
-    farm_RGO_size = 0.05
-    mine_RGO_size = 0.05
-    factory_throughput = -0.05
-    icon = 44
-}
-
-african_military_man = {
-    org_regain = 0.1
-    land_organisation = 0.05
-    icon = 39
-}
-
-african_lord_admiral = {
-    org_regain = 0.1
-    naval_organisation = 0.05
-    icon = 45
-}
-
-african_raving_loon = {
-    global_pop_militancy_modifier = 0.05
-    research_points_modifier = -0.05
-    ruling_party_support = -0.5
-    icon = 43
-}
-
-african_luddite = {
-    research_points_modifier = -0.05
-    factory_owner_cost = 0.2
-    RGO_throughput = 0.05
-    icon = 42
-}
-
-african_great_statesman = {
-    prestige = 0.01
-    diplomatic_points_modifier = 0.25
-    ruling_party_support = 0.5
-    badboy = -0.03
-    icon = 39
-}
-
-african_backroom_boy = {
-    RGO_throughput = 0.02
-    research_points_modifier = 0.02
-    leadership = 0.02
-    icon = 46
-}
-
-african_great_reformer = {
-    global_pop_militancy_modifier = -0.02
-    global_pop_consciousness_modifier = 0.04
-    ruling_party_support = 0.2
-    issue_change_speed = 0.2
-    icon = 41
-}
-
-african_gauche_buffoon = {
-    prestige = -0.01
-    diplomatic_points_modifier = -0.5
-    issue_change_speed = 0.1
-    icon = 45
-}
-
-african_administrative_genius = {
-    mobilisation_size = 0.01
-    supply_consumption = -0.05
-    icon = 42
-}
-
-african_visionary_thinker = {
-    research_points_modifier = 0.2
-    icon = 41
-}
-
-african_competent_placeholder = {
-    icon = 40
-}
-
-african_imperious_autocrat = {
-    prestige = 0.02
-    icon = 39
-}
-
-african_prince_of_terror = {
-    global_pop_militancy_modifier = -0.1
-    badboy = 0.02
-    icon = 44
-}
-
-african_efficient_sociopath = {
-    factory_output = 0.05
-    leadership = -0.1
-    icon = 46	
-}
-
-african_pig_headed_isolationist = {
-    global_pop_consciousness_modifier = -0.05
-    icon = 43
-}
-
-african_ambitious_union_boss = {
-    global_pop_consciousness_modifier = 0.03
-    icon = 41
-}
-
-african_dour_economist = {
-    factory_owner_cost = -0.1
-    ruling_party_support = -0.2
-    issue_change_speed = -0.1
-    icon = 42
-}
-
-capital_african_expert_diplomat = {
-    icon = 42
-}
-
-capital_african_successful_industrialist = {
-    icon = 44
-}
-
-capital_african_ivory_tower_intellectual = {
-    icon = 45
-}
-
-capital_african_man_of_the_people = {
-    icon = 43
-}
-
-capital_african_landed_gentleman = {
-    icon = 46
-}
-
-capital_african_military_man = {
-    icon = 41
-}
-
-capital_african_lord_admiral = {
-    icon = 47
-}
-
-capital_african_raving_loon = {
-    icon = 45
-}
-
-capital_african_luddite = {
-    icon = 44
-}
-
-capital_african_great_statesman = {
-    icon = 41
-}
-
-capital_african_backroom_boy = {
-    icon = 48
-}
-
-capital_african_great_reformer = {
-    icon = 43
-}
-
-capital_african_gauche_buffoon = {
-    icon = 47
-}
-
-capital_african_administrative_genius = {
-    icon = 44
-}
-
-capital_african_visionary_thinker = {
-    icon = 43
-}
-
-capital_african_competent_placeholder = {
-    icon = 42
-}
-
-capital_african_imperious_autocrat = {
-    icon = 41
-}
-
-capital_african_prince_of_terror = {
-    icon = 46
-}
-
-capital_african_efficient_sociopath = {
-    icon = 48
-}
-
-capital_african_pig_headed_isolationist = {
-    icon = 45
-}
-
-capital_african_ambitious_union_boss = {
-    icon = 43
-}
-
-capital_african_dour_economist = {
-    icon = 44
-}
-
-### Arab Leaders ###
-
-arab_expert_diplomat = {
-    diplomatic_points_modifier = 0.5
-    badboy = -0.05
-    icon = 47
-}
-
-arab_successful_industrialist = {
-    factory_owner_cost = -0.25
-    factory_throughput = 0.05
-    farm_RGO_size = -0.05
-    mine_RGO_size = -0.05
-    icon = 51
-}
-
-arab_ivory_tower_intellectual = {
-    research_points = 1
-    global_pop_consciousness_modifier = 0.01
-    icon = 53
-}
-
-arab_man_of_the_people = {
-    global_pop_militancy_modifier = -0.02
-    global_pop_consciousness_modifier = 0.02
-    ruling_party_support = 1
-    icon = 48
-}
-
-arab_landed_gentleman = {
-    RGO_throughput = 0.05
-    farm_RGO_size = 0.05
-    mine_RGO_size = 0.05
-    factory_throughput = -0.05
-    icon = 50
-}
-
-arab_military_man = {
-    org_regain = 0.1
-    land_organisation = 0.05
-    icon = 54
-}
-
-arab_lord_admiral = {
-    org_regain = 0.1
-    naval_organisation = 0.05
-    icon = 56
-}
-
-arab_raving_loon = {
-    global_pop_militancy_modifier = 0.05
-    research_points_modifier = -0.05
-    ruling_party_support = -0.5
-    icon = 52
-}
-
-arab_luddite = {
-    research_points_modifier = -0.05
-    factory_owner_cost = 0.2
-    RGO_throughput = 0.05
-    icon = 49
-}
-
-arab_great_statesman = {
-    prestige = 0.01
-    diplomatic_points_modifier = 0.25
-    ruling_party_support = 0.5
-    badboy = -0.03
-    icon = 57
-}
-
-arab_backroom_boy = {
-    RGO_throughput = 0.02
-    research_points_modifier = 0.02
-    leadership = 0.02
-    icon = 58
-}
-
-arab_great_reformer = {
-    global_pop_militancy_modifier = -0.02
-    global_pop_consciousness_modifier = 0.04
-    ruling_party_support = 0.2
-    issue_change_speed = 0.2
-    icon = 59
-}
-
-arab_gauche_buffoon = {
-    prestige = -0.01
-    diplomatic_points_modifier = -0.5
-    issue_change_speed = 0.1
-    icon = 55
-}
-
-arab_administrative_genius = {
-    mobilisation_size = 0.01
-    supply_consumption = -0.05
-    icon = 60
-}
-
-arab_visionary_thinker = {
-    research_points_modifier = 0.2
-    icon = 51
-}
-
-arab_competent_placeholder = {
-    icon = 47
-}
-
-arab_imperious_autocrat = {
-    prestige = 0.02
-    icon = 48
-}
-
-arab_prince_of_terror = {
-    global_pop_militancy_modifier = -0.1
-    badboy = 0.02
-    icon = 54
-}
-
-arab_efficient_sociopath = {
-    factory_output = 0.05
-    leadership = -0.1
-    icon = 50	
-}
-
-arab_pig_headed_isolationist = {
-    global_pop_consciousness_modifier = -0.05
-    icon = 52
-}
-
-arab_ambitious_union_boss = {
-    global_pop_consciousness_modifier = 0.03
-    icon = 53
-}
-
-arab_dour_economist = {
-    factory_owner_cost = -0.1
-    ruling_party_support = -0.2
-    issue_change_speed = -0.1
-    icon = 51
-}
-
-capital_arab_expert_diplomat = {
-    icon = 49
-}
-
-capital_arab_successful_industrialist = {
-    icon = 53
-}
-
-capital_arab_ivory_tower_intellectual = {
-    icon = 55
-}
-
-capital_arab_man_of_the_people = {
-    icon = 50
-}
-
-capital_arab_landed_gentleman = {
-    icon = 52
-}
-
-capital_arab_military_man = {
-    icon = 56
-}
-
-capital_arab_lord_admiral = {
-    icon = 58
-}
-
-capital_arab_raving_loon = {
-    icon = 54
-}
-
-capital_arab_luddite = {
-    icon = 51
-}
-
-capital_arab_great_statesman = {
-    icon = 59
-}
-
-capital_arab_backroom_boy = {
-    icon = 60
-}
-
-capital_arab_great_reformer = {
-    icon = 61
-}
-
-capital_arab_gauche_buffoon = {
-    icon = 57
-}
-
-capital_arab_administrative_genius = {
-    icon = 62
-}
-
-capital_arab_visionary_thinker = {
-    icon = 53
-}
-
-capital_arab_competent_placeholder = {
-    icon = 49
-}
-
-capital_arab_imperious_autocrat = {
-    icon = 50
-}
-
-capital_arab_prince_of_terror = {
-    icon = 56
-}
-
-capital_arab_efficient_sociopath = {
-    icon = 52	
-}
-
-capital_arab_pig_headed_isolationist = {
-    icon = 54
-}
-
-capital_arab_ambitious_union_boss = {
-    icon = 55
-}
-
-capital_arab_dour_economist = {
-    icon = 53
-}
-
-### Asian Leaders ###
-
-asian_expert_diplomat = {
-    diplomatic_points_modifier = 0.5
-    badboy = -0.05
-    icon = 65
-}
-
-asian_successful_industrialist = {
-    factory_owner_cost = -0.25
-    factory_throughput = 0.05
-    farm_RGO_size = -0.05
-    mine_RGO_size = -0.05
-    icon = 64
-}
-
-asian_ivory_tower_intellectual = {
-    research_points = 1
-    global_pop_consciousness_modifier = 0.01
-    icon = 66
-}
-
-asian_man_of_the_people = {
-    global_pop_militancy_modifier = -0.02
-    global_pop_consciousness_modifier = 0.02
-    ruling_party_support = 1
-    icon = 67	
-}
-
-asian_landed_gentleman = {
-    RGO_throughput = 0.05
-    farm_RGO_size = 0.05
-    mine_RGO_size = 0.05
-    factory_throughput = -0.05
-    icon = 69
-}
-
-asian_military_man = {
-    org_regain = 0.1
-    land_organisation = 0.05
-    icon = 63
-}
-
-asian_lord_admiral = {
-    org_regain = 0.1
-    naval_organisation = 0.05
-    icon = 70
-}
-
-asian_raving_loon = {
-    global_pop_militancy_modifier = 0.05
-    research_points_modifier = -0.05
-    ruling_party_support = -0.5
-    icon = 73
-}
-
-asian_luddite = {
-    research_points_modifier = -0.05
-    factory_owner_cost = 0.2
-    RGO_throughput = 0.05
-    icon = 74
-}
-
-asian_great_statesman = {
-    prestige = 0.01
-    diplomatic_points_modifier = 0.25
-    ruling_party_support = 0.5
-    badboy = -0.03
-    icon = 62
-}
-
-asian_backroom_boy = {
-    RGO_throughput = 0.02
-    research_points_modifier = 0.02
-    leadership = 0.02
-    icon = 71
-}
-
-asian_great_reformer = {
-    global_pop_militancy_modifier = -0.02
-    global_pop_consciousness_modifier = 0.04
-    ruling_party_support = 0.2
-    issue_change_speed = 0.2
-    icon = 72
-}
-
-asian_gauche_buffoon = {
-    prestige = -0.01
-    diplomatic_points_modifier = -0.5
-    issue_change_speed = 0.1
-    icon = 75
-}
-
-asian_administrative_genius = {
-    mobilisation_size = 0.01
-    supply_consumption = -0.05
-    icon = 65
-}
-
-asian_visionary_thinker = {
-    research_points_modifier = 0.2
-    icon = 66
-}
-
-asian_competent_placeholder = {
-    icon = 67
-}
-
-asian_imperious_autocrat = {
-    prestige = 0.02
-    icon = 69
-}
-
-asian_prince_of_terror = {
-    global_pop_militancy_modifier = -0.1
-    badboy = 0.02
-    icon = 68
-}
-
-asian_efficient_sociopath = {
-    factory_output = 0.05
-    leadership = -0.1
-    icon = 64	
-}
-
-asian_pig_headed_isolationist = {
-    global_pop_consciousness_modifier = -0.05
-    icon = 74
-}
-
-asian_ambitious_union_boss = {
-    global_pop_consciousness_modifier = 0.03
-    icon = 75
-}
-
-asian_dour_economist = {
-    factory_owner_cost = -0.1
-    ruling_party_support = -0.2
-    issue_change_speed = -0.1
-    icon = 71
-}
-
-capital_asian_expert_diplomat = {
-    icon = 67
-}
-
-capital_asian_successful_industrialist = {
-    icon = 66
-}
-
-capital_asian_ivory_tower_intellectual = {
-    icon = 68
-}
-
-capital_asian_man_of_the_people = {
-    icon = 69
-}
-
-capital_asian_landed_gentleman = {
-    icon = 71
-}
-
-capital_asian_military_man = {
-    icon = 65
-}
-
-capital_asian_lord_admiral = {
-    icon = 72
-}
-
-capital_asian_raving_loon = {
-    icon = 75
-}
-
-capital_asian_luddite = {
-    icon = 76
-}
-
-capital_asian_great_statesman = {
-    icon = 64
-}
-
-capital_asian_backroom_boy = {
-    icon = 73
-}
-
-capital_asian_great_reformer = {
-    icon = 74
-}
-
-capital_asian_gauche_buffoon = {
-    icon = 77
-}
-
-capital_asian_administrative_genius = {
-    icon = 67
-}
-
-capital_asian_visionary_thinker = {
-    icon = 68
-}
-
-capital_asian_competent_placeholder = {
-    icon = 69
-}
-
-capital_asian_imperious_autocrat = {
-    icon = 71
-}
-
-capital_asian_prince_of_terror = {
-    icon = 70
-}
-
-capital_asian_efficient_sociopath = {
-    icon = 66	
-}
-
-capital_asian_pig_headed_isolationist = {
-    icon = 76
-}
-
-capital_asian_ambitious_union_boss = {
-    icon = 77
-}
-
-capital_asian_dour_economist = {
-    icon = 73
-}
-
-### European ###
-
-european_expert_diplomat = {
-	diplomatic_points_modifier = 0.5
-	badboy = -0.05
-	icon = 129
-}
-
-european_successful_industrialist = {
-	factory_owner_cost = -0.25
-	factory_throughput = 0.05
-	farm_RGO_size = -0.05
-	mine_RGO_size = -0.05
-	icon = 119
-}
-
-european_ivory_tower_intellectual = {
-	research_points = 1
-	global_pop_consciousness_modifier = 0.01
-	icon = 128
-}
-
-european_man_of_the_people = {
-	global_pop_militancy_modifier = -0.02
-	global_pop_consciousness_modifier = 0.02
-	ruling_party_support = 1
-	icon = 122
-}
-
-european_landed_gentleman = {
-	RGO_throughput = 0.05
-	farm_RGO_size = 0.05
-	mine_RGO_size = 0.05
-	factory_throughput = -0.05
-	icon = 89
-}
-
-european_military_man = {
-	org_regain = 0.1
-	land_organisation = 0.05
-	icon = 125
-}
-
-european_lord_admiral = {
-	org_regain = 0.1
-	naval_organisation = 0.05
-	icon = 165
-}
-
-european_raving_loon = {
-	global_pop_militancy_modifier = 0.05
-	research_points_modifier = -0.05
-	ruling_party_support = -0.5
-	icon = 90
-}
-
-european_luddite = {
-	research_points_modifier = -0.05
-	factory_owner_cost = 0.2
-	RGO_throughput = 0.05
-	icon = 83
-}
-
-european_great_statesman = {
-	prestige = 0.01
-	diplomatic_points_modifier = 0.25
-	ruling_party_support = 0.5
-	badboy = -0.03
-	icon = 132
-}
-
-european_backroom_boy = {
-	RGO_throughput = 0.02
-	research_points_modifier = 0.02
-	leadership = 0.02
-	icon = 79
-}
-
-european_great_reformer = {
-	global_pop_militancy_modifier = -0.02
-	global_pop_consciousness_modifier = 0.04
-	ruling_party_support = 0.2
-	issue_change_speed = 0.2
-	icon = 80
-}
-
-european_gauche_buffoon = {
-	prestige = -0.01
-	diplomatic_points_modifier = -0.5
-	issue_change_speed = 0.1
-	icon = 88
-}
-
-european_administrative_genius = {
-	mobilisation_size = 0.01
-	supply_consumption = -0.05
-	icon = 120
-}
-
-european_visionary_thinker = {
-	research_points_modifier = 0.2
-	icon = 113
-}
-
-european_competent_placeholder = {
-	icon = 107
-}
-
-european_imperious_autocrat = {
-	prestige = 0.02
-	icon = 130
-}
-
-european_prince_of_terror = {
-	global_pop_militancy_modifier = -0.1
-	badboy = 0.02
-	icon = 98
-}
-
-european_efficient_sociopath = {
-	factory_output = 0.05
-	leadership = -0.1
-	icon = 116
-}
-
-european_pig_headed_isolationist = {
-	global_pop_consciousness_modifier = -0.05
-	icon = 96
-}
-
-european_ambitious_union_boss = {
-	global_pop_consciousness_modifier = 0.03
-	icon = 86
-}
-
-european_dour_economist = {
-	factory_owner_cost = -0.1
-	ruling_party_support = -0.2
-	issue_change_speed = -0.1
-	icon = 126
-}
-
-capital_european_expert_diplomat = {
-    icon = 131
-}
-
-capital_european_successful_industrialist = {
-    icon = 121
-}
-
-capital_european_ivory_tower_intellectual = {
-    icon = 130
-}
-
-capital_european_man_of_the_people = {
-    icon = 124
-}
-
-capital_european_landed_gentleman = {
-    icon = 91
-}
-
-capital_european_military_man = {
-    icon = 127
-}
-
-capital_european_lord_admiral = {
-    icon = 167
-}
-
-capital_european_raving_loon = {
-    icon = 92
-}
-
-capital_european_luddite = {
-    icon = 85
-}
-
-capital_european_great_statesman = {
-    icon = 134
-}
-
-capital_european_backroom_boy = {
-    icon = 81
-}
-
-capital_european_great_reformer = {
-    icon = 82
-}
-
-capital_european_gauche_buffoon = {
-    icon = 90
-}
-
-capital_european_administrative_genius = {
-    icon = 122
-}
-
-capital_european_visionary_thinker = {
-    icon = 115
-}
-
-capital_european_competent_placeholder = {
-    icon = 109
-}
-
-capital_european_imperious_autocrat = {
-    icon = 132
-}
-
-capital_european_prince_of_terror = {
-    icon = 100
-}
-
-capital_european_efficient_sociopath = {
-    icon = 118
-}
-
-capital_european_pig_headed_isolationist = {
-    icon = 98
-}
-
-capital_european_ambitious_union_boss = {
-    icon = 88
-}
-
-capital_european_dour_economist = {
-    icon = 128
-}
-
-### Indian ###
-
-indian_expert_diplomat = {
-	diplomatic_points_modifier = 0.5
-	badboy = -0.05
-	icon = 168
-}
-
-indian_successful_industrialist = {
-	factory_owner_cost = -0.25
-	factory_throughput = 0.05
-	farm_RGO_size = -0.05
-	mine_RGO_size = -0.05
-	icon = 167
-}
-
-indian_ivory_tower_intellectual = {
-	research_points = 1
-	global_pop_consciousness_modifier = 0.01
-	icon = 169
-}
-
-indian_man_of_the_people = {
-	global_pop_militancy_modifier = -0.02
-	global_pop_consciousness_modifier = 0.02
-	ruling_party_support = 1
-	icon = 170
-}
-
-indian_landed_gentleman = {
-	RGO_throughput = 0.05
-	farm_RGO_size = 0.05
-	mine_RGO_size = 0.05
-	factory_throughput = -0.05
-	icon = 171
-}
-
-indian_military_man = {
-	org_regain = 0.1
-	land_organisation = 0.05
-	icon = 167
-}
-
-indian_lord_admiral = {
-	org_regain = 0.1
-	naval_organisation = 0.05
-	icon = 171
-}
-
-indian_raving_loon = {
-	global_pop_militancy_modifier = 0.05
-	research_points_modifier = -0.05
-	ruling_party_support = -0.5
-	icon = 166
-}
-
-indian_luddite = {
-	research_points_modifier = -0.05
-	factory_owner_cost = 0.2
-	RGO_throughput = 0.05
-	icon = 166
-}
-
-indian_great_statesman = {
-	prestige = 0.01
-	diplomatic_points_modifier = 0.25
-	ruling_party_support = 0.5
-	badboy = -0.03
-	icon = 169
-}
-
-indian_backroom_boy = {
-	RGO_throughput = 0.02
-	research_points_modifier = 0.02
-	leadership = 0.02
-	icon = 168
-}
-
-indian_great_reformer = {
-	global_pop_militancy_modifier = -0.02
-	global_pop_consciousness_modifier = 0.04
-	ruling_party_support = 0.2
-	issue_change_speed = 0.2
-	icon = 170
-}
-
-indian_gauche_buffoon = {
-	prestige = -0.01
-	diplomatic_points_modifier = -0.5
-	issue_change_speed = 0.1
-	icon = 168
-}
-
-indian_administrative_genius = {
-	mobilisation_size = 0.01
-	supply_consumption = -0.05
-	icon = 171
-}
-
-indian_visionary_thinker = {
-	research_points_modifier = 0.2
-	icon = 169
-}
-
-indian_competent_placeholder = {
-	icon = 166
-}
-
-indian_imperious_autocrat = {
-	prestige = 0.02
-	icon = 171
-}
-
-indian_prince_of_terror = {
-	global_pop_militancy_modifier = -0.1
-	badboy = 0.02
-	icon = 168
-}
-
-indian_efficient_sociopath = {
-	factory_output = 0.05
-	leadership = -0.1
-	icon = 167
-}
-
-indian_pig_headed_isolationist = {
-	global_pop_consciousness_modifier = -0.05
-	icon = 170
-}
-
-indian_ambitious_union_boss = {
-	global_pop_consciousness_modifier = 0.03
-	icon = 169
-}
-
-indian_dour_economist = {
-	factory_owner_cost = -0.1
-	ruling_party_support = -0.2
-	issue_change_speed = -0.1
-	icon = 167
-}
-
-capital_indian_expert_diplomat = {
-    icon = 170
-}
-
-capital_indian_successful_industrialist = {
-    icon = 169
-}
-
-capital_indian_ivory_tower_intellectual = {
-    icon = 171
-}
-
-capital_indian_man_of_the_people = {
-    icon = 172
-}
-
-capital_indian_landed_gentleman = {
-    icon = 173
-}
-
-capital_indian_military_man = {
-    icon = 169
-}
-
-capital_indian_lord_admiral = {
-    icon = 173
-}
-
-capital_indian_raving_loon = {
-    icon = 168
-}
-
-capital_indian_luddite = {
-    icon = 168
-}
-
-capital_indian_great_statesman = {
-    icon = 171
-}
-
-capital_indian_backroom_boy = {
-    icon = 170
-}
-
-capital_indian_great_reformer = {
-    icon = 172
-}
-
-capital_indian_gauche_buffoon = {
-    icon = 170
-}
-
-capital_indian_administrative_genius = {
-    icon = 173
-}
-
-capital_indian_visionary_thinker = {
-    icon = 171
-}
-
-capital_indian_competent_placeholder = {
-    icon = 168
-}
-
-capital_indian_imperious_autocrat = {
-    icon = 173
-}
-
-capital_indian_prince_of_terror = {
-    icon = 170
-}
-
-capital_indian_efficient_sociopath = {
-    icon = 169
-}
-
-capital_indian_pig_headed_isolationist = {
-    icon = 172
-}
-
-capital_indian_ambitious_union_boss = {
-    icon = 171
-}
-
-capital_indian_dour_economist = {
-    icon = 169
-}
-
-### Native American ###
-
-nativeamerican_expert_diplomat = {
-	diplomatic_points_modifier = 0.5
-	badboy = -0.05
-	icon = 172
-}
-
-nativeamerican_successful_industrialist = {
-	factory_owner_cost = -0.25
-	factory_throughput = 0.05
-	farm_RGO_size = -0.05
-	mine_RGO_size = -0.05
-	icon = 172
-}
-
-nativeamerican_ivory_tower_intellectual = {
-	research_points = 1
-	global_pop_consciousness_modifier = 0.01
-	icon = 172
-}
-
-nativeamerican_man_of_the_people = {
-	global_pop_militancy_modifier = -0.02
-	global_pop_consciousness_modifier = 0.02
-	ruling_party_support = 1
-	icon = 172
-}
-
-nativeamerican_landed_gentleman = {
-	RGO_throughput = 0.05
-	farm_RGO_size = 0.05
-	mine_RGO_size = 0.05
-	factory_throughput = -0.05
-	icon = 172
-}
-
-nativeamerican_military_man = {
-	org_regain = 0.1
-	land_organisation = 0.05
-	icon = 172
-}
-
-nativeamerican_lord_admiral = {
-	org_regain = 0.1
-	naval_organisation = 0.05
-	icon = 173
-}
-
-nativeamerican_raving_loon = {
-	global_pop_militancy_modifier = 0.05
-	research_points_modifier = -0.05
-	ruling_party_support = -0.5
-	icon = 172
-}
-
-nativeamerican_luddite = {
-	research_points_modifier = -0.05
-	factory_owner_cost = 0.2
-	RGO_throughput = 0.05
-	icon = 172
-}
-
-nativeamerican_great_statesman = {
-	prestige = 0.01
-	diplomatic_points_modifier = 0.25
-	ruling_party_support = 0.5
-	badboy = -0.03
-	icon = 172
-}
-
-nativeamerican_backroom_boy = {
-	RGO_throughput = 0.02
-	research_points_modifier = 0.02
-	leadership = 0.02
-	icon = 172
-}
-
-nativeamerican_great_reformer = {
-	global_pop_militancy_modifier = -0.02
-	global_pop_consciousness_modifier = 0.04
-	ruling_party_support = 0.2
-	issue_change_speed = 0.2
-	icon = 172
-}
-
-nativeamerican_gauche_buffoon = {
-	prestige = -0.01
-	diplomatic_points_modifier = -0.5
-	issue_change_speed = 0.1
-	icon = 172
-}
-
-nativeamerican_administrative_genius = {
-	mobilisation_size = 0.01
-	supply_consumption = -0.05
-	icon = 172
-}
-
-nativeamerican_visionary_thinker = {
-	research_points_modifier = 0.2
-	icon = 172
-}
-
-nativeamerican_competent_placeholder = {
-	icon = 172
-}
-
-nativeamerican_imperious_autocrat = {
-	prestige = 0.02
-	icon = 172
-}
-
-nativeamerican_prince_of_terror = {
-	global_pop_militancy_modifier = -0.1
-	badboy = 0.02
-	icon = 172
-}
-
-nativeamerican_efficient_sociopath = {
-	factory_output = 0.05
-	leadership = -0.1
-	icon = 172
-}
-
-nativeamerican_pig_headed_isolationist = {
-	global_pop_consciousness_modifier = -0.05
-	icon = 172
-}
-
-nativeamerican_ambitious_union_boss = {
-	global_pop_consciousness_modifier = 0.03
-	icon = 172
-}
-
-nativeamerican_dour_economist = {
-	factory_owner_cost = -0.1
-	ruling_party_support = -0.2
-	issue_change_speed = -0.1
-	icon = 172
-}
-
-capital_nativeamerican_expert_diplomat = {
-    icon = 174
-}
-
-capital_nativeamerican_successful_industrialist = {
-    icon = 174
-}
-
-capital_nativeamerican_ivory_tower_intellectual = {
-    icon = 174
-}
-
-capital_nativeamerican_man_of_the_people = {
-    icon = 174
-}
-
-capital_nativeamerican_landed_gentleman = {
-    icon = 174
-}
-
-capital_nativeamerican_military_man = {
-    icon = 174
-}
-
-capital_nativeamerican_lord_admiral = {
-    icon = 175
-}
-
-capital_nativeamerican_raving_loon = {
-    icon = 174
-}
-
-capital_nativeamerican_luddite = {
-    icon = 174
-}
-
-capital_nativeamerican_great_statesman = {
-    icon = 174
-}
-
-capital_nativeamerican_backroom_boy = {
-    icon = 174
-}
-
-capital_nativeamerican_great_reformer = {
-    icon = 174
-}
-
-capital_nativeamerican_gauche_buffoon = {
-    icon = 174
-}
-
-capital_nativeamerican_administrative_genius = {
-    icon = 174
-}
-
-capital_nativeamerican_visionary_thinker = {
-    icon = 174
-}
-
-capital_nativeamerican_competent_placeholder = {
-    icon = 174
-}
-
-capital_nativeamerican_imperious_autocrat = {
-    icon = 174
-}
-
-capital_nativeamerican_prince_of_terror = {
-    icon = 174
-}
-
-capital_nativeamerican_efficient_sociopath = {
-    icon = 174
-}
-
-capital_nativeamerican_pig_headed_isolationist = {
-    icon = 174
-}
-
-capital_nativeamerican_ambitious_union_boss = {
-    icon = 174
-}
-
-capital_nativeamerican_dour_economist = {
-    icon = 174
-}
-
-### Russian ###
-
-russian_expert_diplomat = {
-    diplomatic_points_modifier = 0.5
-    badboy = -0.05
-    icon = 175
-}
-
-russian_successful_industrialist = {
-    factory_owner_cost = -0.25
-    factory_throughput = 0.05
-    farm_RGO_size = -0.05
-    mine_RGO_size = -0.05
-    icon = 177
-}
-
-russian_ivory_tower_intellectual = {
-    research_points = 1
-    global_pop_consciousness_modifier = 0.01
-    icon = 180
-}
-
-russian_man_of_the_people = {
-    global_pop_militancy_modifier = -0.02
-    global_pop_consciousness_modifier = 0.02
-    ruling_party_support = 1
-    icon = 174
-}
-
-russian_landed_gentleman = {
-    RGO_throughput = 0.05
-    farm_RGO_size = 0.05
-    mine_RGO_size = 0.05
-    factory_throughput = -0.05
-    icon = 178
-}
-
-russian_military_man = {
-    org_regain = 0.1
-    land_organisation = 0.05
-    icon = 181
-}
-
-russian_lord_admiral = {
-    org_regain = 0.1
-    naval_organisation = 0.05
-    icon = 189
-}
-
-russian_raving_loon = {
-    global_pop_militancy_modifier = 0.05
-    research_points_modifier = -0.05
-    ruling_party_support = -0.5
-    icon = 186
-}
-
-russian_luddite = {
-    research_points_modifier = -0.05
-    factory_owner_cost = 0.2
-    RGO_throughput = 0.05
-    icon = 183
-}
-
-russian_great_statesman = {
-    prestige = 0.01
-    diplomatic_points_modifier = 0.25
-    ruling_party_support = 0.5
-    badboy = -0.03
-    icon = 179
-}
-
-russian_backroom_boy = {
-    RGO_throughput = 0.02
-    research_points_modifier = 0.02
-    leadership = 0.02
-    icon = 184
-}
-
-russian_great_reformer = {
-    global_pop_militancy_modifier = -0.02
-    global_pop_consciousness_modifier = 0.04
-    ruling_party_support = 0.2
-    issue_change_speed = 0.2
-    icon = 186
-}
-
-russian_gauche_buffoon = {
-    prestige = -0.01
-    diplomatic_points_modifier = -0.5
-    issue_change_speed = 0.1
-    icon = 185
-}
-
-russian_administrative_genius = {
-    mobilisation_size = 0.01
-    supply_consumption = -0.05
-    icon = 190
-}
-
-russian_visionary_thinker = {
-    research_points_modifier = 0.2
-    icon = 192
-}
-
-russian_competent_placeholder = {
-    icon = 188
-}
-
-russian_imperious_autocrat = {
-    prestige = 0.02
-    icon = 193
-}
-
-russian_prince_of_terror = {
-    global_pop_militancy_modifier = -0.1
-    badboy = 0.02
-    icon = 176
-}
-
-russian_efficient_sociopath = {
-    factory_output = 0.05
-    leadership = -0.1
-    icon = 181
-}
-
-russian_pig_headed_isolationist = {
-    global_pop_consciousness_modifier = -0.05
-    icon = 191
-}
-
-russian_ambitious_union_boss = {
-    global_pop_consciousness_modifier = 0.03
-    icon = 180
-}
-
-russian_dour_economist = {
-    factory_owner_cost = -0.1
-    ruling_party_support = -0.2
-    issue_change_speed = -0.1
-    icon = 182
-}
-
-capital_russian_expert_diplomat = {
-    icon = 177
-}
-
-capital_russian_successful_industrialist = {
-    icon = 179
-}
-
-capital_russian_ivory_tower_intellectual = {
-    icon = 182
-}
-
-capital_russian_man_of_the_people = {
-    icon = 176
-}
-
-capital_russian_landed_gentleman = {
-    icon = 180
-}
-
-capital_russian_military_man = {
-    icon = 183
-}
-
-capital_russian_lord_admiral = {
-    icon = 191
-}
-
-capital_russian_raving_loon = {
-    icon = 188
-}
-
-capital_russian_luddite = {
-    icon = 185
-}
-
-capital_russian_great_statesman = {
-    icon = 181
-}
-
-capital_russian_backroom_boy = {
-    icon = 186
-}
-
-capital_russian_great_reformer = {
-    icon = 188
-}
-
-capital_russian_gauche_buffoon = {
-    icon = 187
-}
-
-capital_russian_administrative_genius = {
-    icon = 192
-}
-
-capital_russian_visionary_thinker = {
-    icon = 194
-}
-
-capital_russian_competent_placeholder = {
-    icon = 190
-}
-
-capital_russian_imperious_autocrat = {
-    icon = 195
-}
-
-capital_russian_prince_of_terror = {
-    icon = 178
-}
-
-capital_russian_efficient_sociopath = {
-    icon = 183
-}
-
-capital_russian_pig_headed_isolationist = {
-    icon = 193
-}
-
-capital_russian_ambitious_union_boss = {
-    icon = 182
-}
-
-capital_russian_dour_economist = {
-    icon = 184
-}
-
-### South American ###
-
-southamerican_expert_diplomat = {
-    diplomatic_points_modifier = 0.5
-    badboy = -0.05
-    icon = 197
-}
-
-southamerican_successful_industrialist = {
-    factory_owner_cost = -0.25
-    factory_throughput = 0.05
-    farm_RGO_size = -0.05
-    mine_RGO_size = -0.05
-    icon = 201
-}
-
-southamerican_ivory_tower_intellectual = {
-    research_points = 1
-    global_pop_consciousness_modifier = 0.01
-    icon = 207
-}
-
-southamerican_man_of_the_people = {
-    global_pop_militancy_modifier = -0.02
-    global_pop_consciousness_modifier = 0.02
-    ruling_party_support = 1
-    icon = 202	
-}
-
-southamerican_landed_gentleman = {
-    RGO_throughput = 0.05
-    farm_RGO_size = 0.05
-    mine_RGO_size = 0.05
-    factory_throughput = -0.05
-    icon = 209
-}
-
-southamerican_military_man = {
-    org_regain = 0.1
-    land_organisation = 0.05
-    icon = 198
-}
-
-southamerican_lord_admiral = {
-    org_regain = 0.1
-    naval_organisation = 0.05
-    icon = 206
-}
-
-southamerican_raving_loon = {
-    global_pop_militancy_modifier = 0.05
-    research_points_modifier = -0.05
-    ruling_party_support = -0.5
-    icon = 200
-}
-
-southamerican_luddite = {
-    research_points_modifier = -0.05
-    factory_owner_cost = 0.2
-    RGO_throughput = 0.05
-    icon = 208
-}
-
-southamerican_great_statesman = {
-    prestige = 0.01
-    diplomatic_points_modifier = 0.25
-    ruling_party_support = 0.5
-    badboy = -0.03
-    icon = 199
-}
-
-southamerican_backroom_boy = {
-    RGO_throughput = 0.02
-    research_points_modifier = 0.02
-    leadership = 0.02
-    icon = 210
-}
-
-southamerican_great_reformer = {
-    global_pop_militancy_modifier = -0.02
-    global_pop_consciousness_modifier = 0.04
-    ruling_party_support = 0.2
-    issue_change_speed = 0.2
-    icon = 196
-}
-
-southamerican_gauche_buffoon = {
-    prestige = -0.01
-    diplomatic_points_modifier = -0.5
-    issue_change_speed = 0.1
-    icon = 204
-}
-
-southamerican_administrative_genius = {
-    mobilisation_size = 0.01
-    supply_consumption = -0.05
-    icon = 203
-}
-
-southamerican_visionary_thinker = {
-    research_points_modifier = 0.2
-    icon = 207
-}
-
-southamerican_competent_placeholder = {
-    icon = 197
-}
-
-southamerican_imperious_autocrat = {
-    prestige = 0.02
-    icon = 202
-}
-
-southamerican_prince_of_terror = {
-    global_pop_militancy_modifier = -0.1
-    badboy = 0.02
-    icon = 201
-}
-
-southamerican_efficient_sociopath = {
-    factory_output = 0.05
-    leadership = -0.1
-    icon = 209
-}
-
-southamerican_pig_headed_isolationist = {
-    global_pop_consciousness_modifier = -0.05
-    icon = 205
-}
-
-southamerican_ambitious_union_boss = {
-    global_pop_consciousness_modifier = 0.03
-    icon = 196
-}
-
-southamerican_dour_economist = {
-    factory_owner_cost = -0.1
-    ruling_party_support = -0.2
-    issue_change_speed = -0.1
-    icon = 203
-}
-
-capital_southamerican_expert_diplomat = {
-    icon = 199
-}
-
-capital_southamerican_successful_industrialist = {
-    icon = 203
-}
-
-capital_southamerican_ivory_tower_intellectual = {
-    icon = 209
-}
-
-capital_southamerican_man_of_the_people = {
-    icon = 204
-}
-
-capital_southamerican_landed_gentleman = {
-    icon = 211
-}
-
-capital_southamerican_military_man = {
-    icon = 200
-}
-
-capital_southamerican_lord_admiral = {
-    icon = 208
-}
-
-capital_southamerican_raving_loon = {
-    icon = 202
-}
-
-capital_southamerican_luddite = {
-    icon = 210
-}
-
-capital_southamerican_great_statesman = {
-    icon = 201
-}
-
-capital_southamerican_backroom_boy = {
-    icon = 212
-}
-
-capital_southamerican_great_reformer = {
-    icon = 198
-}
-
-capital_southamerican_gauche_buffoon = {
-    icon = 206
-}
-
-capital_southamerican_administrative_genius = {
-    icon = 205
-}
-
-capital_southamerican_visionary_thinker = {
-    icon = 209
-}
-
-capital_southamerican_competent_placeholder = {
-    icon = 199
-}
-
-capital_southamerican_imperious_autocrat = {
-    icon = 204
-}
-
-capital_southamerican_prince_of_terror = {
-    icon = 203
-}
-
-capital_southamerican_efficient_sociopath = {
-    icon = 211
-}
-
-capital_southamerican_pig_headed_isolationist = {
-    icon = 207
-}
-
-capital_southamerican_ambitious_union_boss = {
-    icon = 198
-}
-
-capital_southamerican_dour_economist = {
-    icon = 205
 }

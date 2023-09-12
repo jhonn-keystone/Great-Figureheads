@@ -73,7 +73,7 @@
 			remove_country_modifier = russian_ambitious_union_boss
 			remove_country_modifier = russian_dour_economist
 
-			capital_scope = {
+			any_owned = {
 				remove_province_modifier = capital_russian_expert_diplomat
 				remove_province_modifier = capital_russian_successful_industrialist
 				remove_province_modifier = capital_russian_ivory_tower_intellectual
@@ -97,12 +97,13 @@
 				remove_province_modifier = capital_russian_ambitious_union_boss
 				remove_province_modifier = capital_russian_dour_economist
 			}
+			
 			remove_country_modifier = has_political_leader
 
-			add_country_modifier = { name = russian_expert_diplomat duration = 3650 }
+			add_country_modifier = { name = russian_expert_diplomat duration = -1 }
 			any_owned = { 
 				limit = { is_capital = yes }
-				add_province_modifier = { name = capital_russian_expert_diplomat duration = 3650 } 
+				add_province_modifier = { name = capital_russian_expert_diplomat duration = -1 } 
 			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
@@ -162,7 +163,7 @@
 			remove_country_modifier = russian_ambitious_union_boss
 			remove_country_modifier = russian_dour_economist
 
-			capital_scope = {
+			any_owned = {
 				remove_province_modifier = capital_russian_expert_diplomat
 				remove_province_modifier = capital_russian_successful_industrialist
 				remove_province_modifier = capital_russian_ivory_tower_intellectual
@@ -186,12 +187,13 @@
 				remove_province_modifier = capital_russian_ambitious_union_boss
 				remove_province_modifier = capital_russian_dour_economist
 			}
+			
 			remove_country_modifier = has_political_leader
 
-			add_country_modifier = { name = russian_expert_diplomat duration = 3650 }
+			add_country_modifier = { name = russian_expert_diplomat duration = -1 }
 			any_owned = { 
 				limit = { is_capital = yes }
-				add_province_modifier = { name = capital_russian_expert_diplomat duration = 3650 } 
+				add_province_modifier = { name = capital_russian_expert_diplomat duration = -1 } 
 			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
@@ -263,7 +265,7 @@
 			remove_country_modifier = russian_ambitious_union_boss
 			remove_country_modifier = russian_dour_economist
 
-			capital_scope = {
+			any_owned = {
 				remove_province_modifier = capital_russian_expert_diplomat
 				remove_province_modifier = capital_russian_successful_industrialist
 				remove_province_modifier = capital_russian_ivory_tower_intellectual
@@ -287,12 +289,13 @@
 				remove_province_modifier = capital_russian_ambitious_union_boss
 				remove_province_modifier = capital_russian_dour_economist
 			}
+			
 			remove_country_modifier = has_political_leader
 
-			add_country_modifier = { name = russian_successful_industrialist duration = 3650 }
+			add_country_modifier = { name = russian_successful_industrialist duration = -1 }
 			any_owned = { 
 				limit = { is_capital = yes }
-				add_province_modifier = { name = capital_russian_successful_industrialist duration = 3650 } 
+				add_province_modifier = { name = capital_russian_successful_industrialist duration = -1 } 
 			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
@@ -353,7 +356,7 @@
 			remove_country_modifier = russian_ambitious_union_boss
 			remove_country_modifier = russian_dour_economist
 
-			capital_scope = {
+			any_owned = {
 				remove_province_modifier = capital_russian_expert_diplomat
 				remove_province_modifier = capital_russian_successful_industrialist
 				remove_province_modifier = capital_russian_ivory_tower_intellectual
@@ -377,12 +380,13 @@
 				remove_province_modifier = capital_russian_ambitious_union_boss
 				remove_province_modifier = capital_russian_dour_economist
 			}
+			
 			remove_country_modifier = has_political_leader
 
-			add_country_modifier = { name = russian_successful_industrialist duration = 3650 }
+			add_country_modifier = { name = russian_successful_industrialist duration = -1 }
 			any_owned = { 
 				limit = { is_capital = yes }
-				add_province_modifier = { name = capital_russian_successful_industrialist duration = 3650 } 
+				add_province_modifier = { name = capital_russian_successful_industrialist duration = -1 } 
 			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
@@ -460,7 +464,7 @@
 			remove_country_modifier = russian_ambitious_union_boss
 			remove_country_modifier = russian_dour_economist
 
-			capital_scope = {
+			any_owned = {
 				remove_province_modifier = capital_russian_expert_diplomat
 				remove_province_modifier = capital_russian_successful_industrialist
 				remove_province_modifier = capital_russian_ivory_tower_intellectual
@@ -484,12 +488,13 @@
 				remove_province_modifier = capital_russian_ambitious_union_boss
 				remove_province_modifier = capital_russian_dour_economist
 			}
+			
 			remove_country_modifier = has_political_leader
 
-			add_country_modifier = { name = russian_ivory_tower_intellectual duration = 3650 }
+			add_country_modifier = { name = russian_ivory_tower_intellectual duration = -1 }
 			any_owned = { 
 				limit = { is_capital = yes }
-				add_province_modifier = { name = capital_russian_ivory_tower_intellectual duration = 3650 } 
+				add_province_modifier = { name = capital_russian_ivory_tower_intellectual duration = -1 } 
 			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
@@ -549,7 +554,7 @@
 			remove_country_modifier = russian_ambitious_union_boss
 			remove_country_modifier = russian_dour_economist
 
-			capital_scope = {
+			any_owned = {
 				remove_province_modifier = capital_russian_expert_diplomat
 				remove_province_modifier = capital_russian_successful_industrialist
 				remove_province_modifier = capital_russian_ivory_tower_intellectual
@@ -573,12 +578,13 @@
 				remove_province_modifier = capital_russian_ambitious_union_boss
 				remove_province_modifier = capital_russian_dour_economist
 			}
+			
 			remove_country_modifier = has_political_leader
 
-			add_country_modifier = { name = russian_ivory_tower_intellectual duration = 3650 }
+			add_country_modifier = { name = russian_ivory_tower_intellectual duration = -1 }
 			any_owned = { 
 				limit = { is_capital = yes }
-				add_province_modifier = { name = capital_russian_ivory_tower_intellectual duration = 3650 } 
+				add_province_modifier = { name = capital_russian_ivory_tower_intellectual duration = -1 } 
 			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
@@ -652,7 +658,7 @@
 			remove_country_modifier = russian_ambitious_union_boss
 			remove_country_modifier = russian_dour_economist
 
-			capital_scope = {
+			any_owned = {
 				remove_province_modifier = capital_russian_expert_diplomat
 				remove_province_modifier = capital_russian_successful_industrialist
 				remove_province_modifier = capital_russian_ivory_tower_intellectual
@@ -676,14 +682,15 @@
 				remove_province_modifier = capital_russian_ambitious_union_boss
 				remove_province_modifier = capital_russian_dour_economist
 			}
+			
 			remove_country_modifier = has_political_leader
 			add_country_modifier = {
 				name = russian_man_of_the_people
-				duration = 3650
+				duration = -1
 			}
 			any_owned = { 
 				limit = { is_capital = yes }
-				add_province_modifier = { name = capital_russian_man_of_the_people duration = 3650 } 
+				add_province_modifier = { name = capital_russian_man_of_the_people duration = -1 } 
 			}
 		}
 	}
@@ -743,7 +750,7 @@
 			remove_country_modifier = russian_ambitious_union_boss
 			remove_country_modifier = russian_dour_economist
 
-			capital_scope = {
+			any_owned = {
 				remove_province_modifier = capital_russian_expert_diplomat
 				remove_province_modifier = capital_russian_successful_industrialist
 				remove_province_modifier = capital_russian_ivory_tower_intellectual
@@ -767,12 +774,13 @@
 				remove_province_modifier = capital_russian_ambitious_union_boss
 				remove_province_modifier = capital_russian_dour_economist
 			}
+			
 			remove_country_modifier = has_political_leader
 
-			add_country_modifier = { name = russian_man_of_the_people duration = 3650 }
+			add_country_modifier = { name = russian_man_of_the_people duration = -1 }
 			any_owned = { 
 				limit = { is_capital = yes }
-				add_province_modifier = { name = capital_russian_man_of_the_people duration = 3650 } 
+				add_province_modifier = { name = capital_russian_man_of_the_people duration = -1 } 
 			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
@@ -844,7 +852,7 @@
 			remove_country_modifier = russian_ambitious_union_boss
 			remove_country_modifier = russian_dour_economist
 
-			capital_scope = {
+			any_owned = {
 				remove_province_modifier = capital_russian_expert_diplomat
 				remove_province_modifier = capital_russian_successful_industrialist
 				remove_province_modifier = capital_russian_ivory_tower_intellectual
@@ -868,12 +876,13 @@
 				remove_province_modifier = capital_russian_ambitious_union_boss
 				remove_province_modifier = capital_russian_dour_economist
 			}
+			
 			remove_country_modifier = has_political_leader
 
-			add_country_modifier = { name = russian_landed_gentleman duration = 3650 }
+			add_country_modifier = { name = russian_landed_gentleman duration = -1 }
 			any_owned = { 
 				limit = { is_capital = yes }
-				add_province_modifier = { name = capital_russian_landed_gentleman duration = 3650 } 
+				add_province_modifier = { name = capital_russian_landed_gentleman duration = -1 } 
 			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
@@ -932,7 +941,7 @@
 			remove_country_modifier = russian_ambitious_union_boss
 			remove_country_modifier = russian_dour_economist
 
-			capital_scope = {
+			any_owned = {
 				remove_province_modifier = capital_russian_expert_diplomat
 				remove_province_modifier = capital_russian_successful_industrialist
 				remove_province_modifier = capital_russian_ivory_tower_intellectual
@@ -956,12 +965,13 @@
 				remove_province_modifier = capital_russian_ambitious_union_boss
 				remove_province_modifier = capital_russian_dour_economist
 			}
+			
 			remove_country_modifier = has_political_leader
 
-			add_country_modifier = { name = russian_landed_gentleman duration = 3650 }
+			add_country_modifier = { name = russian_landed_gentleman duration = -1 }
 			any_owned = { 
 				limit = { is_capital = yes }
-				add_province_modifier = { name = capital_russian_landed_gentleman duration = 3650 } 
+				add_province_modifier = { name = capital_russian_landed_gentleman duration = -1 } 
 			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
@@ -1035,7 +1045,7 @@
 			remove_country_modifier = russian_ambitious_union_boss
 			remove_country_modifier = russian_dour_economist
 
-			capital_scope = {
+			any_owned = {
 				remove_province_modifier = capital_russian_expert_diplomat
 				remove_province_modifier = capital_russian_successful_industrialist
 				remove_province_modifier = capital_russian_ivory_tower_intellectual
@@ -1059,12 +1069,13 @@
 				remove_province_modifier = capital_russian_ambitious_union_boss
 				remove_province_modifier = capital_russian_dour_economist
 			}
+			
 			remove_country_modifier = has_political_leader
 
-			add_country_modifier = { name = russian_military_man duration = 3650 } 
+			add_country_modifier = { name = russian_military_man duration = -1 } 
 			any_owned = { 
 				limit = { is_capital = yes }
-				add_province_modifier = { name = capital_russian_military_man duration = 3650 } 
+				add_province_modifier = { name = capital_russian_military_man duration = -1 } 
 			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
@@ -1124,7 +1135,7 @@
 			remove_country_modifier = russian_ambitious_union_boss
 			remove_country_modifier = russian_dour_economist
 
-			capital_scope = {
+			any_owned = {
 				remove_province_modifier = capital_russian_expert_diplomat
 				remove_province_modifier = capital_russian_successful_industrialist
 				remove_province_modifier = capital_russian_ivory_tower_intellectual
@@ -1148,12 +1159,13 @@
 				remove_province_modifier = capital_russian_ambitious_union_boss
 				remove_province_modifier = capital_russian_dour_economist
 			}
+			
 			remove_country_modifier = has_political_leader
 
-			add_country_modifier = { name = russian_military_man duration = 3650 } 
+			add_country_modifier = { name = russian_military_man duration = -1 } 
 			any_owned = { 
 				limit = { is_capital = yes }
-				add_province_modifier = { name = capital_russian_military_man duration = 3650 } 
+				add_province_modifier = { name = capital_russian_military_man duration = -1 } 
 			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
@@ -1228,7 +1240,7 @@
 			remove_country_modifier = russian_ambitious_union_boss
 			remove_country_modifier = russian_dour_economist
 
-			capital_scope = {
+			any_owned = {
 				remove_province_modifier = capital_russian_expert_diplomat
 				remove_province_modifier = capital_russian_successful_industrialist
 				remove_province_modifier = capital_russian_ivory_tower_intellectual
@@ -1252,12 +1264,13 @@
 				remove_province_modifier = capital_russian_ambitious_union_boss
 				remove_province_modifier = capital_russian_dour_economist
 			}
+			
 			remove_country_modifier = has_political_leader
 
-			add_country_modifier = { name = russian_lord_admiral duration = 3650 }
+			add_country_modifier = { name = russian_lord_admiral duration = -1 }
 			any_owned = { 
 				limit = { is_capital = yes }
-				add_province_modifier = { name = capital_russian_lord_admiral duration = 3650 } 
+				add_province_modifier = { name = capital_russian_lord_admiral duration = -1 } 
 			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
@@ -1318,7 +1331,7 @@
 			remove_country_modifier = russian_ambitious_union_boss
 			remove_country_modifier = russian_dour_economist
 
-			capital_scope = {
+			any_owned = {
 				remove_province_modifier = capital_russian_expert_diplomat
 				remove_province_modifier = capital_russian_successful_industrialist
 				remove_province_modifier = capital_russian_ivory_tower_intellectual
@@ -1342,12 +1355,13 @@
 				remove_province_modifier = capital_russian_ambitious_union_boss
 				remove_province_modifier = capital_russian_dour_economist
 			}
+			
 			remove_country_modifier = has_political_leader
 
-			add_country_modifier = { name = russian_lord_admiral duration = 3650 }
+			add_country_modifier = { name = russian_lord_admiral duration = -1 }
 			any_owned = { 
 				limit = { is_capital = yes }
-				add_province_modifier = { name = capital_russian_lord_admiral duration = 3650 } 
+				add_province_modifier = { name = capital_russian_lord_admiral duration = -1 } 
 			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
@@ -1424,7 +1438,7 @@
 			remove_country_modifier = russian_ambitious_union_boss
 			remove_country_modifier = russian_dour_economist
 
-			capital_scope = {
+			any_owned = {
 				remove_province_modifier = capital_russian_expert_diplomat
 				remove_province_modifier = capital_russian_successful_industrialist
 				remove_province_modifier = capital_russian_ivory_tower_intellectual
@@ -1448,12 +1462,13 @@
 				remove_province_modifier = capital_russian_ambitious_union_boss
 				remove_province_modifier = capital_russian_dour_economist
 			}
+			
 			remove_country_modifier = has_political_leader
 
-			add_country_modifier = { name = russian_raving_loon duration = 3650 }
+			add_country_modifier = { name = russian_raving_loon duration = -1 }
 			any_owned = { 
 				limit = { is_capital = yes }
-				add_province_modifier = { name = capital_russian_raving_loon duration = 3650 } 
+				add_province_modifier = { name = capital_russian_raving_loon duration = -1 } 
 			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
@@ -1514,7 +1529,7 @@
 			remove_country_modifier = russian_ambitious_union_boss
 			remove_country_modifier = russian_dour_economist
 
-			capital_scope = {
+			any_owned = {
 				remove_province_modifier = capital_russian_expert_diplomat
 				remove_province_modifier = capital_russian_successful_industrialist
 				remove_province_modifier = capital_russian_ivory_tower_intellectual
@@ -1538,12 +1553,13 @@
 				remove_province_modifier = capital_russian_ambitious_union_boss
 				remove_province_modifier = capital_russian_dour_economist
 			}
+			
 			remove_country_modifier = has_political_leader
 
-			add_country_modifier = { name = russian_raving_loon duration = 3650 }
+			add_country_modifier = { name = russian_raving_loon duration = -1 }
 			any_owned = { 
 				limit = { is_capital = yes }
-				add_province_modifier = { name = capital_russian_raving_loon duration = 3650 } 
+				add_province_modifier = { name = capital_russian_raving_loon duration = -1 } 
 			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
@@ -1617,7 +1633,7 @@
 			remove_country_modifier = russian_ambitious_union_boss
 			remove_country_modifier = russian_dour_economist
 
-			capital_scope = {
+			any_owned = {
 				remove_province_modifier = capital_russian_expert_diplomat
 				remove_province_modifier = capital_russian_successful_industrialist
 				remove_province_modifier = capital_russian_ivory_tower_intellectual
@@ -1641,12 +1657,13 @@
 				remove_province_modifier = capital_russian_ambitious_union_boss
 				remove_province_modifier = capital_russian_dour_economist
 			}
+			
 			remove_country_modifier = has_political_leader
 
-			add_country_modifier = { name = russian_luddite duration = 3650 }
+			add_country_modifier = { name = russian_luddite duration = -1 }
 			any_owned = { 
 				limit = { is_capital = yes }
-				add_province_modifier = { name = capital_russian_luddite duration = 3650 } 
+				add_province_modifier = { name = capital_russian_luddite duration = -1 } 
 			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
@@ -1705,7 +1722,7 @@
 			remove_country_modifier = russian_ambitious_union_boss
 			remove_country_modifier = russian_dour_economist
 
-			capital_scope = {
+			any_owned = {
 				remove_province_modifier = capital_russian_expert_diplomat
 				remove_province_modifier = capital_russian_successful_industrialist
 				remove_province_modifier = capital_russian_ivory_tower_intellectual
@@ -1729,12 +1746,13 @@
 				remove_province_modifier = capital_russian_ambitious_union_boss
 				remove_province_modifier = capital_russian_dour_economist
 			}
+			
 			remove_country_modifier = has_political_leader
 
-			add_country_modifier = { name = russian_luddite duration = 3650 }
+			add_country_modifier = { name = russian_luddite duration = -1 }
 			any_owned = { 
 				limit = { is_capital = yes }
-				add_province_modifier = { name = capital_russian_luddite duration = 3650 } 
+				add_province_modifier = { name = capital_russian_luddite duration = -1 } 
 			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
@@ -1811,7 +1829,7 @@
 			remove_country_modifier = russian_ambitious_union_boss
 			remove_country_modifier = russian_dour_economist
 
-			capital_scope = {
+			any_owned = {
 				remove_province_modifier = capital_russian_expert_diplomat
 				remove_province_modifier = capital_russian_successful_industrialist
 				remove_province_modifier = capital_russian_ivory_tower_intellectual
@@ -1835,12 +1853,13 @@
 				remove_province_modifier = capital_russian_ambitious_union_boss
 				remove_province_modifier = capital_russian_dour_economist
 			}
+			
 			remove_country_modifier = has_political_leader
 
-			add_country_modifier = { name = russian_great_statesman duration = 3650 }
+			add_country_modifier = { name = russian_great_statesman duration = -1 }
 			any_owned = { 
 				limit = { is_capital = yes }
-				add_province_modifier = { name = capital_russian_great_statesman duration = 3650 } 
+				add_province_modifier = { name = capital_russian_great_statesman duration = -1 } 
 			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
@@ -1900,7 +1919,7 @@
 			remove_country_modifier = russian_ambitious_union_boss
 			remove_country_modifier = russian_dour_economist
 
-			capital_scope = {
+			any_owned = {
 				remove_province_modifier = capital_russian_expert_diplomat
 				remove_province_modifier = capital_russian_successful_industrialist
 				remove_province_modifier = capital_russian_ivory_tower_intellectual
@@ -1924,12 +1943,13 @@
 				remove_province_modifier = capital_russian_ambitious_union_boss
 				remove_province_modifier = capital_russian_dour_economist
 			}
+			
 			remove_country_modifier = has_political_leader
 
-			add_country_modifier = { name = russian_great_statesman duration = 3650 }
+			add_country_modifier = { name = russian_great_statesman duration = -1 }
 			any_owned = { 
 				limit = { is_capital = yes }
-				add_province_modifier = { name = capital_russian_great_statesman duration = 3650 } 
+				add_province_modifier = { name = capital_russian_great_statesman duration = -1 } 
 			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
@@ -2006,7 +2026,7 @@
 			remove_country_modifier = russian_ambitious_union_boss
 			remove_country_modifier = russian_dour_economist
 
-			capital_scope = {
+			any_owned = {
 				remove_province_modifier = capital_russian_expert_diplomat
 				remove_province_modifier = capital_russian_successful_industrialist
 				remove_province_modifier = capital_russian_ivory_tower_intellectual
@@ -2030,12 +2050,13 @@
 				remove_province_modifier = capital_russian_ambitious_union_boss
 				remove_province_modifier = capital_russian_dour_economist
 			}
+			
 			remove_country_modifier = has_political_leader
 
-			add_country_modifier = { name = russian_backroom_boy duration = 3650 }
+			add_country_modifier = { name = russian_backroom_boy duration = -1 }
 			any_owned = { 
 				limit = { is_capital = yes }
-				add_province_modifier = { name = capital_russian_backroom_boy duration = 3650 } 
+				add_province_modifier = { name = capital_russian_backroom_boy duration = -1 } 
 			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
@@ -2110,7 +2131,7 @@
 			remove_country_modifier = russian_ambitious_union_boss
 			remove_country_modifier = russian_dour_economist
 
-			capital_scope = {
+			any_owned = {
 				remove_province_modifier = capital_russian_expert_diplomat
 				remove_province_modifier = capital_russian_successful_industrialist
 				remove_province_modifier = capital_russian_ivory_tower_intellectual
@@ -2134,12 +2155,13 @@
 				remove_province_modifier = capital_russian_ambitious_union_boss
 				remove_province_modifier = capital_russian_dour_economist
 			}
+			
 			remove_country_modifier = has_political_leader
 
-			add_country_modifier = { name = russian_great_reformer duration = 3650 }
+			add_country_modifier = { name = russian_great_reformer duration = -1 }
 			any_owned = { 
 				limit = { is_capital = yes }
-				add_province_modifier = { name = capital_russian_great_reformer duration = 3650 } 
+				add_province_modifier = { name = capital_russian_great_reformer duration = -1 } 
 			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
@@ -2213,7 +2235,7 @@
 			remove_country_modifier = russian_ambitious_union_boss
 			remove_country_modifier = russian_dour_economist
 
-			capital_scope = {
+			any_owned = {
 				remove_province_modifier = capital_russian_expert_diplomat
 				remove_province_modifier = capital_russian_successful_industrialist
 				remove_province_modifier = capital_russian_ivory_tower_intellectual
@@ -2237,12 +2259,13 @@
 				remove_province_modifier = capital_russian_ambitious_union_boss
 				remove_province_modifier = capital_russian_dour_economist
 			}
+			
 			remove_country_modifier = has_political_leader
 
-			add_country_modifier = { name = russian_gauche_buffoon duration = 3650 }
+			add_country_modifier = { name = russian_gauche_buffoon duration = -1 }
 			any_owned = { 
 				limit = { is_capital = yes }
-				add_province_modifier = { name = capital_russian_gauche_buffoon duration = 3650 } 
+				add_province_modifier = { name = capital_russian_gauche_buffoon duration = -1 } 
 			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
@@ -2319,7 +2342,7 @@
 			remove_country_modifier = russian_ambitious_union_boss
 			remove_country_modifier = russian_dour_economist
 
-			capital_scope = {
+			any_owned = {
 				remove_province_modifier = capital_russian_expert_diplomat
 				remove_province_modifier = capital_russian_successful_industrialist
 				remove_province_modifier = capital_russian_ivory_tower_intellectual
@@ -2343,12 +2366,13 @@
 				remove_province_modifier = capital_russian_ambitious_union_boss
 				remove_province_modifier = capital_russian_dour_economist
 			}
+			
 			remove_country_modifier = has_political_leader
 
-			add_country_modifier = { name = russian_administrative_genius duration = 3650 }
+			add_country_modifier = { name = russian_administrative_genius duration = -1 }
 			any_owned = { 
 				limit = { is_capital = yes }
-				add_province_modifier = { name = capital_russian_administrative_genius duration = 3650 } 
+				add_province_modifier = { name = capital_russian_administrative_genius duration = -1 } 
 			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
@@ -2409,7 +2433,7 @@
 			remove_country_modifier = russian_ambitious_union_boss
 			remove_country_modifier = russian_dour_economist
 
-			capital_scope = {
+			any_owned = {
 				remove_province_modifier = capital_russian_expert_diplomat
 				remove_province_modifier = capital_russian_successful_industrialist
 				remove_province_modifier = capital_russian_ivory_tower_intellectual
@@ -2433,12 +2457,13 @@
 				remove_province_modifier = capital_russian_ambitious_union_boss
 				remove_province_modifier = capital_russian_dour_economist
 			}
+			
 			remove_country_modifier = has_political_leader
 
-			add_country_modifier = { name = russian_administrative_genius duration = 3650 }
+			add_country_modifier = { name = russian_administrative_genius duration = -1 }
 			any_owned = { 
 				limit = { is_capital = yes }
-				add_province_modifier = { name = capital_russian_administrative_genius duration = 3650 } 
+				add_province_modifier = { name = capital_russian_administrative_genius duration = -1 } 
 			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
@@ -2515,7 +2540,7 @@
 			remove_country_modifier = russian_ambitious_union_boss
 			remove_country_modifier = russian_dour_economist
 
-			capital_scope = {
+			any_owned = {
 				remove_province_modifier = capital_russian_expert_diplomat
 				remove_province_modifier = capital_russian_successful_industrialist
 				remove_province_modifier = capital_russian_ivory_tower_intellectual
@@ -2539,12 +2564,13 @@
 				remove_province_modifier = capital_russian_ambitious_union_boss
 				remove_province_modifier = capital_russian_dour_economist
 			}
+			
 			remove_country_modifier = has_political_leader
 
-			add_country_modifier = { name = russian_visionary_thinker duration = 3650 }
+			add_country_modifier = { name = russian_visionary_thinker duration = -1 }
 			any_owned = { 
 				limit = { is_capital = yes }
-				add_province_modifier = { name = capital_russian_visionary_thinker duration = 3650 } 
+				add_province_modifier = { name = capital_russian_visionary_thinker duration = -1 } 
 			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
@@ -2604,7 +2630,7 @@
 			remove_country_modifier = russian_ambitious_union_boss
 			remove_country_modifier = russian_dour_economist
 
-			capital_scope = {
+			any_owned = {
 				remove_province_modifier = capital_russian_expert_diplomat
 				remove_province_modifier = capital_russian_successful_industrialist
 				remove_province_modifier = capital_russian_ivory_tower_intellectual
@@ -2628,12 +2654,13 @@
 				remove_province_modifier = capital_russian_ambitious_union_boss
 				remove_province_modifier = capital_russian_dour_economist
 			}
+			
 			remove_country_modifier = has_political_leader
 
-			add_country_modifier = { name = russian_visionary_thinker duration = 3650 }
+			add_country_modifier = { name = russian_visionary_thinker duration = -1 }
 			any_owned = { 
 				limit = { is_capital = yes }
-				add_province_modifier = { name = capital_russian_visionary_thinker duration = 3650 } 
+				add_province_modifier = { name = capital_russian_visionary_thinker duration = -1 } 
 			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
@@ -2710,7 +2737,7 @@
 			remove_country_modifier = russian_ambitious_union_boss
 			remove_country_modifier = russian_dour_economist
 
-			capital_scope = {
+			any_owned = {
 				remove_province_modifier = capital_russian_expert_diplomat
 				remove_province_modifier = capital_russian_successful_industrialist
 				remove_province_modifier = capital_russian_ivory_tower_intellectual
@@ -2734,12 +2761,13 @@
 				remove_province_modifier = capital_russian_ambitious_union_boss
 				remove_province_modifier = capital_russian_dour_economist
 			}
+			
 			remove_country_modifier = has_political_leader
 
-			add_country_modifier = { name = russian_competent_placeholder duration = 3650 }
+			add_country_modifier = { name = russian_competent_placeholder duration = -1 }
 			any_owned = { 
 				limit = { is_capital = yes }
-				add_province_modifier = { name = capital_russian_competent_placeholder duration = 3650 } 
+				add_province_modifier = { name = capital_russian_competent_placeholder duration = -1 } 
 			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
@@ -2811,7 +2839,7 @@
 			remove_country_modifier = russian_ambitious_union_boss
 			remove_country_modifier = russian_dour_economist
 
-			capital_scope = {
+			any_owned = {
 				remove_province_modifier = capital_russian_expert_diplomat
 				remove_province_modifier = capital_russian_successful_industrialist
 				remove_province_modifier = capital_russian_ivory_tower_intellectual
@@ -2835,12 +2863,13 @@
 				remove_province_modifier = capital_russian_ambitious_union_boss
 				remove_province_modifier = capital_russian_dour_economist
 			}
+			
 			remove_country_modifier = has_political_leader
 
-			add_country_modifier = { name = russian_imperious_autocrat duration = 3650 }
+			add_country_modifier = { name = russian_imperious_autocrat duration = -1 }
 			any_owned = { 
 				limit = { is_capital = yes }
-				add_province_modifier = { name = capital_russian_imperious_autocrat duration = 3650 } 
+				add_province_modifier = { name = capital_russian_imperious_autocrat duration = -1 } 
 			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
@@ -2900,7 +2929,7 @@
 			remove_country_modifier = russian_ambitious_union_boss
 			remove_country_modifier = russian_dour_economist
 
-			capital_scope = {
+			any_owned = {
 				remove_province_modifier = capital_russian_expert_diplomat
 				remove_province_modifier = capital_russian_successful_industrialist
 				remove_province_modifier = capital_russian_ivory_tower_intellectual
@@ -2924,12 +2953,13 @@
 				remove_province_modifier = capital_russian_ambitious_union_boss
 				remove_province_modifier = capital_russian_dour_economist
 			}
+			
 			remove_country_modifier = has_political_leader
 
-			add_country_modifier = { name = russian_imperious_autocrat duration = 3650 }
+			add_country_modifier = { name = russian_imperious_autocrat duration = -1 }
 			any_owned = { 
 				limit = { is_capital = yes }
-				add_province_modifier = { name = capital_russian_imperious_autocrat duration = 3650 } 
+				add_province_modifier = { name = capital_russian_imperious_autocrat duration = -1 } 
 			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
@@ -2990,7 +3020,7 @@
 			remove_country_modifier = russian_ambitious_union_boss
 			remove_country_modifier = russian_dour_economist
 
-			capital_scope = {
+			any_owned = {
 				remove_province_modifier = capital_russian_expert_diplomat
 				remove_province_modifier = capital_russian_successful_industrialist
 				remove_province_modifier = capital_russian_ivory_tower_intellectual
@@ -3014,12 +3044,13 @@
 				remove_province_modifier = capital_russian_ambitious_union_boss
 				remove_province_modifier = capital_russian_dour_economist
 			}
+			
 			remove_country_modifier = has_political_leader
 
-			add_country_modifier = { name = russian_prince_of_terror duration = 3650 }
+			add_country_modifier = { name = russian_prince_of_terror duration = -1 }
 			any_owned = { 
 				limit = { is_capital = yes }
-				add_province_modifier = { name = capital_russian_prince_of_terror duration = 3650 } 
+				add_province_modifier = { name = capital_russian_prince_of_terror duration = -1 } 
 			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
@@ -3079,7 +3110,7 @@
 			remove_country_modifier = russian_ambitious_union_boss
 			remove_country_modifier = russian_dour_economist
 
-			capital_scope = {
+			any_owned = {
 				remove_province_modifier = capital_russian_expert_diplomat
 				remove_province_modifier = capital_russian_successful_industrialist
 				remove_province_modifier = capital_russian_ivory_tower_intellectual
@@ -3103,12 +3134,13 @@
 				remove_province_modifier = capital_russian_ambitious_union_boss
 				remove_province_modifier = capital_russian_dour_economist
 			}
+			
 			remove_country_modifier = has_political_leader
 
-			add_country_modifier = { name = russian_prince_of_terror duration = 3650 }
+			add_country_modifier = { name = russian_prince_of_terror duration = -1 }
 			any_owned = { 
 				limit = { is_capital = yes }
-				add_province_modifier = { name = capital_russian_prince_of_terror duration = 3650 } 
+				add_province_modifier = { name = capital_russian_prince_of_terror duration = -1 } 
 			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
@@ -3180,7 +3212,7 @@
 			remove_country_modifier = russian_ambitious_union_boss
 			remove_country_modifier = russian_dour_economist
 
-			capital_scope = {
+			any_owned = {
 				remove_province_modifier = capital_russian_expert_diplomat
 				remove_province_modifier = capital_russian_successful_industrialist
 				remove_province_modifier = capital_russian_ivory_tower_intellectual
@@ -3204,12 +3236,13 @@
 				remove_province_modifier = capital_russian_ambitious_union_boss
 				remove_province_modifier = capital_russian_dour_economist
 			}
+			
 			remove_country_modifier = has_political_leader
 
-			add_country_modifier = { name = russian_efficient_sociopath duration = 3650 }
+			add_country_modifier = { name = russian_efficient_sociopath duration = -1 }
 			any_owned = { 
 				limit = { is_capital = yes }
-				add_province_modifier = { name = capital_russian_efficient_sociopath duration = 3650 } 
+				add_province_modifier = { name = capital_russian_efficient_sociopath duration = -1 } 
 			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
@@ -3269,7 +3302,7 @@
 			remove_country_modifier = russian_ambitious_union_boss
 			remove_country_modifier = russian_dour_economist
 
-			capital_scope = {
+			any_owned = {
 				remove_province_modifier = capital_russian_expert_diplomat
 				remove_province_modifier = capital_russian_successful_industrialist
 				remove_province_modifier = capital_russian_ivory_tower_intellectual
@@ -3293,12 +3326,13 @@
 				remove_province_modifier = capital_russian_ambitious_union_boss
 				remove_province_modifier = capital_russian_dour_economist
 			}
+			
 			remove_country_modifier = has_political_leader
 
-			add_country_modifier = { name = russian_efficient_sociopath duration = 3650 }
+			add_country_modifier = { name = russian_efficient_sociopath duration = -1 }
 			any_owned = { 
 				limit = { is_capital = yes }
-				add_province_modifier = { name = capital_russian_efficient_sociopath duration = 3650 } 
+				add_province_modifier = { name = capital_russian_efficient_sociopath duration = -1 } 
 			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
@@ -3373,7 +3407,7 @@
 			remove_country_modifier = russian_ambitious_union_boss
 			remove_country_modifier = russian_dour_economist
 
-			capital_scope = {
+			any_owned = {
 				remove_province_modifier = capital_russian_expert_diplomat
 				remove_province_modifier = capital_russian_successful_industrialist
 				remove_province_modifier = capital_russian_ivory_tower_intellectual
@@ -3397,12 +3431,13 @@
 				remove_province_modifier = capital_russian_ambitious_union_boss
 				remove_province_modifier = capital_russian_dour_economist
 			}
+			
 			remove_country_modifier = has_political_leader
 
-			add_country_modifier = { name = russian_pig_headed_isolationist duration = 3650 }
+			add_country_modifier = { name = russian_pig_headed_isolationist duration = -1 }
 			any_owned = { 
 				limit = { is_capital = yes }
-				add_province_modifier = { name = capital_russian_pig_headed_isolationist duration = 3650 } 
+				add_province_modifier = { name = capital_russian_pig_headed_isolationist duration = -1 } 
 			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
@@ -3462,7 +3497,7 @@
 			remove_country_modifier = russian_ambitious_union_boss
 			remove_country_modifier = russian_dour_economist
 
-			capital_scope = {
+			any_owned = {
 				remove_province_modifier = capital_russian_expert_diplomat
 				remove_province_modifier = capital_russian_successful_industrialist
 				remove_province_modifier = capital_russian_ivory_tower_intellectual
@@ -3486,12 +3521,13 @@
 				remove_province_modifier = capital_russian_ambitious_union_boss
 				remove_province_modifier = capital_russian_dour_economist
 			}
+			
 			remove_country_modifier = has_political_leader
 
-			add_country_modifier = { name = russian_pig_headed_isolationist duration = 3650 }
+			add_country_modifier = { name = russian_pig_headed_isolationist duration = -1 }
 			any_owned = { 
 				limit = { is_capital = yes }
-				add_province_modifier = { name = capital_russian_pig_headed_isolationist duration = 3650 } 
+				add_province_modifier = { name = capital_russian_pig_headed_isolationist duration = -1 } 
 			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
@@ -3557,7 +3593,7 @@
 			remove_country_modifier = russian_ambitious_union_boss
 			remove_country_modifier = russian_dour_economist
 
-			capital_scope = {
+			any_owned = {
 				remove_province_modifier = capital_russian_expert_diplomat
 				remove_province_modifier = capital_russian_successful_industrialist
 				remove_province_modifier = capital_russian_ivory_tower_intellectual
@@ -3581,12 +3617,13 @@
 				remove_province_modifier = capital_russian_ambitious_union_boss
 				remove_province_modifier = capital_russian_dour_economist
 			}
+			
 			remove_country_modifier = has_political_leader
 
-			add_country_modifier = { name = russian_ambitious_union_boss duration = 3650 }
+			add_country_modifier = { name = russian_ambitious_union_boss duration = -1 }
 			any_owned = { 
 				limit = { is_capital = yes }
-				add_province_modifier = { name = capital_russian_ambitious_union_boss duration = 3650 } 
+				add_province_modifier = { name = capital_russian_ambitious_union_boss duration = -1 } 
 			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
@@ -3646,7 +3683,7 @@
 			remove_country_modifier = russian_ambitious_union_boss
 			remove_country_modifier = russian_dour_economist
 
-			capital_scope = {
+			any_owned = {
 				remove_province_modifier = capital_russian_expert_diplomat
 				remove_province_modifier = capital_russian_successful_industrialist
 				remove_province_modifier = capital_russian_ivory_tower_intellectual
@@ -3670,12 +3707,13 @@
 				remove_province_modifier = capital_russian_ambitious_union_boss
 				remove_province_modifier = capital_russian_dour_economist
 			}
+			
 			remove_country_modifier = has_political_leader
 
-			add_country_modifier = { name = russian_ambitious_union_boss duration = 3650 }
+			add_country_modifier = { name = russian_ambitious_union_boss duration = -1 }
 			any_owned = { 
 				limit = { is_capital = yes }
-				add_province_modifier = { name = capital_russian_ambitious_union_boss duration = 3650 } 
+				add_province_modifier = { name = capital_russian_ambitious_union_boss duration = -1 } 
 			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
@@ -3741,7 +3779,7 @@
 			remove_country_modifier = russian_ambitious_union_boss
 			remove_country_modifier = russian_dour_economist
 
-			capital_scope = {
+			any_owned = {
 				remove_province_modifier = capital_russian_expert_diplomat
 				remove_province_modifier = capital_russian_successful_industrialist
 				remove_province_modifier = capital_russian_ivory_tower_intellectual
@@ -3765,12 +3803,13 @@
 				remove_province_modifier = capital_russian_ambitious_union_boss
 				remove_province_modifier = capital_russian_dour_economist
 			}
+			
 			remove_country_modifier = has_political_leader
 
-			add_country_modifier = { name = russian_dour_economist duration = 3650 }
+			add_country_modifier = { name = russian_dour_economist duration = -1 }
 			any_owned = { 
 				limit = { is_capital = yes }
-				add_province_modifier = { name = capital_russian_dour_economist duration = 3650 } 
+				add_province_modifier = { name = capital_russian_dour_economist duration = -1 } 
 			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
@@ -3830,7 +3869,7 @@
 			remove_country_modifier = russian_ambitious_union_boss
 			remove_country_modifier = russian_dour_economist
 
-			capital_scope = {
+			any_owned = {
 				remove_province_modifier = capital_russian_expert_diplomat
 				remove_province_modifier = capital_russian_successful_industrialist
 				remove_province_modifier = capital_russian_ivory_tower_intellectual
@@ -3854,12 +3893,13 @@
 				remove_province_modifier = capital_russian_ambitious_union_boss
 				remove_province_modifier = capital_russian_dour_economist
 			}
+			
 			remove_country_modifier = has_political_leader
 
-			add_country_modifier = { name = russian_dour_economist duration = 3650 }
+			add_country_modifier = { name = russian_dour_economist duration = -1 }
 			any_owned = { 
 				limit = { is_capital = yes }
-				add_province_modifier = { name = capital_russian_dour_economist duration = 3650 } 
+				add_province_modifier = { name = capital_russian_dour_economist duration = -1 } 
 			}
 			add_country_modifier = { name = has_political_leader duration = 3650 }
 		}
@@ -3921,28 +3961,31 @@
 			remove_country_modifier = russian_ambitious_union_boss
 			remove_country_modifier = russian_dour_economist
 			
-			remove_country_modifier = capital_russian_expert_diplomat
-			remove_country_modifier = capital_russian_successful_industrialist
-			remove_country_modifier = capital_russian_ivory_tower_intellectual
-			remove_country_modifier = capital_russian_man_of_the_people
-			remove_country_modifier = capital_russian_landed_gentleman
-			remove_country_modifier = capital_russian_military_man
-			remove_country_modifier = capital_russian_lord_admiral
-			remove_country_modifier = capital_russian_raving_loon
-			remove_country_modifier = capital_russian_luddite
-			remove_country_modifier = capital_russian_great_statesman
-			remove_country_modifier = capital_russian_backroom_boy
-			remove_country_modifier = capital_russian_great_reformer
-			remove_country_modifier = capital_russian_gauche_buffoon
-			remove_country_modifier = capital_russian_administrative_genius
-			remove_country_modifier = capital_russian_visionary_thinker
-			remove_country_modifier = capital_russian_competent_placeholder
-			remove_country_modifier = capital_russian_imperious_autocrat
-			remove_country_modifier = capital_russian_prince_of_terror
-			remove_country_modifier = capital_russian_efficient_sociopath
-			remove_country_modifier = capital_russian_pig_headed_isolationist
-			remove_country_modifier = capital_russian_ambitious_union_boss
-			remove_country_modifier = capital_russian_dour_economist
+			any_owned = {
+				remove_province_modifier = capital_russian_expert_diplomat
+				remove_province_modifier = capital_russian_successful_industrialist
+				remove_province_modifier = capital_russian_ivory_tower_intellectual
+				remove_province_modifier = capital_russian_man_of_the_people
+				remove_province_modifier = capital_russian_landed_gentleman
+				remove_province_modifier = capital_russian_military_man
+				remove_province_modifier = capital_russian_lord_admiral
+				remove_province_modifier = capital_russian_raving_loon
+				remove_province_modifier = capital_russian_luddite
+				remove_province_modifier = capital_russian_great_statesman
+				remove_province_modifier = capital_russian_backroom_boy
+				remove_province_modifier = capital_russian_great_reformer
+				remove_province_modifier = capital_russian_gauche_buffoon
+				remove_province_modifier = capital_russian_administrative_genius
+				remove_province_modifier = capital_russian_visionary_thinker
+				remove_province_modifier = capital_russian_competent_placeholder
+				remove_province_modifier = capital_russian_imperious_autocrat
+				remove_province_modifier = capital_russian_prince_of_terror
+				remove_province_modifier = capital_russian_efficient_sociopath
+				remove_province_modifier = capital_russian_pig_headed_isolationist
+				remove_province_modifier = capital_russian_ambitious_union_boss
+				remove_province_modifier = capital_russian_dour_economist
+			}
+			
 			remove_country_modifier = has_political_leader
 
 			add_country_modifier = { name = national_confusion duration = 365 }
@@ -4003,30 +4046,31 @@
 			remove_country_modifier = russian_ambitious_union_boss
 			remove_country_modifier = russian_dour_economist
 			
-			remove_country_modifier = capital_russian_expert_diplomat
-			remove_country_modifier = capital_russian_successful_industrialist
-			remove_country_modifier = capital_russian_ivory_tower_intellectual
-			remove_country_modifier = capital_russian_man_of_the_people
-			remove_country_modifier = capital_russian_landed_gentleman
-			remove_country_modifier = capital_russian_military_man
-			remove_country_modifier = capital_russian_lord_admiral
-			remove_country_modifier = capital_russian_raving_loon
-			remove_country_modifier = capital_russian_luddite
-			remove_country_modifier = capital_russian_great_statesman
-			remove_country_modifier = capital_russian_backroom_boy
-			remove_country_modifier = capital_russian_great_reformer
-			remove_country_modifier = capital_russian_gauche_buffoon
-			remove_country_modifier = capital_russian_administrative_genius
-			remove_country_modifier = capital_russian_visionary_thinker
-			remove_country_modifier = capital_russian_competent_placeholder
-			remove_country_modifier = capital_russian_imperious_autocrat
-			remove_country_modifier = capital_russian_prince_of_terror
-			remove_country_modifier = capital_russian_efficient_sociopath
-			remove_country_modifier = capital_russian_pig_headed_isolationist
-			remove_country_modifier = capital_russian_ambitious_union_boss
-			remove_country_modifier = capital_russian_dour_economist
-			remove_country_modifier = has_political_leader
-			remove_country_modifier = otto_von_bismarck
+			any_owned = {
+				remove_province_modifier = capital_russian_expert_diplomat
+				remove_province_modifier = capital_russian_successful_industrialist
+				remove_province_modifier = capital_russian_ivory_tower_intellectual
+				remove_province_modifier = capital_russian_man_of_the_people
+				remove_province_modifier = capital_russian_landed_gentleman
+				remove_province_modifier = capital_russian_military_man
+				remove_province_modifier = capital_russian_lord_admiral
+				remove_province_modifier = capital_russian_raving_loon
+				remove_province_modifier = capital_russian_luddite
+				remove_province_modifier = capital_russian_great_statesman
+				remove_province_modifier = capital_russian_backroom_boy
+				remove_province_modifier = capital_russian_great_reformer
+				remove_province_modifier = capital_russian_gauche_buffoon
+				remove_province_modifier = capital_russian_administrative_genius
+				remove_province_modifier = capital_russian_visionary_thinker
+				remove_province_modifier = capital_russian_competent_placeholder
+				remove_province_modifier = capital_russian_imperious_autocrat
+				remove_province_modifier = capital_russian_prince_of_terror
+				remove_province_modifier = capital_russian_efficient_sociopath
+				remove_province_modifier = capital_russian_pig_headed_isolationist
+				remove_province_modifier = capital_russian_ambitious_union_boss
+				remove_province_modifier = capital_russian_dour_economist
+			}
+			
 			remove_country_modifier = has_political_leader
 		}
 	}
@@ -4062,6 +4106,9 @@
 
 			prestige = -20
 			remove_country_modifier = russian_raving_loon
+			any_owned = {
+				remove_province_modifier = capital_russian_raving_loon
+			}
 			remove_country_modifier = has_political_leader
 		}
 	}
@@ -4121,28 +4168,31 @@
 			remove_country_modifier = russian_dour_economist
 			remove_country_modifier = otto_von_bismarck
 			
-			remove_country_modifier = capital_russian_expert_diplomat
-			remove_country_modifier = capital_russian_successful_industrialist
-			remove_country_modifier = capital_russian_ivory_tower_intellectual
-			remove_country_modifier = capital_russian_man_of_the_people
-			remove_country_modifier = capital_russian_landed_gentleman
-			remove_country_modifier = capital_russian_military_man
-			remove_country_modifier = capital_russian_lord_admiral
-			remove_country_modifier = capital_russian_raving_loon
-			remove_country_modifier = capital_russian_luddite
-			remove_country_modifier = capital_russian_great_statesman
-			remove_country_modifier = capital_russian_backroom_boy
-			remove_country_modifier = capital_russian_great_reformer
-			remove_country_modifier = capital_russian_gauche_buffoon
-			remove_country_modifier = capital_russian_administrative_genius
-			remove_country_modifier = capital_russian_visionary_thinker
-			remove_country_modifier = capital_russian_competent_placeholder
-			remove_country_modifier = capital_russian_imperious_autocrat
-			remove_country_modifier = capital_russian_prince_of_terror
-			remove_country_modifier = capital_russian_efficient_sociopath
-			remove_country_modifier = capital_russian_pig_headed_isolationist
-			remove_country_modifier = capital_russian_ambitious_union_boss
-			remove_country_modifier = capital_russian_dour_economist
+			any_owned = {
+				remove_province_modifier = capital_russian_expert_diplomat
+				remove_province_modifier = capital_russian_successful_industrialist
+				remove_province_modifier = capital_russian_ivory_tower_intellectual
+				remove_province_modifier = capital_russian_man_of_the_people
+				remove_province_modifier = capital_russian_landed_gentleman
+				remove_province_modifier = capital_russian_military_man
+				remove_province_modifier = capital_russian_lord_admiral
+				remove_province_modifier = capital_russian_raving_loon
+				remove_province_modifier = capital_russian_luddite
+				remove_province_modifier = capital_russian_great_statesman
+				remove_province_modifier = capital_russian_backroom_boy
+				remove_province_modifier = capital_russian_great_reformer
+				remove_province_modifier = capital_russian_gauche_buffoon
+				remove_province_modifier = capital_russian_administrative_genius
+				remove_province_modifier = capital_russian_visionary_thinker
+				remove_province_modifier = capital_russian_competent_placeholder
+				remove_province_modifier = capital_russian_imperious_autocrat
+				remove_province_modifier = capital_russian_prince_of_terror
+				remove_province_modifier = capital_russian_efficient_sociopath
+				remove_province_modifier = capital_russian_pig_headed_isolationist
+				remove_province_modifier = capital_russian_ambitious_union_boss
+				remove_province_modifier = capital_russian_dour_economist
+			}
+			
 			remove_country_modifier = has_political_leader
 			
 			add_country_modifier = { name = power_vacuum duration = 365 }
@@ -4209,28 +4259,31 @@
 			remove_country_modifier = russian_dour_economist
 			remove_country_modifier = otto_von_bismarck
 			
-			remove_country_modifier = capital_russian_expert_diplomat
-			remove_country_modifier = capital_russian_successful_industrialist
-			remove_country_modifier = capital_russian_ivory_tower_intellectual
-			remove_country_modifier = capital_russian_man_of_the_people
-			remove_country_modifier = capital_russian_landed_gentleman
-			remove_country_modifier = capital_russian_military_man
-			remove_country_modifier = capital_russian_lord_admiral
-			remove_country_modifier = capital_russian_raving_loon
-			remove_country_modifier = capital_russian_luddite
-			remove_country_modifier = capital_russian_great_statesman
-			remove_country_modifier = capital_russian_backroom_boy
-			remove_country_modifier = capital_russian_great_reformer
-			remove_country_modifier = capital_russian_gauche_buffoon
-			remove_country_modifier = capital_russian_administrative_genius
-			remove_country_modifier = capital_russian_visionary_thinker
-			remove_country_modifier = capital_russian_competent_placeholder
-			remove_country_modifier = capital_russian_imperious_autocrat
-			remove_country_modifier = capital_russian_prince_of_terror
-			remove_country_modifier = capital_russian_efficient_sociopath
-			remove_country_modifier = capital_russian_pig_headed_isolationist
-			remove_country_modifier = capital_russian_ambitious_union_boss
-			remove_country_modifier = capital_russian_dour_economist
+			any_owned = {
+				remove_province_modifier = capital_russian_expert_diplomat
+				remove_province_modifier = capital_russian_successful_industrialist
+				remove_province_modifier = capital_russian_ivory_tower_intellectual
+				remove_province_modifier = capital_russian_man_of_the_people
+				remove_province_modifier = capital_russian_landed_gentleman
+				remove_province_modifier = capital_russian_military_man
+				remove_province_modifier = capital_russian_lord_admiral
+				remove_province_modifier = capital_russian_raving_loon
+				remove_province_modifier = capital_russian_luddite
+				remove_province_modifier = capital_russian_great_statesman
+				remove_province_modifier = capital_russian_backroom_boy
+				remove_province_modifier = capital_russian_great_reformer
+				remove_province_modifier = capital_russian_gauche_buffoon
+				remove_province_modifier = capital_russian_administrative_genius
+				remove_province_modifier = capital_russian_visionary_thinker
+				remove_province_modifier = capital_russian_competent_placeholder
+				remove_province_modifier = capital_russian_imperious_autocrat
+				remove_province_modifier = capital_russian_prince_of_terror
+				remove_province_modifier = capital_russian_efficient_sociopath
+				remove_province_modifier = capital_russian_pig_headed_isolationist
+				remove_province_modifier = capital_russian_ambitious_union_boss
+				remove_province_modifier = capital_russian_dour_economist
+			}
+			
 			remove_country_modifier = has_political_leader
 			
 			add_country_modifier = { name = national_confusion duration = 365 }
